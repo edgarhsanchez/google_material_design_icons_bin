@@ -28,6 +28,7 @@ png = "0.17"
 [[bin]]
 name = "gen_icons"
 path = "src/bin/gen_icons.rs"
+required-features = ["lz4"]
 
 [package.metadata]
 # This crate is intended to ship with pre-generated data in data/.
