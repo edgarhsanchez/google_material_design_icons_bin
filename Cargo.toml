@@ -2,7 +2,7 @@
 name = "google-material-design-icons-bin"
 version = "0.1.1"
 edition = "2021"
-license = "Apache-2.0"
+license = "MIT AND Apache-2.0"
 description = "Embedded Google Material Design icons, packed into a compact binary for fast lookup"
 repository = "https://github.com/edgarhsanchez/google_material_design_icons_bin"
 

@@ -3,7 +3,7 @@
 [![CI](https://github.com/edgarhsanchez/google_material_design_icons_bin/actions/workflows/ci.yml/badge.svg)](https://github.com/edgarhsanchez/google_material_design_icons_bin/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/google-material-design-icons-bin.svg)](https://crates.io/crates/google-material-design-icons-bin)
 [![Docs.rs](https://docs.rs/google-material-design-icons-bin/badge.svg)](https://docs.rs/google-material-design-icons-bin)
-[![License](https://img.shields.io/crates/l/google-material-design-icons-bin.svg)](LICENSE)
+[![License](https://img.shields.io/crates/l/google-material-design-icons-bin.svg)](THIRD_PARTY_NOTICES.md)
 
 Embedded Google Material Design icons packed into a compact binary for fast lookup.
 
@@ -86,3 +86,8 @@ Alternatively you can set `MATERIAL_DESIGN_ICONS_DIR` and omit `--icons-dir`.
 
 - The embedded images are alpha-only; your renderer is expected to apply tint/color.
 - `by_name()` returns the first match if multiple categories contain the same icon name.
+
+## License
+
+- This repository’s code is MIT licensed (see `LICENSE`).
+- Embedded icon data is derived from `material-design-icons` and is Apache-2.0 licensed (see `LICENSE-APACHE` and `THIRD_PARTY_NOTICES.md`).
