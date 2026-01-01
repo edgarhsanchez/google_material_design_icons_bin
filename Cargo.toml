@@ -1,0 +1,34 @@
+[package]
+name = "google-material-design-icons-bin"
+version = "0.1.1"
+edition = "2021"
+license = "Apache-2.0"
+description = "Embedded Google Material Design icons, packed into a compact binary for fast lookup"
+repository = "https://github.com/edgarhsanchez/google_material_design_icons_bin"
+
+[features]
+# Default: embed LZ4-compressed alpha-only bitmap data.
+default = ["lz4"]
+
+# Use an LZ4-compressed blob (smaller crate, decompress once on first use).
+lz4 = ["dep:lz4_flex"]
+
+# Use an uncompressed alpha blob (larger crate, no decompression).
+uncompressed = []
+
+[dependencies]
+# Only used when feature "lz4" is enabled.
+lz4_flex = { version = "0.11", optional = true, default-features = false }
+
+png = "0.17"
+
+
+[dev-dependencies]
+
+[[bin]]
+name = "gen_icons"
+path = "src/bin/gen_icons.rs"
+
+[package.metadata]
+# This crate is intended to ship with pre-generated data in data/.
+# Run: cargo run --bin gen_icons --release -- --icons-dir <path-to-material-design-icons>
