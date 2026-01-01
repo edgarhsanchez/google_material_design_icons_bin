@@ -66,9 +66,12 @@ fn main() {
         .unwrap_or("android")
         .to_string();
 
-    for category_entry in fs::read_dir(&platform_root)
-        .unwrap_or_else(|e| panic!("Failed to read icon categories under {:?}: {e}", platform_root))
-    {
+    for category_entry in fs::read_dir(&platform_root).unwrap_or_else(|e| {
+        panic!(
+            "Failed to read icon categories under {:?}: {e}",
+            platform_root
+        )
+    }) {
         let category_entry = category_entry.expect("Failed to read directory entry");
         let category_path = category_entry.path();
         if !category_path.is_dir() {
@@ -138,7 +141,8 @@ fn main() {
         &icons_by_category,
         &first_icon_path_for_name,
     );
-    fs::write(&rs_path, generated_rs).unwrap_or_else(|e| panic!("Failed writing {:?}: {e}", rs_path));
+    fs::write(&rs_path, generated_rs)
+        .unwrap_or_else(|e| panic!("Failed writing {:?}: {e}", rs_path));
 
     eprintln!("Wrote: {:?}", alpha_bin_path);
     eprintln!("Wrote: {:?}", alpha_lz4_path);
@@ -292,11 +296,10 @@ fn sanitize_ident(raw: &str) -> String {
     }
 
     const KEYWORDS: &[&str] = &[
-        "as", "break", "const", "continue", "crate", "else", "enum", "extern", "false",
-        "fn", "for", "if", "impl", "in", "let", "loop", "match", "mod", "move",
-        "mut", "pub", "ref", "return", "self", "Self", "static", "struct", "super",
-        "trait", "true", "type", "unsafe", "use", "where", "while", "async", "await",
-        "dyn", "try", "yield",
+        "as", "break", "const", "continue", "crate", "else", "enum", "extern", "false", "fn",
+        "for", "if", "impl", "in", "let", "loop", "match", "mod", "move", "mut", "pub", "ref",
+        "return", "self", "Self", "static", "struct", "super", "trait", "true", "type", "unsafe",
+        "use", "where", "while", "async", "await", "dyn", "try", "yield",
     ];
 
     if KEYWORDS.contains(&out.as_str()) {
@@ -362,13 +365,17 @@ fn generate_rust_module(
 
     out.push_str("    #[cfg(all(not(feature = \"uncompressed\"), not(feature = \"lz4\")))]\n");
     out.push_str("    {\n");
-    out.push_str("        compile_error!(\"Enable either feature `lz4` (default) or `uncompressed`.\");\n");
+    out.push_str(
+        "        compile_error!(\"Enable either feature `lz4` (default) or `uncompressed`.\");\n",
+    );
     out.push_str("    }\n");
     out.push_str("}\n\n");
 
     // Platform module.
     let platform_ident = sanitize_ident(platform_name);
-    out.push_str(&format!("/// Upstream platform root.\npub mod {platform_ident} {{\n"));
+    out.push_str(&format!(
+        "/// Upstream platform root.\npub mod {platform_ident} {{\n"
+    ));
 
     for (category, icons) in icons_by_category.iter() {
         let cat_ident = sanitize_ident(category);
@@ -408,7 +415,9 @@ fn generate_rust_module(
     out.push_str("];\n\n");
 
     // by_path lookup.
-    out.push_str("/// Lookup by full path like \"android/action/account_balance\" (case-insensitive).\n");
+    out.push_str(
+        "/// Lookup by full path like \"android/action/account_balance\" (case-insensitive).\n",
+    );
     out.push_str("pub fn by_path(path: &str) -> Option<IconId> {\n");
     out.push_str("    let key = path.trim().to_ascii_lowercase();\n");
     out.push_str("    match key.as_str() {\n");
@@ -430,7 +439,9 @@ fn generate_rust_module(
 
     // by_name lookup (first match).
     out.push_str("/// Lookup by icon name like \"account_balance\" (case-insensitive).\n");
-    out.push_str("/// If multiple categories contain the same icon name, the first one (stable) wins.\n");
+    out.push_str(
+        "/// If multiple categories contain the same icon name, the first one (stable) wins.\n",
+    );
     out.push_str("pub fn by_name(name: &str) -> Option<IconId> {\n");
     out.push_str("    let key = name.trim().to_ascii_lowercase();\n");
     out.push_str("    match key.as_str() {\n");

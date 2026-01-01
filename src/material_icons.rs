@@ -54,2147 +54,12696 @@ fn alpha_blob() -> &'static [u8] {
 /// Upstream platform root.
 pub mod android {
     pub mod action {
-        pub const _123: super::super::IconId = super::super::IconId { offset: 0u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _3d_rotation: super::super::IconId = super::super::IconId { offset: 2304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const abc: super::super::IconId = super::super::IconId { offset: 4608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const accessibility: super::super::IconId = super::super::IconId { offset: 6912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const accessibility_new: super::super::IconId = super::super::IconId { offset: 9216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const accessible: super::super::IconId = super::super::IconId { offset: 11520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const accessible_forward: super::super::IconId = super::super::IconId { offset: 13824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const account_balance: super::super::IconId = super::super::IconId { offset: 16128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const account_balance_wallet: super::super::IconId = super::super::IconId { offset: 18432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const account_box: super::super::IconId = super::super::IconId { offset: 20736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const account_circle: super::super::IconId = super::super::IconId { offset: 23040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_card: super::super::IconId = super::super::IconId { offset: 27648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_home: super::super::IconId = super::super::IconId { offset: 29952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_shopping_cart: super::super::IconId = super::super::IconId { offset: 32256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_task: super::super::IconId = super::super::IconId { offset: 34560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_to_drive: super::super::IconId = super::super::IconId { offset: 36864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const addchart: super::super::IconId = super::super::IconId { offset: 25344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const admin_panel_settings: super::super::IconId = super::super::IconId { offset: 39168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ads_click: super::super::IconId = super::super::IconId { offset: 41472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const alarm: super::super::IconId = super::super::IconId { offset: 43776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const alarm_add: super::super::IconId = super::super::IconId { offset: 46080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const alarm_off: super::super::IconId = super::super::IconId { offset: 48384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const alarm_on: super::super::IconId = super::super::IconId { offset: 50688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const all_inbox: super::super::IconId = super::super::IconId { offset: 52992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const all_out: super::super::IconId = super::super::IconId { offset: 55296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const analytics: super::super::IconId = super::super::IconId { offset: 57600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const anchor: super::super::IconId = super::super::IconId { offset: 59904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const android: super::super::IconId = super::super::IconId { offset: 62208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const announcement: super::super::IconId = super::super::IconId { offset: 64512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const api: super::super::IconId = super::super::IconId { offset: 66816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const app_blocking: super::super::IconId = super::super::IconId { offset: 69120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const app_shortcut: super::super::IconId = super::super::IconId { offset: 71424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_circle_down: super::super::IconId = super::super::IconId { offset: 73728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_circle_left: super::super::IconId = super::super::IconId { offset: 76032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_circle_right: super::super::IconId = super::super::IconId { offset: 78336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_circle_up: super::super::IconId = super::super::IconId { offset: 80640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_outward: super::super::IconId = super::super::IconId { offset: 82944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_right_alt: super::super::IconId = super::super::IconId { offset: 85248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const article: super::super::IconId = super::super::IconId { offset: 87552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const aspect_ratio: super::super::IconId = super::super::IconId { offset: 89856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assessment: super::super::IconId = super::super::IconId { offset: 92160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assignment: super::super::IconId = super::super::IconId { offset: 94464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assignment_add: super::super::IconId = super::super::IconId { offset: 96768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assignment_ind: super::super::IconId = super::super::IconId { offset: 99072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assignment_late: super::super::IconId = super::super::IconId { offset: 101376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assignment_return: super::super::IconId = super::super::IconId { offset: 103680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assignment_returned: super::super::IconId = super::super::IconId { offset: 105984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assignment_turned_in: super::super::IconId = super::super::IconId { offset: 108288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assured_workload: super::super::IconId = super::super::IconId { offset: 110592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const autorenew: super::super::IconId = super::super::IconId { offset: 112896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const backup: super::super::IconId = super::super::IconId { offset: 115200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const backup_table: super::super::IconId = super::super::IconId { offset: 117504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const balance: super::super::IconId = super::super::IconId { offset: 119808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const barcode_reader: super::super::IconId = super::super::IconId { offset: 122112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const batch_prediction: super::super::IconId = super::super::IconId { offset: 124416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const book: super::super::IconId = super::super::IconId { offset: 126720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const book_online: super::super::IconId = super::super::IconId { offset: 142848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bookmark: super::super::IconId = super::super::IconId { offset: 129024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bookmark_add: super::super::IconId = super::super::IconId { offset: 133632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bookmark_added: super::super::IconId = super::super::IconId { offset: 135936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bookmark_border: super::super::IconId = super::super::IconId { offset: 138240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bookmark_remove: super::super::IconId = super::super::IconId { offset: 140544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bookmarks: super::super::IconId = super::super::IconId { offset: 131328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const browse_gallery: super::super::IconId = super::super::IconId { offset: 145152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bug_report: super::super::IconId = super::super::IconId { offset: 147456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const build: super::super::IconId = super::super::IconId { offset: 149760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const build_circle: super::super::IconId = super::super::IconId { offset: 152064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cached: super::super::IconId = super::super::IconId { offset: 154368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const calendar_month: super::super::IconId = super::super::IconId { offset: 156672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const calendar_today: super::super::IconId = super::super::IconId { offset: 158976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const calendar_view_day: super::super::IconId = super::super::IconId { offset: 161280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const calendar_view_month: super::super::IconId = super::super::IconId { offset: 163584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const calendar_view_week: super::super::IconId = super::super::IconId { offset: 165888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera_enhance: super::super::IconId = super::super::IconId { offset: 168192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cancel_schedule_send: super::super::IconId = super::super::IconId { offset: 170496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const card_giftcard: super::super::IconId = super::super::IconId { offset: 172800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const card_membership: super::super::IconId = super::super::IconId { offset: 175104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const card_travel: super::super::IconId = super::super::IconId { offset: 177408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const change_history: super::super::IconId = super::super::IconId { offset: 179712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const check_circle: super::super::IconId = super::super::IconId { offset: 182016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const check_circle_outline: super::super::IconId = super::super::IconId { offset: 184320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chrome_reader_mode: super::super::IconId = super::super::IconId { offset: 186624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const circle_notifications: super::super::IconId = super::super::IconId { offset: 188928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const class: super::super::IconId = super::super::IconId { offset: 191232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const close_fullscreen: super::super::IconId = super::super::IconId { offset: 193536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const code: super::super::IconId = super::super::IconId { offset: 195840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const code_off: super::super::IconId = super::super::IconId { offset: 198144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const comment_bank: super::super::IconId = super::super::IconId { offset: 200448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const commit: super::super::IconId = super::super::IconId { offset: 202752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const commute: super::super::IconId = super::super::IconId { offset: 205056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const compare_arrows: super::super::IconId = super::super::IconId { offset: 207360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const compress: super::super::IconId = super::super::IconId { offset: 209664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contact_page: super::super::IconId = super::super::IconId { offset: 214272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contact_support: super::super::IconId = super::super::IconId { offset: 216576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contactless: super::super::IconId = super::super::IconId { offset: 211968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const copyright: super::super::IconId = super::super::IconId { offset: 218880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const credit_card: super::super::IconId = super::super::IconId { offset: 221184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const credit_card_off: super::super::IconId = super::super::IconId { offset: 223488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const css: super::super::IconId = super::super::IconId { offset: 225792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_exchange: super::super::IconId = super::super::IconId { offset: 228096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dangerous: super::super::IconId = super::super::IconId { offset: 230400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dashboard: super::super::IconId = super::super::IconId { offset: 232704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dashboard_customize: super::super::IconId = super::super::IconId { offset: 235008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const data_exploration: super::super::IconId = super::super::IconId { offset: 237312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const data_thresholding: super::super::IconId = super::super::IconId { offset: 239616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const date_range: super::super::IconId = super::super::IconId { offset: 241920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const delete: super::super::IconId = super::super::IconId { offset: 244224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const delete_forever: super::super::IconId = super::super::IconId { offset: 246528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const delete_outline: super::super::IconId = super::super::IconId { offset: 248832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const density_large: super::super::IconId = super::super::IconId { offset: 251136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const density_medium: super::super::IconId = super::super::IconId { offset: 253440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const density_small: super::super::IconId = super::super::IconId { offset: 255744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const description: super::super::IconId = super::super::IconId { offset: 258048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const disabled_by_default: super::super::IconId = super::super::IconId { offset: 260352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const disabled_visible: super::super::IconId = super::super::IconId { offset: 262656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const display_settings: super::super::IconId = super::super::IconId { offset: 264960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dns: super::super::IconId = super::super::IconId { offset: 267264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const done: super::super::IconId = super::super::IconId { offset: 269568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const done_all: super::super::IconId = super::super::IconId { offset: 271872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const done_outline: super::super::IconId = super::super::IconId { offset: 274176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const donut_large: super::super::IconId = super::super::IconId { offset: 276480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const donut_small: super::super::IconId = super::super::IconId { offset: 278784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drag_indicator: super::super::IconId = super::super::IconId { offset: 281088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dynamic_form: super::super::IconId = super::super::IconId { offset: 283392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const eco: super::super::IconId = super::super::IconId { offset: 285696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_calendar: super::super::IconId = super::super::IconId { offset: 288000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_document: super::super::IconId = super::super::IconId { offset: 290304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_off: super::super::IconId = super::super::IconId { offset: 292608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_square: super::super::IconId = super::super::IconId { offset: 294912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const eject: super::super::IconId = super::super::IconId { offset: 297216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const euro_symbol: super::super::IconId = super::super::IconId { offset: 299520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const event: super::super::IconId = super::super::IconId { offset: 301824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const event_repeat: super::super::IconId = super::super::IconId { offset: 304128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const event_seat: super::super::IconId = super::super::IconId { offset: 306432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const exit_to_app: super::super::IconId = super::super::IconId { offset: 308736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const expand: super::super::IconId = super::super::IconId { offset: 311040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const explore: super::super::IconId = super::super::IconId { offset: 313344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const explore_off: super::super::IconId = super::super::IconId { offset: 315648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const extension: super::super::IconId = super::super::IconId { offset: 317952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const extension_off: super::super::IconId = super::super::IconId { offset: 320256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face: super::super::IconId = super::super::IconId { offset: 322560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fact_check: super::super::IconId = super::super::IconId { offset: 324864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const favorite: super::super::IconId = super::super::IconId { offset: 327168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const favorite_border: super::super::IconId = super::super::IconId { offset: 329472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fax: super::super::IconId = super::super::IconId { offset: 331776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const feedback: super::super::IconId = super::super::IconId { offset: 334080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_present: super::super::IconId = super::super::IconId { offset: 336384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_alt: super::super::IconId = super::super::IconId { offset: 338688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_alt_off: super::super::IconId = super::super::IconId { offset: 340992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_list_alt: super::super::IconId = super::super::IconId { offset: 343296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const find_in_page: super::super::IconId = super::super::IconId { offset: 345600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const find_replace: super::super::IconId = super::super::IconId { offset: 347904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fingerprint: super::super::IconId = super::super::IconId { offset: 350208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fit_screen: super::super::IconId = super::super::IconId { offset: 352512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flaky: super::super::IconId = super::super::IconId { offset: 354816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flight_land: super::super::IconId = super::super::IconId { offset: 357120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flight_takeoff: super::super::IconId = super::super::IconId { offset: 359424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flip_to_back: super::super::IconId = super::super::IconId { offset: 361728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flip_to_front: super::super::IconId = super::super::IconId { offset: 364032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flutter_dash: super::super::IconId = super::super::IconId { offset: 366336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const free_cancellation: super::super::IconId = super::super::IconId { offset: 368640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const g_translate: super::super::IconId = super::super::IconId { offset: 389376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gavel: super::super::IconId = super::super::IconId { offset: 370944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const generating_tokens: super::super::IconId = super::super::IconId { offset: 373248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const get_app: super::super::IconId = super::super::IconId { offset: 375552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gif: super::super::IconId = super::super::IconId { offset: 377856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gif_box: super::super::IconId = super::super::IconId { offset: 380160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grade: super::super::IconId = super::super::IconId { offset: 382464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grading: super::super::IconId = super::super::IconId { offset: 384768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const group_work: super::super::IconId = super::super::IconId { offset: 387072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const help: super::super::IconId = super::super::IconId { offset: 391680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const help_center: super::super::IconId = super::super::IconId { offset: 393984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const help_outline: super::super::IconId = super::super::IconId { offset: 396288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hide_source: super::super::IconId = super::super::IconId { offset: 398592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const highlight_alt: super::super::IconId = super::super::IconId { offset: 400896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const highlight_off: super::super::IconId = super::super::IconId { offset: 403200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const history: super::super::IconId = super::super::IconId { offset: 405504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const history_toggle_off: super::super::IconId = super::super::IconId { offset: 407808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hls: super::super::IconId = super::super::IconId { offset: 410112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hls_off: super::super::IconId = super::super::IconId { offset: 412416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const home: super::super::IconId = super::super::IconId { offset: 414720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const home_filled: super::super::IconId = super::super::IconId { offset: 417024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const horizontal_split: super::super::IconId = super::super::IconId { offset: 419328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hotel_class: super::super::IconId = super::super::IconId { offset: 421632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hourglass_disabled: super::super::IconId = super::super::IconId { offset: 423936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hourglass_empty: super::super::IconId = super::super::IconId { offset: 426240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hourglass_full: super::super::IconId = super::super::IconId { offset: 428544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const html: super::super::IconId = super::super::IconId { offset: 430848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const http: super::super::IconId = super::super::IconId { offset: 433152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const https: super::super::IconId = super::super::IconId { offset: 435456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const important_devices: super::super::IconId = super::super::IconId { offset: 437760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const info: super::super::IconId = super::super::IconId { offset: 440064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const info_outline: super::super::IconId = super::super::IconId { offset: 442368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const input: super::super::IconId = super::super::IconId { offset: 444672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const install_desktop: super::super::IconId = super::super::IconId { offset: 446976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const install_mobile: super::super::IconId = super::super::IconId { offset: 449280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const integration_instructions: super::super::IconId = super::super::IconId { offset: 451584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const invert_colors: super::super::IconId = super::super::IconId { offset: 453888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const javascript: super::super::IconId = super::super::IconId { offset: 456192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const join_full: super::super::IconId = super::super::IconId { offset: 458496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const join_inner: super::super::IconId = super::super::IconId { offset: 460800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const join_left: super::super::IconId = super::super::IconId { offset: 463104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const join_right: super::super::IconId = super::super::IconId { offset: 465408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const label: super::super::IconId = super::super::IconId { offset: 467712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const label_important: super::super::IconId = super::super::IconId { offset: 470016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const label_important_outline: super::super::IconId = super::super::IconId { offset: 472320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const label_off: super::super::IconId = super::super::IconId { offset: 474624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const label_outline: super::super::IconId = super::super::IconId { offset: 476928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const language: super::super::IconId = super::super::IconId { offset: 479232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const launch: super::super::IconId = super::super::IconId { offset: 481536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const leaderboard: super::super::IconId = super::super::IconId { offset: 483840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lightbulb: super::super::IconId = super::super::IconId { offset: 486144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lightbulb_circle: super::super::IconId = super::super::IconId { offset: 488448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lightbulb_outline: super::super::IconId = super::super::IconId { offset: 490752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const line_style: super::super::IconId = super::super::IconId { offset: 493056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const line_weight: super::super::IconId = super::super::IconId { offset: 495360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const list: super::super::IconId = super::super::IconId { offset: 497664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lock: super::super::IconId = super::super::IconId { offset: 499968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lock_clock: super::super::IconId = super::super::IconId { offset: 502272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lock_open: super::super::IconId = super::super::IconId { offset: 504576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lock_outline: super::super::IconId = super::super::IconId { offset: 506880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lock_person: super::super::IconId = super::super::IconId { offset: 509184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lock_reset: super::super::IconId = super::super::IconId { offset: 511488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const login: super::super::IconId = super::super::IconId { offset: 513792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const logout: super::super::IconId = super::super::IconId { offset: 516096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const loyalty: super::super::IconId = super::super::IconId { offset: 518400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const manage_accounts: super::super::IconId = super::super::IconId { offset: 520704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const manage_history: super::super::IconId = super::super::IconId { offset: 523008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mark_as_unread: super::super::IconId = super::super::IconId { offset: 527616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const markunread_mailbox: super::super::IconId = super::super::IconId { offset: 525312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const maximize: super::super::IconId = super::super::IconId { offset: 529920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mediation: super::super::IconId = super::super::IconId { offset: 532224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const minimize: super::super::IconId = super::super::IconId { offset: 534528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const model_training: super::super::IconId = super::super::IconId { offset: 536832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_ping: super::super::IconId = super::super::IconId { offset: 539136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const new_label: super::super::IconId = super::super::IconId { offset: 541440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const next_plan: super::super::IconId = super::super::IconId { offset: 543744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nightlight_round: super::super::IconId = super::super::IconId { offset: 546048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_accounts: super::super::IconId = super::super::IconId { offset: 559872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const noise_aware: super::super::IconId = super::super::IconId { offset: 548352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const noise_control_off: super::super::IconId = super::super::IconId { offset: 550656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const not_accessible: super::super::IconId = super::super::IconId { offset: 555264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const not_started: super::super::IconId = super::super::IconId { offset: 557568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const note_add: super::super::IconId = super::super::IconId { offset: 552960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const offline_bolt: super::super::IconId = super::super::IconId { offset: 562176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const offline_pin: super::super::IconId = super::super::IconId { offset: 564480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const on_device_training: super::super::IconId = super::super::IconId { offset: 569088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const online_prediction: super::super::IconId = super::super::IconId { offset: 566784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const opacity: super::super::IconId = super::super::IconId { offset: 571392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const open_in_browser: super::super::IconId = super::super::IconId { offset: 573696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const open_in_full: super::super::IconId = super::super::IconId { offset: 576000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const open_in_new: super::super::IconId = super::super::IconId { offset: 578304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const open_in_new_off: super::super::IconId = super::super::IconId { offset: 580608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const open_with: super::super::IconId = super::super::IconId { offset: 582912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const outbond: super::super::IconId = super::super::IconId { offset: 585216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const outbound: super::super::IconId = super::super::IconId { offset: 587520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const outbox: super::super::IconId = super::super::IconId { offset: 589824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const outgoing_mail: super::super::IconId = super::super::IconId { offset: 592128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const outlet: super::super::IconId = super::super::IconId { offset: 594432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const output: super::super::IconId = super::super::IconId { offset: 596736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pageview: super::super::IconId = super::super::IconId { offset: 599040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const paid: super::super::IconId = super::super::IconId { offset: 601344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pan_tool: super::super::IconId = super::super::IconId { offset: 603648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pan_tool_alt: super::super::IconId = super::super::IconId { offset: 605952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const payment: super::super::IconId = super::super::IconId { offset: 608256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pending: super::super::IconId = super::super::IconId { offset: 610560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pending_actions: super::super::IconId = super::super::IconId { offset: 612864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const percent: super::super::IconId = super::super::IconId { offset: 615168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_camera_mic: super::super::IconId = super::super::IconId { offset: 617472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_contact_calendar: super::super::IconId = super::super::IconId { offset: 619776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_data_setting: super::super::IconId = super::super::IconId { offset: 622080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_device_information: super::super::IconId = super::super::IconId { offset: 624384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_identity: super::super::IconId = super::super::IconId { offset: 626688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_media: super::super::IconId = super::super::IconId { offset: 628992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_phone_msg: super::super::IconId = super::super::IconId { offset: 631296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const perm_scan_wifi: super::super::IconId = super::super::IconId { offset: 633600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pets: super::super::IconId = super::super::IconId { offset: 635904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const php: super::super::IconId = super::super::IconId { offset: 638208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const picture_in_picture: super::super::IconId = super::super::IconId { offset: 640512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const picture_in_picture_alt: super::super::IconId = super::super::IconId { offset: 642816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pin_end: super::super::IconId = super::super::IconId { offset: 647424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pin_invoke: super::super::IconId = super::super::IconId { offset: 649728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pinch: super::super::IconId = super::super::IconId { offset: 645120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const plagiarism: super::super::IconId = super::super::IconId { offset: 652032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const play_for_work: super::super::IconId = super::super::IconId { offset: 654336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const polymer: super::super::IconId = super::super::IconId { offset: 656640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const power_settings_new: super::super::IconId = super::super::IconId { offset: 658944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pregnant_woman: super::super::IconId = super::super::IconId { offset: 661248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const preview: super::super::IconId = super::super::IconId { offset: 663552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const print: super::super::IconId = super::super::IconId { offset: 665856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const privacy_tip: super::super::IconId = super::super::IconId { offset: 668160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const private_connectivity: super::super::IconId = super::super::IconId { offset: 670464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const production_quantity_limits: super::super::IconId = super::super::IconId { offset: 672768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const published_with_changes: super::super::IconId = super::super::IconId { offset: 675072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const query_builder: super::super::IconId = super::super::IconId { offset: 677376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const question_answer: super::super::IconId = super::super::IconId { offset: 679680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const question_mark: super::super::IconId = super::super::IconId { offset: 681984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const quickreply: super::super::IconId = super::super::IconId { offset: 684288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rebase_edit: super::super::IconId = super::super::IconId { offset: 686592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const receipt: super::super::IconId = super::super::IconId { offset: 688896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const record_voice_over: super::super::IconId = super::super::IconId { offset: 691200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const redeem: super::super::IconId = super::super::IconId { offset: 693504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_done: super::super::IconId = super::super::IconId { offset: 695808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_shopping_cart: super::super::IconId = super::super::IconId { offset: 698112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const reorder: super::super::IconId = super::super::IconId { offset: 700416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const repartition: super::super::IconId = super::super::IconId { offset: 702720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const report_problem: super::super::IconId = super::super::IconId { offset: 705024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const request_page: super::super::IconId = super::super::IconId { offset: 707328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const restore: super::super::IconId = super::super::IconId { offset: 709632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const restore_from_trash: super::super::IconId = super::super::IconId { offset: 711936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const restore_page: super::super::IconId = super::super::IconId { offset: 714240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rocket: super::super::IconId = super::super::IconId { offset: 716544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rocket_launch: super::super::IconId = super::super::IconId { offset: 718848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const room: super::super::IconId = super::super::IconId { offset: 721152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rounded_corner: super::super::IconId = super::super::IconId { offset: 723456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rowing: super::super::IconId = super::super::IconId { offset: 725760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rule: super::super::IconId = super::super::IconId { offset: 728064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const satellite_alt: super::super::IconId = super::super::IconId { offset: 730368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const saved_search: super::super::IconId = super::super::IconId { offset: 732672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const savings: super::super::IconId = super::super::IconId { offset: 734976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const schedule: super::super::IconId = super::super::IconId { offset: 737280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const schedule_send: super::super::IconId = super::super::IconId { offset: 739584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const search: super::super::IconId = super::super::IconId { offset: 741888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const search_off: super::super::IconId = super::super::IconId { offset: 744192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const segment: super::super::IconId = super::super::IconId { offset: 746496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const send_and_archive: super::super::IconId = super::super::IconId { offset: 748800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sensors: super::super::IconId = super::super::IconId { offset: 751104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sensors_off: super::super::IconId = super::super::IconId { offset: 753408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings: super::super::IconId = super::super::IconId { offset: 755712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_accessibility: super::super::IconId = super::super::IconId { offset: 758016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_applications: super::super::IconId = super::super::IconId { offset: 760320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_backup_restore: super::super::IconId = super::super::IconId { offset: 762624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_bluetooth: super::super::IconId = super::super::IconId { offset: 764928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_brightness: super::super::IconId = super::super::IconId { offset: 767232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_cell: super::super::IconId = super::super::IconId { offset: 769536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_ethernet: super::super::IconId = super::super::IconId { offset: 771840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_input_antenna: super::super::IconId = super::super::IconId { offset: 774144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_input_component: super::super::IconId = super::super::IconId { offset: 776448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_input_composite: super::super::IconId = super::super::IconId { offset: 778752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_input_hdmi: super::super::IconId = super::super::IconId { offset: 781056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_input_svideo: super::super::IconId = super::super::IconId { offset: 783360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_overscan: super::super::IconId = super::super::IconId { offset: 785664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_phone: super::super::IconId = super::super::IconId { offset: 787968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_power: super::super::IconId = super::super::IconId { offset: 790272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_remote: super::super::IconId = super::super::IconId { offset: 792576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_voice: super::super::IconId = super::super::IconId { offset: 794880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shop: super::super::IconId = super::super::IconId { offset: 797184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shop_2: super::super::IconId = super::super::IconId { offset: 808704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shop_two: super::super::IconId = super::super::IconId { offset: 811008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shopping_bag: super::super::IconId = super::super::IconId { offset: 799488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shopping_basket: super::super::IconId = super::super::IconId { offset: 801792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shopping_cart: super::super::IconId = super::super::IconId { offset: 804096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shopping_cart_checkout: super::super::IconId = super::super::IconId { offset: 806400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const smart_button: super::super::IconId = super::super::IconId { offset: 813312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const source: super::super::IconId = super::super::IconId { offset: 815616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const space_dashboard: super::super::IconId = super::super::IconId { offset: 817920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const spatial_audio: super::super::IconId = super::super::IconId { offset: 820224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const spatial_audio_off: super::super::IconId = super::super::IconId { offset: 822528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const spatial_tracking: super::super::IconId = super::super::IconId { offset: 824832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const speaker_notes: super::super::IconId = super::super::IconId { offset: 827136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const speaker_notes_off: super::super::IconId = super::super::IconId { offset: 829440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const spellcheck: super::super::IconId = super::super::IconId { offset: 831744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const star_rate: super::super::IconId = super::super::IconId { offset: 836352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stars: super::super::IconId = super::super::IconId { offset: 834048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sticky_note_2: super::super::IconId = super::super::IconId { offset: 838656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const store: super::super::IconId = super::super::IconId { offset: 840960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subject: super::super::IconId = super::super::IconId { offset: 843264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subtitles_off: super::super::IconId = super::super::IconId { offset: 845568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const supervised_user_circle: super::super::IconId = super::super::IconId { offset: 847872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const supervisor_account: super::super::IconId = super::super::IconId { offset: 850176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const support: super::super::IconId = super::super::IconId { offset: 852480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swap_horiz: super::super::IconId = super::super::IconId { offset: 854784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swap_horizontal_circle: super::super::IconId = super::super::IconId { offset: 857088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swap_vert: super::super::IconId = super::super::IconId { offset: 859392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swap_vertical_circle: super::super::IconId = super::super::IconId { offset: 861696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe: super::super::IconId = super::super::IconId { offset: 864000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_down: super::super::IconId = super::super::IconId { offset: 866304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_down_alt: super::super::IconId = super::super::IconId { offset: 868608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_left: super::super::IconId = super::super::IconId { offset: 870912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_left_alt: super::super::IconId = super::super::IconId { offset: 873216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_right: super::super::IconId = super::super::IconId { offset: 875520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_right_alt: super::super::IconId = super::super::IconId { offset: 877824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_up: super::super::IconId = super::super::IconId { offset: 880128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_up_alt: super::super::IconId = super::super::IconId { offset: 882432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swipe_vertical: super::super::IconId = super::super::IconId { offset: 884736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const switch_access_shortcut: super::super::IconId = super::super::IconId { offset: 887040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const switch_access_shortcut_add: super::super::IconId = super::super::IconId { offset: 889344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sync_alt: super::super::IconId = super::super::IconId { offset: 891648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const system_update_alt: super::super::IconId = super::super::IconId { offset: 893952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tab: super::super::IconId = super::super::IconId { offset: 896256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tab_unselected: super::super::IconId = super::super::IconId { offset: 900864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const table_view: super::super::IconId = super::super::IconId { offset: 898560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const task_alt: super::super::IconId = super::super::IconId { offset: 903168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const terminal: super::super::IconId = super::super::IconId { offset: 905472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_rotate_up: super::super::IconId = super::super::IconId { offset: 907776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_rotate_vertical: super::super::IconId = super::super::IconId { offset: 910080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_rotation_angledown: super::super::IconId = super::super::IconId { offset: 912384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_rotation_angleup: super::super::IconId = super::super::IconId { offset: 914688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_rotation_down: super::super::IconId = super::super::IconId { offset: 916992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_rotation_none: super::super::IconId = super::super::IconId { offset: 919296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const theaters: super::super::IconId = super::super::IconId { offset: 921600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const thumb_down: super::super::IconId = super::super::IconId { offset: 926208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const thumb_down_off_alt: super::super::IconId = super::super::IconId { offset: 928512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const thumb_up: super::super::IconId = super::super::IconId { offset: 930816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const thumb_up_off_alt: super::super::IconId = super::super::IconId { offset: 933120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const thumbs_up_down: super::super::IconId = super::super::IconId { offset: 923904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timeline: super::super::IconId = super::super::IconId { offset: 935424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tips_and_updates: super::super::IconId = super::super::IconId { offset: 937728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const toc: super::super::IconId = super::super::IconId { offset: 940032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const today: super::super::IconId = super::super::IconId { offset: 942336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const token: super::super::IconId = super::super::IconId { offset: 944640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const toll: super::super::IconId = super::super::IconId { offset: 946944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const touch_app: super::super::IconId = super::super::IconId { offset: 949248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tour: super::super::IconId = super::super::IconId { offset: 951552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const track_changes: super::super::IconId = super::super::IconId { offset: 953856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const transcribe: super::super::IconId = super::super::IconId { offset: 956160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const translate: super::super::IconId = super::super::IconId { offset: 958464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const trending_down: super::super::IconId = super::super::IconId { offset: 960768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const trending_flat: super::super::IconId = super::super::IconId { offset: 963072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const trending_up: super::super::IconId = super::super::IconId { offset: 965376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const troubleshoot: super::super::IconId = super::super::IconId { offset: 967680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const r#try: super::super::IconId = super::super::IconId { offset: 969984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turned_in: super::super::IconId = super::super::IconId { offset: 972288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turned_in_not: super::super::IconId = super::super::IconId { offset: 974592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const unfold_less_double: super::super::IconId = super::super::IconId { offset: 976896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const unfold_more_double: super::super::IconId = super::super::IconId { offset: 979200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const unpublished: super::super::IconId = super::super::IconId { offset: 981504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const update: super::super::IconId = super::super::IconId { offset: 983808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const update_disabled: super::super::IconId = super::super::IconId { offset: 986112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const upgrade: super::super::IconId = super::super::IconId { offset: 988416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const verified: super::super::IconId = super::super::IconId { offset: 990720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const verified_user: super::super::IconId = super::super::IconId { offset: 993024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vertical_split: super::super::IconId = super::super::IconId { offset: 995328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_agenda: super::super::IconId = super::super::IconId { offset: 997632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_array: super::super::IconId = super::super::IconId { offset: 999936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_carousel: super::super::IconId = super::super::IconId { offset: 1002240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_column: super::super::IconId = super::super::IconId { offset: 1004544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_comfy_alt: super::super::IconId = super::super::IconId { offset: 1006848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_compact_alt: super::super::IconId = super::super::IconId { offset: 1009152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_cozy: super::super::IconId = super::super::IconId { offset: 1011456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_day: super::super::IconId = super::super::IconId { offset: 1013760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_headline: super::super::IconId = super::super::IconId { offset: 1016064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_in_ar: super::super::IconId = super::super::IconId { offset: 1018368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_kanban: super::super::IconId = super::super::IconId { offset: 1020672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_list: super::super::IconId = super::super::IconId { offset: 1022976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_module: super::super::IconId = super::super::IconId { offset: 1025280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_quilt: super::super::IconId = super::super::IconId { offset: 1027584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_sidebar: super::super::IconId = super::super::IconId { offset: 1029888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_stream: super::super::IconId = super::super::IconId { offset: 1032192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_timeline: super::super::IconId = super::super::IconId { offset: 1034496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_week: super::super::IconId = super::super::IconId { offset: 1036800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const visibility: super::super::IconId = super::super::IconId { offset: 1039104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const visibility_off: super::super::IconId = super::super::IconId { offset: 1041408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const voice_over_off: super::super::IconId = super::super::IconId { offset: 1043712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const watch_later: super::super::IconId = super::super::IconId { offset: 1046016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const webhook: super::super::IconId = super::super::IconId { offset: 1048320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const width_full: super::super::IconId = super::super::IconId { offset: 1050624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const width_normal: super::super::IconId = super::super::IconId { offset: 1052928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const width_wide: super::super::IconId = super::super::IconId { offset: 1055232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_protected_setup: super::super::IconId = super::super::IconId { offset: 1057536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const work: super::super::IconId = super::super::IconId { offset: 1059840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const work_history: super::super::IconId = super::super::IconId { offset: 1062144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const work_off: super::super::IconId = super::super::IconId { offset: 1064448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const work_outline: super::super::IconId = super::super::IconId { offset: 1066752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wysiwyg: super::super::IconId = super::super::IconId { offset: 1069056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const youtube_searched_for: super::super::IconId = super::super::IconId { offset: 1071360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const zoom_in: super::super::IconId = super::super::IconId { offset: 1073664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const zoom_out: super::super::IconId = super::super::IconId { offset: 1075968u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const _123: super::super::IconId = super::super::IconId {
+            offset: 0u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _3d_rotation: super::super::IconId = super::super::IconId {
+            offset: 2304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const abc: super::super::IconId = super::super::IconId {
+            offset: 4608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const accessibility: super::super::IconId = super::super::IconId {
+            offset: 6912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const accessibility_new: super::super::IconId = super::super::IconId {
+            offset: 9216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const accessible: super::super::IconId = super::super::IconId {
+            offset: 11520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const accessible_forward: super::super::IconId = super::super::IconId {
+            offset: 13824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const account_balance: super::super::IconId = super::super::IconId {
+            offset: 16128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const account_balance_wallet: super::super::IconId = super::super::IconId {
+            offset: 18432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const account_box: super::super::IconId = super::super::IconId {
+            offset: 20736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const account_circle: super::super::IconId = super::super::IconId {
+            offset: 23040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_card: super::super::IconId = super::super::IconId {
+            offset: 27648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_home: super::super::IconId = super::super::IconId {
+            offset: 29952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_shopping_cart: super::super::IconId = super::super::IconId {
+            offset: 32256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_task: super::super::IconId = super::super::IconId {
+            offset: 34560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_to_drive: super::super::IconId = super::super::IconId {
+            offset: 36864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const addchart: super::super::IconId = super::super::IconId {
+            offset: 25344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const admin_panel_settings: super::super::IconId = super::super::IconId {
+            offset: 39168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ads_click: super::super::IconId = super::super::IconId {
+            offset: 41472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const alarm: super::super::IconId = super::super::IconId {
+            offset: 43776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const alarm_add: super::super::IconId = super::super::IconId {
+            offset: 46080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const alarm_off: super::super::IconId = super::super::IconId {
+            offset: 48384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const alarm_on: super::super::IconId = super::super::IconId {
+            offset: 50688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const all_inbox: super::super::IconId = super::super::IconId {
+            offset: 52992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const all_out: super::super::IconId = super::super::IconId {
+            offset: 55296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const analytics: super::super::IconId = super::super::IconId {
+            offset: 57600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const anchor: super::super::IconId = super::super::IconId {
+            offset: 59904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const android: super::super::IconId = super::super::IconId {
+            offset: 62208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const announcement: super::super::IconId = super::super::IconId {
+            offset: 64512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const api: super::super::IconId = super::super::IconId {
+            offset: 66816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const app_blocking: super::super::IconId = super::super::IconId {
+            offset: 69120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const app_shortcut: super::super::IconId = super::super::IconId {
+            offset: 71424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_circle_down: super::super::IconId = super::super::IconId {
+            offset: 73728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_circle_left: super::super::IconId = super::super::IconId {
+            offset: 76032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_circle_right: super::super::IconId = super::super::IconId {
+            offset: 78336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_circle_up: super::super::IconId = super::super::IconId {
+            offset: 80640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_outward: super::super::IconId = super::super::IconId {
+            offset: 82944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_right_alt: super::super::IconId = super::super::IconId {
+            offset: 85248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const article: super::super::IconId = super::super::IconId {
+            offset: 87552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const aspect_ratio: super::super::IconId = super::super::IconId {
+            offset: 89856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assessment: super::super::IconId = super::super::IconId {
+            offset: 92160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assignment: super::super::IconId = super::super::IconId {
+            offset: 94464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assignment_add: super::super::IconId = super::super::IconId {
+            offset: 96768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assignment_ind: super::super::IconId = super::super::IconId {
+            offset: 99072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assignment_late: super::super::IconId = super::super::IconId {
+            offset: 101376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assignment_return: super::super::IconId = super::super::IconId {
+            offset: 103680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assignment_returned: super::super::IconId = super::super::IconId {
+            offset: 105984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assignment_turned_in: super::super::IconId = super::super::IconId {
+            offset: 108288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assured_workload: super::super::IconId = super::super::IconId {
+            offset: 110592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const autorenew: super::super::IconId = super::super::IconId {
+            offset: 112896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const backup: super::super::IconId = super::super::IconId {
+            offset: 115200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const backup_table: super::super::IconId = super::super::IconId {
+            offset: 117504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const balance: super::super::IconId = super::super::IconId {
+            offset: 119808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const barcode_reader: super::super::IconId = super::super::IconId {
+            offset: 122112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const batch_prediction: super::super::IconId = super::super::IconId {
+            offset: 124416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const book: super::super::IconId = super::super::IconId {
+            offset: 126720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const book_online: super::super::IconId = super::super::IconId {
+            offset: 142848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bookmark: super::super::IconId = super::super::IconId {
+            offset: 129024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bookmark_add: super::super::IconId = super::super::IconId {
+            offset: 133632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bookmark_added: super::super::IconId = super::super::IconId {
+            offset: 135936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bookmark_border: super::super::IconId = super::super::IconId {
+            offset: 138240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bookmark_remove: super::super::IconId = super::super::IconId {
+            offset: 140544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bookmarks: super::super::IconId = super::super::IconId {
+            offset: 131328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const browse_gallery: super::super::IconId = super::super::IconId {
+            offset: 145152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bug_report: super::super::IconId = super::super::IconId {
+            offset: 147456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const build: super::super::IconId = super::super::IconId {
+            offset: 149760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const build_circle: super::super::IconId = super::super::IconId {
+            offset: 152064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cached: super::super::IconId = super::super::IconId {
+            offset: 154368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const calendar_month: super::super::IconId = super::super::IconId {
+            offset: 156672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const calendar_today: super::super::IconId = super::super::IconId {
+            offset: 158976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const calendar_view_day: super::super::IconId = super::super::IconId {
+            offset: 161280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const calendar_view_month: super::super::IconId = super::super::IconId {
+            offset: 163584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const calendar_view_week: super::super::IconId = super::super::IconId {
+            offset: 165888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera_enhance: super::super::IconId = super::super::IconId {
+            offset: 168192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cancel_schedule_send: super::super::IconId = super::super::IconId {
+            offset: 170496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const card_giftcard: super::super::IconId = super::super::IconId {
+            offset: 172800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const card_membership: super::super::IconId = super::super::IconId {
+            offset: 175104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const card_travel: super::super::IconId = super::super::IconId {
+            offset: 177408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const change_history: super::super::IconId = super::super::IconId {
+            offset: 179712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const check_circle: super::super::IconId = super::super::IconId {
+            offset: 182016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const check_circle_outline: super::super::IconId = super::super::IconId {
+            offset: 184320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chrome_reader_mode: super::super::IconId = super::super::IconId {
+            offset: 186624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const circle_notifications: super::super::IconId = super::super::IconId {
+            offset: 188928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const class: super::super::IconId = super::super::IconId {
+            offset: 191232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const close_fullscreen: super::super::IconId = super::super::IconId {
+            offset: 193536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const code: super::super::IconId = super::super::IconId {
+            offset: 195840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const code_off: super::super::IconId = super::super::IconId {
+            offset: 198144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const comment_bank: super::super::IconId = super::super::IconId {
+            offset: 200448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const commit: super::super::IconId = super::super::IconId {
+            offset: 202752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const commute: super::super::IconId = super::super::IconId {
+            offset: 205056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const compare_arrows: super::super::IconId = super::super::IconId {
+            offset: 207360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const compress: super::super::IconId = super::super::IconId {
+            offset: 209664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contact_page: super::super::IconId = super::super::IconId {
+            offset: 214272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contact_support: super::super::IconId = super::super::IconId {
+            offset: 216576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contactless: super::super::IconId = super::super::IconId {
+            offset: 211968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const copyright: super::super::IconId = super::super::IconId {
+            offset: 218880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const credit_card: super::super::IconId = super::super::IconId {
+            offset: 221184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const credit_card_off: super::super::IconId = super::super::IconId {
+            offset: 223488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const css: super::super::IconId = super::super::IconId {
+            offset: 225792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_exchange: super::super::IconId = super::super::IconId {
+            offset: 228096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dangerous: super::super::IconId = super::super::IconId {
+            offset: 230400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dashboard: super::super::IconId = super::super::IconId {
+            offset: 232704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dashboard_customize: super::super::IconId = super::super::IconId {
+            offset: 235008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const data_exploration: super::super::IconId = super::super::IconId {
+            offset: 237312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const data_thresholding: super::super::IconId = super::super::IconId {
+            offset: 239616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const date_range: super::super::IconId = super::super::IconId {
+            offset: 241920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const delete: super::super::IconId = super::super::IconId {
+            offset: 244224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const delete_forever: super::super::IconId = super::super::IconId {
+            offset: 246528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const delete_outline: super::super::IconId = super::super::IconId {
+            offset: 248832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const density_large: super::super::IconId = super::super::IconId {
+            offset: 251136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const density_medium: super::super::IconId = super::super::IconId {
+            offset: 253440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const density_small: super::super::IconId = super::super::IconId {
+            offset: 255744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const description: super::super::IconId = super::super::IconId {
+            offset: 258048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const disabled_by_default: super::super::IconId = super::super::IconId {
+            offset: 260352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const disabled_visible: super::super::IconId = super::super::IconId {
+            offset: 262656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const display_settings: super::super::IconId = super::super::IconId {
+            offset: 264960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dns: super::super::IconId = super::super::IconId {
+            offset: 267264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const done: super::super::IconId = super::super::IconId {
+            offset: 269568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const done_all: super::super::IconId = super::super::IconId {
+            offset: 271872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const done_outline: super::super::IconId = super::super::IconId {
+            offset: 274176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const donut_large: super::super::IconId = super::super::IconId {
+            offset: 276480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const donut_small: super::super::IconId = super::super::IconId {
+            offset: 278784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drag_indicator: super::super::IconId = super::super::IconId {
+            offset: 281088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dynamic_form: super::super::IconId = super::super::IconId {
+            offset: 283392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const eco: super::super::IconId = super::super::IconId {
+            offset: 285696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_calendar: super::super::IconId = super::super::IconId {
+            offset: 288000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_document: super::super::IconId = super::super::IconId {
+            offset: 290304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_off: super::super::IconId = super::super::IconId {
+            offset: 292608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_square: super::super::IconId = super::super::IconId {
+            offset: 294912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const eject: super::super::IconId = super::super::IconId {
+            offset: 297216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const euro_symbol: super::super::IconId = super::super::IconId {
+            offset: 299520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const event: super::super::IconId = super::super::IconId {
+            offset: 301824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const event_repeat: super::super::IconId = super::super::IconId {
+            offset: 304128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const event_seat: super::super::IconId = super::super::IconId {
+            offset: 306432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const exit_to_app: super::super::IconId = super::super::IconId {
+            offset: 308736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const expand: super::super::IconId = super::super::IconId {
+            offset: 311040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const explore: super::super::IconId = super::super::IconId {
+            offset: 313344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const explore_off: super::super::IconId = super::super::IconId {
+            offset: 315648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const extension: super::super::IconId = super::super::IconId {
+            offset: 317952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const extension_off: super::super::IconId = super::super::IconId {
+            offset: 320256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face: super::super::IconId = super::super::IconId {
+            offset: 322560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fact_check: super::super::IconId = super::super::IconId {
+            offset: 324864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const favorite: super::super::IconId = super::super::IconId {
+            offset: 327168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const favorite_border: super::super::IconId = super::super::IconId {
+            offset: 329472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fax: super::super::IconId = super::super::IconId {
+            offset: 331776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const feedback: super::super::IconId = super::super::IconId {
+            offset: 334080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_present: super::super::IconId = super::super::IconId {
+            offset: 336384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_alt: super::super::IconId = super::super::IconId {
+            offset: 338688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_alt_off: super::super::IconId = super::super::IconId {
+            offset: 340992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_list_alt: super::super::IconId = super::super::IconId {
+            offset: 343296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const find_in_page: super::super::IconId = super::super::IconId {
+            offset: 345600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const find_replace: super::super::IconId = super::super::IconId {
+            offset: 347904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fingerprint: super::super::IconId = super::super::IconId {
+            offset: 350208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fit_screen: super::super::IconId = super::super::IconId {
+            offset: 352512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flaky: super::super::IconId = super::super::IconId {
+            offset: 354816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flight_land: super::super::IconId = super::super::IconId {
+            offset: 357120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flight_takeoff: super::super::IconId = super::super::IconId {
+            offset: 359424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flip_to_back: super::super::IconId = super::super::IconId {
+            offset: 361728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flip_to_front: super::super::IconId = super::super::IconId {
+            offset: 364032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flutter_dash: super::super::IconId = super::super::IconId {
+            offset: 366336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const free_cancellation: super::super::IconId = super::super::IconId {
+            offset: 368640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const g_translate: super::super::IconId = super::super::IconId {
+            offset: 389376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gavel: super::super::IconId = super::super::IconId {
+            offset: 370944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const generating_tokens: super::super::IconId = super::super::IconId {
+            offset: 373248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const get_app: super::super::IconId = super::super::IconId {
+            offset: 375552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gif: super::super::IconId = super::super::IconId {
+            offset: 377856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gif_box: super::super::IconId = super::super::IconId {
+            offset: 380160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grade: super::super::IconId = super::super::IconId {
+            offset: 382464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grading: super::super::IconId = super::super::IconId {
+            offset: 384768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const group_work: super::super::IconId = super::super::IconId {
+            offset: 387072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const help: super::super::IconId = super::super::IconId {
+            offset: 391680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const help_center: super::super::IconId = super::super::IconId {
+            offset: 393984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const help_outline: super::super::IconId = super::super::IconId {
+            offset: 396288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hide_source: super::super::IconId = super::super::IconId {
+            offset: 398592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const highlight_alt: super::super::IconId = super::super::IconId {
+            offset: 400896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const highlight_off: super::super::IconId = super::super::IconId {
+            offset: 403200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const history: super::super::IconId = super::super::IconId {
+            offset: 405504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const history_toggle_off: super::super::IconId = super::super::IconId {
+            offset: 407808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hls: super::super::IconId = super::super::IconId {
+            offset: 410112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hls_off: super::super::IconId = super::super::IconId {
+            offset: 412416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const home: super::super::IconId = super::super::IconId {
+            offset: 414720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const home_filled: super::super::IconId = super::super::IconId {
+            offset: 417024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const horizontal_split: super::super::IconId = super::super::IconId {
+            offset: 419328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hotel_class: super::super::IconId = super::super::IconId {
+            offset: 421632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hourglass_disabled: super::super::IconId = super::super::IconId {
+            offset: 423936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hourglass_empty: super::super::IconId = super::super::IconId {
+            offset: 426240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hourglass_full: super::super::IconId = super::super::IconId {
+            offset: 428544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const html: super::super::IconId = super::super::IconId {
+            offset: 430848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const http: super::super::IconId = super::super::IconId {
+            offset: 433152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const https: super::super::IconId = super::super::IconId {
+            offset: 435456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const important_devices: super::super::IconId = super::super::IconId {
+            offset: 437760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const info: super::super::IconId = super::super::IconId {
+            offset: 440064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const info_outline: super::super::IconId = super::super::IconId {
+            offset: 442368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const input: super::super::IconId = super::super::IconId {
+            offset: 444672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const install_desktop: super::super::IconId = super::super::IconId {
+            offset: 446976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const install_mobile: super::super::IconId = super::super::IconId {
+            offset: 449280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const integration_instructions: super::super::IconId = super::super::IconId {
+            offset: 451584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const invert_colors: super::super::IconId = super::super::IconId {
+            offset: 453888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const javascript: super::super::IconId = super::super::IconId {
+            offset: 456192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const join_full: super::super::IconId = super::super::IconId {
+            offset: 458496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const join_inner: super::super::IconId = super::super::IconId {
+            offset: 460800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const join_left: super::super::IconId = super::super::IconId {
+            offset: 463104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const join_right: super::super::IconId = super::super::IconId {
+            offset: 465408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const label: super::super::IconId = super::super::IconId {
+            offset: 467712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const label_important: super::super::IconId = super::super::IconId {
+            offset: 470016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const label_important_outline: super::super::IconId = super::super::IconId {
+            offset: 472320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const label_off: super::super::IconId = super::super::IconId {
+            offset: 474624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const label_outline: super::super::IconId = super::super::IconId {
+            offset: 476928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const language: super::super::IconId = super::super::IconId {
+            offset: 479232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const launch: super::super::IconId = super::super::IconId {
+            offset: 481536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const leaderboard: super::super::IconId = super::super::IconId {
+            offset: 483840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lightbulb: super::super::IconId = super::super::IconId {
+            offset: 486144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lightbulb_circle: super::super::IconId = super::super::IconId {
+            offset: 488448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lightbulb_outline: super::super::IconId = super::super::IconId {
+            offset: 490752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const line_style: super::super::IconId = super::super::IconId {
+            offset: 493056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const line_weight: super::super::IconId = super::super::IconId {
+            offset: 495360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const list: super::super::IconId = super::super::IconId {
+            offset: 497664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lock: super::super::IconId = super::super::IconId {
+            offset: 499968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lock_clock: super::super::IconId = super::super::IconId {
+            offset: 502272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lock_open: super::super::IconId = super::super::IconId {
+            offset: 504576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lock_outline: super::super::IconId = super::super::IconId {
+            offset: 506880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lock_person: super::super::IconId = super::super::IconId {
+            offset: 509184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lock_reset: super::super::IconId = super::super::IconId {
+            offset: 511488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const login: super::super::IconId = super::super::IconId {
+            offset: 513792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const logout: super::super::IconId = super::super::IconId {
+            offset: 516096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const loyalty: super::super::IconId = super::super::IconId {
+            offset: 518400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const manage_accounts: super::super::IconId = super::super::IconId {
+            offset: 520704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const manage_history: super::super::IconId = super::super::IconId {
+            offset: 523008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mark_as_unread: super::super::IconId = super::super::IconId {
+            offset: 527616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const markunread_mailbox: super::super::IconId = super::super::IconId {
+            offset: 525312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const maximize: super::super::IconId = super::super::IconId {
+            offset: 529920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mediation: super::super::IconId = super::super::IconId {
+            offset: 532224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const minimize: super::super::IconId = super::super::IconId {
+            offset: 534528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const model_training: super::super::IconId = super::super::IconId {
+            offset: 536832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_ping: super::super::IconId = super::super::IconId {
+            offset: 539136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const new_label: super::super::IconId = super::super::IconId {
+            offset: 541440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const next_plan: super::super::IconId = super::super::IconId {
+            offset: 543744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nightlight_round: super::super::IconId = super::super::IconId {
+            offset: 546048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_accounts: super::super::IconId = super::super::IconId {
+            offset: 559872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const noise_aware: super::super::IconId = super::super::IconId {
+            offset: 548352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const noise_control_off: super::super::IconId = super::super::IconId {
+            offset: 550656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const not_accessible: super::super::IconId = super::super::IconId {
+            offset: 555264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const not_started: super::super::IconId = super::super::IconId {
+            offset: 557568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const note_add: super::super::IconId = super::super::IconId {
+            offset: 552960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const offline_bolt: super::super::IconId = super::super::IconId {
+            offset: 562176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const offline_pin: super::super::IconId = super::super::IconId {
+            offset: 564480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const on_device_training: super::super::IconId = super::super::IconId {
+            offset: 569088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const online_prediction: super::super::IconId = super::super::IconId {
+            offset: 566784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const opacity: super::super::IconId = super::super::IconId {
+            offset: 571392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const open_in_browser: super::super::IconId = super::super::IconId {
+            offset: 573696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const open_in_full: super::super::IconId = super::super::IconId {
+            offset: 576000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const open_in_new: super::super::IconId = super::super::IconId {
+            offset: 578304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const open_in_new_off: super::super::IconId = super::super::IconId {
+            offset: 580608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const open_with: super::super::IconId = super::super::IconId {
+            offset: 582912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const outbond: super::super::IconId = super::super::IconId {
+            offset: 585216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const outbound: super::super::IconId = super::super::IconId {
+            offset: 587520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const outbox: super::super::IconId = super::super::IconId {
+            offset: 589824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const outgoing_mail: super::super::IconId = super::super::IconId {
+            offset: 592128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const outlet: super::super::IconId = super::super::IconId {
+            offset: 594432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const output: super::super::IconId = super::super::IconId {
+            offset: 596736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pageview: super::super::IconId = super::super::IconId {
+            offset: 599040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const paid: super::super::IconId = super::super::IconId {
+            offset: 601344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pan_tool: super::super::IconId = super::super::IconId {
+            offset: 603648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pan_tool_alt: super::super::IconId = super::super::IconId {
+            offset: 605952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const payment: super::super::IconId = super::super::IconId {
+            offset: 608256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pending: super::super::IconId = super::super::IconId {
+            offset: 610560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pending_actions: super::super::IconId = super::super::IconId {
+            offset: 612864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const percent: super::super::IconId = super::super::IconId {
+            offset: 615168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_camera_mic: super::super::IconId = super::super::IconId {
+            offset: 617472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_contact_calendar: super::super::IconId = super::super::IconId {
+            offset: 619776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_data_setting: super::super::IconId = super::super::IconId {
+            offset: 622080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_device_information: super::super::IconId = super::super::IconId {
+            offset: 624384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_identity: super::super::IconId = super::super::IconId {
+            offset: 626688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_media: super::super::IconId = super::super::IconId {
+            offset: 628992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_phone_msg: super::super::IconId = super::super::IconId {
+            offset: 631296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const perm_scan_wifi: super::super::IconId = super::super::IconId {
+            offset: 633600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pets: super::super::IconId = super::super::IconId {
+            offset: 635904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const php: super::super::IconId = super::super::IconId {
+            offset: 638208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const picture_in_picture: super::super::IconId = super::super::IconId {
+            offset: 640512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const picture_in_picture_alt: super::super::IconId = super::super::IconId {
+            offset: 642816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pin_end: super::super::IconId = super::super::IconId {
+            offset: 647424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pin_invoke: super::super::IconId = super::super::IconId {
+            offset: 649728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pinch: super::super::IconId = super::super::IconId {
+            offset: 645120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const plagiarism: super::super::IconId = super::super::IconId {
+            offset: 652032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const play_for_work: super::super::IconId = super::super::IconId {
+            offset: 654336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const polymer: super::super::IconId = super::super::IconId {
+            offset: 656640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const power_settings_new: super::super::IconId = super::super::IconId {
+            offset: 658944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pregnant_woman: super::super::IconId = super::super::IconId {
+            offset: 661248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const preview: super::super::IconId = super::super::IconId {
+            offset: 663552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const print: super::super::IconId = super::super::IconId {
+            offset: 665856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const privacy_tip: super::super::IconId = super::super::IconId {
+            offset: 668160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const private_connectivity: super::super::IconId = super::super::IconId {
+            offset: 670464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const production_quantity_limits: super::super::IconId = super::super::IconId {
+            offset: 672768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const published_with_changes: super::super::IconId = super::super::IconId {
+            offset: 675072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const query_builder: super::super::IconId = super::super::IconId {
+            offset: 677376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const question_answer: super::super::IconId = super::super::IconId {
+            offset: 679680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const question_mark: super::super::IconId = super::super::IconId {
+            offset: 681984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const quickreply: super::super::IconId = super::super::IconId {
+            offset: 684288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rebase_edit: super::super::IconId = super::super::IconId {
+            offset: 686592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const receipt: super::super::IconId = super::super::IconId {
+            offset: 688896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const record_voice_over: super::super::IconId = super::super::IconId {
+            offset: 691200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const redeem: super::super::IconId = super::super::IconId {
+            offset: 693504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_done: super::super::IconId = super::super::IconId {
+            offset: 695808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_shopping_cart: super::super::IconId = super::super::IconId {
+            offset: 698112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const reorder: super::super::IconId = super::super::IconId {
+            offset: 700416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const repartition: super::super::IconId = super::super::IconId {
+            offset: 702720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const report_problem: super::super::IconId = super::super::IconId {
+            offset: 705024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const request_page: super::super::IconId = super::super::IconId {
+            offset: 707328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const restore: super::super::IconId = super::super::IconId {
+            offset: 709632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const restore_from_trash: super::super::IconId = super::super::IconId {
+            offset: 711936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const restore_page: super::super::IconId = super::super::IconId {
+            offset: 714240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rocket: super::super::IconId = super::super::IconId {
+            offset: 716544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rocket_launch: super::super::IconId = super::super::IconId {
+            offset: 718848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const room: super::super::IconId = super::super::IconId {
+            offset: 721152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rounded_corner: super::super::IconId = super::super::IconId {
+            offset: 723456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rowing: super::super::IconId = super::super::IconId {
+            offset: 725760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rule: super::super::IconId = super::super::IconId {
+            offset: 728064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const satellite_alt: super::super::IconId = super::super::IconId {
+            offset: 730368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const saved_search: super::super::IconId = super::super::IconId {
+            offset: 732672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const savings: super::super::IconId = super::super::IconId {
+            offset: 734976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const schedule: super::super::IconId = super::super::IconId {
+            offset: 737280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const schedule_send: super::super::IconId = super::super::IconId {
+            offset: 739584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const search: super::super::IconId = super::super::IconId {
+            offset: 741888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const search_off: super::super::IconId = super::super::IconId {
+            offset: 744192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const segment: super::super::IconId = super::super::IconId {
+            offset: 746496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const send_and_archive: super::super::IconId = super::super::IconId {
+            offset: 748800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sensors: super::super::IconId = super::super::IconId {
+            offset: 751104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sensors_off: super::super::IconId = super::super::IconId {
+            offset: 753408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings: super::super::IconId = super::super::IconId {
+            offset: 755712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_accessibility: super::super::IconId = super::super::IconId {
+            offset: 758016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_applications: super::super::IconId = super::super::IconId {
+            offset: 760320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_backup_restore: super::super::IconId = super::super::IconId {
+            offset: 762624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_bluetooth: super::super::IconId = super::super::IconId {
+            offset: 764928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_brightness: super::super::IconId = super::super::IconId {
+            offset: 767232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_cell: super::super::IconId = super::super::IconId {
+            offset: 769536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_ethernet: super::super::IconId = super::super::IconId {
+            offset: 771840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_input_antenna: super::super::IconId = super::super::IconId {
+            offset: 774144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_input_component: super::super::IconId = super::super::IconId {
+            offset: 776448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_input_composite: super::super::IconId = super::super::IconId {
+            offset: 778752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_input_hdmi: super::super::IconId = super::super::IconId {
+            offset: 781056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_input_svideo: super::super::IconId = super::super::IconId {
+            offset: 783360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_overscan: super::super::IconId = super::super::IconId {
+            offset: 785664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_phone: super::super::IconId = super::super::IconId {
+            offset: 787968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_power: super::super::IconId = super::super::IconId {
+            offset: 790272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_remote: super::super::IconId = super::super::IconId {
+            offset: 792576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_voice: super::super::IconId = super::super::IconId {
+            offset: 794880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shop: super::super::IconId = super::super::IconId {
+            offset: 797184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shop_2: super::super::IconId = super::super::IconId {
+            offset: 808704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shop_two: super::super::IconId = super::super::IconId {
+            offset: 811008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shopping_bag: super::super::IconId = super::super::IconId {
+            offset: 799488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shopping_basket: super::super::IconId = super::super::IconId {
+            offset: 801792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shopping_cart: super::super::IconId = super::super::IconId {
+            offset: 804096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shopping_cart_checkout: super::super::IconId = super::super::IconId {
+            offset: 806400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const smart_button: super::super::IconId = super::super::IconId {
+            offset: 813312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const source: super::super::IconId = super::super::IconId {
+            offset: 815616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const space_dashboard: super::super::IconId = super::super::IconId {
+            offset: 817920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const spatial_audio: super::super::IconId = super::super::IconId {
+            offset: 820224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const spatial_audio_off: super::super::IconId = super::super::IconId {
+            offset: 822528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const spatial_tracking: super::super::IconId = super::super::IconId {
+            offset: 824832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const speaker_notes: super::super::IconId = super::super::IconId {
+            offset: 827136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const speaker_notes_off: super::super::IconId = super::super::IconId {
+            offset: 829440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const spellcheck: super::super::IconId = super::super::IconId {
+            offset: 831744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const star_rate: super::super::IconId = super::super::IconId {
+            offset: 836352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stars: super::super::IconId = super::super::IconId {
+            offset: 834048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sticky_note_2: super::super::IconId = super::super::IconId {
+            offset: 838656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const store: super::super::IconId = super::super::IconId {
+            offset: 840960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subject: super::super::IconId = super::super::IconId {
+            offset: 843264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subtitles_off: super::super::IconId = super::super::IconId {
+            offset: 845568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const supervised_user_circle: super::super::IconId = super::super::IconId {
+            offset: 847872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const supervisor_account: super::super::IconId = super::super::IconId {
+            offset: 850176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const support: super::super::IconId = super::super::IconId {
+            offset: 852480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swap_horiz: super::super::IconId = super::super::IconId {
+            offset: 854784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swap_horizontal_circle: super::super::IconId = super::super::IconId {
+            offset: 857088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swap_vert: super::super::IconId = super::super::IconId {
+            offset: 859392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swap_vertical_circle: super::super::IconId = super::super::IconId {
+            offset: 861696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe: super::super::IconId = super::super::IconId {
+            offset: 864000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_down: super::super::IconId = super::super::IconId {
+            offset: 866304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_down_alt: super::super::IconId = super::super::IconId {
+            offset: 868608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_left: super::super::IconId = super::super::IconId {
+            offset: 870912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_left_alt: super::super::IconId = super::super::IconId {
+            offset: 873216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_right: super::super::IconId = super::super::IconId {
+            offset: 875520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_right_alt: super::super::IconId = super::super::IconId {
+            offset: 877824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_up: super::super::IconId = super::super::IconId {
+            offset: 880128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_up_alt: super::super::IconId = super::super::IconId {
+            offset: 882432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swipe_vertical: super::super::IconId = super::super::IconId {
+            offset: 884736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const switch_access_shortcut: super::super::IconId = super::super::IconId {
+            offset: 887040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const switch_access_shortcut_add: super::super::IconId = super::super::IconId {
+            offset: 889344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sync_alt: super::super::IconId = super::super::IconId {
+            offset: 891648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const system_update_alt: super::super::IconId = super::super::IconId {
+            offset: 893952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tab: super::super::IconId = super::super::IconId {
+            offset: 896256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tab_unselected: super::super::IconId = super::super::IconId {
+            offset: 900864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const table_view: super::super::IconId = super::super::IconId {
+            offset: 898560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const task_alt: super::super::IconId = super::super::IconId {
+            offset: 903168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const terminal: super::super::IconId = super::super::IconId {
+            offset: 905472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_rotate_up: super::super::IconId = super::super::IconId {
+            offset: 907776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_rotate_vertical: super::super::IconId = super::super::IconId {
+            offset: 910080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_rotation_angledown: super::super::IconId = super::super::IconId {
+            offset: 912384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_rotation_angleup: super::super::IconId = super::super::IconId {
+            offset: 914688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_rotation_down: super::super::IconId = super::super::IconId {
+            offset: 916992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_rotation_none: super::super::IconId = super::super::IconId {
+            offset: 919296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const theaters: super::super::IconId = super::super::IconId {
+            offset: 921600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const thumb_down: super::super::IconId = super::super::IconId {
+            offset: 926208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const thumb_down_off_alt: super::super::IconId = super::super::IconId {
+            offset: 928512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const thumb_up: super::super::IconId = super::super::IconId {
+            offset: 930816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const thumb_up_off_alt: super::super::IconId = super::super::IconId {
+            offset: 933120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const thumbs_up_down: super::super::IconId = super::super::IconId {
+            offset: 923904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timeline: super::super::IconId = super::super::IconId {
+            offset: 935424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tips_and_updates: super::super::IconId = super::super::IconId {
+            offset: 937728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const toc: super::super::IconId = super::super::IconId {
+            offset: 940032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const today: super::super::IconId = super::super::IconId {
+            offset: 942336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const token: super::super::IconId = super::super::IconId {
+            offset: 944640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const toll: super::super::IconId = super::super::IconId {
+            offset: 946944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const touch_app: super::super::IconId = super::super::IconId {
+            offset: 949248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tour: super::super::IconId = super::super::IconId {
+            offset: 951552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const track_changes: super::super::IconId = super::super::IconId {
+            offset: 953856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const transcribe: super::super::IconId = super::super::IconId {
+            offset: 956160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const translate: super::super::IconId = super::super::IconId {
+            offset: 958464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const trending_down: super::super::IconId = super::super::IconId {
+            offset: 960768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const trending_flat: super::super::IconId = super::super::IconId {
+            offset: 963072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const trending_up: super::super::IconId = super::super::IconId {
+            offset: 965376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const troubleshoot: super::super::IconId = super::super::IconId {
+            offset: 967680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const r#try: super::super::IconId = super::super::IconId {
+            offset: 969984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turned_in: super::super::IconId = super::super::IconId {
+            offset: 972288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turned_in_not: super::super::IconId = super::super::IconId {
+            offset: 974592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const unfold_less_double: super::super::IconId = super::super::IconId {
+            offset: 976896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const unfold_more_double: super::super::IconId = super::super::IconId {
+            offset: 979200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const unpublished: super::super::IconId = super::super::IconId {
+            offset: 981504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const update: super::super::IconId = super::super::IconId {
+            offset: 983808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const update_disabled: super::super::IconId = super::super::IconId {
+            offset: 986112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const upgrade: super::super::IconId = super::super::IconId {
+            offset: 988416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const verified: super::super::IconId = super::super::IconId {
+            offset: 990720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const verified_user: super::super::IconId = super::super::IconId {
+            offset: 993024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vertical_split: super::super::IconId = super::super::IconId {
+            offset: 995328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_agenda: super::super::IconId = super::super::IconId {
+            offset: 997632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_array: super::super::IconId = super::super::IconId {
+            offset: 999936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_carousel: super::super::IconId = super::super::IconId {
+            offset: 1002240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_column: super::super::IconId = super::super::IconId {
+            offset: 1004544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_comfy_alt: super::super::IconId = super::super::IconId {
+            offset: 1006848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_compact_alt: super::super::IconId = super::super::IconId {
+            offset: 1009152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_cozy: super::super::IconId = super::super::IconId {
+            offset: 1011456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_day: super::super::IconId = super::super::IconId {
+            offset: 1013760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_headline: super::super::IconId = super::super::IconId {
+            offset: 1016064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_in_ar: super::super::IconId = super::super::IconId {
+            offset: 1018368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_kanban: super::super::IconId = super::super::IconId {
+            offset: 1020672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_list: super::super::IconId = super::super::IconId {
+            offset: 1022976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_module: super::super::IconId = super::super::IconId {
+            offset: 1025280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_quilt: super::super::IconId = super::super::IconId {
+            offset: 1027584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_sidebar: super::super::IconId = super::super::IconId {
+            offset: 1029888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_stream: super::super::IconId = super::super::IconId {
+            offset: 1032192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_timeline: super::super::IconId = super::super::IconId {
+            offset: 1034496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_week: super::super::IconId = super::super::IconId {
+            offset: 1036800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const visibility: super::super::IconId = super::super::IconId {
+            offset: 1039104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const visibility_off: super::super::IconId = super::super::IconId {
+            offset: 1041408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const voice_over_off: super::super::IconId = super::super::IconId {
+            offset: 1043712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const watch_later: super::super::IconId = super::super::IconId {
+            offset: 1046016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const webhook: super::super::IconId = super::super::IconId {
+            offset: 1048320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const width_full: super::super::IconId = super::super::IconId {
+            offset: 1050624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const width_normal: super::super::IconId = super::super::IconId {
+            offset: 1052928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const width_wide: super::super::IconId = super::super::IconId {
+            offset: 1055232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_protected_setup: super::super::IconId = super::super::IconId {
+            offset: 1057536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const work: super::super::IconId = super::super::IconId {
+            offset: 1059840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const work_history: super::super::IconId = super::super::IconId {
+            offset: 1062144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const work_off: super::super::IconId = super::super::IconId {
+            offset: 1064448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const work_outline: super::super::IconId = super::super::IconId {
+            offset: 1066752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wysiwyg: super::super::IconId = super::super::IconId {
+            offset: 1069056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const youtube_searched_for: super::super::IconId = super::super::IconId {
+            offset: 1071360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const zoom_in: super::super::IconId = super::super::IconId {
+            offset: 1073664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const zoom_out: super::super::IconId = super::super::IconId {
+            offset: 1075968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod alert {
-        pub const add_alert: super::super::IconId = super::super::IconId { offset: 1078272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_delete: super::super::IconId = super::super::IconId { offset: 1080576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const error: super::super::IconId = super::super::IconId { offset: 1082880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const error_outline: super::super::IconId = super::super::IconId { offset: 1085184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notification_important: super::super::IconId = super::super::IconId { offset: 1087488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const warning: super::super::IconId = super::super::IconId { offset: 1089792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const warning_amber: super::super::IconId = super::super::IconId { offset: 1092096u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const add_alert: super::super::IconId = super::super::IconId {
+            offset: 1078272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_delete: super::super::IconId = super::super::IconId {
+            offset: 1080576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const error: super::super::IconId = super::super::IconId {
+            offset: 1082880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const error_outline: super::super::IconId = super::super::IconId {
+            offset: 1085184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notification_important: super::super::IconId = super::super::IconId {
+            offset: 1087488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const warning: super::super::IconId = super::super::IconId {
+            offset: 1089792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const warning_amber: super::super::IconId = super::super::IconId {
+            offset: 1092096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod av {
-        pub const _10k: super::super::IconId = super::super::IconId { offset: 1094400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _1k: super::super::IconId = super::super::IconId { offset: 1096704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _1k_plus: super::super::IconId = super::super::IconId { offset: 1099008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _2k: super::super::IconId = super::super::IconId { offset: 1101312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _2k_plus: super::super::IconId = super::super::IconId { offset: 1103616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _3k: super::super::IconId = super::super::IconId { offset: 1105920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _3k_plus: super::super::IconId = super::super::IconId { offset: 1108224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _4k: super::super::IconId = super::super::IconId { offset: 1110528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _4k_plus: super::super::IconId = super::super::IconId { offset: 1112832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _5g: super::super::IconId = super::super::IconId { offset: 1115136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _5k: super::super::IconId = super::super::IconId { offset: 1117440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _5k_plus: super::super::IconId = super::super::IconId { offset: 1119744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _6k: super::super::IconId = super::super::IconId { offset: 1122048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _6k_plus: super::super::IconId = super::super::IconId { offset: 1124352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _7k: super::super::IconId = super::super::IconId { offset: 1126656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _7k_plus: super::super::IconId = super::super::IconId { offset: 1128960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _8k: super::super::IconId = super::super::IconId { offset: 1131264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _8k_plus: super::super::IconId = super::super::IconId { offset: 1133568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _9k: super::super::IconId = super::super::IconId { offset: 1135872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _9k_plus: super::super::IconId = super::super::IconId { offset: 1138176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_to_queue: super::super::IconId = super::super::IconId { offset: 1140480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airplay: super::super::IconId = super::super::IconId { offset: 1142784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const album: super::super::IconId = super::super::IconId { offset: 1145088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const art_track: super::super::IconId = super::super::IconId { offset: 1147392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const audio_file: super::super::IconId = super::super::IconId { offset: 1149696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const av_timer: super::super::IconId = super::super::IconId { offset: 1152000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const branding_watermark: super::super::IconId = super::super::IconId { offset: 1154304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_to_action: super::super::IconId = super::super::IconId { offset: 1156608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const closed_caption: super::super::IconId = super::super::IconId { offset: 1158912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const closed_caption_disabled: super::super::IconId = super::super::IconId { offset: 1161216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const closed_caption_off: super::super::IconId = super::super::IconId { offset: 1163520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const control_camera: super::super::IconId = super::super::IconId { offset: 1165824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const equalizer: super::super::IconId = super::super::IconId { offset: 1168128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const explicit: super::super::IconId = super::super::IconId { offset: 1170432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fast_forward: super::super::IconId = super::super::IconId { offset: 1172736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fast_rewind: super::super::IconId = super::super::IconId { offset: 1175040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const featured_play_list: super::super::IconId = super::super::IconId { offset: 1177344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const featured_video: super::super::IconId = super::super::IconId { offset: 1179648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fiber_dvr: super::super::IconId = super::super::IconId { offset: 1181952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fiber_manual_record: super::super::IconId = super::super::IconId { offset: 1184256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fiber_new: super::super::IconId = super::super::IconId { offset: 1186560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fiber_pin: super::super::IconId = super::super::IconId { offset: 1188864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fiber_smart_record: super::super::IconId = super::super::IconId { offset: 1191168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forward_10: super::super::IconId = super::super::IconId { offset: 1193472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forward_30: super::super::IconId = super::super::IconId { offset: 1195776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forward_5: super::super::IconId = super::super::IconId { offset: 1198080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const games: super::super::IconId = super::super::IconId { offset: 1200384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hd: super::super::IconId = super::super::IconId { offset: 1202688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hearing: super::super::IconId = super::super::IconId { offset: 1204992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hearing_disabled: super::super::IconId = super::super::IconId { offset: 1207296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const high_quality: super::super::IconId = super::super::IconId { offset: 1209600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const interpreter_mode: super::super::IconId = super::super::IconId { offset: 1211904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const library_add: super::super::IconId = super::super::IconId { offset: 1214208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const library_add_check: super::super::IconId = super::super::IconId { offset: 1216512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const library_books: super::super::IconId = super::super::IconId { offset: 1218816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const library_music: super::super::IconId = super::super::IconId { offset: 1221120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const r#loop: super::super::IconId = super::super::IconId { offset: 1223424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lyrics: super::super::IconId = super::super::IconId { offset: 1225728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mic: super::super::IconId = super::super::IconId { offset: 1228032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mic_none: super::super::IconId = super::super::IconId { offset: 1230336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mic_off: super::super::IconId = super::super::IconId { offset: 1232640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const missed_video_call: super::super::IconId = super::super::IconId { offset: 1234944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const movie: super::super::IconId = super::super::IconId { offset: 1237248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const movie_edit: super::super::IconId = super::super::IconId { offset: 1239552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const music_video: super::super::IconId = super::super::IconId { offset: 1241856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const new_releases: super::super::IconId = super::super::IconId { offset: 1244160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const not_interested: super::super::IconId = super::super::IconId { offset: 1248768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const note: super::super::IconId = super::super::IconId { offset: 1246464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pause: super::super::IconId = super::super::IconId { offset: 1251072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pause_circle: super::super::IconId = super::super::IconId { offset: 1253376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pause_circle_filled: super::super::IconId = super::super::IconId { offset: 1255680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pause_circle_outline: super::super::IconId = super::super::IconId { offset: 1257984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const play_arrow: super::super::IconId = super::super::IconId { offset: 1274112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const play_circle: super::super::IconId = super::super::IconId { offset: 1276416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const play_circle_filled: super::super::IconId = super::super::IconId { offset: 1278720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const play_circle_outline: super::super::IconId = super::super::IconId { offset: 1281024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const play_disabled: super::super::IconId = super::super::IconId { offset: 1283328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const playlist_add: super::super::IconId = super::super::IconId { offset: 1260288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const playlist_add_check: super::super::IconId = super::super::IconId { offset: 1262592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const playlist_add_check_circle: super::super::IconId = super::super::IconId { offset: 1264896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const playlist_add_circle: super::super::IconId = super::super::IconId { offset: 1267200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const playlist_play: super::super::IconId = super::super::IconId { offset: 1269504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const playlist_remove: super::super::IconId = super::super::IconId { offset: 1271808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const queue: super::super::IconId = super::super::IconId { offset: 1285632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const queue_music: super::super::IconId = super::super::IconId { offset: 1287936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const queue_play_next: super::super::IconId = super::super::IconId { offset: 1290240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const radio: super::super::IconId = super::super::IconId { offset: 1292544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const recent_actors: super::super::IconId = super::super::IconId { offset: 1294848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_from_queue: super::super::IconId = super::super::IconId { offset: 1297152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const repeat: super::super::IconId = super::super::IconId { offset: 1299456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const repeat_on: super::super::IconId = super::super::IconId { offset: 1301760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const repeat_one: super::super::IconId = super::super::IconId { offset: 1304064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const repeat_one_on: super::super::IconId = super::super::IconId { offset: 1306368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const replay: super::super::IconId = super::super::IconId { offset: 1308672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const replay_10: super::super::IconId = super::super::IconId { offset: 1310976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const replay_30: super::super::IconId = super::super::IconId { offset: 1313280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const replay_5: super::super::IconId = super::super::IconId { offset: 1315584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const replay_circle_filled: super::super::IconId = super::super::IconId { offset: 1317888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sd: super::super::IconId = super::super::IconId { offset: 1320192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shuffle: super::super::IconId = super::super::IconId { offset: 1322496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shuffle_on: super::super::IconId = super::super::IconId { offset: 1324800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const skip_next: super::super::IconId = super::super::IconId { offset: 1327104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const skip_previous: super::super::IconId = super::super::IconId { offset: 1329408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const slow_motion_video: super::super::IconId = super::super::IconId { offset: 1331712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const snooze: super::super::IconId = super::super::IconId { offset: 1334016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sort_by_alpha: super::super::IconId = super::super::IconId { offset: 1336320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const speed: super::super::IconId = super::super::IconId { offset: 1338624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stop: super::super::IconId = super::super::IconId { offset: 1340928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stop_circle: super::super::IconId = super::super::IconId { offset: 1343232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subscriptions: super::super::IconId = super::super::IconId { offset: 1345536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subtitles: super::super::IconId = super::super::IconId { offset: 1347840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const surround_sound: super::super::IconId = super::super::IconId { offset: 1350144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_call: super::super::IconId = super::super::IconId { offset: 1357056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_file: super::super::IconId = super::super::IconId { offset: 1359360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_label: super::super::IconId = super::super::IconId { offset: 1361664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_library: super::super::IconId = super::super::IconId { offset: 1363968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_settings: super::super::IconId = super::super::IconId { offset: 1366272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const videocam: super::super::IconId = super::super::IconId { offset: 1352448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const videocam_off: super::super::IconId = super::super::IconId { offset: 1354752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const volume_down: super::super::IconId = super::super::IconId { offset: 1368576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const volume_down_alt: super::super::IconId = super::super::IconId { offset: 1370880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const volume_mute: super::super::IconId = super::super::IconId { offset: 1373184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const volume_off: super::super::IconId = super::super::IconId { offset: 1375488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const volume_up: super::super::IconId = super::super::IconId { offset: 1377792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const web: super::super::IconId = super::super::IconId { offset: 1380096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const web_asset: super::super::IconId = super::super::IconId { offset: 1382400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const web_asset_off: super::super::IconId = super::super::IconId { offset: 1384704u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const _10k: super::super::IconId = super::super::IconId {
+            offset: 1094400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _1k: super::super::IconId = super::super::IconId {
+            offset: 1096704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _1k_plus: super::super::IconId = super::super::IconId {
+            offset: 1099008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _2k: super::super::IconId = super::super::IconId {
+            offset: 1101312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _2k_plus: super::super::IconId = super::super::IconId {
+            offset: 1103616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _3k: super::super::IconId = super::super::IconId {
+            offset: 1105920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _3k_plus: super::super::IconId = super::super::IconId {
+            offset: 1108224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _4k: super::super::IconId = super::super::IconId {
+            offset: 1110528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _4k_plus: super::super::IconId = super::super::IconId {
+            offset: 1112832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _5g: super::super::IconId = super::super::IconId {
+            offset: 1115136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _5k: super::super::IconId = super::super::IconId {
+            offset: 1117440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _5k_plus: super::super::IconId = super::super::IconId {
+            offset: 1119744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _6k: super::super::IconId = super::super::IconId {
+            offset: 1122048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _6k_plus: super::super::IconId = super::super::IconId {
+            offset: 1124352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _7k: super::super::IconId = super::super::IconId {
+            offset: 1126656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _7k_plus: super::super::IconId = super::super::IconId {
+            offset: 1128960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _8k: super::super::IconId = super::super::IconId {
+            offset: 1131264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _8k_plus: super::super::IconId = super::super::IconId {
+            offset: 1133568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _9k: super::super::IconId = super::super::IconId {
+            offset: 1135872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _9k_plus: super::super::IconId = super::super::IconId {
+            offset: 1138176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_to_queue: super::super::IconId = super::super::IconId {
+            offset: 1140480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airplay: super::super::IconId = super::super::IconId {
+            offset: 1142784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const album: super::super::IconId = super::super::IconId {
+            offset: 1145088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const art_track: super::super::IconId = super::super::IconId {
+            offset: 1147392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const audio_file: super::super::IconId = super::super::IconId {
+            offset: 1149696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const av_timer: super::super::IconId = super::super::IconId {
+            offset: 1152000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const branding_watermark: super::super::IconId = super::super::IconId {
+            offset: 1154304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_to_action: super::super::IconId = super::super::IconId {
+            offset: 1156608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const closed_caption: super::super::IconId = super::super::IconId {
+            offset: 1158912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const closed_caption_disabled: super::super::IconId = super::super::IconId {
+            offset: 1161216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const closed_caption_off: super::super::IconId = super::super::IconId {
+            offset: 1163520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const control_camera: super::super::IconId = super::super::IconId {
+            offset: 1165824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const equalizer: super::super::IconId = super::super::IconId {
+            offset: 1168128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const explicit: super::super::IconId = super::super::IconId {
+            offset: 1170432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fast_forward: super::super::IconId = super::super::IconId {
+            offset: 1172736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fast_rewind: super::super::IconId = super::super::IconId {
+            offset: 1175040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const featured_play_list: super::super::IconId = super::super::IconId {
+            offset: 1177344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const featured_video: super::super::IconId = super::super::IconId {
+            offset: 1179648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fiber_dvr: super::super::IconId = super::super::IconId {
+            offset: 1181952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fiber_manual_record: super::super::IconId = super::super::IconId {
+            offset: 1184256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fiber_new: super::super::IconId = super::super::IconId {
+            offset: 1186560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fiber_pin: super::super::IconId = super::super::IconId {
+            offset: 1188864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fiber_smart_record: super::super::IconId = super::super::IconId {
+            offset: 1191168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forward_10: super::super::IconId = super::super::IconId {
+            offset: 1193472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forward_30: super::super::IconId = super::super::IconId {
+            offset: 1195776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forward_5: super::super::IconId = super::super::IconId {
+            offset: 1198080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const games: super::super::IconId = super::super::IconId {
+            offset: 1200384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hd: super::super::IconId = super::super::IconId {
+            offset: 1202688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hearing: super::super::IconId = super::super::IconId {
+            offset: 1204992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hearing_disabled: super::super::IconId = super::super::IconId {
+            offset: 1207296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const high_quality: super::super::IconId = super::super::IconId {
+            offset: 1209600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const interpreter_mode: super::super::IconId = super::super::IconId {
+            offset: 1211904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const library_add: super::super::IconId = super::super::IconId {
+            offset: 1214208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const library_add_check: super::super::IconId = super::super::IconId {
+            offset: 1216512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const library_books: super::super::IconId = super::super::IconId {
+            offset: 1218816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const library_music: super::super::IconId = super::super::IconId {
+            offset: 1221120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const r#loop: super::super::IconId = super::super::IconId {
+            offset: 1223424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lyrics: super::super::IconId = super::super::IconId {
+            offset: 1225728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mic: super::super::IconId = super::super::IconId {
+            offset: 1228032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mic_none: super::super::IconId = super::super::IconId {
+            offset: 1230336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mic_off: super::super::IconId = super::super::IconId {
+            offset: 1232640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const missed_video_call: super::super::IconId = super::super::IconId {
+            offset: 1234944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const movie: super::super::IconId = super::super::IconId {
+            offset: 1237248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const movie_edit: super::super::IconId = super::super::IconId {
+            offset: 1239552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const music_video: super::super::IconId = super::super::IconId {
+            offset: 1241856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const new_releases: super::super::IconId = super::super::IconId {
+            offset: 1244160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const not_interested: super::super::IconId = super::super::IconId {
+            offset: 1248768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const note: super::super::IconId = super::super::IconId {
+            offset: 1246464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pause: super::super::IconId = super::super::IconId {
+            offset: 1251072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pause_circle: super::super::IconId = super::super::IconId {
+            offset: 1253376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pause_circle_filled: super::super::IconId = super::super::IconId {
+            offset: 1255680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pause_circle_outline: super::super::IconId = super::super::IconId {
+            offset: 1257984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const play_arrow: super::super::IconId = super::super::IconId {
+            offset: 1274112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const play_circle: super::super::IconId = super::super::IconId {
+            offset: 1276416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const play_circle_filled: super::super::IconId = super::super::IconId {
+            offset: 1278720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const play_circle_outline: super::super::IconId = super::super::IconId {
+            offset: 1281024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const play_disabled: super::super::IconId = super::super::IconId {
+            offset: 1283328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const playlist_add: super::super::IconId = super::super::IconId {
+            offset: 1260288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const playlist_add_check: super::super::IconId = super::super::IconId {
+            offset: 1262592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const playlist_add_check_circle: super::super::IconId = super::super::IconId {
+            offset: 1264896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const playlist_add_circle: super::super::IconId = super::super::IconId {
+            offset: 1267200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const playlist_play: super::super::IconId = super::super::IconId {
+            offset: 1269504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const playlist_remove: super::super::IconId = super::super::IconId {
+            offset: 1271808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const queue: super::super::IconId = super::super::IconId {
+            offset: 1285632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const queue_music: super::super::IconId = super::super::IconId {
+            offset: 1287936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const queue_play_next: super::super::IconId = super::super::IconId {
+            offset: 1290240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const radio: super::super::IconId = super::super::IconId {
+            offset: 1292544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const recent_actors: super::super::IconId = super::super::IconId {
+            offset: 1294848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_from_queue: super::super::IconId = super::super::IconId {
+            offset: 1297152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const repeat: super::super::IconId = super::super::IconId {
+            offset: 1299456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const repeat_on: super::super::IconId = super::super::IconId {
+            offset: 1301760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const repeat_one: super::super::IconId = super::super::IconId {
+            offset: 1304064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const repeat_one_on: super::super::IconId = super::super::IconId {
+            offset: 1306368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const replay: super::super::IconId = super::super::IconId {
+            offset: 1308672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const replay_10: super::super::IconId = super::super::IconId {
+            offset: 1310976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const replay_30: super::super::IconId = super::super::IconId {
+            offset: 1313280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const replay_5: super::super::IconId = super::super::IconId {
+            offset: 1315584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const replay_circle_filled: super::super::IconId = super::super::IconId {
+            offset: 1317888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sd: super::super::IconId = super::super::IconId {
+            offset: 1320192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shuffle: super::super::IconId = super::super::IconId {
+            offset: 1322496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shuffle_on: super::super::IconId = super::super::IconId {
+            offset: 1324800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const skip_next: super::super::IconId = super::super::IconId {
+            offset: 1327104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const skip_previous: super::super::IconId = super::super::IconId {
+            offset: 1329408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const slow_motion_video: super::super::IconId = super::super::IconId {
+            offset: 1331712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const snooze: super::super::IconId = super::super::IconId {
+            offset: 1334016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sort_by_alpha: super::super::IconId = super::super::IconId {
+            offset: 1336320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const speed: super::super::IconId = super::super::IconId {
+            offset: 1338624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stop: super::super::IconId = super::super::IconId {
+            offset: 1340928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stop_circle: super::super::IconId = super::super::IconId {
+            offset: 1343232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subscriptions: super::super::IconId = super::super::IconId {
+            offset: 1345536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subtitles: super::super::IconId = super::super::IconId {
+            offset: 1347840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const surround_sound: super::super::IconId = super::super::IconId {
+            offset: 1350144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_call: super::super::IconId = super::super::IconId {
+            offset: 1357056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_file: super::super::IconId = super::super::IconId {
+            offset: 1359360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_label: super::super::IconId = super::super::IconId {
+            offset: 1361664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_library: super::super::IconId = super::super::IconId {
+            offset: 1363968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_settings: super::super::IconId = super::super::IconId {
+            offset: 1366272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const videocam: super::super::IconId = super::super::IconId {
+            offset: 1352448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const videocam_off: super::super::IconId = super::super::IconId {
+            offset: 1354752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const volume_down: super::super::IconId = super::super::IconId {
+            offset: 1368576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const volume_down_alt: super::super::IconId = super::super::IconId {
+            offset: 1370880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const volume_mute: super::super::IconId = super::super::IconId {
+            offset: 1373184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const volume_off: super::super::IconId = super::super::IconId {
+            offset: 1375488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const volume_up: super::super::IconId = super::super::IconId {
+            offset: 1377792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const web: super::super::IconId = super::super::IconId {
+            offset: 1380096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const web_asset: super::super::IconId = super::super::IconId {
+            offset: 1382400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const web_asset_off: super::super::IconId = super::super::IconId {
+            offset: 1384704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod communication {
-        pub const _3p: super::super::IconId = super::super::IconId { offset: 1387008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_ic_call: super::super::IconId = super::super::IconId { offset: 1389312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const alternate_email: super::super::IconId = super::super::IconId { offset: 1391616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const app_registration: super::super::IconId = super::super::IconId { offset: 1393920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const business: super::super::IconId = super::super::IconId { offset: 1396224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call: super::super::IconId = super::super::IconId { offset: 1398528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_end: super::super::IconId = super::super::IconId { offset: 1400832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_made: super::super::IconId = super::super::IconId { offset: 1403136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_merge: super::super::IconId = super::super::IconId { offset: 1405440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_missed: super::super::IconId = super::super::IconId { offset: 1407744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_missed_outgoing: super::super::IconId = super::super::IconId { offset: 1410048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_received: super::super::IconId = super::super::IconId { offset: 1412352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const call_split: super::super::IconId = super::super::IconId { offset: 1414656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cancel_presentation: super::super::IconId = super::super::IconId { offset: 1416960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cell_tower: super::super::IconId = super::super::IconId { offset: 1419264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cell_wifi: super::super::IconId = super::super::IconId { offset: 1421568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chat: super::super::IconId = super::super::IconId { offset: 1423872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chat_bubble: super::super::IconId = super::super::IconId { offset: 1426176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chat_bubble_outline: super::super::IconId = super::super::IconId { offset: 1428480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const clear_all: super::super::IconId = super::super::IconId { offset: 1430784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const co_present: super::super::IconId = super::super::IconId { offset: 1446912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const comment: super::super::IconId = super::super::IconId { offset: 1433088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const comments_disabled: super::super::IconId = super::super::IconId { offset: 1435392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contact_emergency: super::super::IconId = super::super::IconId { offset: 1440000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contact_mail: super::super::IconId = super::super::IconId { offset: 1442304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contact_phone: super::super::IconId = super::super::IconId { offset: 1444608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contacts: super::super::IconId = super::super::IconId { offset: 1437696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const desktop_access_disabled: super::super::IconId = super::super::IconId { offset: 1449216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dialer_sip: super::super::IconId = super::super::IconId { offset: 1451520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dialpad: super::super::IconId = super::super::IconId { offset: 1453824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const document_scanner: super::super::IconId = super::super::IconId { offset: 1456128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const domain_disabled: super::super::IconId = super::super::IconId { offset: 1458432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const domain_verification: super::super::IconId = super::super::IconId { offset: 1460736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const duo: super::super::IconId = super::super::IconId { offset: 1463040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const email: super::super::IconId = super::super::IconId { offset: 1465344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forum: super::super::IconId = super::super::IconId { offset: 1467648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forward_to_inbox: super::super::IconId = super::super::IconId { offset: 1469952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hourglass_bottom: super::super::IconId = super::super::IconId { offset: 1472256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hourglass_top: super::super::IconId = super::super::IconId { offset: 1474560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hub: super::super::IconId = super::super::IconId { offset: 1476864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const import_contacts: super::super::IconId = super::super::IconId { offset: 1479168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const import_export: super::super::IconId = super::super::IconId { offset: 1481472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const invert_colors_off: super::super::IconId = super::super::IconId { offset: 1483776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const key: super::super::IconId = super::super::IconId { offset: 1486080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const key_off: super::super::IconId = super::super::IconId { offset: 1488384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const list_alt: super::super::IconId = super::super::IconId { offset: 1490688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const live_help: super::super::IconId = super::super::IconId { offset: 1492992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const location_off: super::super::IconId = super::super::IconId { offset: 1495296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const location_on: super::super::IconId = super::super::IconId { offset: 1497600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mail_lock: super::super::IconId = super::super::IconId { offset: 1499904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mail_outline: super::super::IconId = super::super::IconId { offset: 1502208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mark_chat_read: super::super::IconId = super::super::IconId { offset: 1504512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mark_chat_unread: super::super::IconId = super::super::IconId { offset: 1506816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mark_email_read: super::super::IconId = super::super::IconId { offset: 1509120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mark_email_unread: super::super::IconId = super::super::IconId { offset: 1511424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mark_unread_chat_alt: super::super::IconId = super::super::IconId { offset: 1513728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const message: super::super::IconId = super::super::IconId { offset: 1516032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mobile_screen_share: super::super::IconId = super::super::IconId { offset: 1518336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const more_time: super::super::IconId = super::super::IconId { offset: 1520640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nat: super::super::IconId = super::super::IconId { offset: 1522944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_sim: super::super::IconId = super::super::IconId { offset: 1525248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pause_presentation: super::super::IconId = super::super::IconId { offset: 1527552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_add_disabled: super::super::IconId = super::super::IconId { offset: 1529856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_search: super::super::IconId = super::super::IconId { offset: 1532160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone: super::super::IconId = super::super::IconId { offset: 1534464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_disabled: super::super::IconId = super::super::IconId { offset: 1545984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_enabled: super::super::IconId = super::super::IconId { offset: 1548288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phonelink_erase: super::super::IconId = super::super::IconId { offset: 1536768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phonelink_lock: super::super::IconId = super::super::IconId { offset: 1539072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phonelink_ring: super::super::IconId = super::super::IconId { offset: 1541376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phonelink_setup: super::super::IconId = super::super::IconId { offset: 1543680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const portable_wifi_off: super::super::IconId = super::super::IconId { offset: 1550592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const present_to_all: super::super::IconId = super::super::IconId { offset: 1552896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const print_disabled: super::super::IconId = super::super::IconId { offset: 1555200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const qr_code: super::super::IconId = super::super::IconId { offset: 1557504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const qr_code_2: super::super::IconId = super::super::IconId { offset: 1559808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const qr_code_scanner: super::super::IconId = super::super::IconId { offset: 1562112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const read_more: super::super::IconId = super::super::IconId { offset: 1564416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ring_volume: super::super::IconId = super::super::IconId { offset: 1566720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rss_feed: super::super::IconId = super::super::IconId { offset: 1569024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rtt: super::super::IconId = super::super::IconId { offset: 1571328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screen_share: super::super::IconId = super::super::IconId { offset: 1573632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const send_time_extension: super::super::IconId = super::super::IconId { offset: 1575936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sentiment_satisfied_alt: super::super::IconId = super::super::IconId { offset: 1578240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sip: super::super::IconId = super::super::IconId { offset: 1580544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const speaker_phone: super::super::IconId = super::super::IconId { offset: 1582848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const spoke: super::super::IconId = super::super::IconId { offset: 1585152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stay_current_landscape: super::super::IconId = super::super::IconId { offset: 1587456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stay_current_portrait: super::super::IconId = super::super::IconId { offset: 1589760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stay_primary_landscape: super::super::IconId = super::super::IconId { offset: 1592064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stay_primary_portrait: super::super::IconId = super::super::IconId { offset: 1594368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stop_screen_share: super::super::IconId = super::super::IconId { offset: 1596672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const swap_calls: super::super::IconId = super::super::IconId { offset: 1598976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const textsms: super::super::IconId = super::super::IconId { offset: 1601280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const unsubscribe: super::super::IconId = super::super::IconId { offset: 1603584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const voicemail: super::super::IconId = super::super::IconId { offset: 1605888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vpn_key: super::super::IconId = super::super::IconId { offset: 1608192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vpn_key_off: super::super::IconId = super::super::IconId { offset: 1610496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_calling: super::super::IconId = super::super::IconId { offset: 1612800u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const _3p: super::super::IconId = super::super::IconId {
+            offset: 1387008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_ic_call: super::super::IconId = super::super::IconId {
+            offset: 1389312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const alternate_email: super::super::IconId = super::super::IconId {
+            offset: 1391616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const app_registration: super::super::IconId = super::super::IconId {
+            offset: 1393920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const business: super::super::IconId = super::super::IconId {
+            offset: 1396224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call: super::super::IconId = super::super::IconId {
+            offset: 1398528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_end: super::super::IconId = super::super::IconId {
+            offset: 1400832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_made: super::super::IconId = super::super::IconId {
+            offset: 1403136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_merge: super::super::IconId = super::super::IconId {
+            offset: 1405440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_missed: super::super::IconId = super::super::IconId {
+            offset: 1407744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_missed_outgoing: super::super::IconId = super::super::IconId {
+            offset: 1410048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_received: super::super::IconId = super::super::IconId {
+            offset: 1412352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const call_split: super::super::IconId = super::super::IconId {
+            offset: 1414656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cancel_presentation: super::super::IconId = super::super::IconId {
+            offset: 1416960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cell_tower: super::super::IconId = super::super::IconId {
+            offset: 1419264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cell_wifi: super::super::IconId = super::super::IconId {
+            offset: 1421568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chat: super::super::IconId = super::super::IconId {
+            offset: 1423872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chat_bubble: super::super::IconId = super::super::IconId {
+            offset: 1426176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chat_bubble_outline: super::super::IconId = super::super::IconId {
+            offset: 1428480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const clear_all: super::super::IconId = super::super::IconId {
+            offset: 1430784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const co_present: super::super::IconId = super::super::IconId {
+            offset: 1446912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const comment: super::super::IconId = super::super::IconId {
+            offset: 1433088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const comments_disabled: super::super::IconId = super::super::IconId {
+            offset: 1435392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contact_emergency: super::super::IconId = super::super::IconId {
+            offset: 1440000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contact_mail: super::super::IconId = super::super::IconId {
+            offset: 1442304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contact_phone: super::super::IconId = super::super::IconId {
+            offset: 1444608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contacts: super::super::IconId = super::super::IconId {
+            offset: 1437696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const desktop_access_disabled: super::super::IconId = super::super::IconId {
+            offset: 1449216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dialer_sip: super::super::IconId = super::super::IconId {
+            offset: 1451520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dialpad: super::super::IconId = super::super::IconId {
+            offset: 1453824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const document_scanner: super::super::IconId = super::super::IconId {
+            offset: 1456128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const domain_disabled: super::super::IconId = super::super::IconId {
+            offset: 1458432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const domain_verification: super::super::IconId = super::super::IconId {
+            offset: 1460736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const duo: super::super::IconId = super::super::IconId {
+            offset: 1463040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const email: super::super::IconId = super::super::IconId {
+            offset: 1465344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forum: super::super::IconId = super::super::IconId {
+            offset: 1467648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forward_to_inbox: super::super::IconId = super::super::IconId {
+            offset: 1469952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hourglass_bottom: super::super::IconId = super::super::IconId {
+            offset: 1472256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hourglass_top: super::super::IconId = super::super::IconId {
+            offset: 1474560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hub: super::super::IconId = super::super::IconId {
+            offset: 1476864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const import_contacts: super::super::IconId = super::super::IconId {
+            offset: 1479168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const import_export: super::super::IconId = super::super::IconId {
+            offset: 1481472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const invert_colors_off: super::super::IconId = super::super::IconId {
+            offset: 1483776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const key: super::super::IconId = super::super::IconId {
+            offset: 1486080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const key_off: super::super::IconId = super::super::IconId {
+            offset: 1488384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const list_alt: super::super::IconId = super::super::IconId {
+            offset: 1490688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const live_help: super::super::IconId = super::super::IconId {
+            offset: 1492992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const location_off: super::super::IconId = super::super::IconId {
+            offset: 1495296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const location_on: super::super::IconId = super::super::IconId {
+            offset: 1497600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mail_lock: super::super::IconId = super::super::IconId {
+            offset: 1499904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mail_outline: super::super::IconId = super::super::IconId {
+            offset: 1502208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mark_chat_read: super::super::IconId = super::super::IconId {
+            offset: 1504512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mark_chat_unread: super::super::IconId = super::super::IconId {
+            offset: 1506816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mark_email_read: super::super::IconId = super::super::IconId {
+            offset: 1509120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mark_email_unread: super::super::IconId = super::super::IconId {
+            offset: 1511424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mark_unread_chat_alt: super::super::IconId = super::super::IconId {
+            offset: 1513728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const message: super::super::IconId = super::super::IconId {
+            offset: 1516032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mobile_screen_share: super::super::IconId = super::super::IconId {
+            offset: 1518336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const more_time: super::super::IconId = super::super::IconId {
+            offset: 1520640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nat: super::super::IconId = super::super::IconId {
+            offset: 1522944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_sim: super::super::IconId = super::super::IconId {
+            offset: 1525248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pause_presentation: super::super::IconId = super::super::IconId {
+            offset: 1527552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_add_disabled: super::super::IconId = super::super::IconId {
+            offset: 1529856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_search: super::super::IconId = super::super::IconId {
+            offset: 1532160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone: super::super::IconId = super::super::IconId {
+            offset: 1534464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_disabled: super::super::IconId = super::super::IconId {
+            offset: 1545984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_enabled: super::super::IconId = super::super::IconId {
+            offset: 1548288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phonelink_erase: super::super::IconId = super::super::IconId {
+            offset: 1536768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phonelink_lock: super::super::IconId = super::super::IconId {
+            offset: 1539072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phonelink_ring: super::super::IconId = super::super::IconId {
+            offset: 1541376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phonelink_setup: super::super::IconId = super::super::IconId {
+            offset: 1543680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const portable_wifi_off: super::super::IconId = super::super::IconId {
+            offset: 1550592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const present_to_all: super::super::IconId = super::super::IconId {
+            offset: 1552896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const print_disabled: super::super::IconId = super::super::IconId {
+            offset: 1555200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const qr_code: super::super::IconId = super::super::IconId {
+            offset: 1557504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const qr_code_2: super::super::IconId = super::super::IconId {
+            offset: 1559808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const qr_code_scanner: super::super::IconId = super::super::IconId {
+            offset: 1562112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const read_more: super::super::IconId = super::super::IconId {
+            offset: 1564416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ring_volume: super::super::IconId = super::super::IconId {
+            offset: 1566720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rss_feed: super::super::IconId = super::super::IconId {
+            offset: 1569024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rtt: super::super::IconId = super::super::IconId {
+            offset: 1571328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screen_share: super::super::IconId = super::super::IconId {
+            offset: 1573632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const send_time_extension: super::super::IconId = super::super::IconId {
+            offset: 1575936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sentiment_satisfied_alt: super::super::IconId = super::super::IconId {
+            offset: 1578240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sip: super::super::IconId = super::super::IconId {
+            offset: 1580544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const speaker_phone: super::super::IconId = super::super::IconId {
+            offset: 1582848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const spoke: super::super::IconId = super::super::IconId {
+            offset: 1585152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stay_current_landscape: super::super::IconId = super::super::IconId {
+            offset: 1587456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stay_current_portrait: super::super::IconId = super::super::IconId {
+            offset: 1589760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stay_primary_landscape: super::super::IconId = super::super::IconId {
+            offset: 1592064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stay_primary_portrait: super::super::IconId = super::super::IconId {
+            offset: 1594368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stop_screen_share: super::super::IconId = super::super::IconId {
+            offset: 1596672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const swap_calls: super::super::IconId = super::super::IconId {
+            offset: 1598976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const textsms: super::super::IconId = super::super::IconId {
+            offset: 1601280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const unsubscribe: super::super::IconId = super::super::IconId {
+            offset: 1603584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const voicemail: super::super::IconId = super::super::IconId {
+            offset: 1605888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vpn_key: super::super::IconId = super::super::IconId {
+            offset: 1608192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vpn_key_off: super::super::IconId = super::super::IconId {
+            offset: 1610496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_calling: super::super::IconId = super::super::IconId {
+            offset: 1612800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod content {
-        pub const add: super::super::IconId = super::super::IconId { offset: 1615104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_box: super::super::IconId = super::super::IconId { offset: 1617408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_circle: super::super::IconId = super::super::IconId { offset: 1619712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_circle_outline: super::super::IconId = super::super::IconId { offset: 1622016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_link: super::super::IconId = super::super::IconId { offset: 1624320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const amp_stories: super::super::IconId = super::super::IconId { offset: 1626624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const archive: super::super::IconId = super::super::IconId { offset: 1628928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const attribution: super::super::IconId = super::super::IconId { offset: 1631232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const backspace: super::super::IconId = super::super::IconId { offset: 1633536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ballot: super::super::IconId = super::super::IconId { offset: 1635840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const biotech: super::super::IconId = super::super::IconId { offset: 1638144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const block: super::super::IconId = super::super::IconId { offset: 1640448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const block_flipped: super::super::IconId = super::super::IconId { offset: 1642752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bolt: super::super::IconId = super::super::IconId { offset: 1645056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const calculate: super::super::IconId = super::super::IconId { offset: 1647360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const change_circle: super::super::IconId = super::super::IconId { offset: 1649664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const clear: super::super::IconId = super::super::IconId { offset: 1651968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const content_copy: super::super::IconId = super::super::IconId { offset: 1654272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const content_cut: super::super::IconId = super::super::IconId { offset: 1656576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const content_paste: super::super::IconId = super::super::IconId { offset: 1658880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const content_paste_go: super::super::IconId = super::super::IconId { offset: 1661184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const content_paste_off: super::super::IconId = super::super::IconId { offset: 1663488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const content_paste_search: super::super::IconId = super::super::IconId { offset: 1665792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const copy_all: super::super::IconId = super::super::IconId { offset: 1668096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const create: super::super::IconId = super::super::IconId { offset: 1670400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const delete_sweep: super::super::IconId = super::super::IconId { offset: 1672704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const deselect: super::super::IconId = super::super::IconId { offset: 1675008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drafts: super::super::IconId = super::super::IconId { offset: 1677312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dynamic_feed: super::super::IconId = super::super::IconId { offset: 1679616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_copy: super::super::IconId = super::super::IconId { offset: 1681920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_list: super::super::IconId = super::super::IconId { offset: 1684224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_list_off: super::super::IconId = super::super::IconId { offset: 1686528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flag: super::super::IconId = super::super::IconId { offset: 1688832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flag_circle: super::super::IconId = super::super::IconId { offset: 1691136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const font_download: super::super::IconId = super::super::IconId { offset: 1693440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const font_download_off: super::super::IconId = super::super::IconId { offset: 1695744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forward: super::super::IconId = super::super::IconId { offset: 1698048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gesture: super::super::IconId = super::super::IconId { offset: 1700352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const how_to_reg: super::super::IconId = super::super::IconId { offset: 1702656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const how_to_vote: super::super::IconId = super::super::IconId { offset: 1704960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const inbox: super::super::IconId = super::super::IconId { offset: 1707264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insights: super::super::IconId = super::super::IconId { offset: 1709568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const inventory: super::super::IconId = super::super::IconId { offset: 1711872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const inventory_2: super::super::IconId = super::super::IconId { offset: 1714176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const link: super::super::IconId = super::super::IconId { offset: 1716480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const link_off: super::super::IconId = super::super::IconId { offset: 1718784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const low_priority: super::super::IconId = super::super::IconId { offset: 1721088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mail: super::super::IconId = super::super::IconId { offset: 1723392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const markunread: super::super::IconId = super::super::IconId { offset: 1725696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const move_to_inbox: super::super::IconId = super::super::IconId { offset: 1728000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const next_week: super::super::IconId = super::super::IconId { offset: 1730304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const outlined_flag: super::super::IconId = super::super::IconId { offset: 1732608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const policy: super::super::IconId = super::super::IconId { offset: 1734912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const push_pin: super::super::IconId = super::super::IconId { offset: 1737216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const redo: super::super::IconId = super::super::IconId { offset: 1739520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove: super::super::IconId = super::super::IconId { offset: 1741824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_circle: super::super::IconId = super::super::IconId { offset: 1744128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_circle_outline: super::super::IconId = super::super::IconId { offset: 1746432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const reply: super::super::IconId = super::super::IconId { offset: 1748736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const reply_all: super::super::IconId = super::super::IconId { offset: 1751040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const report: super::super::IconId = super::super::IconId { offset: 1753344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const report_gmailerrorred: super::super::IconId = super::super::IconId { offset: 1755648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const report_off: super::super::IconId = super::super::IconId { offset: 1757952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const save: super::super::IconId = super::super::IconId { offset: 1760256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const save_alt: super::super::IconId = super::super::IconId { offset: 1762560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const save_as: super::super::IconId = super::super::IconId { offset: 1764864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const select_all: super::super::IconId = super::super::IconId { offset: 1767168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const send: super::super::IconId = super::super::IconId { offset: 1769472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shield: super::super::IconId = super::super::IconId { offset: 1771776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sort: super::super::IconId = super::super::IconId { offset: 1774080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const square_foot: super::super::IconId = super::super::IconId { offset: 1776384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stacked_bar_chart: super::super::IconId = super::super::IconId { offset: 1778688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stream: super::super::IconId = super::super::IconId { offset: 1780992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tag: super::super::IconId = super::super::IconId { offset: 1783296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_format: super::super::IconId = super::super::IconId { offset: 1785600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const unarchive: super::super::IconId = super::super::IconId { offset: 1787904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const undo: super::super::IconId = super::super::IconId { offset: 1790208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const upcoming: super::super::IconId = super::super::IconId { offset: 1792512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const waves: super::super::IconId = super::super::IconId { offset: 1794816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const web_stories: super::super::IconId = super::super::IconId { offset: 1797120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const weekend: super::super::IconId = super::super::IconId { offset: 1799424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const where_to_vote: super::super::IconId = super::super::IconId { offset: 1801728u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const add: super::super::IconId = super::super::IconId {
+            offset: 1615104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_box: super::super::IconId = super::super::IconId {
+            offset: 1617408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_circle: super::super::IconId = super::super::IconId {
+            offset: 1619712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_circle_outline: super::super::IconId = super::super::IconId {
+            offset: 1622016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_link: super::super::IconId = super::super::IconId {
+            offset: 1624320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const amp_stories: super::super::IconId = super::super::IconId {
+            offset: 1626624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const archive: super::super::IconId = super::super::IconId {
+            offset: 1628928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const attribution: super::super::IconId = super::super::IconId {
+            offset: 1631232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const backspace: super::super::IconId = super::super::IconId {
+            offset: 1633536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ballot: super::super::IconId = super::super::IconId {
+            offset: 1635840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const biotech: super::super::IconId = super::super::IconId {
+            offset: 1638144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const block: super::super::IconId = super::super::IconId {
+            offset: 1640448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const block_flipped: super::super::IconId = super::super::IconId {
+            offset: 1642752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bolt: super::super::IconId = super::super::IconId {
+            offset: 1645056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const calculate: super::super::IconId = super::super::IconId {
+            offset: 1647360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const change_circle: super::super::IconId = super::super::IconId {
+            offset: 1649664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const clear: super::super::IconId = super::super::IconId {
+            offset: 1651968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const content_copy: super::super::IconId = super::super::IconId {
+            offset: 1654272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const content_cut: super::super::IconId = super::super::IconId {
+            offset: 1656576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const content_paste: super::super::IconId = super::super::IconId {
+            offset: 1658880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const content_paste_go: super::super::IconId = super::super::IconId {
+            offset: 1661184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const content_paste_off: super::super::IconId = super::super::IconId {
+            offset: 1663488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const content_paste_search: super::super::IconId = super::super::IconId {
+            offset: 1665792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const copy_all: super::super::IconId = super::super::IconId {
+            offset: 1668096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const create: super::super::IconId = super::super::IconId {
+            offset: 1670400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const delete_sweep: super::super::IconId = super::super::IconId {
+            offset: 1672704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const deselect: super::super::IconId = super::super::IconId {
+            offset: 1675008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drafts: super::super::IconId = super::super::IconId {
+            offset: 1677312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dynamic_feed: super::super::IconId = super::super::IconId {
+            offset: 1679616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_copy: super::super::IconId = super::super::IconId {
+            offset: 1681920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_list: super::super::IconId = super::super::IconId {
+            offset: 1684224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_list_off: super::super::IconId = super::super::IconId {
+            offset: 1686528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flag: super::super::IconId = super::super::IconId {
+            offset: 1688832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flag_circle: super::super::IconId = super::super::IconId {
+            offset: 1691136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const font_download: super::super::IconId = super::super::IconId {
+            offset: 1693440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const font_download_off: super::super::IconId = super::super::IconId {
+            offset: 1695744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forward: super::super::IconId = super::super::IconId {
+            offset: 1698048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gesture: super::super::IconId = super::super::IconId {
+            offset: 1700352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const how_to_reg: super::super::IconId = super::super::IconId {
+            offset: 1702656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const how_to_vote: super::super::IconId = super::super::IconId {
+            offset: 1704960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const inbox: super::super::IconId = super::super::IconId {
+            offset: 1707264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insights: super::super::IconId = super::super::IconId {
+            offset: 1709568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const inventory: super::super::IconId = super::super::IconId {
+            offset: 1711872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const inventory_2: super::super::IconId = super::super::IconId {
+            offset: 1714176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const link: super::super::IconId = super::super::IconId {
+            offset: 1716480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const link_off: super::super::IconId = super::super::IconId {
+            offset: 1718784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const low_priority: super::super::IconId = super::super::IconId {
+            offset: 1721088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mail: super::super::IconId = super::super::IconId {
+            offset: 1723392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const markunread: super::super::IconId = super::super::IconId {
+            offset: 1725696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const move_to_inbox: super::super::IconId = super::super::IconId {
+            offset: 1728000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const next_week: super::super::IconId = super::super::IconId {
+            offset: 1730304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const outlined_flag: super::super::IconId = super::super::IconId {
+            offset: 1732608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const policy: super::super::IconId = super::super::IconId {
+            offset: 1734912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const push_pin: super::super::IconId = super::super::IconId {
+            offset: 1737216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const redo: super::super::IconId = super::super::IconId {
+            offset: 1739520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove: super::super::IconId = super::super::IconId {
+            offset: 1741824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_circle: super::super::IconId = super::super::IconId {
+            offset: 1744128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_circle_outline: super::super::IconId = super::super::IconId {
+            offset: 1746432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const reply: super::super::IconId = super::super::IconId {
+            offset: 1748736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const reply_all: super::super::IconId = super::super::IconId {
+            offset: 1751040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const report: super::super::IconId = super::super::IconId {
+            offset: 1753344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const report_gmailerrorred: super::super::IconId = super::super::IconId {
+            offset: 1755648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const report_off: super::super::IconId = super::super::IconId {
+            offset: 1757952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const save: super::super::IconId = super::super::IconId {
+            offset: 1760256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const save_alt: super::super::IconId = super::super::IconId {
+            offset: 1762560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const save_as: super::super::IconId = super::super::IconId {
+            offset: 1764864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const select_all: super::super::IconId = super::super::IconId {
+            offset: 1767168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const send: super::super::IconId = super::super::IconId {
+            offset: 1769472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shield: super::super::IconId = super::super::IconId {
+            offset: 1771776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sort: super::super::IconId = super::super::IconId {
+            offset: 1774080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const square_foot: super::super::IconId = super::super::IconId {
+            offset: 1776384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stacked_bar_chart: super::super::IconId = super::super::IconId {
+            offset: 1778688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stream: super::super::IconId = super::super::IconId {
+            offset: 1780992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tag: super::super::IconId = super::super::IconId {
+            offset: 1783296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_format: super::super::IconId = super::super::IconId {
+            offset: 1785600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const unarchive: super::super::IconId = super::super::IconId {
+            offset: 1787904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const undo: super::super::IconId = super::super::IconId {
+            offset: 1790208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const upcoming: super::super::IconId = super::super::IconId {
+            offset: 1792512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const waves: super::super::IconId = super::super::IconId {
+            offset: 1794816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const web_stories: super::super::IconId = super::super::IconId {
+            offset: 1797120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const weekend: super::super::IconId = super::super::IconId {
+            offset: 1799424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const where_to_vote: super::super::IconId = super::super::IconId {
+            offset: 1801728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod device {
-        pub const _1x_mobiledata: super::super::IconId = super::super::IconId { offset: 1804032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _30fps: super::super::IconId = super::super::IconId { offset: 1806336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _3g_mobiledata: super::super::IconId = super::super::IconId { offset: 1808640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _4g_mobiledata: super::super::IconId = super::super::IconId { offset: 1810944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _4g_plus_mobiledata: super::super::IconId = super::super::IconId { offset: 1813248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _60fps: super::super::IconId = super::super::IconId { offset: 1815552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const access_alarm: super::super::IconId = super::super::IconId { offset: 1817856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const access_alarms: super::super::IconId = super::super::IconId { offset: 1820160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const access_time: super::super::IconId = super::super::IconId { offset: 1822464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const access_time_filled: super::super::IconId = super::super::IconId { offset: 1824768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ad_units: super::super::IconId = super::super::IconId { offset: 1831680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_alarm: super::super::IconId = super::super::IconId { offset: 1827072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_to_home_screen: super::super::IconId = super::super::IconId { offset: 1829376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const air: super::super::IconId = super::super::IconId { offset: 1833984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airplane_ticket: super::super::IconId = super::super::IconId { offset: 1840896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airplanemode_active: super::super::IconId = super::super::IconId { offset: 1836288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airplanemode_inactive: super::super::IconId = super::super::IconId { offset: 1838592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const aod: super::super::IconId = super::super::IconId { offset: 1843200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_0_bar: super::super::IconId = super::super::IconId { offset: 1845504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_1_bar: super::super::IconId = super::super::IconId { offset: 1847808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_2_bar: super::super::IconId = super::super::IconId { offset: 1850112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_3_bar: super::super::IconId = super::super::IconId { offset: 1852416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_4_bar: super::super::IconId = super::super::IconId { offset: 1854720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_5_bar: super::super::IconId = super::super::IconId { offset: 1857024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_6_bar: super::super::IconId = super::super::IconId { offset: 1859328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_alert: super::super::IconId = super::super::IconId { offset: 1861632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_charging_full: super::super::IconId = super::super::IconId { offset: 1863936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_full: super::super::IconId = super::super::IconId { offset: 1866240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_saver: super::super::IconId = super::super::IconId { offset: 1868544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_std: super::super::IconId = super::super::IconId { offset: 1870848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const battery_unknown: super::super::IconId = super::super::IconId { offset: 1873152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bloodtype: super::super::IconId = super::super::IconId { offset: 1875456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bluetooth: super::super::IconId = super::super::IconId { offset: 1877760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bluetooth_connected: super::super::IconId = super::super::IconId { offset: 1880064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bluetooth_disabled: super::super::IconId = super::super::IconId { offset: 1882368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bluetooth_drive: super::super::IconId = super::super::IconId { offset: 1884672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bluetooth_searching: super::super::IconId = super::super::IconId { offset: 1886976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_auto: super::super::IconId = super::super::IconId { offset: 1889280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_high: super::super::IconId = super::super::IconId { offset: 1891584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_low: super::super::IconId = super::super::IconId { offset: 1893888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_medium: super::super::IconId = super::super::IconId { offset: 1896192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cable: super::super::IconId = super::super::IconId { offset: 1898496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cameraswitch: super::super::IconId = super::super::IconId { offset: 1900800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const credit_score: super::super::IconId = super::super::IconId { offset: 1903104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dark_mode: super::super::IconId = super::super::IconId { offset: 1905408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const data_saver_off: super::super::IconId = super::super::IconId { offset: 1912320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const data_saver_on: super::super::IconId = super::super::IconId { offset: 1914624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const data_usage: super::super::IconId = super::super::IconId { offset: 1916928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dataset: super::super::IconId = super::super::IconId { offset: 1907712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dataset_linked: super::super::IconId = super::super::IconId { offset: 1910016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const developer_mode: super::super::IconId = super::super::IconId { offset: 1919232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const device_thermostat: super::super::IconId = super::super::IconId { offset: 1926144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const devices: super::super::IconId = super::super::IconId { offset: 1921536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const devices_fold: super::super::IconId = super::super::IconId { offset: 1923840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const discount: super::super::IconId = super::super::IconId { offset: 1928448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_not_disturb_on_total_silence: super::super::IconId = super::super::IconId { offset: 1930752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dvr: super::super::IconId = super::super::IconId { offset: 1933056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const e_mobiledata: super::super::IconId = super::super::IconId { offset: 1939968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edgesensor_high: super::super::IconId = super::super::IconId { offset: 1935360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edgesensor_low: super::super::IconId = super::super::IconId { offset: 1937664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flashlight_off: super::super::IconId = super::super::IconId { offset: 1942272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flashlight_on: super::super::IconId = super::super::IconId { offset: 1944576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flourescent: super::super::IconId = super::super::IconId { offset: 1946880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fluorescent: super::super::IconId = super::super::IconId { offset: 1949184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fmd_bad: super::super::IconId = super::super::IconId { offset: 1951488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fmd_good: super::super::IconId = super::super::IconId { offset: 1953792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const g_mobiledata: super::super::IconId = super::super::IconId { offset: 1979136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gpp_bad: super::super::IconId = super::super::IconId { offset: 1956096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gpp_good: super::super::IconId = super::super::IconId { offset: 1958400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gpp_maybe: super::super::IconId = super::super::IconId { offset: 1960704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gps_fixed: super::super::IconId = super::super::IconId { offset: 1963008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gps_not_fixed: super::super::IconId = super::super::IconId { offset: 1965312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gps_off: super::super::IconId = super::super::IconId { offset: 1967616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const graphic_eq: super::super::IconId = super::super::IconId { offset: 1969920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grid_3x3: super::super::IconId = super::super::IconId { offset: 1972224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grid_4x4: super::super::IconId = super::super::IconId { offset: 1974528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grid_goldenratio: super::super::IconId = super::super::IconId { offset: 1976832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const h_mobiledata: super::super::IconId = super::super::IconId { offset: 1990656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const h_plus_mobiledata: super::super::IconId = super::super::IconId { offset: 1992960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_auto: super::super::IconId = super::super::IconId { offset: 1981440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_auto_select: super::super::IconId = super::super::IconId { offset: 1983744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_off_select: super::super::IconId = super::super::IconId { offset: 1986048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_on_select: super::super::IconId = super::super::IconId { offset: 1988352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lan: super::super::IconId = super::super::IconId { offset: 1995264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lens_blur: super::super::IconId = super::super::IconId { offset: 1997568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const light_mode: super::super::IconId = super::super::IconId { offset: 1999872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const location_disabled: super::super::IconId = super::super::IconId { offset: 2002176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const location_searching: super::super::IconId = super::super::IconId { offset: 2004480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lte_mobiledata: super::super::IconId = super::super::IconId { offset: 2006784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lte_plus_mobiledata: super::super::IconId = super::super::IconId { offset: 2009088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const macro_off: super::super::IconId = super::super::IconId { offset: 2011392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const media_bluetooth_off: super::super::IconId = super::super::IconId { offset: 2013696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const media_bluetooth_on: super::super::IconId = super::super::IconId { offset: 2016000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const medication: super::super::IconId = super::super::IconId { offset: 2018304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const medication_liquid: super::super::IconId = super::super::IconId { offset: 2020608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mobile_friendly: super::super::IconId = super::super::IconId { offset: 2025216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mobile_off: super::super::IconId = super::super::IconId { offset: 2027520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mobiledata_off: super::super::IconId = super::super::IconId { offset: 2022912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode_night: super::super::IconId = super::super::IconId { offset: 2029824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode_standby: super::super::IconId = super::super::IconId { offset: 2032128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const monitor_heart: super::super::IconId = super::super::IconId { offset: 2034432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const monitor_weight: super::super::IconId = super::super::IconId { offset: 2036736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nearby_error: super::super::IconId = super::super::IconId { offset: 2039040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nearby_off: super::super::IconId = super::super::IconId { offset: 2041344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_cell: super::super::IconId = super::super::IconId { offset: 2043648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_wifi: super::super::IconId = super::super::IconId { offset: 2045952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_wifi_1_bar: super::super::IconId = super::super::IconId { offset: 2048256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_wifi_2_bar: super::super::IconId = super::super::IconId { offset: 2050560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_wifi_3_bar: super::super::IconId = super::super::IconId { offset: 2052864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nfc: super::super::IconId = super::super::IconId { offset: 2055168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nightlight: super::super::IconId = super::super::IconId { offset: 2057472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const note_alt: super::super::IconId = super::super::IconId { offset: 2059776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const password: super::super::IconId = super::super::IconId { offset: 2062080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pattern: super::super::IconId = super::super::IconId { offset: 2064384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phishing: super::super::IconId = super::super::IconId { offset: 2066688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pin: super::super::IconId = super::super::IconId { offset: 2068992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const play_lesson: super::super::IconId = super::super::IconId { offset: 2071296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const price_change: super::super::IconId = super::super::IconId { offset: 2073600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const price_check: super::super::IconId = super::super::IconId { offset: 2075904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const punch_clock: super::super::IconId = super::super::IconId { offset: 2078208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const quiz: super::super::IconId = super::super::IconId { offset: 2080512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const r_mobiledata: super::super::IconId = super::super::IconId { offset: 2096640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const radar: super::super::IconId = super::super::IconId { offset: 2082816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remember_me: super::super::IconId = super::super::IconId { offset: 2085120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const reset_tv: super::super::IconId = super::super::IconId { offset: 2087424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const restart_alt: super::super::IconId = super::super::IconId { offset: 2089728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const reviews: super::super::IconId = super::super::IconId { offset: 2092032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rsvp: super::super::IconId = super::super::IconId { offset: 2094336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screen_lock_landscape: super::super::IconId = super::super::IconId { offset: 2103552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screen_lock_portrait: super::super::IconId = super::super::IconId { offset: 2105856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screen_lock_rotation: super::super::IconId = super::super::IconId { offset: 2108160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screen_rotation: super::super::IconId = super::super::IconId { offset: 2110464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screen_search_desktop: super::super::IconId = super::super::IconId { offset: 2112768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screenshot: super::super::IconId = super::super::IconId { offset: 2098944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screenshot_monitor: super::super::IconId = super::super::IconId { offset: 2101248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sd_storage: super::super::IconId = super::super::IconId { offset: 2115072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const security_update: super::super::IconId = super::super::IconId { offset: 2117376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const security_update_good: super::super::IconId = super::super::IconId { offset: 2119680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const security_update_warning: super::super::IconId = super::super::IconId { offset: 2121984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sell: super::super::IconId = super::super::IconId { offset: 2124288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const send_to_mobile: super::super::IconId = super::super::IconId { offset: 2126592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_suggest: super::super::IconId = super::super::IconId { offset: 2128896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const settings_system_daydream: super::super::IconId = super::super::IconId { offset: 2131200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const share_location: super::super::IconId = super::super::IconId { offset: 2133504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shortcut: super::super::IconId = super::super::IconId { offset: 2135808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_0_bar: super::super::IconId = super::super::IconId { offset: 2138112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_4_bar: super::super::IconId = super::super::IconId { offset: 2140416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_alt: super::super::IconId = super::super::IconId { offset: 2142720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_alt_1_bar: super::super::IconId = super::super::IconId { offset: 2145024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_alt_2_bar: super::super::IconId = super::super::IconId { offset: 2147328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_connected_no_internet_0_bar: super::super::IconId = super::super::IconId { offset: 2149632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_connected_no_internet_4_bar: super::super::IconId = super::super::IconId { offset: 2151936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_no_sim: super::super::IconId = super::super::IconId { offset: 2156544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_nodata: super::super::IconId = super::super::IconId { offset: 2154240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_null: super::super::IconId = super::super::IconId { offset: 2158848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_cellular_off: super::super::IconId = super::super::IconId { offset: 2161152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_0_bar: super::super::IconId = super::super::IconId { offset: 2163456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_4_bar: super::super::IconId = super::super::IconId { offset: 2165760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_4_bar_lock: super::super::IconId = super::super::IconId { offset: 2168064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_bad: super::super::IconId = super::super::IconId { offset: 2170368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_connected_no_internet_4: super::super::IconId = super::super::IconId { offset: 2172672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_off: super::super::IconId = super::super::IconId { offset: 2174976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_statusbar_4_bar: super::super::IconId = super::super::IconId { offset: 2177280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_statusbar_connected_no_internet_4: super::super::IconId = super::super::IconId { offset: 2179584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signal_wifi_statusbar_null: super::super::IconId = super::super::IconId { offset: 2181888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sim_card_download: super::super::IconId = super::super::IconId { offset: 2184192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const splitscreen: super::super::IconId = super::super::IconId { offset: 2186496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sports_score: super::super::IconId = super::super::IconId { offset: 2188800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ssid_chart: super::super::IconId = super::super::IconId { offset: 2191104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const storage: super::super::IconId = super::super::IconId { offset: 2193408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const storm: super::super::IconId = super::super::IconId { offset: 2195712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const summarize: super::super::IconId = super::super::IconId { offset: 2198016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const system_security_update: super::super::IconId = super::super::IconId { offset: 2200320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const system_security_update_good: super::super::IconId = super::super::IconId { offset: 2202624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const system_security_update_warning: super::super::IconId = super::super::IconId { offset: 2204928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const task: super::super::IconId = super::super::IconId { offset: 2207232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const thermostat: super::super::IconId = super::super::IconId { offset: 2209536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timer_10_select: super::super::IconId = super::super::IconId { offset: 2211840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timer_3_select: super::super::IconId = super::super::IconId { offset: 2214144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tungsten: super::super::IconId = super::super::IconId { offset: 2216448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const usb: super::super::IconId = super::super::IconId { offset: 2218752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const usb_off: super::super::IconId = super::super::IconId { offset: 2221056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wallpaper: super::super::IconId = super::super::IconId { offset: 2223360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const water: super::super::IconId = super::super::IconId { offset: 2225664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const widgets: super::super::IconId = super::super::IconId { offset: 2227968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_1_bar: super::super::IconId = super::super::IconId { offset: 2230272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_2_bar: super::super::IconId = super::super::IconId { offset: 2232576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_calling_3: super::super::IconId = super::super::IconId { offset: 2234880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_channel: super::super::IconId = super::super::IconId { offset: 2237184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_find: super::super::IconId = super::super::IconId { offset: 2239488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_lock: super::super::IconId = super::super::IconId { offset: 2241792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_password: super::super::IconId = super::super::IconId { offset: 2244096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_tethering: super::super::IconId = super::super::IconId { offset: 2246400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_tethering_error: super::super::IconId = super::super::IconId { offset: 2248704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_tethering_error_rounded: super::super::IconId = super::super::IconId { offset: 2251008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_tethering_off: super::super::IconId = super::super::IconId { offset: 2253312u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const _1x_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1804032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _30fps: super::super::IconId = super::super::IconId {
+            offset: 1806336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _3g_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1808640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _4g_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1810944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _4g_plus_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1813248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _60fps: super::super::IconId = super::super::IconId {
+            offset: 1815552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const access_alarm: super::super::IconId = super::super::IconId {
+            offset: 1817856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const access_alarms: super::super::IconId = super::super::IconId {
+            offset: 1820160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const access_time: super::super::IconId = super::super::IconId {
+            offset: 1822464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const access_time_filled: super::super::IconId = super::super::IconId {
+            offset: 1824768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ad_units: super::super::IconId = super::super::IconId {
+            offset: 1831680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_alarm: super::super::IconId = super::super::IconId {
+            offset: 1827072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_to_home_screen: super::super::IconId = super::super::IconId {
+            offset: 1829376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const air: super::super::IconId = super::super::IconId {
+            offset: 1833984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airplane_ticket: super::super::IconId = super::super::IconId {
+            offset: 1840896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airplanemode_active: super::super::IconId = super::super::IconId {
+            offset: 1836288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airplanemode_inactive: super::super::IconId = super::super::IconId {
+            offset: 1838592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const aod: super::super::IconId = super::super::IconId {
+            offset: 1843200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_0_bar: super::super::IconId = super::super::IconId {
+            offset: 1845504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_1_bar: super::super::IconId = super::super::IconId {
+            offset: 1847808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_2_bar: super::super::IconId = super::super::IconId {
+            offset: 1850112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_3_bar: super::super::IconId = super::super::IconId {
+            offset: 1852416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_4_bar: super::super::IconId = super::super::IconId {
+            offset: 1854720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_5_bar: super::super::IconId = super::super::IconId {
+            offset: 1857024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_6_bar: super::super::IconId = super::super::IconId {
+            offset: 1859328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_alert: super::super::IconId = super::super::IconId {
+            offset: 1861632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_charging_full: super::super::IconId = super::super::IconId {
+            offset: 1863936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_full: super::super::IconId = super::super::IconId {
+            offset: 1866240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_saver: super::super::IconId = super::super::IconId {
+            offset: 1868544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_std: super::super::IconId = super::super::IconId {
+            offset: 1870848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const battery_unknown: super::super::IconId = super::super::IconId {
+            offset: 1873152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bloodtype: super::super::IconId = super::super::IconId {
+            offset: 1875456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bluetooth: super::super::IconId = super::super::IconId {
+            offset: 1877760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bluetooth_connected: super::super::IconId = super::super::IconId {
+            offset: 1880064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bluetooth_disabled: super::super::IconId = super::super::IconId {
+            offset: 1882368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bluetooth_drive: super::super::IconId = super::super::IconId {
+            offset: 1884672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bluetooth_searching: super::super::IconId = super::super::IconId {
+            offset: 1886976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_auto: super::super::IconId = super::super::IconId {
+            offset: 1889280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_high: super::super::IconId = super::super::IconId {
+            offset: 1891584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_low: super::super::IconId = super::super::IconId {
+            offset: 1893888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_medium: super::super::IconId = super::super::IconId {
+            offset: 1896192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cable: super::super::IconId = super::super::IconId {
+            offset: 1898496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cameraswitch: super::super::IconId = super::super::IconId {
+            offset: 1900800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const credit_score: super::super::IconId = super::super::IconId {
+            offset: 1903104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dark_mode: super::super::IconId = super::super::IconId {
+            offset: 1905408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const data_saver_off: super::super::IconId = super::super::IconId {
+            offset: 1912320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const data_saver_on: super::super::IconId = super::super::IconId {
+            offset: 1914624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const data_usage: super::super::IconId = super::super::IconId {
+            offset: 1916928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dataset: super::super::IconId = super::super::IconId {
+            offset: 1907712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dataset_linked: super::super::IconId = super::super::IconId {
+            offset: 1910016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const developer_mode: super::super::IconId = super::super::IconId {
+            offset: 1919232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const device_thermostat: super::super::IconId = super::super::IconId {
+            offset: 1926144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const devices: super::super::IconId = super::super::IconId {
+            offset: 1921536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const devices_fold: super::super::IconId = super::super::IconId {
+            offset: 1923840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const discount: super::super::IconId = super::super::IconId {
+            offset: 1928448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_not_disturb_on_total_silence: super::super::IconId = super::super::IconId {
+            offset: 1930752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dvr: super::super::IconId = super::super::IconId {
+            offset: 1933056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const e_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1939968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edgesensor_high: super::super::IconId = super::super::IconId {
+            offset: 1935360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edgesensor_low: super::super::IconId = super::super::IconId {
+            offset: 1937664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flashlight_off: super::super::IconId = super::super::IconId {
+            offset: 1942272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flashlight_on: super::super::IconId = super::super::IconId {
+            offset: 1944576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flourescent: super::super::IconId = super::super::IconId {
+            offset: 1946880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fluorescent: super::super::IconId = super::super::IconId {
+            offset: 1949184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fmd_bad: super::super::IconId = super::super::IconId {
+            offset: 1951488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fmd_good: super::super::IconId = super::super::IconId {
+            offset: 1953792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const g_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1979136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gpp_bad: super::super::IconId = super::super::IconId {
+            offset: 1956096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gpp_good: super::super::IconId = super::super::IconId {
+            offset: 1958400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gpp_maybe: super::super::IconId = super::super::IconId {
+            offset: 1960704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gps_fixed: super::super::IconId = super::super::IconId {
+            offset: 1963008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gps_not_fixed: super::super::IconId = super::super::IconId {
+            offset: 1965312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gps_off: super::super::IconId = super::super::IconId {
+            offset: 1967616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const graphic_eq: super::super::IconId = super::super::IconId {
+            offset: 1969920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grid_3x3: super::super::IconId = super::super::IconId {
+            offset: 1972224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grid_4x4: super::super::IconId = super::super::IconId {
+            offset: 1974528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grid_goldenratio: super::super::IconId = super::super::IconId {
+            offset: 1976832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const h_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1990656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const h_plus_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 1992960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_auto: super::super::IconId = super::super::IconId {
+            offset: 1981440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_auto_select: super::super::IconId = super::super::IconId {
+            offset: 1983744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_off_select: super::super::IconId = super::super::IconId {
+            offset: 1986048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_on_select: super::super::IconId = super::super::IconId {
+            offset: 1988352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lan: super::super::IconId = super::super::IconId {
+            offset: 1995264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lens_blur: super::super::IconId = super::super::IconId {
+            offset: 1997568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const light_mode: super::super::IconId = super::super::IconId {
+            offset: 1999872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const location_disabled: super::super::IconId = super::super::IconId {
+            offset: 2002176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const location_searching: super::super::IconId = super::super::IconId {
+            offset: 2004480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lte_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 2006784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lte_plus_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 2009088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const macro_off: super::super::IconId = super::super::IconId {
+            offset: 2011392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const media_bluetooth_off: super::super::IconId = super::super::IconId {
+            offset: 2013696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const media_bluetooth_on: super::super::IconId = super::super::IconId {
+            offset: 2016000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const medication: super::super::IconId = super::super::IconId {
+            offset: 2018304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const medication_liquid: super::super::IconId = super::super::IconId {
+            offset: 2020608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mobile_friendly: super::super::IconId = super::super::IconId {
+            offset: 2025216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mobile_off: super::super::IconId = super::super::IconId {
+            offset: 2027520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mobiledata_off: super::super::IconId = super::super::IconId {
+            offset: 2022912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode_night: super::super::IconId = super::super::IconId {
+            offset: 2029824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode_standby: super::super::IconId = super::super::IconId {
+            offset: 2032128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const monitor_heart: super::super::IconId = super::super::IconId {
+            offset: 2034432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const monitor_weight: super::super::IconId = super::super::IconId {
+            offset: 2036736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nearby_error: super::super::IconId = super::super::IconId {
+            offset: 2039040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nearby_off: super::super::IconId = super::super::IconId {
+            offset: 2041344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_cell: super::super::IconId = super::super::IconId {
+            offset: 2043648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_wifi: super::super::IconId = super::super::IconId {
+            offset: 2045952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_wifi_1_bar: super::super::IconId = super::super::IconId {
+            offset: 2048256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_wifi_2_bar: super::super::IconId = super::super::IconId {
+            offset: 2050560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_wifi_3_bar: super::super::IconId = super::super::IconId {
+            offset: 2052864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nfc: super::super::IconId = super::super::IconId {
+            offset: 2055168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nightlight: super::super::IconId = super::super::IconId {
+            offset: 2057472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const note_alt: super::super::IconId = super::super::IconId {
+            offset: 2059776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const password: super::super::IconId = super::super::IconId {
+            offset: 2062080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pattern: super::super::IconId = super::super::IconId {
+            offset: 2064384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phishing: super::super::IconId = super::super::IconId {
+            offset: 2066688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pin: super::super::IconId = super::super::IconId {
+            offset: 2068992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const play_lesson: super::super::IconId = super::super::IconId {
+            offset: 2071296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const price_change: super::super::IconId = super::super::IconId {
+            offset: 2073600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const price_check: super::super::IconId = super::super::IconId {
+            offset: 2075904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const punch_clock: super::super::IconId = super::super::IconId {
+            offset: 2078208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const quiz: super::super::IconId = super::super::IconId {
+            offset: 2080512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const r_mobiledata: super::super::IconId = super::super::IconId {
+            offset: 2096640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const radar: super::super::IconId = super::super::IconId {
+            offset: 2082816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remember_me: super::super::IconId = super::super::IconId {
+            offset: 2085120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const reset_tv: super::super::IconId = super::super::IconId {
+            offset: 2087424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const restart_alt: super::super::IconId = super::super::IconId {
+            offset: 2089728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const reviews: super::super::IconId = super::super::IconId {
+            offset: 2092032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rsvp: super::super::IconId = super::super::IconId {
+            offset: 2094336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screen_lock_landscape: super::super::IconId = super::super::IconId {
+            offset: 2103552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screen_lock_portrait: super::super::IconId = super::super::IconId {
+            offset: 2105856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screen_lock_rotation: super::super::IconId = super::super::IconId {
+            offset: 2108160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screen_rotation: super::super::IconId = super::super::IconId {
+            offset: 2110464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screen_search_desktop: super::super::IconId = super::super::IconId {
+            offset: 2112768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screenshot: super::super::IconId = super::super::IconId {
+            offset: 2098944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screenshot_monitor: super::super::IconId = super::super::IconId {
+            offset: 2101248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sd_storage: super::super::IconId = super::super::IconId {
+            offset: 2115072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const security_update: super::super::IconId = super::super::IconId {
+            offset: 2117376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const security_update_good: super::super::IconId = super::super::IconId {
+            offset: 2119680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const security_update_warning: super::super::IconId = super::super::IconId {
+            offset: 2121984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sell: super::super::IconId = super::super::IconId {
+            offset: 2124288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const send_to_mobile: super::super::IconId = super::super::IconId {
+            offset: 2126592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_suggest: super::super::IconId = super::super::IconId {
+            offset: 2128896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const settings_system_daydream: super::super::IconId = super::super::IconId {
+            offset: 2131200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const share_location: super::super::IconId = super::super::IconId {
+            offset: 2133504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shortcut: super::super::IconId = super::super::IconId {
+            offset: 2135808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_0_bar: super::super::IconId = super::super::IconId {
+            offset: 2138112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_4_bar: super::super::IconId = super::super::IconId {
+            offset: 2140416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_alt: super::super::IconId = super::super::IconId {
+            offset: 2142720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_alt_1_bar: super::super::IconId = super::super::IconId {
+            offset: 2145024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_alt_2_bar: super::super::IconId = super::super::IconId {
+            offset: 2147328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_connected_no_internet_0_bar: super::super::IconId =
+            super::super::IconId {
+                offset: 2149632u32,
+                len: 2304u32,
+                width: 48u16,
+                height: 48u16,
+            };
+        pub const signal_cellular_connected_no_internet_4_bar: super::super::IconId =
+            super::super::IconId {
+                offset: 2151936u32,
+                len: 2304u32,
+                width: 48u16,
+                height: 48u16,
+            };
+        pub const signal_cellular_no_sim: super::super::IconId = super::super::IconId {
+            offset: 2156544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_nodata: super::super::IconId = super::super::IconId {
+            offset: 2154240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_null: super::super::IconId = super::super::IconId {
+            offset: 2158848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_cellular_off: super::super::IconId = super::super::IconId {
+            offset: 2161152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_wifi_0_bar: super::super::IconId = super::super::IconId {
+            offset: 2163456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_wifi_4_bar: super::super::IconId = super::super::IconId {
+            offset: 2165760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_wifi_4_bar_lock: super::super::IconId = super::super::IconId {
+            offset: 2168064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_wifi_bad: super::super::IconId = super::super::IconId {
+            offset: 2170368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_wifi_connected_no_internet_4: super::super::IconId =
+            super::super::IconId {
+                offset: 2172672u32,
+                len: 2304u32,
+                width: 48u16,
+                height: 48u16,
+            };
+        pub const signal_wifi_off: super::super::IconId = super::super::IconId {
+            offset: 2174976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_wifi_statusbar_4_bar: super::super::IconId = super::super::IconId {
+            offset: 2177280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signal_wifi_statusbar_connected_no_internet_4: super::super::IconId =
+            super::super::IconId {
+                offset: 2179584u32,
+                len: 2304u32,
+                width: 48u16,
+                height: 48u16,
+            };
+        pub const signal_wifi_statusbar_null: super::super::IconId = super::super::IconId {
+            offset: 2181888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sim_card_download: super::super::IconId = super::super::IconId {
+            offset: 2184192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const splitscreen: super::super::IconId = super::super::IconId {
+            offset: 2186496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sports_score: super::super::IconId = super::super::IconId {
+            offset: 2188800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ssid_chart: super::super::IconId = super::super::IconId {
+            offset: 2191104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const storage: super::super::IconId = super::super::IconId {
+            offset: 2193408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const storm: super::super::IconId = super::super::IconId {
+            offset: 2195712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const summarize: super::super::IconId = super::super::IconId {
+            offset: 2198016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const system_security_update: super::super::IconId = super::super::IconId {
+            offset: 2200320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const system_security_update_good: super::super::IconId = super::super::IconId {
+            offset: 2202624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const system_security_update_warning: super::super::IconId = super::super::IconId {
+            offset: 2204928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const task: super::super::IconId = super::super::IconId {
+            offset: 2207232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const thermostat: super::super::IconId = super::super::IconId {
+            offset: 2209536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timer_10_select: super::super::IconId = super::super::IconId {
+            offset: 2211840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timer_3_select: super::super::IconId = super::super::IconId {
+            offset: 2214144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tungsten: super::super::IconId = super::super::IconId {
+            offset: 2216448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const usb: super::super::IconId = super::super::IconId {
+            offset: 2218752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const usb_off: super::super::IconId = super::super::IconId {
+            offset: 2221056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wallpaper: super::super::IconId = super::super::IconId {
+            offset: 2223360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const water: super::super::IconId = super::super::IconId {
+            offset: 2225664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const widgets: super::super::IconId = super::super::IconId {
+            offset: 2227968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_1_bar: super::super::IconId = super::super::IconId {
+            offset: 2230272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_2_bar: super::super::IconId = super::super::IconId {
+            offset: 2232576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_calling_3: super::super::IconId = super::super::IconId {
+            offset: 2234880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_channel: super::super::IconId = super::super::IconId {
+            offset: 2237184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_find: super::super::IconId = super::super::IconId {
+            offset: 2239488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_lock: super::super::IconId = super::super::IconId {
+            offset: 2241792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_password: super::super::IconId = super::super::IconId {
+            offset: 2244096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_tethering: super::super::IconId = super::super::IconId {
+            offset: 2246400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_tethering_error: super::super::IconId = super::super::IconId {
+            offset: 2248704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_tethering_error_rounded: super::super::IconId = super::super::IconId {
+            offset: 2251008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_tethering_off: super::super::IconId = super::super::IconId {
+            offset: 2253312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod editor {
-        pub const add_chart: super::super::IconId = super::super::IconId { offset: 2255616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_comment: super::super::IconId = super::super::IconId { offset: 2257920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const align_horizontal_center: super::super::IconId = super::super::IconId { offset: 2260224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const align_horizontal_left: super::super::IconId = super::super::IconId { offset: 2262528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const align_horizontal_right: super::super::IconId = super::super::IconId { offset: 2264832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const align_vertical_bottom: super::super::IconId = super::super::IconId { offset: 2267136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const align_vertical_center: super::super::IconId = super::super::IconId { offset: 2269440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const align_vertical_top: super::super::IconId = super::super::IconId { offset: 2271744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const area_chart: super::super::IconId = super::super::IconId { offset: 2274048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const attach_file: super::super::IconId = super::super::IconId { offset: 2276352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const attach_money: super::super::IconId = super::super::IconId { offset: 2278656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_graph: super::super::IconId = super::super::IconId { offset: 2280960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bar_chart: super::super::IconId = super::super::IconId { offset: 2283264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_all: super::super::IconId = super::super::IconId { offset: 2285568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_bottom: super::super::IconId = super::super::IconId { offset: 2287872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_clear: super::super::IconId = super::super::IconId { offset: 2290176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_color: super::super::IconId = super::super::IconId { offset: 2292480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_horizontal: super::super::IconId = super::super::IconId { offset: 2294784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_inner: super::super::IconId = super::super::IconId { offset: 2297088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_left: super::super::IconId = super::super::IconId { offset: 2299392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_outer: super::super::IconId = super::super::IconId { offset: 2301696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_right: super::super::IconId = super::super::IconId { offset: 2304000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_style: super::super::IconId = super::super::IconId { offset: 2306304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_top: super::super::IconId = super::super::IconId { offset: 2308608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const border_vertical: super::super::IconId = super::super::IconId { offset: 2310912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bubble_chart: super::super::IconId = super::super::IconId { offset: 2313216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const candlestick_chart: super::super::IconId = super::super::IconId { offset: 2315520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const checklist: super::super::IconId = super::super::IconId { offset: 2317824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const checklist_rtl: super::super::IconId = super::super::IconId { offset: 2320128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const data_array: super::super::IconId = super::super::IconId { offset: 2322432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const data_object: super::super::IconId = super::super::IconId { offset: 2324736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drag_handle: super::super::IconId = super::super::IconId { offset: 2327040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const draw: super::super::IconId = super::super::IconId { offset: 2329344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_note: super::super::IconId = super::super::IconId { offset: 2331648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_align_center: super::super::IconId = super::super::IconId { offset: 2333952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_align_justify: super::super::IconId = super::super::IconId { offset: 2336256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_align_left: super::super::IconId = super::super::IconId { offset: 2338560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_align_right: super::super::IconId = super::super::IconId { offset: 2340864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_bold: super::super::IconId = super::super::IconId { offset: 2343168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_clear: super::super::IconId = super::super::IconId { offset: 2345472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_color_fill: super::super::IconId = super::super::IconId { offset: 2347776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_color_reset: super::super::IconId = super::super::IconId { offset: 2350080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_color_text: super::super::IconId = super::super::IconId { offset: 2352384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_indent_decrease: super::super::IconId = super::super::IconId { offset: 2354688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_indent_increase: super::super::IconId = super::super::IconId { offset: 2356992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_italic: super::super::IconId = super::super::IconId { offset: 2359296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_line_spacing: super::super::IconId = super::super::IconId { offset: 2361600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_list_bulleted: super::super::IconId = super::super::IconId { offset: 2363904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_list_bulleted_add: super::super::IconId = super::super::IconId { offset: 2366208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_list_numbered: super::super::IconId = super::super::IconId { offset: 2368512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_list_numbered_rtl: super::super::IconId = super::super::IconId { offset: 2370816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_paint: super::super::IconId = super::super::IconId { offset: 2373120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_quote: super::super::IconId = super::super::IconId { offset: 2375424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_shapes: super::super::IconId = super::super::IconId { offset: 2377728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_size: super::super::IconId = super::super::IconId { offset: 2380032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_strikethrough: super::super::IconId = super::super::IconId { offset: 2382336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_textdirection_l_to_r: super::super::IconId = super::super::IconId { offset: 2384640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_textdirection_r_to_l: super::super::IconId = super::super::IconId { offset: 2386944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_underlined: super::super::IconId = super::super::IconId { offset: 2389248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const functions: super::super::IconId = super::super::IconId { offset: 2391552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const height: super::super::IconId = super::super::IconId { offset: 2393856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hexagon: super::super::IconId = super::super::IconId { offset: 2396160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const highlight: super::super::IconId = super::super::IconId { offset: 2398464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const horizontal_distribute: super::super::IconId = super::super::IconId { offset: 2400768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const horizontal_rule: super::super::IconId = super::super::IconId { offset: 2403072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_chart: super::super::IconId = super::super::IconId { offset: 2405376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_chart_outlined: super::super::IconId = super::super::IconId { offset: 2407680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_comment: super::super::IconId = super::super::IconId { offset: 2409984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_drive_file: super::super::IconId = super::super::IconId { offset: 2412288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_emoticon: super::super::IconId = super::super::IconId { offset: 2414592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_invitation: super::super::IconId = super::super::IconId { offset: 2416896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_link: super::super::IconId = super::super::IconId { offset: 2419200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_page_break: super::super::IconId = super::super::IconId { offset: 2421504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const insert_photo: super::super::IconId = super::super::IconId { offset: 2423808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const line_axis: super::super::IconId = super::super::IconId { offset: 2428416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const linear_scale: super::super::IconId = super::super::IconId { offset: 2426112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const margin: super::super::IconId = super::super::IconId { offset: 2430720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const merge_type: super::super::IconId = super::super::IconId { offset: 2433024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode: super::super::IconId = super::super::IconId { offset: 2435328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode_comment: super::super::IconId = super::super::IconId { offset: 2437632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode_edit: super::super::IconId = super::super::IconId { offset: 2439936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode_edit_outline: super::super::IconId = super::super::IconId { offset: 2442240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const monetization_on: super::super::IconId = super::super::IconId { offset: 2444544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const money_off: super::super::IconId = super::super::IconId { offset: 2446848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const money_off_csred: super::super::IconId = super::super::IconId { offset: 2449152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const move_down: super::super::IconId = super::super::IconId { offset: 2451456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const move_up: super::super::IconId = super::super::IconId { offset: 2453760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const multiline_chart: super::super::IconId = super::super::IconId { offset: 2456064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notes: super::super::IconId = super::super::IconId { offset: 2458368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const numbers: super::super::IconId = super::super::IconId { offset: 2460672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const padding: super::super::IconId = super::super::IconId { offset: 2462976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pentagon: super::super::IconId = super::super::IconId { offset: 2465280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pie_chart: super::super::IconId = super::super::IconId { offset: 2467584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pie_chart_outline: super::super::IconId = super::super::IconId { offset: 2469888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pie_chart_outlined: super::super::IconId = super::super::IconId { offset: 2472192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const polyline: super::super::IconId = super::super::IconId { offset: 2474496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const post_add: super::super::IconId = super::super::IconId { offset: 2476800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const publish: super::super::IconId = super::super::IconId { offset: 2479104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const query_stats: super::super::IconId = super::super::IconId { offset: 2481408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rectangle: super::super::IconId = super::super::IconId { offset: 2483712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const scatter_plot: super::super::IconId = super::super::IconId { offset: 2486016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const schema: super::super::IconId = super::super::IconId { offset: 2488320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const score: super::super::IconId = super::super::IconId { offset: 2490624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shape_line: super::super::IconId = super::super::IconId { offset: 2492928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const short_text: super::super::IconId = super::super::IconId { offset: 2495232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const show_chart: super::super::IconId = super::super::IconId { offset: 2497536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const space_bar: super::super::IconId = super::super::IconId { offset: 2499840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const square: super::super::IconId = super::super::IconId { offset: 2502144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stacked_line_chart: super::super::IconId = super::super::IconId { offset: 2504448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const strikethrough_s: super::super::IconId = super::super::IconId { offset: 2506752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subscript: super::super::IconId = super::super::IconId { offset: 2509056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const superscript: super::super::IconId = super::super::IconId { offset: 2511360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const table_chart: super::super::IconId = super::super::IconId { offset: 2513664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const table_rows: super::super::IconId = super::super::IconId { offset: 2515968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_decrease: super::super::IconId = super::super::IconId { offset: 2518272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_fields: super::super::IconId = super::super::IconId { offset: 2520576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_increase: super::super::IconId = super::super::IconId { offset: 2522880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const title: super::super::IconId = super::super::IconId { offset: 2525184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const type_specimen: super::super::IconId = super::super::IconId { offset: 2527488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vertical_align_bottom: super::super::IconId = super::super::IconId { offset: 2529792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vertical_align_center: super::super::IconId = super::super::IconId { offset: 2532096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vertical_align_top: super::super::IconId = super::super::IconId { offset: 2534400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vertical_distribute: super::super::IconId = super::super::IconId { offset: 2536704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wrap_text: super::super::IconId = super::super::IconId { offset: 2539008u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const add_chart: super::super::IconId = super::super::IconId {
+            offset: 2255616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_comment: super::super::IconId = super::super::IconId {
+            offset: 2257920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const align_horizontal_center: super::super::IconId = super::super::IconId {
+            offset: 2260224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const align_horizontal_left: super::super::IconId = super::super::IconId {
+            offset: 2262528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const align_horizontal_right: super::super::IconId = super::super::IconId {
+            offset: 2264832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const align_vertical_bottom: super::super::IconId = super::super::IconId {
+            offset: 2267136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const align_vertical_center: super::super::IconId = super::super::IconId {
+            offset: 2269440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const align_vertical_top: super::super::IconId = super::super::IconId {
+            offset: 2271744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const area_chart: super::super::IconId = super::super::IconId {
+            offset: 2274048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const attach_file: super::super::IconId = super::super::IconId {
+            offset: 2276352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const attach_money: super::super::IconId = super::super::IconId {
+            offset: 2278656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_graph: super::super::IconId = super::super::IconId {
+            offset: 2280960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bar_chart: super::super::IconId = super::super::IconId {
+            offset: 2283264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_all: super::super::IconId = super::super::IconId {
+            offset: 2285568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_bottom: super::super::IconId = super::super::IconId {
+            offset: 2287872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_clear: super::super::IconId = super::super::IconId {
+            offset: 2290176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_color: super::super::IconId = super::super::IconId {
+            offset: 2292480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_horizontal: super::super::IconId = super::super::IconId {
+            offset: 2294784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_inner: super::super::IconId = super::super::IconId {
+            offset: 2297088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_left: super::super::IconId = super::super::IconId {
+            offset: 2299392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_outer: super::super::IconId = super::super::IconId {
+            offset: 2301696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_right: super::super::IconId = super::super::IconId {
+            offset: 2304000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_style: super::super::IconId = super::super::IconId {
+            offset: 2306304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_top: super::super::IconId = super::super::IconId {
+            offset: 2308608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const border_vertical: super::super::IconId = super::super::IconId {
+            offset: 2310912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bubble_chart: super::super::IconId = super::super::IconId {
+            offset: 2313216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const candlestick_chart: super::super::IconId = super::super::IconId {
+            offset: 2315520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const checklist: super::super::IconId = super::super::IconId {
+            offset: 2317824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const checklist_rtl: super::super::IconId = super::super::IconId {
+            offset: 2320128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const data_array: super::super::IconId = super::super::IconId {
+            offset: 2322432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const data_object: super::super::IconId = super::super::IconId {
+            offset: 2324736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drag_handle: super::super::IconId = super::super::IconId {
+            offset: 2327040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const draw: super::super::IconId = super::super::IconId {
+            offset: 2329344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_note: super::super::IconId = super::super::IconId {
+            offset: 2331648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_align_center: super::super::IconId = super::super::IconId {
+            offset: 2333952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_align_justify: super::super::IconId = super::super::IconId {
+            offset: 2336256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_align_left: super::super::IconId = super::super::IconId {
+            offset: 2338560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_align_right: super::super::IconId = super::super::IconId {
+            offset: 2340864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_bold: super::super::IconId = super::super::IconId {
+            offset: 2343168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_clear: super::super::IconId = super::super::IconId {
+            offset: 2345472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_color_fill: super::super::IconId = super::super::IconId {
+            offset: 2347776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_color_reset: super::super::IconId = super::super::IconId {
+            offset: 2350080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_color_text: super::super::IconId = super::super::IconId {
+            offset: 2352384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_indent_decrease: super::super::IconId = super::super::IconId {
+            offset: 2354688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_indent_increase: super::super::IconId = super::super::IconId {
+            offset: 2356992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_italic: super::super::IconId = super::super::IconId {
+            offset: 2359296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_line_spacing: super::super::IconId = super::super::IconId {
+            offset: 2361600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_list_bulleted: super::super::IconId = super::super::IconId {
+            offset: 2363904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_list_bulleted_add: super::super::IconId = super::super::IconId {
+            offset: 2366208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_list_numbered: super::super::IconId = super::super::IconId {
+            offset: 2368512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_list_numbered_rtl: super::super::IconId = super::super::IconId {
+            offset: 2370816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_paint: super::super::IconId = super::super::IconId {
+            offset: 2373120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_quote: super::super::IconId = super::super::IconId {
+            offset: 2375424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_shapes: super::super::IconId = super::super::IconId {
+            offset: 2377728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_size: super::super::IconId = super::super::IconId {
+            offset: 2380032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_strikethrough: super::super::IconId = super::super::IconId {
+            offset: 2382336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_textdirection_l_to_r: super::super::IconId = super::super::IconId {
+            offset: 2384640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_textdirection_r_to_l: super::super::IconId = super::super::IconId {
+            offset: 2386944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_underlined: super::super::IconId = super::super::IconId {
+            offset: 2389248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const functions: super::super::IconId = super::super::IconId {
+            offset: 2391552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const height: super::super::IconId = super::super::IconId {
+            offset: 2393856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hexagon: super::super::IconId = super::super::IconId {
+            offset: 2396160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const highlight: super::super::IconId = super::super::IconId {
+            offset: 2398464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const horizontal_distribute: super::super::IconId = super::super::IconId {
+            offset: 2400768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const horizontal_rule: super::super::IconId = super::super::IconId {
+            offset: 2403072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_chart: super::super::IconId = super::super::IconId {
+            offset: 2405376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_chart_outlined: super::super::IconId = super::super::IconId {
+            offset: 2407680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_comment: super::super::IconId = super::super::IconId {
+            offset: 2409984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_drive_file: super::super::IconId = super::super::IconId {
+            offset: 2412288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_emoticon: super::super::IconId = super::super::IconId {
+            offset: 2414592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_invitation: super::super::IconId = super::super::IconId {
+            offset: 2416896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_link: super::super::IconId = super::super::IconId {
+            offset: 2419200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_page_break: super::super::IconId = super::super::IconId {
+            offset: 2421504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const insert_photo: super::super::IconId = super::super::IconId {
+            offset: 2423808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const line_axis: super::super::IconId = super::super::IconId {
+            offset: 2428416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const linear_scale: super::super::IconId = super::super::IconId {
+            offset: 2426112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const margin: super::super::IconId = super::super::IconId {
+            offset: 2430720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const merge_type: super::super::IconId = super::super::IconId {
+            offset: 2433024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode: super::super::IconId = super::super::IconId {
+            offset: 2435328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode_comment: super::super::IconId = super::super::IconId {
+            offset: 2437632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode_edit: super::super::IconId = super::super::IconId {
+            offset: 2439936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode_edit_outline: super::super::IconId = super::super::IconId {
+            offset: 2442240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const monetization_on: super::super::IconId = super::super::IconId {
+            offset: 2444544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const money_off: super::super::IconId = super::super::IconId {
+            offset: 2446848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const money_off_csred: super::super::IconId = super::super::IconId {
+            offset: 2449152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const move_down: super::super::IconId = super::super::IconId {
+            offset: 2451456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const move_up: super::super::IconId = super::super::IconId {
+            offset: 2453760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const multiline_chart: super::super::IconId = super::super::IconId {
+            offset: 2456064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notes: super::super::IconId = super::super::IconId {
+            offset: 2458368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const numbers: super::super::IconId = super::super::IconId {
+            offset: 2460672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const padding: super::super::IconId = super::super::IconId {
+            offset: 2462976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pentagon: super::super::IconId = super::super::IconId {
+            offset: 2465280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pie_chart: super::super::IconId = super::super::IconId {
+            offset: 2467584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pie_chart_outline: super::super::IconId = super::super::IconId {
+            offset: 2469888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pie_chart_outlined: super::super::IconId = super::super::IconId {
+            offset: 2472192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const polyline: super::super::IconId = super::super::IconId {
+            offset: 2474496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const post_add: super::super::IconId = super::super::IconId {
+            offset: 2476800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const publish: super::super::IconId = super::super::IconId {
+            offset: 2479104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const query_stats: super::super::IconId = super::super::IconId {
+            offset: 2481408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rectangle: super::super::IconId = super::super::IconId {
+            offset: 2483712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const scatter_plot: super::super::IconId = super::super::IconId {
+            offset: 2486016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const schema: super::super::IconId = super::super::IconId {
+            offset: 2488320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const score: super::super::IconId = super::super::IconId {
+            offset: 2490624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shape_line: super::super::IconId = super::super::IconId {
+            offset: 2492928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const short_text: super::super::IconId = super::super::IconId {
+            offset: 2495232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const show_chart: super::super::IconId = super::super::IconId {
+            offset: 2497536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const space_bar: super::super::IconId = super::super::IconId {
+            offset: 2499840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const square: super::super::IconId = super::super::IconId {
+            offset: 2502144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stacked_line_chart: super::super::IconId = super::super::IconId {
+            offset: 2504448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const strikethrough_s: super::super::IconId = super::super::IconId {
+            offset: 2506752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subscript: super::super::IconId = super::super::IconId {
+            offset: 2509056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const superscript: super::super::IconId = super::super::IconId {
+            offset: 2511360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const table_chart: super::super::IconId = super::super::IconId {
+            offset: 2513664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const table_rows: super::super::IconId = super::super::IconId {
+            offset: 2515968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_decrease: super::super::IconId = super::super::IconId {
+            offset: 2518272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_fields: super::super::IconId = super::super::IconId {
+            offset: 2520576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_increase: super::super::IconId = super::super::IconId {
+            offset: 2522880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const title: super::super::IconId = super::super::IconId {
+            offset: 2525184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const type_specimen: super::super::IconId = super::super::IconId {
+            offset: 2527488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vertical_align_bottom: super::super::IconId = super::super::IconId {
+            offset: 2529792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vertical_align_center: super::super::IconId = super::super::IconId {
+            offset: 2532096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vertical_align_top: super::super::IconId = super::super::IconId {
+            offset: 2534400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vertical_distribute: super::super::IconId = super::super::IconId {
+            offset: 2536704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wrap_text: super::super::IconId = super::super::IconId {
+            offset: 2539008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod file {
-        pub const approval: super::super::IconId = super::super::IconId { offset: 2541312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const attach_email: super::super::IconId = super::super::IconId { offset: 2545920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const attachment: super::super::IconId = super::super::IconId { offset: 2543616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud: super::super::IconId = super::super::IconId { offset: 2548224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud_circle: super::super::IconId = super::super::IconId { offset: 2550528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud_done: super::super::IconId = super::super::IconId { offset: 2552832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud_download: super::super::IconId = super::super::IconId { offset: 2555136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud_off: super::super::IconId = super::super::IconId { offset: 2557440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud_queue: super::super::IconId = super::super::IconId { offset: 2559744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud_sync: super::super::IconId = super::super::IconId { offset: 2562048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloud_upload: super::super::IconId = super::super::IconId { offset: 2564352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const create_new_folder: super::super::IconId = super::super::IconId { offset: 2566656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const difference: super::super::IconId = super::super::IconId { offset: 2568960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const download: super::super::IconId = super::super::IconId { offset: 2571264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const download_done: super::super::IconId = super::super::IconId { offset: 2575872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const download_for_offline: super::super::IconId = super::super::IconId { offset: 2578176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const downloading: super::super::IconId = super::super::IconId { offset: 2573568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drive_file_move: super::super::IconId = super::super::IconId { offset: 2580480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drive_file_move_outline: super::super::IconId = super::super::IconId { offset: 2582784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drive_file_move_rtl: super::super::IconId = super::super::IconId { offset: 2585088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drive_file_rename_outline: super::super::IconId = super::super::IconId { offset: 2587392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drive_folder_upload: super::super::IconId = super::super::IconId { offset: 2589696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_download: super::super::IconId = super::super::IconId { offset: 2592000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_download_done: super::super::IconId = super::super::IconId { offset: 2594304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_download_off: super::super::IconId = super::super::IconId { offset: 2596608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_open: super::super::IconId = super::super::IconId { offset: 2598912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_upload: super::super::IconId = super::super::IconId { offset: 2601216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const file_upload_off: super::super::IconId = super::super::IconId { offset: 2603520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder: super::super::IconId = super::super::IconId { offset: 2605824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder_copy: super::super::IconId = super::super::IconId { offset: 2608128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder_delete: super::super::IconId = super::super::IconId { offset: 2610432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder_off: super::super::IconId = super::super::IconId { offset: 2612736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder_open: super::super::IconId = super::super::IconId { offset: 2615040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder_shared: super::super::IconId = super::super::IconId { offset: 2617344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder_zip: super::super::IconId = super::super::IconId { offset: 2619648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const format_overline: super::super::IconId = super::super::IconId { offset: 2621952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grid_view: super::super::IconId = super::super::IconId { offset: 2624256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const newspaper: super::super::IconId = super::super::IconId { offset: 2626560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const request_quote: super::super::IconId = super::super::IconId { offset: 2628864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rule_folder: super::super::IconId = super::super::IconId { offset: 2631168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const snippet_folder: super::super::IconId = super::super::IconId { offset: 2633472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const text_snippet: super::super::IconId = super::super::IconId { offset: 2635776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const topic: super::super::IconId = super::super::IconId { offset: 2638080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const upload: super::super::IconId = super::super::IconId { offset: 2640384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const upload_file: super::super::IconId = super::super::IconId { offset: 2642688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const workspaces: super::super::IconId = super::super::IconId { offset: 2644992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const workspaces_filled: super::super::IconId = super::super::IconId { offset: 2647296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const workspaces_outline: super::super::IconId = super::super::IconId { offset: 2649600u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const approval: super::super::IconId = super::super::IconId {
+            offset: 2541312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const attach_email: super::super::IconId = super::super::IconId {
+            offset: 2545920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const attachment: super::super::IconId = super::super::IconId {
+            offset: 2543616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud: super::super::IconId = super::super::IconId {
+            offset: 2548224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud_circle: super::super::IconId = super::super::IconId {
+            offset: 2550528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud_done: super::super::IconId = super::super::IconId {
+            offset: 2552832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud_download: super::super::IconId = super::super::IconId {
+            offset: 2555136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud_off: super::super::IconId = super::super::IconId {
+            offset: 2557440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud_queue: super::super::IconId = super::super::IconId {
+            offset: 2559744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud_sync: super::super::IconId = super::super::IconId {
+            offset: 2562048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloud_upload: super::super::IconId = super::super::IconId {
+            offset: 2564352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const create_new_folder: super::super::IconId = super::super::IconId {
+            offset: 2566656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const difference: super::super::IconId = super::super::IconId {
+            offset: 2568960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const download: super::super::IconId = super::super::IconId {
+            offset: 2571264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const download_done: super::super::IconId = super::super::IconId {
+            offset: 2575872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const download_for_offline: super::super::IconId = super::super::IconId {
+            offset: 2578176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const downloading: super::super::IconId = super::super::IconId {
+            offset: 2573568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drive_file_move: super::super::IconId = super::super::IconId {
+            offset: 2580480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drive_file_move_outline: super::super::IconId = super::super::IconId {
+            offset: 2582784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drive_file_move_rtl: super::super::IconId = super::super::IconId {
+            offset: 2585088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drive_file_rename_outline: super::super::IconId = super::super::IconId {
+            offset: 2587392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drive_folder_upload: super::super::IconId = super::super::IconId {
+            offset: 2589696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_download: super::super::IconId = super::super::IconId {
+            offset: 2592000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_download_done: super::super::IconId = super::super::IconId {
+            offset: 2594304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_download_off: super::super::IconId = super::super::IconId {
+            offset: 2596608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_open: super::super::IconId = super::super::IconId {
+            offset: 2598912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_upload: super::super::IconId = super::super::IconId {
+            offset: 2601216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const file_upload_off: super::super::IconId = super::super::IconId {
+            offset: 2603520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder: super::super::IconId = super::super::IconId {
+            offset: 2605824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder_copy: super::super::IconId = super::super::IconId {
+            offset: 2608128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder_delete: super::super::IconId = super::super::IconId {
+            offset: 2610432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder_off: super::super::IconId = super::super::IconId {
+            offset: 2612736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder_open: super::super::IconId = super::super::IconId {
+            offset: 2615040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder_shared: super::super::IconId = super::super::IconId {
+            offset: 2617344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder_zip: super::super::IconId = super::super::IconId {
+            offset: 2619648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const format_overline: super::super::IconId = super::super::IconId {
+            offset: 2621952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grid_view: super::super::IconId = super::super::IconId {
+            offset: 2624256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const newspaper: super::super::IconId = super::super::IconId {
+            offset: 2626560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const request_quote: super::super::IconId = super::super::IconId {
+            offset: 2628864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rule_folder: super::super::IconId = super::super::IconId {
+            offset: 2631168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const snippet_folder: super::super::IconId = super::super::IconId {
+            offset: 2633472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const text_snippet: super::super::IconId = super::super::IconId {
+            offset: 2635776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const topic: super::super::IconId = super::super::IconId {
+            offset: 2638080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const upload: super::super::IconId = super::super::IconId {
+            offset: 2640384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const upload_file: super::super::IconId = super::super::IconId {
+            offset: 2642688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const workspaces: super::super::IconId = super::super::IconId {
+            offset: 2644992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const workspaces_filled: super::super::IconId = super::super::IconId {
+            offset: 2647296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const workspaces_outline: super::super::IconId = super::super::IconId {
+            offset: 2649600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod hardware {
-        pub const adf_scanner: super::super::IconId = super::super::IconId { offset: 2651904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const browser_not_supported: super::super::IconId = super::super::IconId { offset: 2654208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const browser_updated: super::super::IconId = super::super::IconId { offset: 2656512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cast: super::super::IconId = super::super::IconId { offset: 2658816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cast_connected: super::super::IconId = super::super::IconId { offset: 2661120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cast_for_education: super::super::IconId = super::super::IconId { offset: 2663424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const computer: super::super::IconId = super::super::IconId { offset: 2665728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const connected_tv: super::super::IconId = super::super::IconId { offset: 2668032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const conveyor_belt: super::super::IconId = super::super::IconId { offset: 2670336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const desktop_mac: super::super::IconId = super::super::IconId { offset: 2672640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const desktop_windows: super::super::IconId = super::super::IconId { offset: 2674944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const developer_board: super::super::IconId = super::super::IconId { offset: 2677248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const developer_board_off: super::super::IconId = super::super::IconId { offset: 2679552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const device_hub: super::super::IconId = super::super::IconId { offset: 2684160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const device_unknown: super::super::IconId = super::super::IconId { offset: 2686464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const devices_other: super::super::IconId = super::super::IconId { offset: 2681856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dock: super::super::IconId = super::super::IconId { offset: 2688768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const earbuds: super::super::IconId = super::super::IconId { offset: 2691072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const earbuds_battery: super::super::IconId = super::super::IconId { offset: 2693376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forklift: super::super::IconId = super::super::IconId { offset: 2695680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const front_loader: super::super::IconId = super::super::IconId { offset: 2697984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gamepad: super::super::IconId = super::super::IconId { offset: 2700288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const headphones: super::super::IconId = super::super::IconId { offset: 2702592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const headphones_battery: super::super::IconId = super::super::IconId { offset: 2704896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const headset: super::super::IconId = super::super::IconId { offset: 2707200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const headset_mic: super::super::IconId = super::super::IconId { offset: 2709504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const headset_off: super::super::IconId = super::super::IconId { offset: 2711808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const home_max: super::super::IconId = super::super::IconId { offset: 2714112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const home_mini: super::super::IconId = super::super::IconId { offset: 2716416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard: super::super::IconId = super::super::IconId { offset: 2718720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_alt: super::super::IconId = super::super::IconId { offset: 2721024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_arrow_down: super::super::IconId = super::super::IconId { offset: 2723328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_arrow_left: super::super::IconId = super::super::IconId { offset: 2725632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_arrow_right: super::super::IconId = super::super::IconId { offset: 2727936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_arrow_up: super::super::IconId = super::super::IconId { offset: 2730240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_backspace: super::super::IconId = super::super::IconId { offset: 2732544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_capslock: super::super::IconId = super::super::IconId { offset: 2734848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_command_key: super::super::IconId = super::super::IconId { offset: 2737152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_control_key: super::super::IconId = super::super::IconId { offset: 2739456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_double_arrow_down: super::super::IconId = super::super::IconId { offset: 2741760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_double_arrow_left: super::super::IconId = super::super::IconId { offset: 2744064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_double_arrow_right: super::super::IconId = super::super::IconId { offset: 2746368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_double_arrow_up: super::super::IconId = super::super::IconId { offset: 2748672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_hide: super::super::IconId = super::super::IconId { offset: 2750976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_option_key: super::super::IconId = super::super::IconId { offset: 2753280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_return: super::super::IconId = super::super::IconId { offset: 2755584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_tab: super::super::IconId = super::super::IconId { offset: 2757888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const keyboard_voice: super::super::IconId = super::super::IconId { offset: 2760192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const laptop: super::super::IconId = super::super::IconId { offset: 2762496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const laptop_chromebook: super::super::IconId = super::super::IconId { offset: 2764800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const laptop_mac: super::super::IconId = super::super::IconId { offset: 2767104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const laptop_windows: super::super::IconId = super::super::IconId { offset: 2769408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const memory: super::super::IconId = super::super::IconId { offset: 2771712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const monitor: super::super::IconId = super::super::IconId { offset: 2774016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mouse: super::super::IconId = super::super::IconId { offset: 2776320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pallet: super::super::IconId = super::super::IconId { offset: 2778624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_android: super::super::IconId = super::super::IconId { offset: 2785536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_iphone: super::super::IconId = super::super::IconId { offset: 2787840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phonelink: super::super::IconId = super::super::IconId { offset: 2780928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phonelink_off: super::super::IconId = super::super::IconId { offset: 2783232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const point_of_sale: super::super::IconId = super::super::IconId { offset: 2790144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const power_input: super::super::IconId = super::super::IconId { offset: 2792448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const router: super::super::IconId = super::super::IconId { offset: 2794752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const scanner: super::super::IconId = super::super::IconId { offset: 2797056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const security: super::super::IconId = super::super::IconId { offset: 2799360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sim_card: super::super::IconId = super::super::IconId { offset: 2801664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const smart_display: super::super::IconId = super::super::IconId { offset: 2806272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const smart_screen: super::super::IconId = super::super::IconId { offset: 2808576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const smart_toy: super::super::IconId = super::super::IconId { offset: 2810880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const smartphone: super::super::IconId = super::super::IconId { offset: 2803968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const speaker: super::super::IconId = super::super::IconId { offset: 2813184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const speaker_group: super::super::IconId = super::super::IconId { offset: 2815488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const start: super::super::IconId = super::super::IconId { offset: 2817792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tablet: super::super::IconId = super::super::IconId { offset: 2820096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tablet_android: super::super::IconId = super::super::IconId { offset: 2822400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tablet_mac: super::super::IconId = super::super::IconId { offset: 2824704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const toys: super::super::IconId = super::super::IconId { offset: 2827008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const trolley: super::super::IconId = super::super::IconId { offset: 2829312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tv: super::super::IconId = super::super::IconId { offset: 2831616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const videogame_asset: super::super::IconId = super::super::IconId { offset: 2833920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const videogame_asset_off: super::super::IconId = super::super::IconId { offset: 2836224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const watch: super::super::IconId = super::super::IconId { offset: 2838528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const watch_off: super::super::IconId = super::super::IconId { offset: 2840832u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const adf_scanner: super::super::IconId = super::super::IconId {
+            offset: 2651904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const browser_not_supported: super::super::IconId = super::super::IconId {
+            offset: 2654208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const browser_updated: super::super::IconId = super::super::IconId {
+            offset: 2656512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cast: super::super::IconId = super::super::IconId {
+            offset: 2658816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cast_connected: super::super::IconId = super::super::IconId {
+            offset: 2661120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cast_for_education: super::super::IconId = super::super::IconId {
+            offset: 2663424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const computer: super::super::IconId = super::super::IconId {
+            offset: 2665728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const connected_tv: super::super::IconId = super::super::IconId {
+            offset: 2668032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const conveyor_belt: super::super::IconId = super::super::IconId {
+            offset: 2670336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const desktop_mac: super::super::IconId = super::super::IconId {
+            offset: 2672640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const desktop_windows: super::super::IconId = super::super::IconId {
+            offset: 2674944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const developer_board: super::super::IconId = super::super::IconId {
+            offset: 2677248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const developer_board_off: super::super::IconId = super::super::IconId {
+            offset: 2679552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const device_hub: super::super::IconId = super::super::IconId {
+            offset: 2684160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const device_unknown: super::super::IconId = super::super::IconId {
+            offset: 2686464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const devices_other: super::super::IconId = super::super::IconId {
+            offset: 2681856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dock: super::super::IconId = super::super::IconId {
+            offset: 2688768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const earbuds: super::super::IconId = super::super::IconId {
+            offset: 2691072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const earbuds_battery: super::super::IconId = super::super::IconId {
+            offset: 2693376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forklift: super::super::IconId = super::super::IconId {
+            offset: 2695680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const front_loader: super::super::IconId = super::super::IconId {
+            offset: 2697984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gamepad: super::super::IconId = super::super::IconId {
+            offset: 2700288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const headphones: super::super::IconId = super::super::IconId {
+            offset: 2702592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const headphones_battery: super::super::IconId = super::super::IconId {
+            offset: 2704896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const headset: super::super::IconId = super::super::IconId {
+            offset: 2707200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const headset_mic: super::super::IconId = super::super::IconId {
+            offset: 2709504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const headset_off: super::super::IconId = super::super::IconId {
+            offset: 2711808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const home_max: super::super::IconId = super::super::IconId {
+            offset: 2714112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const home_mini: super::super::IconId = super::super::IconId {
+            offset: 2716416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard: super::super::IconId = super::super::IconId {
+            offset: 2718720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_alt: super::super::IconId = super::super::IconId {
+            offset: 2721024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_arrow_down: super::super::IconId = super::super::IconId {
+            offset: 2723328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_arrow_left: super::super::IconId = super::super::IconId {
+            offset: 2725632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_arrow_right: super::super::IconId = super::super::IconId {
+            offset: 2727936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_arrow_up: super::super::IconId = super::super::IconId {
+            offset: 2730240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_backspace: super::super::IconId = super::super::IconId {
+            offset: 2732544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_capslock: super::super::IconId = super::super::IconId {
+            offset: 2734848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_command_key: super::super::IconId = super::super::IconId {
+            offset: 2737152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_control_key: super::super::IconId = super::super::IconId {
+            offset: 2739456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_double_arrow_down: super::super::IconId = super::super::IconId {
+            offset: 2741760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_double_arrow_left: super::super::IconId = super::super::IconId {
+            offset: 2744064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_double_arrow_right: super::super::IconId = super::super::IconId {
+            offset: 2746368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_double_arrow_up: super::super::IconId = super::super::IconId {
+            offset: 2748672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_hide: super::super::IconId = super::super::IconId {
+            offset: 2750976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_option_key: super::super::IconId = super::super::IconId {
+            offset: 2753280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_return: super::super::IconId = super::super::IconId {
+            offset: 2755584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_tab: super::super::IconId = super::super::IconId {
+            offset: 2757888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const keyboard_voice: super::super::IconId = super::super::IconId {
+            offset: 2760192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const laptop: super::super::IconId = super::super::IconId {
+            offset: 2762496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const laptop_chromebook: super::super::IconId = super::super::IconId {
+            offset: 2764800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const laptop_mac: super::super::IconId = super::super::IconId {
+            offset: 2767104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const laptop_windows: super::super::IconId = super::super::IconId {
+            offset: 2769408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const memory: super::super::IconId = super::super::IconId {
+            offset: 2771712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const monitor: super::super::IconId = super::super::IconId {
+            offset: 2774016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mouse: super::super::IconId = super::super::IconId {
+            offset: 2776320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pallet: super::super::IconId = super::super::IconId {
+            offset: 2778624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_android: super::super::IconId = super::super::IconId {
+            offset: 2785536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_iphone: super::super::IconId = super::super::IconId {
+            offset: 2787840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phonelink: super::super::IconId = super::super::IconId {
+            offset: 2780928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phonelink_off: super::super::IconId = super::super::IconId {
+            offset: 2783232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const point_of_sale: super::super::IconId = super::super::IconId {
+            offset: 2790144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const power_input: super::super::IconId = super::super::IconId {
+            offset: 2792448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const router: super::super::IconId = super::super::IconId {
+            offset: 2794752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const scanner: super::super::IconId = super::super::IconId {
+            offset: 2797056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const security: super::super::IconId = super::super::IconId {
+            offset: 2799360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sim_card: super::super::IconId = super::super::IconId {
+            offset: 2801664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const smart_display: super::super::IconId = super::super::IconId {
+            offset: 2806272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const smart_screen: super::super::IconId = super::super::IconId {
+            offset: 2808576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const smart_toy: super::super::IconId = super::super::IconId {
+            offset: 2810880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const smartphone: super::super::IconId = super::super::IconId {
+            offset: 2803968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const speaker: super::super::IconId = super::super::IconId {
+            offset: 2813184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const speaker_group: super::super::IconId = super::super::IconId {
+            offset: 2815488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const start: super::super::IconId = super::super::IconId {
+            offset: 2817792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tablet: super::super::IconId = super::super::IconId {
+            offset: 2820096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tablet_android: super::super::IconId = super::super::IconId {
+            offset: 2822400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tablet_mac: super::super::IconId = super::super::IconId {
+            offset: 2824704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const toys: super::super::IconId = super::super::IconId {
+            offset: 2827008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const trolley: super::super::IconId = super::super::IconId {
+            offset: 2829312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tv: super::super::IconId = super::super::IconId {
+            offset: 2831616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const videogame_asset: super::super::IconId = super::super::IconId {
+            offset: 2833920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const videogame_asset_off: super::super::IconId = super::super::IconId {
+            offset: 2836224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const watch: super::super::IconId = super::super::IconId {
+            offset: 2838528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const watch_off: super::super::IconId = super::super::IconId {
+            offset: 2840832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod home {
-        pub const auto_mode: super::super::IconId = super::super::IconId { offset: 2843136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blinds: super::super::IconId = super::super::IconId { offset: 2845440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blinds_closed: super::super::IconId = super::super::IconId { offset: 2847744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const broadcast_on_home: super::super::IconId = super::super::IconId { offset: 2850048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const broadcast_on_personal: super::super::IconId = super::super::IconId { offset: 2852352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cloudy_snowing: super::super::IconId = super::super::IconId { offset: 2854656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const curtains: super::super::IconId = super::super::IconId { offset: 2856960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const curtains_closed: super::super::IconId = super::super::IconId { offset: 2859264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electric_bolt: super::super::IconId = super::super::IconId { offset: 2861568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electric_meter: super::super::IconId = super::super::IconId { offset: 2863872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const energy_savings_leaf: super::super::IconId = super::super::IconId { offset: 2866176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const foggy: super::super::IconId = super::super::IconId { offset: 2868480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gas_meter: super::super::IconId = super::super::IconId { offset: 2870784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const heat_pump: super::super::IconId = super::super::IconId { offset: 2873088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode_fan_off: super::super::IconId = super::super::IconId { offset: 2875392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nest_cam_wired_stand: super::super::IconId = super::super::IconId { offset: 2877696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const oil_barrel: super::super::IconId = super::super::IconId { offset: 2880000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const propane: super::super::IconId = super::super::IconId { offset: 2882304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const propane_tank: super::super::IconId = super::super::IconId { offset: 2884608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const roller_shades: super::super::IconId = super::super::IconId { offset: 2886912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const roller_shades_closed: super::super::IconId = super::super::IconId { offset: 2889216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sensor_door: super::super::IconId = super::super::IconId { offset: 2891520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sensor_occupied: super::super::IconId = super::super::IconId { offset: 2893824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sensor_window: super::super::IconId = super::super::IconId { offset: 2896128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shelves: super::super::IconId = super::super::IconId { offset: 2898432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shield_moon: super::super::IconId = super::super::IconId { offset: 2900736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const snowing: super::super::IconId = super::super::IconId { offset: 2903040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const solar_power: super::super::IconId = super::super::IconId { offset: 2905344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sunny: super::super::IconId = super::super::IconId { offset: 2907648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sunny_snowing: super::super::IconId = super::super::IconId { offset: 2909952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vertical_shades: super::super::IconId = super::super::IconId { offset: 2912256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vertical_shades_closed: super::super::IconId = super::super::IconId { offset: 2914560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wind_power: super::super::IconId = super::super::IconId { offset: 2916864u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const auto_mode: super::super::IconId = super::super::IconId {
+            offset: 2843136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blinds: super::super::IconId = super::super::IconId {
+            offset: 2845440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blinds_closed: super::super::IconId = super::super::IconId {
+            offset: 2847744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const broadcast_on_home: super::super::IconId = super::super::IconId {
+            offset: 2850048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const broadcast_on_personal: super::super::IconId = super::super::IconId {
+            offset: 2852352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cloudy_snowing: super::super::IconId = super::super::IconId {
+            offset: 2854656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const curtains: super::super::IconId = super::super::IconId {
+            offset: 2856960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const curtains_closed: super::super::IconId = super::super::IconId {
+            offset: 2859264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electric_bolt: super::super::IconId = super::super::IconId {
+            offset: 2861568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electric_meter: super::super::IconId = super::super::IconId {
+            offset: 2863872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const energy_savings_leaf: super::super::IconId = super::super::IconId {
+            offset: 2866176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const foggy: super::super::IconId = super::super::IconId {
+            offset: 2868480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gas_meter: super::super::IconId = super::super::IconId {
+            offset: 2870784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const heat_pump: super::super::IconId = super::super::IconId {
+            offset: 2873088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode_fan_off: super::super::IconId = super::super::IconId {
+            offset: 2875392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nest_cam_wired_stand: super::super::IconId = super::super::IconId {
+            offset: 2877696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const oil_barrel: super::super::IconId = super::super::IconId {
+            offset: 2880000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const propane: super::super::IconId = super::super::IconId {
+            offset: 2882304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const propane_tank: super::super::IconId = super::super::IconId {
+            offset: 2884608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const roller_shades: super::super::IconId = super::super::IconId {
+            offset: 2886912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const roller_shades_closed: super::super::IconId = super::super::IconId {
+            offset: 2889216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sensor_door: super::super::IconId = super::super::IconId {
+            offset: 2891520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sensor_occupied: super::super::IconId = super::super::IconId {
+            offset: 2893824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sensor_window: super::super::IconId = super::super::IconId {
+            offset: 2896128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shelves: super::super::IconId = super::super::IconId {
+            offset: 2898432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shield_moon: super::super::IconId = super::super::IconId {
+            offset: 2900736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const snowing: super::super::IconId = super::super::IconId {
+            offset: 2903040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const solar_power: super::super::IconId = super::super::IconId {
+            offset: 2905344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sunny: super::super::IconId = super::super::IconId {
+            offset: 2907648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sunny_snowing: super::super::IconId = super::super::IconId {
+            offset: 2909952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vertical_shades: super::super::IconId = super::super::IconId {
+            offset: 2912256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vertical_shades_closed: super::super::IconId = super::super::IconId {
+            offset: 2914560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wind_power: super::super::IconId = super::super::IconId {
+            offset: 2916864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod image {
-        pub const _10mp: super::super::IconId = super::super::IconId { offset: 2919168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _11mp: super::super::IconId = super::super::IconId { offset: 2921472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _12mp: super::super::IconId = super::super::IconId { offset: 2923776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _13mp: super::super::IconId = super::super::IconId { offset: 2926080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _14mp: super::super::IconId = super::super::IconId { offset: 2928384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _15mp: super::super::IconId = super::super::IconId { offset: 2930688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _16mp: super::super::IconId = super::super::IconId { offset: 2932992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _17mp: super::super::IconId = super::super::IconId { offset: 2935296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _18mp: super::super::IconId = super::super::IconId { offset: 2937600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _19mp: super::super::IconId = super::super::IconId { offset: 2939904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _20mp: super::super::IconId = super::super::IconId { offset: 2942208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _21mp: super::super::IconId = super::super::IconId { offset: 2944512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _22mp: super::super::IconId = super::super::IconId { offset: 2946816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _23mp: super::super::IconId = super::super::IconId { offset: 2949120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _24mp: super::super::IconId = super::super::IconId { offset: 2951424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _2mp: super::super::IconId = super::super::IconId { offset: 2953728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _30fps_select: super::super::IconId = super::super::IconId { offset: 2956032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _3mp: super::super::IconId = super::super::IconId { offset: 2958336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _4mp: super::super::IconId = super::super::IconId { offset: 2960640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _5mp: super::super::IconId = super::super::IconId { offset: 2962944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _60fps_select: super::super::IconId = super::super::IconId { offset: 2965248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _6mp: super::super::IconId = super::super::IconId { offset: 2967552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _7mp: super::super::IconId = super::super::IconId { offset: 2969856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _8mp: super::super::IconId = super::super::IconId { offset: 2972160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _9mp: super::super::IconId = super::super::IconId { offset: 2974464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_a_photo: super::super::IconId = super::super::IconId { offset: 2976768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_photo_alternate: super::super::IconId = super::super::IconId { offset: 2979072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_to_photos: super::super::IconId = super::super::IconId { offset: 2981376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const adjust: super::super::IconId = super::super::IconId { offset: 2983680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const animation: super::super::IconId = super::super::IconId { offset: 2985984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assistant: super::super::IconId = super::super::IconId { offset: 2988288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assistant_photo: super::super::IconId = super::super::IconId { offset: 2990592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const audiotrack: super::super::IconId = super::super::IconId { offset: 2992896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_awesome: super::super::IconId = super::super::IconId { offset: 2997504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_awesome_mosaic: super::super::IconId = super::super::IconId { offset: 2999808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_awesome_motion: super::super::IconId = super::super::IconId { offset: 3002112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_fix_high: super::super::IconId = super::super::IconId { offset: 3004416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_fix_normal: super::super::IconId = super::super::IconId { offset: 3006720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_fix_off: super::super::IconId = super::super::IconId { offset: 3009024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const auto_stories: super::super::IconId = super::super::IconId { offset: 3011328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const autofps_select: super::super::IconId = super::super::IconId { offset: 2995200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bedtime: super::super::IconId = super::super::IconId { offset: 3013632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bedtime_off: super::super::IconId = super::super::IconId { offset: 3015936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blur_circular: super::super::IconId = super::super::IconId { offset: 3018240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blur_linear: super::super::IconId = super::super::IconId { offset: 3020544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blur_off: super::super::IconId = super::super::IconId { offset: 3022848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blur_on: super::super::IconId = super::super::IconId { offset: 3025152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_1: super::super::IconId = super::super::IconId { offset: 3027456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_2: super::super::IconId = super::super::IconId { offset: 3029760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_3: super::super::IconId = super::super::IconId { offset: 3032064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_4: super::super::IconId = super::super::IconId { offset: 3034368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_5: super::super::IconId = super::super::IconId { offset: 3036672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_6: super::super::IconId = super::super::IconId { offset: 3038976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brightness_7: super::super::IconId = super::super::IconId { offset: 3041280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const broken_image: super::super::IconId = super::super::IconId { offset: 3043584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brush: super::super::IconId = super::super::IconId { offset: 3045888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const burst_mode: super::super::IconId = super::super::IconId { offset: 3048192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera: super::super::IconId = super::super::IconId { offset: 3050496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera_alt: super::super::IconId = super::super::IconId { offset: 3052800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera_front: super::super::IconId = super::super::IconId { offset: 3055104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera_rear: super::super::IconId = super::super::IconId { offset: 3057408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera_roll: super::super::IconId = super::super::IconId { offset: 3059712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cases: super::super::IconId = super::super::IconId { offset: 3062016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const center_focus_strong: super::super::IconId = super::super::IconId { offset: 3064320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const center_focus_weak: super::super::IconId = super::super::IconId { offset: 3066624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const circle: super::super::IconId = super::super::IconId { offset: 3068928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const collections: super::super::IconId = super::super::IconId { offset: 3071232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const collections_bookmark: super::super::IconId = super::super::IconId { offset: 3073536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const color_lens: super::super::IconId = super::super::IconId { offset: 3078144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const colorize: super::super::IconId = super::super::IconId { offset: 3075840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const compare: super::super::IconId = super::super::IconId { offset: 3080448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const contrast: super::super::IconId = super::super::IconId { offset: 3082752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const control_point: super::super::IconId = super::super::IconId { offset: 3085056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const control_point_duplicate: super::super::IconId = super::super::IconId { offset: 3087360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop: super::super::IconId = super::super::IconId { offset: 3089664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_16_9: super::super::IconId = super::super::IconId { offset: 3091968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_3_2: super::super::IconId = super::super::IconId { offset: 3094272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_5_4: super::super::IconId = super::super::IconId { offset: 3096576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_7_5: super::super::IconId = super::super::IconId { offset: 3098880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_din: super::super::IconId = super::super::IconId { offset: 3101184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_free: super::super::IconId = super::super::IconId { offset: 3103488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_landscape: super::super::IconId = super::super::IconId { offset: 3105792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_original: super::super::IconId = super::super::IconId { offset: 3108096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_portrait: super::super::IconId = super::super::IconId { offset: 3110400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_rotate: super::super::IconId = super::super::IconId { offset: 3112704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crop_square: super::super::IconId = super::super::IconId { offset: 3115008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_bitcoin: super::super::IconId = super::super::IconId { offset: 3117312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_franc: super::super::IconId = super::super::IconId { offset: 3119616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_lira: super::super::IconId = super::super::IconId { offset: 3121920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_pound: super::super::IconId = super::super::IconId { offset: 3124224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_ruble: super::super::IconId = super::super::IconId { offset: 3126528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_rupee: super::super::IconId = super::super::IconId { offset: 3128832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_yen: super::super::IconId = super::super::IconId { offset: 3131136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const currency_yuan: super::super::IconId = super::super::IconId { offset: 3133440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const deblur: super::super::IconId = super::super::IconId { offset: 3135744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dehaze: super::super::IconId = super::super::IconId { offset: 3138048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const details: super::super::IconId = super::super::IconId { offset: 3140352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dirty_lens: super::super::IconId = super::super::IconId { offset: 3142656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit: super::super::IconId = super::super::IconId { offset: 3144960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const euro: super::super::IconId = super::super::IconId { offset: 3147264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const exposure: super::super::IconId = super::super::IconId { offset: 3149568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const exposure_neg_1: super::super::IconId = super::super::IconId { offset: 3151872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const exposure_neg_2: super::super::IconId = super::super::IconId { offset: 3154176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const exposure_plus_1: super::super::IconId = super::super::IconId { offset: 3156480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const exposure_plus_2: super::super::IconId = super::super::IconId { offset: 3158784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const exposure_zero: super::super::IconId = super::super::IconId { offset: 3161088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face_retouching_natural: super::super::IconId = super::super::IconId { offset: 3163392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face_retouching_off: super::super::IconId = super::super::IconId { offset: 3165696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter: super::super::IconId = super::super::IconId { offset: 3168000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_1: super::super::IconId = super::super::IconId { offset: 3170304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_2: super::super::IconId = super::super::IconId { offset: 3172608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_3: super::super::IconId = super::super::IconId { offset: 3174912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_4: super::super::IconId = super::super::IconId { offset: 3177216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_5: super::super::IconId = super::super::IconId { offset: 3179520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_6: super::super::IconId = super::super::IconId { offset: 3181824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_7: super::super::IconId = super::super::IconId { offset: 3184128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_8: super::super::IconId = super::super::IconId { offset: 3186432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_9: super::super::IconId = super::super::IconId { offset: 3188736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_9_plus: super::super::IconId = super::super::IconId { offset: 3191040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_b_and_w: super::super::IconId = super::super::IconId { offset: 3193344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_center_focus: super::super::IconId = super::super::IconId { offset: 3195648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_drama: super::super::IconId = super::super::IconId { offset: 3197952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_frames: super::super::IconId = super::super::IconId { offset: 3200256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_hdr: super::super::IconId = super::super::IconId { offset: 3202560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_none: super::super::IconId = super::super::IconId { offset: 3204864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_tilt_shift: super::super::IconId = super::super::IconId { offset: 3207168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const filter_vintage: super::super::IconId = super::super::IconId { offset: 3209472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flare: super::super::IconId = super::super::IconId { offset: 3211776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flash_auto: super::super::IconId = super::super::IconId { offset: 3214080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flash_off: super::super::IconId = super::super::IconId { offset: 3216384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flash_on: super::super::IconId = super::super::IconId { offset: 3218688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flip: super::super::IconId = super::super::IconId { offset: 3220992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flip_camera_android: super::super::IconId = super::super::IconId { offset: 3223296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flip_camera_ios: super::super::IconId = super::super::IconId { offset: 3225600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gradient: super::super::IconId = super::super::IconId { offset: 3227904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grain: super::super::IconId = super::super::IconId { offset: 3230208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grid_off: super::super::IconId = super::super::IconId { offset: 3232512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grid_on: super::super::IconId = super::super::IconId { offset: 3234816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_enhanced_select: super::super::IconId = super::super::IconId { offset: 3237120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_off: super::super::IconId = super::super::IconId { offset: 3239424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_on: super::super::IconId = super::super::IconId { offset: 3241728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_plus: super::super::IconId = super::super::IconId { offset: 3244032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_strong: super::super::IconId = super::super::IconId { offset: 3246336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hdr_weak: super::super::IconId = super::super::IconId { offset: 3248640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const healing: super::super::IconId = super::super::IconId { offset: 3250944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hevc: super::super::IconId = super::super::IconId { offset: 3253248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hide_image: super::super::IconId = super::super::IconId { offset: 3255552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const image: super::super::IconId = super::super::IconId { offset: 3257856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const image_aspect_ratio: super::super::IconId = super::super::IconId { offset: 3260160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const image_not_supported: super::super::IconId = super::super::IconId { offset: 3262464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const image_search: super::super::IconId = super::super::IconId { offset: 3264768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const incomplete_circle: super::super::IconId = super::super::IconId { offset: 3267072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const iso: super::super::IconId = super::super::IconId { offset: 3269376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const landscape: super::super::IconId = super::super::IconId { offset: 3271680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const leak_add: super::super::IconId = super::super::IconId { offset: 3273984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const leak_remove: super::super::IconId = super::super::IconId { offset: 3276288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lens: super::super::IconId = super::super::IconId { offset: 3278592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const linked_camera: super::super::IconId = super::super::IconId { offset: 3280896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const logo_dev: super::super::IconId = super::super::IconId { offset: 3283200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const looks: super::super::IconId = super::super::IconId { offset: 3285504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const looks_3: super::super::IconId = super::super::IconId { offset: 3287808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const looks_4: super::super::IconId = super::super::IconId { offset: 3290112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const looks_5: super::super::IconId = super::super::IconId { offset: 3292416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const looks_6: super::super::IconId = super::super::IconId { offset: 3294720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const looks_one: super::super::IconId = super::super::IconId { offset: 3297024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const looks_two: super::super::IconId = super::super::IconId { offset: 3299328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const loupe: super::super::IconId = super::super::IconId { offset: 3301632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mic_external_off: super::super::IconId = super::super::IconId { offset: 3303936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mic_external_on: super::super::IconId = super::super::IconId { offset: 3306240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const monochrome_photos: super::super::IconId = super::super::IconId { offset: 3308544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const motion_photos_auto: super::super::IconId = super::super::IconId { offset: 3310848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const motion_photos_off: super::super::IconId = super::super::IconId { offset: 3313152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const motion_photos_on: super::super::IconId = super::super::IconId { offset: 3315456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const motion_photos_pause: super::super::IconId = super::super::IconId { offset: 3317760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const motion_photos_paused: super::super::IconId = super::super::IconId { offset: 3320064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const movie_creation: super::super::IconId = super::super::IconId { offset: 3322368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const movie_filter: super::super::IconId = super::super::IconId { offset: 3324672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mp: super::super::IconId = super::super::IconId { offset: 3326976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const music_note: super::super::IconId = super::super::IconId { offset: 3329280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const music_off: super::super::IconId = super::super::IconId { offset: 3331584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nature: super::super::IconId = super::super::IconId { offset: 3333888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nature_people: super::super::IconId = super::super::IconId { offset: 3336192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const navigate_before: super::super::IconId = super::super::IconId { offset: 3338496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const navigate_next: super::super::IconId = super::super::IconId { offset: 3340800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const palette: super::super::IconId = super::super::IconId { offset: 3343104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama: super::super::IconId = super::super::IconId { offset: 3345408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_fish_eye: super::super::IconId = super::super::IconId { offset: 3347712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_horizontal: super::super::IconId = super::super::IconId { offset: 3350016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_horizontal_select: super::super::IconId = super::super::IconId { offset: 3352320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_photosphere: super::super::IconId = super::super::IconId { offset: 3354624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_photosphere_select: super::super::IconId = super::super::IconId { offset: 3356928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_vertical: super::super::IconId = super::super::IconId { offset: 3359232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_vertical_select: super::super::IconId = super::super::IconId { offset: 3361536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_wide_angle: super::super::IconId = super::super::IconId { offset: 3363840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const panorama_wide_angle_select: super::super::IconId = super::super::IconId { offset: 3366144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo: super::super::IconId = super::super::IconId { offset: 3368448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_album: super::super::IconId = super::super::IconId { offset: 3370752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_camera: super::super::IconId = super::super::IconId { offset: 3373056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_camera_back: super::super::IconId = super::super::IconId { offset: 3375360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_camera_front: super::super::IconId = super::super::IconId { offset: 3377664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_filter: super::super::IconId = super::super::IconId { offset: 3379968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_library: super::super::IconId = super::super::IconId { offset: 3382272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_size_select_actual: super::super::IconId = super::super::IconId { offset: 3384576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_size_select_large: super::super::IconId = super::super::IconId { offset: 3386880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const photo_size_select_small: super::super::IconId = super::super::IconId { offset: 3389184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const picture_as_pdf: super::super::IconId = super::super::IconId { offset: 3391488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const portrait: super::super::IconId = super::super::IconId { offset: 3393792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const raw_off: super::super::IconId = super::super::IconId { offset: 3396096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const raw_on: super::super::IconId = super::super::IconId { offset: 3398400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const receipt_long: super::super::IconId = super::super::IconId { offset: 3400704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_red_eye: super::super::IconId = super::super::IconId { offset: 3403008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rotate_90_degrees_ccw: super::super::IconId = super::super::IconId { offset: 3405312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rotate_90_degrees_cw: super::super::IconId = super::super::IconId { offset: 3407616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rotate_left: super::super::IconId = super::super::IconId { offset: 3409920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rotate_right: super::super::IconId = super::super::IconId { offset: 3412224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shutter_speed: super::super::IconId = super::super::IconId { offset: 3414528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const slideshow: super::super::IconId = super::super::IconId { offset: 3416832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const straighten: super::super::IconId = super::super::IconId { offset: 3419136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const style: super::super::IconId = super::super::IconId { offset: 3421440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const switch_camera: super::super::IconId = super::super::IconId { offset: 3423744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const switch_video: super::super::IconId = super::super::IconId { offset: 3426048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tag_faces: super::super::IconId = super::super::IconId { offset: 3428352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const texture: super::super::IconId = super::super::IconId { offset: 3430656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const thermostat_auto: super::super::IconId = super::super::IconId { offset: 3432960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timelapse: super::super::IconId = super::super::IconId { offset: 3435264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timer: super::super::IconId = super::super::IconId { offset: 3437568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timer_10: super::super::IconId = super::super::IconId { offset: 3439872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timer_3: super::super::IconId = super::super::IconId { offset: 3442176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const timer_off: super::super::IconId = super::super::IconId { offset: 3444480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tonality: super::super::IconId = super::super::IconId { offset: 3446784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const transform: super::super::IconId = super::super::IconId { offset: 3449088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tune: super::super::IconId = super::super::IconId { offset: 3451392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_camera_back: super::super::IconId = super::super::IconId { offset: 3453696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_camera_front: super::super::IconId = super::super::IconId { offset: 3456000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_stable: super::super::IconId = super::super::IconId { offset: 3458304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_comfy: super::super::IconId = super::super::IconId { offset: 3460608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const view_compact: super::super::IconId = super::super::IconId { offset: 3462912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vignette: super::super::IconId = super::super::IconId { offset: 3465216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vrpano: super::super::IconId = super::super::IconId { offset: 3467520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_auto: super::super::IconId = super::super::IconId { offset: 3469824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_cloudy: super::super::IconId = super::super::IconId { offset: 3472128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_incandescent: super::super::IconId = super::super::IconId { offset: 3474432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_iridescent: super::super::IconId = super::super::IconId { offset: 3476736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_shade: super::super::IconId = super::super::IconId { offset: 3479040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_sunny: super::super::IconId = super::super::IconId { offset: 3481344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_twighlight: super::super::IconId = super::super::IconId { offset: 3483648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wb_twilight: super::super::IconId = super::super::IconId { offset: 3485952u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const _10mp: super::super::IconId = super::super::IconId {
+            offset: 2919168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _11mp: super::super::IconId = super::super::IconId {
+            offset: 2921472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _12mp: super::super::IconId = super::super::IconId {
+            offset: 2923776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _13mp: super::super::IconId = super::super::IconId {
+            offset: 2926080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _14mp: super::super::IconId = super::super::IconId {
+            offset: 2928384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _15mp: super::super::IconId = super::super::IconId {
+            offset: 2930688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _16mp: super::super::IconId = super::super::IconId {
+            offset: 2932992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _17mp: super::super::IconId = super::super::IconId {
+            offset: 2935296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _18mp: super::super::IconId = super::super::IconId {
+            offset: 2937600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _19mp: super::super::IconId = super::super::IconId {
+            offset: 2939904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _20mp: super::super::IconId = super::super::IconId {
+            offset: 2942208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _21mp: super::super::IconId = super::super::IconId {
+            offset: 2944512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _22mp: super::super::IconId = super::super::IconId {
+            offset: 2946816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _23mp: super::super::IconId = super::super::IconId {
+            offset: 2949120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _24mp: super::super::IconId = super::super::IconId {
+            offset: 2951424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _2mp: super::super::IconId = super::super::IconId {
+            offset: 2953728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _30fps_select: super::super::IconId = super::super::IconId {
+            offset: 2956032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _3mp: super::super::IconId = super::super::IconId {
+            offset: 2958336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _4mp: super::super::IconId = super::super::IconId {
+            offset: 2960640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _5mp: super::super::IconId = super::super::IconId {
+            offset: 2962944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _60fps_select: super::super::IconId = super::super::IconId {
+            offset: 2965248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _6mp: super::super::IconId = super::super::IconId {
+            offset: 2967552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _7mp: super::super::IconId = super::super::IconId {
+            offset: 2969856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _8mp: super::super::IconId = super::super::IconId {
+            offset: 2972160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _9mp: super::super::IconId = super::super::IconId {
+            offset: 2974464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_a_photo: super::super::IconId = super::super::IconId {
+            offset: 2976768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_photo_alternate: super::super::IconId = super::super::IconId {
+            offset: 2979072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_to_photos: super::super::IconId = super::super::IconId {
+            offset: 2981376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const adjust: super::super::IconId = super::super::IconId {
+            offset: 2983680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const animation: super::super::IconId = super::super::IconId {
+            offset: 2985984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assistant: super::super::IconId = super::super::IconId {
+            offset: 2988288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assistant_photo: super::super::IconId = super::super::IconId {
+            offset: 2990592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const audiotrack: super::super::IconId = super::super::IconId {
+            offset: 2992896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_awesome: super::super::IconId = super::super::IconId {
+            offset: 2997504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_awesome_mosaic: super::super::IconId = super::super::IconId {
+            offset: 2999808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_awesome_motion: super::super::IconId = super::super::IconId {
+            offset: 3002112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_fix_high: super::super::IconId = super::super::IconId {
+            offset: 3004416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_fix_normal: super::super::IconId = super::super::IconId {
+            offset: 3006720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_fix_off: super::super::IconId = super::super::IconId {
+            offset: 3009024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const auto_stories: super::super::IconId = super::super::IconId {
+            offset: 3011328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const autofps_select: super::super::IconId = super::super::IconId {
+            offset: 2995200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bedtime: super::super::IconId = super::super::IconId {
+            offset: 3013632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bedtime_off: super::super::IconId = super::super::IconId {
+            offset: 3015936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blur_circular: super::super::IconId = super::super::IconId {
+            offset: 3018240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blur_linear: super::super::IconId = super::super::IconId {
+            offset: 3020544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blur_off: super::super::IconId = super::super::IconId {
+            offset: 3022848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blur_on: super::super::IconId = super::super::IconId {
+            offset: 3025152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_1: super::super::IconId = super::super::IconId {
+            offset: 3027456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_2: super::super::IconId = super::super::IconId {
+            offset: 3029760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_3: super::super::IconId = super::super::IconId {
+            offset: 3032064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_4: super::super::IconId = super::super::IconId {
+            offset: 3034368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_5: super::super::IconId = super::super::IconId {
+            offset: 3036672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_6: super::super::IconId = super::super::IconId {
+            offset: 3038976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brightness_7: super::super::IconId = super::super::IconId {
+            offset: 3041280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const broken_image: super::super::IconId = super::super::IconId {
+            offset: 3043584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brush: super::super::IconId = super::super::IconId {
+            offset: 3045888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const burst_mode: super::super::IconId = super::super::IconId {
+            offset: 3048192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera: super::super::IconId = super::super::IconId {
+            offset: 3050496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera_alt: super::super::IconId = super::super::IconId {
+            offset: 3052800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera_front: super::super::IconId = super::super::IconId {
+            offset: 3055104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera_rear: super::super::IconId = super::super::IconId {
+            offset: 3057408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera_roll: super::super::IconId = super::super::IconId {
+            offset: 3059712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cases: super::super::IconId = super::super::IconId {
+            offset: 3062016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const center_focus_strong: super::super::IconId = super::super::IconId {
+            offset: 3064320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const center_focus_weak: super::super::IconId = super::super::IconId {
+            offset: 3066624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const circle: super::super::IconId = super::super::IconId {
+            offset: 3068928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const collections: super::super::IconId = super::super::IconId {
+            offset: 3071232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const collections_bookmark: super::super::IconId = super::super::IconId {
+            offset: 3073536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const color_lens: super::super::IconId = super::super::IconId {
+            offset: 3078144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const colorize: super::super::IconId = super::super::IconId {
+            offset: 3075840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const compare: super::super::IconId = super::super::IconId {
+            offset: 3080448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const contrast: super::super::IconId = super::super::IconId {
+            offset: 3082752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const control_point: super::super::IconId = super::super::IconId {
+            offset: 3085056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const control_point_duplicate: super::super::IconId = super::super::IconId {
+            offset: 3087360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop: super::super::IconId = super::super::IconId {
+            offset: 3089664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_16_9: super::super::IconId = super::super::IconId {
+            offset: 3091968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_3_2: super::super::IconId = super::super::IconId {
+            offset: 3094272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_5_4: super::super::IconId = super::super::IconId {
+            offset: 3096576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_7_5: super::super::IconId = super::super::IconId {
+            offset: 3098880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_din: super::super::IconId = super::super::IconId {
+            offset: 3101184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_free: super::super::IconId = super::super::IconId {
+            offset: 3103488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_landscape: super::super::IconId = super::super::IconId {
+            offset: 3105792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_original: super::super::IconId = super::super::IconId {
+            offset: 3108096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_portrait: super::super::IconId = super::super::IconId {
+            offset: 3110400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_rotate: super::super::IconId = super::super::IconId {
+            offset: 3112704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crop_square: super::super::IconId = super::super::IconId {
+            offset: 3115008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_bitcoin: super::super::IconId = super::super::IconId {
+            offset: 3117312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_franc: super::super::IconId = super::super::IconId {
+            offset: 3119616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_lira: super::super::IconId = super::super::IconId {
+            offset: 3121920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_pound: super::super::IconId = super::super::IconId {
+            offset: 3124224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_ruble: super::super::IconId = super::super::IconId {
+            offset: 3126528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_rupee: super::super::IconId = super::super::IconId {
+            offset: 3128832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_yen: super::super::IconId = super::super::IconId {
+            offset: 3131136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const currency_yuan: super::super::IconId = super::super::IconId {
+            offset: 3133440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const deblur: super::super::IconId = super::super::IconId {
+            offset: 3135744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dehaze: super::super::IconId = super::super::IconId {
+            offset: 3138048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const details: super::super::IconId = super::super::IconId {
+            offset: 3140352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dirty_lens: super::super::IconId = super::super::IconId {
+            offset: 3142656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit: super::super::IconId = super::super::IconId {
+            offset: 3144960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const euro: super::super::IconId = super::super::IconId {
+            offset: 3147264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const exposure: super::super::IconId = super::super::IconId {
+            offset: 3149568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const exposure_neg_1: super::super::IconId = super::super::IconId {
+            offset: 3151872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const exposure_neg_2: super::super::IconId = super::super::IconId {
+            offset: 3154176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const exposure_plus_1: super::super::IconId = super::super::IconId {
+            offset: 3156480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const exposure_plus_2: super::super::IconId = super::super::IconId {
+            offset: 3158784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const exposure_zero: super::super::IconId = super::super::IconId {
+            offset: 3161088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face_retouching_natural: super::super::IconId = super::super::IconId {
+            offset: 3163392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face_retouching_off: super::super::IconId = super::super::IconId {
+            offset: 3165696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter: super::super::IconId = super::super::IconId {
+            offset: 3168000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_1: super::super::IconId = super::super::IconId {
+            offset: 3170304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_2: super::super::IconId = super::super::IconId {
+            offset: 3172608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_3: super::super::IconId = super::super::IconId {
+            offset: 3174912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_4: super::super::IconId = super::super::IconId {
+            offset: 3177216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_5: super::super::IconId = super::super::IconId {
+            offset: 3179520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_6: super::super::IconId = super::super::IconId {
+            offset: 3181824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_7: super::super::IconId = super::super::IconId {
+            offset: 3184128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_8: super::super::IconId = super::super::IconId {
+            offset: 3186432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_9: super::super::IconId = super::super::IconId {
+            offset: 3188736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_9_plus: super::super::IconId = super::super::IconId {
+            offset: 3191040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_b_and_w: super::super::IconId = super::super::IconId {
+            offset: 3193344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_center_focus: super::super::IconId = super::super::IconId {
+            offset: 3195648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_drama: super::super::IconId = super::super::IconId {
+            offset: 3197952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_frames: super::super::IconId = super::super::IconId {
+            offset: 3200256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_hdr: super::super::IconId = super::super::IconId {
+            offset: 3202560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_none: super::super::IconId = super::super::IconId {
+            offset: 3204864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_tilt_shift: super::super::IconId = super::super::IconId {
+            offset: 3207168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const filter_vintage: super::super::IconId = super::super::IconId {
+            offset: 3209472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flare: super::super::IconId = super::super::IconId {
+            offset: 3211776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flash_auto: super::super::IconId = super::super::IconId {
+            offset: 3214080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flash_off: super::super::IconId = super::super::IconId {
+            offset: 3216384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flash_on: super::super::IconId = super::super::IconId {
+            offset: 3218688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flip: super::super::IconId = super::super::IconId {
+            offset: 3220992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flip_camera_android: super::super::IconId = super::super::IconId {
+            offset: 3223296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flip_camera_ios: super::super::IconId = super::super::IconId {
+            offset: 3225600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gradient: super::super::IconId = super::super::IconId {
+            offset: 3227904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grain: super::super::IconId = super::super::IconId {
+            offset: 3230208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grid_off: super::super::IconId = super::super::IconId {
+            offset: 3232512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grid_on: super::super::IconId = super::super::IconId {
+            offset: 3234816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_enhanced_select: super::super::IconId = super::super::IconId {
+            offset: 3237120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_off: super::super::IconId = super::super::IconId {
+            offset: 3239424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_on: super::super::IconId = super::super::IconId {
+            offset: 3241728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_plus: super::super::IconId = super::super::IconId {
+            offset: 3244032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_strong: super::super::IconId = super::super::IconId {
+            offset: 3246336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hdr_weak: super::super::IconId = super::super::IconId {
+            offset: 3248640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const healing: super::super::IconId = super::super::IconId {
+            offset: 3250944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hevc: super::super::IconId = super::super::IconId {
+            offset: 3253248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hide_image: super::super::IconId = super::super::IconId {
+            offset: 3255552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const image: super::super::IconId = super::super::IconId {
+            offset: 3257856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const image_aspect_ratio: super::super::IconId = super::super::IconId {
+            offset: 3260160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const image_not_supported: super::super::IconId = super::super::IconId {
+            offset: 3262464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const image_search: super::super::IconId = super::super::IconId {
+            offset: 3264768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const incomplete_circle: super::super::IconId = super::super::IconId {
+            offset: 3267072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const iso: super::super::IconId = super::super::IconId {
+            offset: 3269376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const landscape: super::super::IconId = super::super::IconId {
+            offset: 3271680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const leak_add: super::super::IconId = super::super::IconId {
+            offset: 3273984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const leak_remove: super::super::IconId = super::super::IconId {
+            offset: 3276288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lens: super::super::IconId = super::super::IconId {
+            offset: 3278592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const linked_camera: super::super::IconId = super::super::IconId {
+            offset: 3280896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const logo_dev: super::super::IconId = super::super::IconId {
+            offset: 3283200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const looks: super::super::IconId = super::super::IconId {
+            offset: 3285504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const looks_3: super::super::IconId = super::super::IconId {
+            offset: 3287808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const looks_4: super::super::IconId = super::super::IconId {
+            offset: 3290112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const looks_5: super::super::IconId = super::super::IconId {
+            offset: 3292416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const looks_6: super::super::IconId = super::super::IconId {
+            offset: 3294720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const looks_one: super::super::IconId = super::super::IconId {
+            offset: 3297024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const looks_two: super::super::IconId = super::super::IconId {
+            offset: 3299328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const loupe: super::super::IconId = super::super::IconId {
+            offset: 3301632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mic_external_off: super::super::IconId = super::super::IconId {
+            offset: 3303936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mic_external_on: super::super::IconId = super::super::IconId {
+            offset: 3306240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const monochrome_photos: super::super::IconId = super::super::IconId {
+            offset: 3308544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const motion_photos_auto: super::super::IconId = super::super::IconId {
+            offset: 3310848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const motion_photos_off: super::super::IconId = super::super::IconId {
+            offset: 3313152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const motion_photos_on: super::super::IconId = super::super::IconId {
+            offset: 3315456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const motion_photos_pause: super::super::IconId = super::super::IconId {
+            offset: 3317760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const motion_photos_paused: super::super::IconId = super::super::IconId {
+            offset: 3320064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const movie_creation: super::super::IconId = super::super::IconId {
+            offset: 3322368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const movie_filter: super::super::IconId = super::super::IconId {
+            offset: 3324672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mp: super::super::IconId = super::super::IconId {
+            offset: 3326976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const music_note: super::super::IconId = super::super::IconId {
+            offset: 3329280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const music_off: super::super::IconId = super::super::IconId {
+            offset: 3331584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nature: super::super::IconId = super::super::IconId {
+            offset: 3333888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nature_people: super::super::IconId = super::super::IconId {
+            offset: 3336192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const navigate_before: super::super::IconId = super::super::IconId {
+            offset: 3338496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const navigate_next: super::super::IconId = super::super::IconId {
+            offset: 3340800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const palette: super::super::IconId = super::super::IconId {
+            offset: 3343104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama: super::super::IconId = super::super::IconId {
+            offset: 3345408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_fish_eye: super::super::IconId = super::super::IconId {
+            offset: 3347712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_horizontal: super::super::IconId = super::super::IconId {
+            offset: 3350016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_horizontal_select: super::super::IconId = super::super::IconId {
+            offset: 3352320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_photosphere: super::super::IconId = super::super::IconId {
+            offset: 3354624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_photosphere_select: super::super::IconId = super::super::IconId {
+            offset: 3356928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_vertical: super::super::IconId = super::super::IconId {
+            offset: 3359232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_vertical_select: super::super::IconId = super::super::IconId {
+            offset: 3361536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_wide_angle: super::super::IconId = super::super::IconId {
+            offset: 3363840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const panorama_wide_angle_select: super::super::IconId = super::super::IconId {
+            offset: 3366144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo: super::super::IconId = super::super::IconId {
+            offset: 3368448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_album: super::super::IconId = super::super::IconId {
+            offset: 3370752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_camera: super::super::IconId = super::super::IconId {
+            offset: 3373056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_camera_back: super::super::IconId = super::super::IconId {
+            offset: 3375360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_camera_front: super::super::IconId = super::super::IconId {
+            offset: 3377664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_filter: super::super::IconId = super::super::IconId {
+            offset: 3379968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_library: super::super::IconId = super::super::IconId {
+            offset: 3382272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_size_select_actual: super::super::IconId = super::super::IconId {
+            offset: 3384576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_size_select_large: super::super::IconId = super::super::IconId {
+            offset: 3386880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const photo_size_select_small: super::super::IconId = super::super::IconId {
+            offset: 3389184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const picture_as_pdf: super::super::IconId = super::super::IconId {
+            offset: 3391488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const portrait: super::super::IconId = super::super::IconId {
+            offset: 3393792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const raw_off: super::super::IconId = super::super::IconId {
+            offset: 3396096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const raw_on: super::super::IconId = super::super::IconId {
+            offset: 3398400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const receipt_long: super::super::IconId = super::super::IconId {
+            offset: 3400704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_red_eye: super::super::IconId = super::super::IconId {
+            offset: 3403008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rotate_90_degrees_ccw: super::super::IconId = super::super::IconId {
+            offset: 3405312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rotate_90_degrees_cw: super::super::IconId = super::super::IconId {
+            offset: 3407616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rotate_left: super::super::IconId = super::super::IconId {
+            offset: 3409920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rotate_right: super::super::IconId = super::super::IconId {
+            offset: 3412224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shutter_speed: super::super::IconId = super::super::IconId {
+            offset: 3414528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const slideshow: super::super::IconId = super::super::IconId {
+            offset: 3416832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const straighten: super::super::IconId = super::super::IconId {
+            offset: 3419136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const style: super::super::IconId = super::super::IconId {
+            offset: 3421440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const switch_camera: super::super::IconId = super::super::IconId {
+            offset: 3423744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const switch_video: super::super::IconId = super::super::IconId {
+            offset: 3426048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tag_faces: super::super::IconId = super::super::IconId {
+            offset: 3428352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const texture: super::super::IconId = super::super::IconId {
+            offset: 3430656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const thermostat_auto: super::super::IconId = super::super::IconId {
+            offset: 3432960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timelapse: super::super::IconId = super::super::IconId {
+            offset: 3435264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timer: super::super::IconId = super::super::IconId {
+            offset: 3437568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timer_10: super::super::IconId = super::super::IconId {
+            offset: 3439872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timer_3: super::super::IconId = super::super::IconId {
+            offset: 3442176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const timer_off: super::super::IconId = super::super::IconId {
+            offset: 3444480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tonality: super::super::IconId = super::super::IconId {
+            offset: 3446784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const transform: super::super::IconId = super::super::IconId {
+            offset: 3449088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tune: super::super::IconId = super::super::IconId {
+            offset: 3451392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_camera_back: super::super::IconId = super::super::IconId {
+            offset: 3453696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_camera_front: super::super::IconId = super::super::IconId {
+            offset: 3456000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_stable: super::super::IconId = super::super::IconId {
+            offset: 3458304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_comfy: super::super::IconId = super::super::IconId {
+            offset: 3460608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const view_compact: super::super::IconId = super::super::IconId {
+            offset: 3462912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vignette: super::super::IconId = super::super::IconId {
+            offset: 3465216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vrpano: super::super::IconId = super::super::IconId {
+            offset: 3467520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_auto: super::super::IconId = super::super::IconId {
+            offset: 3469824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_cloudy: super::super::IconId = super::super::IconId {
+            offset: 3472128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_incandescent: super::super::IconId = super::super::IconId {
+            offset: 3474432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_iridescent: super::super::IconId = super::super::IconId {
+            offset: 3476736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_shade: super::super::IconId = super::super::IconId {
+            offset: 3479040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_sunny: super::super::IconId = super::super::IconId {
+            offset: 3481344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_twighlight: super::super::IconId = super::super::IconId {
+            offset: 3483648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wb_twilight: super::super::IconId = super::super::IconId {
+            offset: 3485952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod maps {
-        pub const _360: super::super::IconId = super::super::IconId { offset: 3488256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_business: super::super::IconId = super::super::IconId { offset: 3490560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_location: super::super::IconId = super::super::IconId { offset: 3492864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_location_alt: super::super::IconId = super::super::IconId { offset: 3495168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_road: super::super::IconId = super::super::IconId { offset: 3497472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const agriculture: super::super::IconId = super::super::IconId { offset: 3499776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_stops: super::super::IconId = super::super::IconId { offset: 3504384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airlines: super::super::IconId = super::super::IconId { offset: 3502080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const alt_route: super::super::IconId = super::super::IconId { offset: 3506688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const atm: super::super::IconId = super::super::IconId { offset: 3508992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const attractions: super::super::IconId = super::super::IconId { offset: 3511296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const badge: super::super::IconId = super::super::IconId { offset: 3513600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bakery_dining: super::super::IconId = super::super::IconId { offset: 3515904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const beenhere: super::super::IconId = super::super::IconId { offset: 3518208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bike_scooter: super::super::IconId = super::super::IconId { offset: 3520512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const breakfast_dining: super::super::IconId = super::super::IconId { offset: 3522816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const brunch_dining: super::super::IconId = super::super::IconId { offset: 3525120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bus_alert: super::super::IconId = super::super::IconId { offset: 3527424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const car_crash: super::super::IconId = super::super::IconId { offset: 3529728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const car_rental: super::super::IconId = super::super::IconId { offset: 3532032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const car_repair: super::super::IconId = super::super::IconId { offset: 3534336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const castle: super::super::IconId = super::super::IconId { offset: 3536640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const category: super::super::IconId = super::super::IconId { offset: 3538944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const celebration: super::super::IconId = super::super::IconId { offset: 3541248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const church: super::super::IconId = super::super::IconId { offset: 3543552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cleaning_services: super::super::IconId = super::super::IconId { offset: 3545856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const compass_calibration: super::super::IconId = super::super::IconId { offset: 3548160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const connecting_airports: super::super::IconId = super::super::IconId { offset: 3550464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crisis_alert: super::super::IconId = super::super::IconId { offset: 3552768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const delivery_dining: super::super::IconId = super::super::IconId { offset: 3555072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const departure_board: super::super::IconId = super::super::IconId { offset: 3557376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const design_services: super::super::IconId = super::super::IconId { offset: 3559680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const diamond: super::super::IconId = super::super::IconId { offset: 3561984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dinner_dining: super::super::IconId = super::super::IconId { offset: 3564288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions: super::super::IconId = super::super::IconId { offset: 3566592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_bike: super::super::IconId = super::super::IconId { offset: 3568896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_boat: super::super::IconId = super::super::IconId { offset: 3571200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_boat_filled: super::super::IconId = super::super::IconId { offset: 3573504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_bus: super::super::IconId = super::super::IconId { offset: 3575808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_bus_filled: super::super::IconId = super::super::IconId { offset: 3578112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_car: super::super::IconId = super::super::IconId { offset: 3580416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_car_filled: super::super::IconId = super::super::IconId { offset: 3582720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_railway: super::super::IconId = super::super::IconId { offset: 3585024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_railway_filled: super::super::IconId = super::super::IconId { offset: 3587328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_run: super::super::IconId = super::super::IconId { offset: 3589632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_subway: super::super::IconId = super::super::IconId { offset: 3591936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_subway_filled: super::super::IconId = super::super::IconId { offset: 3594240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_transit: super::super::IconId = super::super::IconId { offset: 3596544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_transit_filled: super::super::IconId = super::super::IconId { offset: 3598848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_walk: super::super::IconId = super::super::IconId { offset: 3601152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dry_cleaning: super::super::IconId = super::super::IconId { offset: 3603456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_attributes: super::super::IconId = super::super::IconId { offset: 3605760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_location: super::super::IconId = super::super::IconId { offset: 3608064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_location_alt: super::super::IconId = super::super::IconId { offset: 3610368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_road: super::super::IconId = super::super::IconId { offset: 3612672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const egg: super::super::IconId = super::super::IconId { offset: 3614976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const egg_alt: super::super::IconId = super::super::IconId { offset: 3617280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electric_bike: super::super::IconId = super::super::IconId { offset: 3621888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electric_car: super::super::IconId = super::super::IconId { offset: 3624192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electric_moped: super::super::IconId = super::super::IconId { offset: 3626496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electric_rickshaw: super::super::IconId = super::super::IconId { offset: 3628800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electric_scooter: super::super::IconId = super::super::IconId { offset: 3631104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const electrical_services: super::super::IconId = super::super::IconId { offset: 3619584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emergency: super::super::IconId = super::super::IconId { offset: 3633408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emergency_recording: super::super::IconId = super::super::IconId { offset: 3635712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emergency_share: super::super::IconId = super::super::IconId { offset: 3638016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ev_station: super::super::IconId = super::super::IconId { offset: 3640320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const factory: super::super::IconId = super::super::IconId { offset: 3642624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fastfood: super::super::IconId = super::super::IconId { offset: 3644928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const festival: super::super::IconId = super::super::IconId { offset: 3647232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fire_hydrant_alt: super::super::IconId = super::super::IconId { offset: 3649536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fire_truck: super::super::IconId = super::super::IconId { offset: 3651840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flight: super::super::IconId = super::super::IconId { offset: 3654144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flight_class: super::super::IconId = super::super::IconId { offset: 3656448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const forest: super::super::IconId = super::super::IconId { offset: 3658752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fork_left: super::super::IconId = super::super::IconId { offset: 3661056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fork_right: super::super::IconId = super::super::IconId { offset: 3663360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fort: super::super::IconId = super::super::IconId { offset: 3665664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hail: super::super::IconId = super::super::IconId { offset: 3667968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const handyman: super::super::IconId = super::super::IconId { offset: 3670272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hardware: super::super::IconId = super::super::IconId { offset: 3672576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const home_repair_service: super::super::IconId = super::super::IconId { offset: 3674880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hotel: super::super::IconId = super::super::IconId { offset: 3677184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hvac: super::super::IconId = super::super::IconId { offset: 3679488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const icecream: super::super::IconId = super::super::IconId { offset: 3681792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const kebab_dining: super::super::IconId = super::super::IconId { offset: 3684096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const layers: super::super::IconId = super::super::IconId { offset: 3686400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const layers_clear: super::super::IconId = super::super::IconId { offset: 3688704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const liquor: super::super::IconId = super::super::IconId { offset: 3691008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_activity: super::super::IconId = super::super::IconId { offset: 3693312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_airport: super::super::IconId = super::super::IconId { offset: 3695616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_atm: super::super::IconId = super::super::IconId { offset: 3697920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_bar: super::super::IconId = super::super::IconId { offset: 3700224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_cafe: super::super::IconId = super::super::IconId { offset: 3702528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_car_wash: super::super::IconId = super::super::IconId { offset: 3704832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_convenience_store: super::super::IconId = super::super::IconId { offset: 3707136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_dining: super::super::IconId = super::super::IconId { offset: 3709440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_drink: super::super::IconId = super::super::IconId { offset: 3711744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_fire_department: super::super::IconId = super::super::IconId { offset: 3714048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_florist: super::super::IconId = super::super::IconId { offset: 3716352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_gas_station: super::super::IconId = super::super::IconId { offset: 3718656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_grocery_store: super::super::IconId = super::super::IconId { offset: 3720960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_hospital: super::super::IconId = super::super::IconId { offset: 3723264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_hotel: super::super::IconId = super::super::IconId { offset: 3725568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_laundry_service: super::super::IconId = super::super::IconId { offset: 3727872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_library: super::super::IconId = super::super::IconId { offset: 3730176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_mall: super::super::IconId = super::super::IconId { offset: 3732480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_movies: super::super::IconId = super::super::IconId { offset: 3734784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_offer: super::super::IconId = super::super::IconId { offset: 3737088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_parking: super::super::IconId = super::super::IconId { offset: 3739392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_pharmacy: super::super::IconId = super::super::IconId { offset: 3741696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_phone: super::super::IconId = super::super::IconId { offset: 3744000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_pizza: super::super::IconId = super::super::IconId { offset: 3746304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_play: super::super::IconId = super::super::IconId { offset: 3748608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_police: super::super::IconId = super::super::IconId { offset: 3750912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_post_office: super::super::IconId = super::super::IconId { offset: 3753216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_printshop: super::super::IconId = super::super::IconId { offset: 3755520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_see: super::super::IconId = super::super::IconId { offset: 3757824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_shipping: super::super::IconId = super::super::IconId { offset: 3760128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const local_taxi: super::super::IconId = super::super::IconId { offset: 3762432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const location_pin: super::super::IconId = super::super::IconId { offset: 3764736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const lunch_dining: super::super::IconId = super::super::IconId { offset: 3767040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const map: super::super::IconId = super::super::IconId { offset: 3769344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const maps_ugc: super::super::IconId = super::super::IconId { offset: 3771648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const medical_information: super::super::IconId = super::super::IconId { offset: 3773952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const medical_services: super::super::IconId = super::super::IconId { offset: 3776256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const menu_book: super::super::IconId = super::super::IconId { offset: 3778560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const merge: super::super::IconId = super::super::IconId { offset: 3780864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const minor_crash: super::super::IconId = super::super::IconId { offset: 3783168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const miscellaneous_services: super::super::IconId = super::super::IconId { offset: 3785472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mode_of_travel: super::super::IconId = super::super::IconId { offset: 3787776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const money: super::super::IconId = super::super::IconId { offset: 3790080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const moped: super::super::IconId = super::super::IconId { offset: 3792384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mosque: super::super::IconId = super::super::IconId { offset: 3794688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const moving: super::super::IconId = super::super::IconId { offset: 3796992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const multiple_stop: super::super::IconId = super::super::IconId { offset: 3799296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const museum: super::super::IconId = super::super::IconId { offset: 3801600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const my_location: super::super::IconId = super::super::IconId { offset: 3803904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const navigation: super::super::IconId = super::super::IconId { offset: 3806208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const near_me: super::super::IconId = super::super::IconId { offset: 3808512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const near_me_disabled: super::super::IconId = super::super::IconId { offset: 3810816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nightlife: super::super::IconId = super::super::IconId { offset: 3813120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_crash: super::super::IconId = super::super::IconId { offset: 3817728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_meals: super::super::IconId = super::super::IconId { offset: 3820032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_meals_ouline: super::super::IconId = super::super::IconId { offset: 3822336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_transfer: super::super::IconId = super::super::IconId { offset: 3824640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const not_listed_location: super::super::IconId = super::super::IconId { offset: 3815424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const park: super::super::IconId = super::super::IconId { offset: 3826944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pedal_bike: super::super::IconId = super::super::IconId { offset: 3829248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_pin: super::super::IconId = super::super::IconId { offset: 3831552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_pin_circle: super::super::IconId = super::super::IconId { offset: 3833856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pest_control: super::super::IconId = super::super::IconId { offset: 3836160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pest_control_rodent: super::super::IconId = super::super::IconId { offset: 3838464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pin_drop: super::super::IconId = super::super::IconId { offset: 3840768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const place: super::super::IconId = super::super::IconId { offset: 3843072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const plumbing: super::super::IconId = super::super::IconId { offset: 3845376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const railway_alert: super::super::IconId = super::super::IconId { offset: 3847680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ramen_dining: super::super::IconId = super::super::IconId { offset: 3849984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ramp_left: super::super::IconId = super::super::IconId { offset: 3852288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ramp_right: super::super::IconId = super::super::IconId { offset: 3854592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rate_review: super::super::IconId = super::super::IconId { offset: 3856896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_road: super::super::IconId = super::super::IconId { offset: 3859200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const restaurant: super::super::IconId = super::super::IconId { offset: 3861504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const restaurant_menu: super::super::IconId = super::super::IconId { offset: 3863808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const roundabout_left: super::super::IconId = super::super::IconId { offset: 3866112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const roundabout_right: super::super::IconId = super::super::IconId { offset: 3868416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const route: super::super::IconId = super::super::IconId { offset: 3870720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const run_circle: super::super::IconId = super::super::IconId { offset: 3873024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const safety_check: super::super::IconId = super::super::IconId { offset: 3875328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sailing: super::super::IconId = super::super::IconId { offset: 3877632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const satellite: super::super::IconId = super::super::IconId { offset: 3879936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const screen_rotation_alt: super::super::IconId = super::super::IconId { offset: 3882240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const set_meal: super::super::IconId = super::super::IconId { offset: 3884544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const signpost: super::super::IconId = super::super::IconId { offset: 3886848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const snowmobile: super::super::IconId = super::super::IconId { offset: 3889152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sos: super::super::IconId = super::super::IconId { offset: 3891456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const soup_kitchen: super::super::IconId = super::super::IconId { offset: 3893760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stadium: super::super::IconId = super::super::IconId { offset: 3896064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const store_mall_directory: super::super::IconId = super::super::IconId { offset: 3898368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const straight: super::super::IconId = super::super::IconId { offset: 3900672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const streetview: super::super::IconId = super::super::IconId { offset: 3902976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subway: super::super::IconId = super::super::IconId { offset: 3905280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const synagogue: super::super::IconId = super::super::IconId { offset: 3907584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const takeout_dining: super::super::IconId = super::super::IconId { offset: 3909888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const taxi_alert: super::super::IconId = super::super::IconId { offset: 3912192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const temple_buddhist: super::super::IconId = super::super::IconId { offset: 3914496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const temple_hindu: super::super::IconId = super::super::IconId { offset: 3916800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const terrain: super::super::IconId = super::super::IconId { offset: 3919104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const theater_comedy: super::super::IconId = super::super::IconId { offset: 3921408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tire_repair: super::super::IconId = super::super::IconId { offset: 3923712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const traffic: super::super::IconId = super::super::IconId { offset: 3926016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const train: super::super::IconId = super::super::IconId { offset: 3928320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tram: super::super::IconId = super::super::IconId { offset: 3930624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const transfer_within_a_station: super::super::IconId = super::super::IconId { offset: 3932928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const transit_enterexit: super::super::IconId = super::super::IconId { offset: 3935232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const trip_origin: super::super::IconId = super::super::IconId { offset: 3937536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turn_left: super::super::IconId = super::super::IconId { offset: 3939840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turn_right: super::super::IconId = super::super::IconId { offset: 3942144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turn_sharp_left: super::super::IconId = super::super::IconId { offset: 3944448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turn_sharp_right: super::super::IconId = super::super::IconId { offset: 3946752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turn_slight_left: super::super::IconId = super::super::IconId { offset: 3949056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const turn_slight_right: super::super::IconId = super::super::IconId { offset: 3951360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const two_wheeler: super::super::IconId = super::super::IconId { offset: 3953664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const u_turn_left: super::super::IconId = super::super::IconId { offset: 3955968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const u_turn_right: super::super::IconId = super::super::IconId { offset: 3958272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const volunteer_activism: super::super::IconId = super::super::IconId { offset: 3960576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const warehouse: super::super::IconId = super::super::IconId { offset: 3962880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wine_bar: super::super::IconId = super::super::IconId { offset: 3965184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wrong_location: super::super::IconId = super::super::IconId { offset: 3967488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const zoom_in_map: super::super::IconId = super::super::IconId { offset: 3969792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const zoom_out_map: super::super::IconId = super::super::IconId { offset: 3972096u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const _360: super::super::IconId = super::super::IconId {
+            offset: 3488256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_business: super::super::IconId = super::super::IconId {
+            offset: 3490560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_location: super::super::IconId = super::super::IconId {
+            offset: 3492864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_location_alt: super::super::IconId = super::super::IconId {
+            offset: 3495168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_road: super::super::IconId = super::super::IconId {
+            offset: 3497472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const agriculture: super::super::IconId = super::super::IconId {
+            offset: 3499776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_stops: super::super::IconId = super::super::IconId {
+            offset: 3504384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airlines: super::super::IconId = super::super::IconId {
+            offset: 3502080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const alt_route: super::super::IconId = super::super::IconId {
+            offset: 3506688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const atm: super::super::IconId = super::super::IconId {
+            offset: 3508992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const attractions: super::super::IconId = super::super::IconId {
+            offset: 3511296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const badge: super::super::IconId = super::super::IconId {
+            offset: 3513600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bakery_dining: super::super::IconId = super::super::IconId {
+            offset: 3515904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const beenhere: super::super::IconId = super::super::IconId {
+            offset: 3518208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bike_scooter: super::super::IconId = super::super::IconId {
+            offset: 3520512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const breakfast_dining: super::super::IconId = super::super::IconId {
+            offset: 3522816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const brunch_dining: super::super::IconId = super::super::IconId {
+            offset: 3525120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bus_alert: super::super::IconId = super::super::IconId {
+            offset: 3527424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const car_crash: super::super::IconId = super::super::IconId {
+            offset: 3529728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const car_rental: super::super::IconId = super::super::IconId {
+            offset: 3532032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const car_repair: super::super::IconId = super::super::IconId {
+            offset: 3534336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const castle: super::super::IconId = super::super::IconId {
+            offset: 3536640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const category: super::super::IconId = super::super::IconId {
+            offset: 3538944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const celebration: super::super::IconId = super::super::IconId {
+            offset: 3541248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const church: super::super::IconId = super::super::IconId {
+            offset: 3543552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cleaning_services: super::super::IconId = super::super::IconId {
+            offset: 3545856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const compass_calibration: super::super::IconId = super::super::IconId {
+            offset: 3548160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const connecting_airports: super::super::IconId = super::super::IconId {
+            offset: 3550464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crisis_alert: super::super::IconId = super::super::IconId {
+            offset: 3552768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const delivery_dining: super::super::IconId = super::super::IconId {
+            offset: 3555072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const departure_board: super::super::IconId = super::super::IconId {
+            offset: 3557376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const design_services: super::super::IconId = super::super::IconId {
+            offset: 3559680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const diamond: super::super::IconId = super::super::IconId {
+            offset: 3561984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dinner_dining: super::super::IconId = super::super::IconId {
+            offset: 3564288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions: super::super::IconId = super::super::IconId {
+            offset: 3566592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_bike: super::super::IconId = super::super::IconId {
+            offset: 3568896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_boat: super::super::IconId = super::super::IconId {
+            offset: 3571200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_boat_filled: super::super::IconId = super::super::IconId {
+            offset: 3573504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_bus: super::super::IconId = super::super::IconId {
+            offset: 3575808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_bus_filled: super::super::IconId = super::super::IconId {
+            offset: 3578112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_car: super::super::IconId = super::super::IconId {
+            offset: 3580416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_car_filled: super::super::IconId = super::super::IconId {
+            offset: 3582720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_railway: super::super::IconId = super::super::IconId {
+            offset: 3585024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_railway_filled: super::super::IconId = super::super::IconId {
+            offset: 3587328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_run: super::super::IconId = super::super::IconId {
+            offset: 3589632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_subway: super::super::IconId = super::super::IconId {
+            offset: 3591936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_subway_filled: super::super::IconId = super::super::IconId {
+            offset: 3594240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_transit: super::super::IconId = super::super::IconId {
+            offset: 3596544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_transit_filled: super::super::IconId = super::super::IconId {
+            offset: 3598848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_walk: super::super::IconId = super::super::IconId {
+            offset: 3601152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dry_cleaning: super::super::IconId = super::super::IconId {
+            offset: 3603456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_attributes: super::super::IconId = super::super::IconId {
+            offset: 3605760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_location: super::super::IconId = super::super::IconId {
+            offset: 3608064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_location_alt: super::super::IconId = super::super::IconId {
+            offset: 3610368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_road: super::super::IconId = super::super::IconId {
+            offset: 3612672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const egg: super::super::IconId = super::super::IconId {
+            offset: 3614976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const egg_alt: super::super::IconId = super::super::IconId {
+            offset: 3617280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electric_bike: super::super::IconId = super::super::IconId {
+            offset: 3621888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electric_car: super::super::IconId = super::super::IconId {
+            offset: 3624192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electric_moped: super::super::IconId = super::super::IconId {
+            offset: 3626496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electric_rickshaw: super::super::IconId = super::super::IconId {
+            offset: 3628800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electric_scooter: super::super::IconId = super::super::IconId {
+            offset: 3631104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const electrical_services: super::super::IconId = super::super::IconId {
+            offset: 3619584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emergency: super::super::IconId = super::super::IconId {
+            offset: 3633408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emergency_recording: super::super::IconId = super::super::IconId {
+            offset: 3635712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emergency_share: super::super::IconId = super::super::IconId {
+            offset: 3638016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ev_station: super::super::IconId = super::super::IconId {
+            offset: 3640320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const factory: super::super::IconId = super::super::IconId {
+            offset: 3642624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fastfood: super::super::IconId = super::super::IconId {
+            offset: 3644928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const festival: super::super::IconId = super::super::IconId {
+            offset: 3647232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fire_hydrant_alt: super::super::IconId = super::super::IconId {
+            offset: 3649536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fire_truck: super::super::IconId = super::super::IconId {
+            offset: 3651840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flight: super::super::IconId = super::super::IconId {
+            offset: 3654144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flight_class: super::super::IconId = super::super::IconId {
+            offset: 3656448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const forest: super::super::IconId = super::super::IconId {
+            offset: 3658752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fork_left: super::super::IconId = super::super::IconId {
+            offset: 3661056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fork_right: super::super::IconId = super::super::IconId {
+            offset: 3663360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fort: super::super::IconId = super::super::IconId {
+            offset: 3665664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hail: super::super::IconId = super::super::IconId {
+            offset: 3667968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const handyman: super::super::IconId = super::super::IconId {
+            offset: 3670272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hardware: super::super::IconId = super::super::IconId {
+            offset: 3672576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const home_repair_service: super::super::IconId = super::super::IconId {
+            offset: 3674880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hotel: super::super::IconId = super::super::IconId {
+            offset: 3677184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hvac: super::super::IconId = super::super::IconId {
+            offset: 3679488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const icecream: super::super::IconId = super::super::IconId {
+            offset: 3681792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const kebab_dining: super::super::IconId = super::super::IconId {
+            offset: 3684096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const layers: super::super::IconId = super::super::IconId {
+            offset: 3686400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const layers_clear: super::super::IconId = super::super::IconId {
+            offset: 3688704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const liquor: super::super::IconId = super::super::IconId {
+            offset: 3691008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_activity: super::super::IconId = super::super::IconId {
+            offset: 3693312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_airport: super::super::IconId = super::super::IconId {
+            offset: 3695616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_atm: super::super::IconId = super::super::IconId {
+            offset: 3697920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_bar: super::super::IconId = super::super::IconId {
+            offset: 3700224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_cafe: super::super::IconId = super::super::IconId {
+            offset: 3702528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_car_wash: super::super::IconId = super::super::IconId {
+            offset: 3704832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_convenience_store: super::super::IconId = super::super::IconId {
+            offset: 3707136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_dining: super::super::IconId = super::super::IconId {
+            offset: 3709440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_drink: super::super::IconId = super::super::IconId {
+            offset: 3711744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_fire_department: super::super::IconId = super::super::IconId {
+            offset: 3714048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_florist: super::super::IconId = super::super::IconId {
+            offset: 3716352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_gas_station: super::super::IconId = super::super::IconId {
+            offset: 3718656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_grocery_store: super::super::IconId = super::super::IconId {
+            offset: 3720960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_hospital: super::super::IconId = super::super::IconId {
+            offset: 3723264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_hotel: super::super::IconId = super::super::IconId {
+            offset: 3725568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_laundry_service: super::super::IconId = super::super::IconId {
+            offset: 3727872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_library: super::super::IconId = super::super::IconId {
+            offset: 3730176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_mall: super::super::IconId = super::super::IconId {
+            offset: 3732480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_movies: super::super::IconId = super::super::IconId {
+            offset: 3734784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_offer: super::super::IconId = super::super::IconId {
+            offset: 3737088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_parking: super::super::IconId = super::super::IconId {
+            offset: 3739392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_pharmacy: super::super::IconId = super::super::IconId {
+            offset: 3741696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_phone: super::super::IconId = super::super::IconId {
+            offset: 3744000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_pizza: super::super::IconId = super::super::IconId {
+            offset: 3746304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_play: super::super::IconId = super::super::IconId {
+            offset: 3748608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_police: super::super::IconId = super::super::IconId {
+            offset: 3750912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_post_office: super::super::IconId = super::super::IconId {
+            offset: 3753216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_printshop: super::super::IconId = super::super::IconId {
+            offset: 3755520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_see: super::super::IconId = super::super::IconId {
+            offset: 3757824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_shipping: super::super::IconId = super::super::IconId {
+            offset: 3760128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const local_taxi: super::super::IconId = super::super::IconId {
+            offset: 3762432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const location_pin: super::super::IconId = super::super::IconId {
+            offset: 3764736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const lunch_dining: super::super::IconId = super::super::IconId {
+            offset: 3767040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const map: super::super::IconId = super::super::IconId {
+            offset: 3769344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const maps_ugc: super::super::IconId = super::super::IconId {
+            offset: 3771648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const medical_information: super::super::IconId = super::super::IconId {
+            offset: 3773952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const medical_services: super::super::IconId = super::super::IconId {
+            offset: 3776256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const menu_book: super::super::IconId = super::super::IconId {
+            offset: 3778560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const merge: super::super::IconId = super::super::IconId {
+            offset: 3780864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const minor_crash: super::super::IconId = super::super::IconId {
+            offset: 3783168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const miscellaneous_services: super::super::IconId = super::super::IconId {
+            offset: 3785472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mode_of_travel: super::super::IconId = super::super::IconId {
+            offset: 3787776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const money: super::super::IconId = super::super::IconId {
+            offset: 3790080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const moped: super::super::IconId = super::super::IconId {
+            offset: 3792384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mosque: super::super::IconId = super::super::IconId {
+            offset: 3794688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const moving: super::super::IconId = super::super::IconId {
+            offset: 3796992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const multiple_stop: super::super::IconId = super::super::IconId {
+            offset: 3799296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const museum: super::super::IconId = super::super::IconId {
+            offset: 3801600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const my_location: super::super::IconId = super::super::IconId {
+            offset: 3803904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const navigation: super::super::IconId = super::super::IconId {
+            offset: 3806208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const near_me: super::super::IconId = super::super::IconId {
+            offset: 3808512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const near_me_disabled: super::super::IconId = super::super::IconId {
+            offset: 3810816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nightlife: super::super::IconId = super::super::IconId {
+            offset: 3813120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_crash: super::super::IconId = super::super::IconId {
+            offset: 3817728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_meals: super::super::IconId = super::super::IconId {
+            offset: 3820032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_meals_ouline: super::super::IconId = super::super::IconId {
+            offset: 3822336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_transfer: super::super::IconId = super::super::IconId {
+            offset: 3824640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const not_listed_location: super::super::IconId = super::super::IconId {
+            offset: 3815424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const park: super::super::IconId = super::super::IconId {
+            offset: 3826944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pedal_bike: super::super::IconId = super::super::IconId {
+            offset: 3829248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_pin: super::super::IconId = super::super::IconId {
+            offset: 3831552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_pin_circle: super::super::IconId = super::super::IconId {
+            offset: 3833856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pest_control: super::super::IconId = super::super::IconId {
+            offset: 3836160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pest_control_rodent: super::super::IconId = super::super::IconId {
+            offset: 3838464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pin_drop: super::super::IconId = super::super::IconId {
+            offset: 3840768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const place: super::super::IconId = super::super::IconId {
+            offset: 3843072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const plumbing: super::super::IconId = super::super::IconId {
+            offset: 3845376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const railway_alert: super::super::IconId = super::super::IconId {
+            offset: 3847680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ramen_dining: super::super::IconId = super::super::IconId {
+            offset: 3849984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ramp_left: super::super::IconId = super::super::IconId {
+            offset: 3852288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ramp_right: super::super::IconId = super::super::IconId {
+            offset: 3854592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rate_review: super::super::IconId = super::super::IconId {
+            offset: 3856896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_road: super::super::IconId = super::super::IconId {
+            offset: 3859200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const restaurant: super::super::IconId = super::super::IconId {
+            offset: 3861504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const restaurant_menu: super::super::IconId = super::super::IconId {
+            offset: 3863808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const roundabout_left: super::super::IconId = super::super::IconId {
+            offset: 3866112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const roundabout_right: super::super::IconId = super::super::IconId {
+            offset: 3868416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const route: super::super::IconId = super::super::IconId {
+            offset: 3870720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const run_circle: super::super::IconId = super::super::IconId {
+            offset: 3873024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const safety_check: super::super::IconId = super::super::IconId {
+            offset: 3875328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sailing: super::super::IconId = super::super::IconId {
+            offset: 3877632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const satellite: super::super::IconId = super::super::IconId {
+            offset: 3879936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const screen_rotation_alt: super::super::IconId = super::super::IconId {
+            offset: 3882240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const set_meal: super::super::IconId = super::super::IconId {
+            offset: 3884544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const signpost: super::super::IconId = super::super::IconId {
+            offset: 3886848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const snowmobile: super::super::IconId = super::super::IconId {
+            offset: 3889152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sos: super::super::IconId = super::super::IconId {
+            offset: 3891456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const soup_kitchen: super::super::IconId = super::super::IconId {
+            offset: 3893760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stadium: super::super::IconId = super::super::IconId {
+            offset: 3896064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const store_mall_directory: super::super::IconId = super::super::IconId {
+            offset: 3898368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const straight: super::super::IconId = super::super::IconId {
+            offset: 3900672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const streetview: super::super::IconId = super::super::IconId {
+            offset: 3902976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subway: super::super::IconId = super::super::IconId {
+            offset: 3905280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const synagogue: super::super::IconId = super::super::IconId {
+            offset: 3907584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const takeout_dining: super::super::IconId = super::super::IconId {
+            offset: 3909888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const taxi_alert: super::super::IconId = super::super::IconId {
+            offset: 3912192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const temple_buddhist: super::super::IconId = super::super::IconId {
+            offset: 3914496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const temple_hindu: super::super::IconId = super::super::IconId {
+            offset: 3916800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const terrain: super::super::IconId = super::super::IconId {
+            offset: 3919104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const theater_comedy: super::super::IconId = super::super::IconId {
+            offset: 3921408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tire_repair: super::super::IconId = super::super::IconId {
+            offset: 3923712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const traffic: super::super::IconId = super::super::IconId {
+            offset: 3926016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const train: super::super::IconId = super::super::IconId {
+            offset: 3928320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tram: super::super::IconId = super::super::IconId {
+            offset: 3930624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const transfer_within_a_station: super::super::IconId = super::super::IconId {
+            offset: 3932928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const transit_enterexit: super::super::IconId = super::super::IconId {
+            offset: 3935232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const trip_origin: super::super::IconId = super::super::IconId {
+            offset: 3937536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turn_left: super::super::IconId = super::super::IconId {
+            offset: 3939840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turn_right: super::super::IconId = super::super::IconId {
+            offset: 3942144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turn_sharp_left: super::super::IconId = super::super::IconId {
+            offset: 3944448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turn_sharp_right: super::super::IconId = super::super::IconId {
+            offset: 3946752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turn_slight_left: super::super::IconId = super::super::IconId {
+            offset: 3949056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const turn_slight_right: super::super::IconId = super::super::IconId {
+            offset: 3951360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const two_wheeler: super::super::IconId = super::super::IconId {
+            offset: 3953664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const u_turn_left: super::super::IconId = super::super::IconId {
+            offset: 3955968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const u_turn_right: super::super::IconId = super::super::IconId {
+            offset: 3958272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const volunteer_activism: super::super::IconId = super::super::IconId {
+            offset: 3960576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const warehouse: super::super::IconId = super::super::IconId {
+            offset: 3962880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wine_bar: super::super::IconId = super::super::IconId {
+            offset: 3965184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wrong_location: super::super::IconId = super::super::IconId {
+            offset: 3967488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const zoom_in_map: super::super::IconId = super::super::IconId {
+            offset: 3969792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const zoom_out_map: super::super::IconId = super::super::IconId {
+            offset: 3972096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod navigation {
-        pub const add_home_work: super::super::IconId = super::super::IconId { offset: 3974400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const app_settings_alt: super::super::IconId = super::super::IconId { offset: 3981312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const apps: super::super::IconId = super::super::IconId { offset: 3976704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const apps_outage: super::super::IconId = super::super::IconId { offset: 3979008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_back: super::super::IconId = super::super::IconId { offset: 3983616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_back_ios: super::super::IconId = super::super::IconId { offset: 3985920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_back_ios_new: super::super::IconId = super::super::IconId { offset: 3988224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_downward: super::super::IconId = super::super::IconId { offset: 3990528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_drop_down: super::super::IconId = super::super::IconId { offset: 3992832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_drop_down_circle: super::super::IconId = super::super::IconId { offset: 3995136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_drop_up: super::super::IconId = super::super::IconId { offset: 3997440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_forward: super::super::IconId = super::super::IconId { offset: 3999744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_forward_ios: super::super::IconId = super::super::IconId { offset: 4002048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_left: super::super::IconId = super::super::IconId { offset: 4004352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_right: super::super::IconId = super::super::IconId { offset: 4006656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const arrow_upward: super::super::IconId = super::super::IconId { offset: 4008960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assistant_direction: super::super::IconId = super::super::IconId { offset: 4011264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assistant_navigation: super::super::IconId = super::super::IconId { offset: 4013568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const campaign: super::super::IconId = super::super::IconId { offset: 4015872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cancel: super::super::IconId = super::super::IconId { offset: 4018176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const check: super::super::IconId = super::super::IconId { offset: 4020480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chevron_left: super::super::IconId = super::super::IconId { offset: 4022784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chevron_right: super::super::IconId = super::super::IconId { offset: 4025088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const close: super::super::IconId = super::super::IconId { offset: 4027392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const double_arrow: super::super::IconId = super::super::IconId { offset: 4029696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const east: super::super::IconId = super::super::IconId { offset: 4032000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const expand_circle_down: super::super::IconId = super::super::IconId { offset: 4034304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const expand_less: super::super::IconId = super::super::IconId { offset: 4036608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const expand_more: super::super::IconId = super::super::IconId { offset: 4038912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const first_page: super::super::IconId = super::super::IconId { offset: 4041216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fullscreen: super::super::IconId = super::super::IconId { offset: 4043520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fullscreen_exit: super::super::IconId = super::super::IconId { offset: 4045824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const home_work: super::super::IconId = super::super::IconId { offset: 4048128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const last_page: super::super::IconId = super::super::IconId { offset: 4050432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const legend_toggle: super::super::IconId = super::super::IconId { offset: 4052736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const maps_home_work: super::super::IconId = super::super::IconId { offset: 4055040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const menu: super::super::IconId = super::super::IconId { offset: 4057344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const menu_open: super::super::IconId = super::super::IconId { offset: 4059648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const more_horiz: super::super::IconId = super::super::IconId { offset: 4061952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const more_vert: super::super::IconId = super::super::IconId { offset: 4064256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const north: super::super::IconId = super::super::IconId { offset: 4066560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const north_east: super::super::IconId = super::super::IconId { offset: 4068864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const north_west: super::super::IconId = super::super::IconId { offset: 4071168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const offline_share: super::super::IconId = super::super::IconId { offset: 4073472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const payments: super::super::IconId = super::super::IconId { offset: 4075776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pivot_table_chart: super::super::IconId = super::super::IconId { offset: 4078080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const refresh: super::super::IconId = super::super::IconId { offset: 4080384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const south: super::super::IconId = super::super::IconId { offset: 4082688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const south_east: super::super::IconId = super::super::IconId { offset: 4084992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const south_west: super::super::IconId = super::super::IconId { offset: 4087296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subdirectory_arrow_left: super::super::IconId = super::super::IconId { offset: 4089600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const subdirectory_arrow_right: super::super::IconId = super::super::IconId { offset: 4091904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const switch_left: super::super::IconId = super::super::IconId { offset: 4094208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const switch_right: super::super::IconId = super::super::IconId { offset: 4096512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const unfold_less: super::super::IconId = super::super::IconId { offset: 4098816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const unfold_more: super::super::IconId = super::super::IconId { offset: 4101120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const waterfall_chart: super::super::IconId = super::super::IconId { offset: 4103424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const west: super::super::IconId = super::super::IconId { offset: 4105728u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const add_home_work: super::super::IconId = super::super::IconId {
+            offset: 3974400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const app_settings_alt: super::super::IconId = super::super::IconId {
+            offset: 3981312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const apps: super::super::IconId = super::super::IconId {
+            offset: 3976704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const apps_outage: super::super::IconId = super::super::IconId {
+            offset: 3979008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_back: super::super::IconId = super::super::IconId {
+            offset: 3983616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_back_ios: super::super::IconId = super::super::IconId {
+            offset: 3985920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_back_ios_new: super::super::IconId = super::super::IconId {
+            offset: 3988224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_downward: super::super::IconId = super::super::IconId {
+            offset: 3990528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_drop_down: super::super::IconId = super::super::IconId {
+            offset: 3992832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_drop_down_circle: super::super::IconId = super::super::IconId {
+            offset: 3995136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_drop_up: super::super::IconId = super::super::IconId {
+            offset: 3997440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_forward: super::super::IconId = super::super::IconId {
+            offset: 3999744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_forward_ios: super::super::IconId = super::super::IconId {
+            offset: 4002048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_left: super::super::IconId = super::super::IconId {
+            offset: 4004352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_right: super::super::IconId = super::super::IconId {
+            offset: 4006656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const arrow_upward: super::super::IconId = super::super::IconId {
+            offset: 4008960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assistant_direction: super::super::IconId = super::super::IconId {
+            offset: 4011264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assistant_navigation: super::super::IconId = super::super::IconId {
+            offset: 4013568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const campaign: super::super::IconId = super::super::IconId {
+            offset: 4015872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cancel: super::super::IconId = super::super::IconId {
+            offset: 4018176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const check: super::super::IconId = super::super::IconId {
+            offset: 4020480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chevron_left: super::super::IconId = super::super::IconId {
+            offset: 4022784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chevron_right: super::super::IconId = super::super::IconId {
+            offset: 4025088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const close: super::super::IconId = super::super::IconId {
+            offset: 4027392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const double_arrow: super::super::IconId = super::super::IconId {
+            offset: 4029696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const east: super::super::IconId = super::super::IconId {
+            offset: 4032000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const expand_circle_down: super::super::IconId = super::super::IconId {
+            offset: 4034304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const expand_less: super::super::IconId = super::super::IconId {
+            offset: 4036608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const expand_more: super::super::IconId = super::super::IconId {
+            offset: 4038912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const first_page: super::super::IconId = super::super::IconId {
+            offset: 4041216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fullscreen: super::super::IconId = super::super::IconId {
+            offset: 4043520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fullscreen_exit: super::super::IconId = super::super::IconId {
+            offset: 4045824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const home_work: super::super::IconId = super::super::IconId {
+            offset: 4048128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const last_page: super::super::IconId = super::super::IconId {
+            offset: 4050432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const legend_toggle: super::super::IconId = super::super::IconId {
+            offset: 4052736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const maps_home_work: super::super::IconId = super::super::IconId {
+            offset: 4055040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const menu: super::super::IconId = super::super::IconId {
+            offset: 4057344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const menu_open: super::super::IconId = super::super::IconId {
+            offset: 4059648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const more_horiz: super::super::IconId = super::super::IconId {
+            offset: 4061952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const more_vert: super::super::IconId = super::super::IconId {
+            offset: 4064256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const north: super::super::IconId = super::super::IconId {
+            offset: 4066560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const north_east: super::super::IconId = super::super::IconId {
+            offset: 4068864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const north_west: super::super::IconId = super::super::IconId {
+            offset: 4071168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const offline_share: super::super::IconId = super::super::IconId {
+            offset: 4073472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const payments: super::super::IconId = super::super::IconId {
+            offset: 4075776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pivot_table_chart: super::super::IconId = super::super::IconId {
+            offset: 4078080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const refresh: super::super::IconId = super::super::IconId {
+            offset: 4080384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const south: super::super::IconId = super::super::IconId {
+            offset: 4082688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const south_east: super::super::IconId = super::super::IconId {
+            offset: 4084992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const south_west: super::super::IconId = super::super::IconId {
+            offset: 4087296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subdirectory_arrow_left: super::super::IconId = super::super::IconId {
+            offset: 4089600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const subdirectory_arrow_right: super::super::IconId = super::super::IconId {
+            offset: 4091904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const switch_left: super::super::IconId = super::super::IconId {
+            offset: 4094208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const switch_right: super::super::IconId = super::super::IconId {
+            offset: 4096512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const unfold_less: super::super::IconId = super::super::IconId {
+            offset: 4098816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const unfold_more: super::super::IconId = super::super::IconId {
+            offset: 4101120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const waterfall_chart: super::super::IconId = super::super::IconId {
+            offset: 4103424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const west: super::super::IconId = super::super::IconId {
+            offset: 4105728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod notification {
-        pub const account_tree: super::super::IconId = super::super::IconId { offset: 4108032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const adb: super::super::IconId = super::super::IconId { offset: 4110336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_call: super::super::IconId = super::super::IconId { offset: 4112640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_flat: super::super::IconId = super::super::IconId { offset: 4114944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_flat_angled: super::super::IconId = super::super::IconId { offset: 4117248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_individual_suite: super::super::IconId = super::super::IconId { offset: 4119552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_legroom_extra: super::super::IconId = super::super::IconId { offset: 4121856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_legroom_normal: super::super::IconId = super::super::IconId { offset: 4124160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_legroom_reduced: super::super::IconId = super::super::IconId { offset: 4126464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_recline_extra: super::super::IconId = super::super::IconId { offset: 4128768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airline_seat_recline_normal: super::super::IconId = super::super::IconId { offset: 4131072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bluetooth_audio: super::super::IconId = super::super::IconId { offset: 4133376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const confirmation_number: super::super::IconId = super::super::IconId { offset: 4135680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const directions_off: super::super::IconId = super::super::IconId { offset: 4137984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const disc_full: super::super::IconId = super::super::IconId { offset: 4140288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_disturb: super::super::IconId = super::super::IconId { offset: 4142592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_disturb_alt: super::super::IconId = super::super::IconId { offset: 4144896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_disturb_off: super::super::IconId = super::super::IconId { offset: 4147200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_disturb_on: super::super::IconId = super::super::IconId { offset: 4149504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_not_disturb: super::super::IconId = super::super::IconId { offset: 4151808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_not_disturb_alt: super::super::IconId = super::super::IconId { offset: 4154112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_not_disturb_off: super::super::IconId = super::super::IconId { offset: 4156416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_not_disturb_on: super::super::IconId = super::super::IconId { offset: 4158720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const drive_eta: super::super::IconId = super::super::IconId { offset: 4161024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const enhanced_encryption: super::super::IconId = super::super::IconId { offset: 4163328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const event_available: super::super::IconId = super::super::IconId { offset: 4165632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const event_busy: super::super::IconId = super::super::IconId { offset: 4167936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const event_note: super::super::IconId = super::super::IconId { offset: 4170240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const folder_special: super::super::IconId = super::super::IconId { offset: 4172544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const imagesearch_roller: super::super::IconId = super::super::IconId { offset: 4174848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const live_tv: super::super::IconId = super::super::IconId { offset: 4177152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mms: super::super::IconId = super::super::IconId { offset: 4179456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const more: super::super::IconId = super::super::IconId { offset: 4181760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_check: super::super::IconId = super::super::IconId { offset: 4184064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const network_locked: super::super::IconId = super::super::IconId { offset: 4186368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_encryption: super::super::IconId = super::super::IconId { offset: 4188672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_encryption_gmailerrorred: super::super::IconId = super::super::IconId { offset: 4190976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ondemand_video: super::super::IconId = super::super::IconId { offset: 4193280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const personal_video: super::super::IconId = super::super::IconId { offset: 4195584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_bluetooth_speaker: super::super::IconId = super::super::IconId { offset: 4197888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_callback: super::super::IconId = super::super::IconId { offset: 4200192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_forwarded: super::super::IconId = super::super::IconId { offset: 4202496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_in_talk: super::super::IconId = super::super::IconId { offset: 4204800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_locked: super::super::IconId = super::super::IconId { offset: 4207104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_missed: super::super::IconId = super::super::IconId { offset: 4209408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const phone_paused: super::super::IconId = super::super::IconId { offset: 4211712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const power: super::super::IconId = super::super::IconId { offset: 4214016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const power_off: super::super::IconId = super::super::IconId { offset: 4216320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const priority_high: super::super::IconId = super::super::IconId { offset: 4218624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const running_with_errors: super::super::IconId = super::super::IconId { offset: 4220928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sd_card: super::super::IconId = super::super::IconId { offset: 4223232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sd_card_alert: super::super::IconId = super::super::IconId { offset: 4225536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sim_card_alert: super::super::IconId = super::super::IconId { offset: 4227840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sms: super::super::IconId = super::super::IconId { offset: 4230144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sms_failed: super::super::IconId = super::super::IconId { offset: 4232448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const support_agent: super::super::IconId = super::super::IconId { offset: 4234752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sync: super::super::IconId = super::super::IconId { offset: 4237056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sync_disabled: super::super::IconId = super::super::IconId { offset: 4239360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sync_lock: super::super::IconId = super::super::IconId { offset: 4241664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sync_problem: super::super::IconId = super::super::IconId { offset: 4243968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const system_update: super::super::IconId = super::super::IconId { offset: 4246272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tap_and_play: super::super::IconId = super::super::IconId { offset: 4248576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const time_to_leave: super::super::IconId = super::super::IconId { offset: 4250880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tv_off: super::super::IconId = super::super::IconId { offset: 4253184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vibration: super::super::IconId = super::super::IconId { offset: 4255488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const video_chat: super::super::IconId = super::super::IconId { offset: 4257792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const voice_chat: super::super::IconId = super::super::IconId { offset: 4260096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vpn_lock: super::super::IconId = super::super::IconId { offset: 4262400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wc: super::super::IconId = super::super::IconId { offset: 4264704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi: super::super::IconId = super::super::IconId { offset: 4267008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wifi_off: super::super::IconId = super::super::IconId { offset: 4269312u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const account_tree: super::super::IconId = super::super::IconId {
+            offset: 4108032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const adb: super::super::IconId = super::super::IconId {
+            offset: 4110336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_call: super::super::IconId = super::super::IconId {
+            offset: 4112640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_flat: super::super::IconId = super::super::IconId {
+            offset: 4114944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_flat_angled: super::super::IconId = super::super::IconId {
+            offset: 4117248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_individual_suite: super::super::IconId = super::super::IconId {
+            offset: 4119552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_legroom_extra: super::super::IconId = super::super::IconId {
+            offset: 4121856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_legroom_normal: super::super::IconId = super::super::IconId {
+            offset: 4124160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_legroom_reduced: super::super::IconId = super::super::IconId {
+            offset: 4126464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_recline_extra: super::super::IconId = super::super::IconId {
+            offset: 4128768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airline_seat_recline_normal: super::super::IconId = super::super::IconId {
+            offset: 4131072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bluetooth_audio: super::super::IconId = super::super::IconId {
+            offset: 4133376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const confirmation_number: super::super::IconId = super::super::IconId {
+            offset: 4135680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const directions_off: super::super::IconId = super::super::IconId {
+            offset: 4137984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const disc_full: super::super::IconId = super::super::IconId {
+            offset: 4140288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_disturb: super::super::IconId = super::super::IconId {
+            offset: 4142592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_disturb_alt: super::super::IconId = super::super::IconId {
+            offset: 4144896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_disturb_off: super::super::IconId = super::super::IconId {
+            offset: 4147200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_disturb_on: super::super::IconId = super::super::IconId {
+            offset: 4149504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_not_disturb: super::super::IconId = super::super::IconId {
+            offset: 4151808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_not_disturb_alt: super::super::IconId = super::super::IconId {
+            offset: 4154112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_not_disturb_off: super::super::IconId = super::super::IconId {
+            offset: 4156416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_not_disturb_on: super::super::IconId = super::super::IconId {
+            offset: 4158720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const drive_eta: super::super::IconId = super::super::IconId {
+            offset: 4161024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const enhanced_encryption: super::super::IconId = super::super::IconId {
+            offset: 4163328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const event_available: super::super::IconId = super::super::IconId {
+            offset: 4165632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const event_busy: super::super::IconId = super::super::IconId {
+            offset: 4167936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const event_note: super::super::IconId = super::super::IconId {
+            offset: 4170240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const folder_special: super::super::IconId = super::super::IconId {
+            offset: 4172544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const imagesearch_roller: super::super::IconId = super::super::IconId {
+            offset: 4174848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const live_tv: super::super::IconId = super::super::IconId {
+            offset: 4177152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mms: super::super::IconId = super::super::IconId {
+            offset: 4179456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const more: super::super::IconId = super::super::IconId {
+            offset: 4181760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_check: super::super::IconId = super::super::IconId {
+            offset: 4184064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const network_locked: super::super::IconId = super::super::IconId {
+            offset: 4186368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_encryption: super::super::IconId = super::super::IconId {
+            offset: 4188672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_encryption_gmailerrorred: super::super::IconId = super::super::IconId {
+            offset: 4190976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ondemand_video: super::super::IconId = super::super::IconId {
+            offset: 4193280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const personal_video: super::super::IconId = super::super::IconId {
+            offset: 4195584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_bluetooth_speaker: super::super::IconId = super::super::IconId {
+            offset: 4197888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_callback: super::super::IconId = super::super::IconId {
+            offset: 4200192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_forwarded: super::super::IconId = super::super::IconId {
+            offset: 4202496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_in_talk: super::super::IconId = super::super::IconId {
+            offset: 4204800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_locked: super::super::IconId = super::super::IconId {
+            offset: 4207104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_missed: super::super::IconId = super::super::IconId {
+            offset: 4209408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const phone_paused: super::super::IconId = super::super::IconId {
+            offset: 4211712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const power: super::super::IconId = super::super::IconId {
+            offset: 4214016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const power_off: super::super::IconId = super::super::IconId {
+            offset: 4216320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const priority_high: super::super::IconId = super::super::IconId {
+            offset: 4218624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const running_with_errors: super::super::IconId = super::super::IconId {
+            offset: 4220928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sd_card: super::super::IconId = super::super::IconId {
+            offset: 4223232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sd_card_alert: super::super::IconId = super::super::IconId {
+            offset: 4225536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sim_card_alert: super::super::IconId = super::super::IconId {
+            offset: 4227840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sms: super::super::IconId = super::super::IconId {
+            offset: 4230144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sms_failed: super::super::IconId = super::super::IconId {
+            offset: 4232448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const support_agent: super::super::IconId = super::super::IconId {
+            offset: 4234752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sync: super::super::IconId = super::super::IconId {
+            offset: 4237056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sync_disabled: super::super::IconId = super::super::IconId {
+            offset: 4239360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sync_lock: super::super::IconId = super::super::IconId {
+            offset: 4241664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sync_problem: super::super::IconId = super::super::IconId {
+            offset: 4243968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const system_update: super::super::IconId = super::super::IconId {
+            offset: 4246272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tap_and_play: super::super::IconId = super::super::IconId {
+            offset: 4248576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const time_to_leave: super::super::IconId = super::super::IconId {
+            offset: 4250880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tv_off: super::super::IconId = super::super::IconId {
+            offset: 4253184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vibration: super::super::IconId = super::super::IconId {
+            offset: 4255488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const video_chat: super::super::IconId = super::super::IconId {
+            offset: 4257792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const voice_chat: super::super::IconId = super::super::IconId {
+            offset: 4260096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vpn_lock: super::super::IconId = super::super::IconId {
+            offset: 4262400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wc: super::super::IconId = super::super::IconId {
+            offset: 4264704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi: super::super::IconId = super::super::IconId {
+            offset: 4267008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wifi_off: super::super::IconId = super::super::IconId {
+            offset: 4269312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod places {
-        pub const ac_unit: super::super::IconId = super::super::IconId { offset: 4271616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const airport_shuttle: super::super::IconId = super::super::IconId { offset: 4273920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const all_inclusive: super::super::IconId = super::super::IconId { offset: 4276224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const apartment: super::super::IconId = super::super::IconId { offset: 4278528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const baby_changing_station: super::super::IconId = super::super::IconId { offset: 4280832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const backpack: super::super::IconId = super::super::IconId { offset: 4283136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const balcony: super::super::IconId = super::super::IconId { offset: 4285440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bathtub: super::super::IconId = super::super::IconId { offset: 4287744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const beach_access: super::super::IconId = super::super::IconId { offset: 4290048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bento: super::super::IconId = super::super::IconId { offset: 4292352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bungalow: super::super::IconId = super::super::IconId { offset: 4294656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const business_center: super::super::IconId = super::super::IconId { offset: 4296960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cabin: super::super::IconId = super::super::IconId { offset: 4299264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const carpenter: super::super::IconId = super::super::IconId { offset: 4301568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const casino: super::super::IconId = super::super::IconId { offset: 4303872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chalet: super::super::IconId = super::super::IconId { offset: 4306176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const charging_station: super::super::IconId = super::super::IconId { offset: 4308480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const checkroom: super::super::IconId = super::super::IconId { offset: 4310784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const child_care: super::super::IconId = super::super::IconId { offset: 4313088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const child_friendly: super::super::IconId = super::super::IconId { offset: 4315392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const corporate_fare: super::super::IconId = super::super::IconId { offset: 4317696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cottage: super::super::IconId = super::super::IconId { offset: 4320000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const countertops: super::super::IconId = super::super::IconId { offset: 4322304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const crib: super::super::IconId = super::super::IconId { offset: 4324608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const desk: super::super::IconId = super::super::IconId { offset: 4326912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_not_step: super::super::IconId = super::super::IconId { offset: 4329216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const do_not_touch: super::super::IconId = super::super::IconId { offset: 4331520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dry: super::super::IconId = super::super::IconId { offset: 4333824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const elevator: super::super::IconId = super::super::IconId { offset: 4336128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const escalator: super::super::IconId = super::super::IconId { offset: 4338432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const escalator_warning: super::super::IconId = super::super::IconId { offset: 4340736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const family_restroom: super::super::IconId = super::super::IconId { offset: 4343040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fence: super::super::IconId = super::super::IconId { offset: 4345344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fire_extinguisher: super::super::IconId = super::super::IconId { offset: 4347648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fitness_center: super::super::IconId = super::super::IconId { offset: 4349952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const food_bank: super::super::IconId = super::super::IconId { offset: 4352256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const foundation: super::super::IconId = super::super::IconId { offset: 4354560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const free_breakfast: super::super::IconId = super::super::IconId { offset: 4356864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const gite: super::super::IconId = super::super::IconId { offset: 4359168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const golf_course: super::super::IconId = super::super::IconId { offset: 4361472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const grass: super::super::IconId = super::super::IconId { offset: 4363776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const holiday_village: super::super::IconId = super::super::IconId { offset: 4366080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hot_tub: super::super::IconId = super::super::IconId { offset: 4368384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const house: super::super::IconId = super::super::IconId { offset: 4370688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const house_siding: super::super::IconId = super::super::IconId { offset: 4375296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const houseboat: super::super::IconId = super::super::IconId { offset: 4372992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const iron: super::super::IconId = super::super::IconId { offset: 4377600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const kitchen: super::super::IconId = super::super::IconId { offset: 4379904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const meeting_room: super::super::IconId = super::super::IconId { offset: 4382208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const microwave: super::super::IconId = super::super::IconId { offset: 4384512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const night_shelter: super::super::IconId = super::super::IconId { offset: 4386816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_backpack: super::super::IconId = super::super::IconId { offset: 4389120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_cell: super::super::IconId = super::super::IconId { offset: 4391424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_drinks: super::super::IconId = super::super::IconId { offset: 4393728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_flash: super::super::IconId = super::super::IconId { offset: 4396032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_food: super::super::IconId = super::super::IconId { offset: 4398336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_meeting_room: super::super::IconId = super::super::IconId { offset: 4400640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_photography: super::super::IconId = super::super::IconId { offset: 4402944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_stroller: super::super::IconId = super::super::IconId { offset: 4405248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const other_houses: super::super::IconId = super::super::IconId { offset: 4407552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pool: super::super::IconId = super::super::IconId { offset: 4409856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rice_bowl: super::super::IconId = super::super::IconId { offset: 4412160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const roofing: super::super::IconId = super::super::IconId { offset: 4414464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const room_preferences: super::super::IconId = super::super::IconId { offset: 4416768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const room_service: super::super::IconId = super::super::IconId { offset: 4419072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const rv_hookup: super::super::IconId = super::super::IconId { offset: 4421376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const smoke_free: super::super::IconId = super::super::IconId { offset: 4423680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const smoking_rooms: super::super::IconId = super::super::IconId { offset: 4425984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const soap: super::super::IconId = super::super::IconId { offset: 4428288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const spa: super::super::IconId = super::super::IconId { offset: 4430592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sports_bar: super::super::IconId = super::super::IconId { offset: 4432896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stairs: super::super::IconId = super::super::IconId { offset: 4435200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const storefront: super::super::IconId = super::super::IconId { offset: 4437504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const stroller: super::super::IconId = super::super::IconId { offset: 4439808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tapas: super::super::IconId = super::super::IconId { offset: 4442112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const tty: super::super::IconId = super::super::IconId { offset: 4444416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const umbrella: super::super::IconId = super::super::IconId { offset: 4446720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vape_free: super::super::IconId = super::super::IconId { offset: 4449024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const vaping_rooms: super::super::IconId = super::super::IconId { offset: 4451328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const villa: super::super::IconId = super::super::IconId { offset: 4453632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wash: super::super::IconId = super::super::IconId { offset: 4455936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const water_damage: super::super::IconId = super::super::IconId { offset: 4458240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const wheelchair_pickup: super::super::IconId = super::super::IconId { offset: 4460544u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const ac_unit: super::super::IconId = super::super::IconId {
+            offset: 4271616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const airport_shuttle: super::super::IconId = super::super::IconId {
+            offset: 4273920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const all_inclusive: super::super::IconId = super::super::IconId {
+            offset: 4276224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const apartment: super::super::IconId = super::super::IconId {
+            offset: 4278528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const baby_changing_station: super::super::IconId = super::super::IconId {
+            offset: 4280832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const backpack: super::super::IconId = super::super::IconId {
+            offset: 4283136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const balcony: super::super::IconId = super::super::IconId {
+            offset: 4285440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bathtub: super::super::IconId = super::super::IconId {
+            offset: 4287744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const beach_access: super::super::IconId = super::super::IconId {
+            offset: 4290048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bento: super::super::IconId = super::super::IconId {
+            offset: 4292352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bungalow: super::super::IconId = super::super::IconId {
+            offset: 4294656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const business_center: super::super::IconId = super::super::IconId {
+            offset: 4296960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cabin: super::super::IconId = super::super::IconId {
+            offset: 4299264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const carpenter: super::super::IconId = super::super::IconId {
+            offset: 4301568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const casino: super::super::IconId = super::super::IconId {
+            offset: 4303872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chalet: super::super::IconId = super::super::IconId {
+            offset: 4306176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const charging_station: super::super::IconId = super::super::IconId {
+            offset: 4308480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const checkroom: super::super::IconId = super::super::IconId {
+            offset: 4310784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const child_care: super::super::IconId = super::super::IconId {
+            offset: 4313088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const child_friendly: super::super::IconId = super::super::IconId {
+            offset: 4315392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const corporate_fare: super::super::IconId = super::super::IconId {
+            offset: 4317696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cottage: super::super::IconId = super::super::IconId {
+            offset: 4320000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const countertops: super::super::IconId = super::super::IconId {
+            offset: 4322304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const crib: super::super::IconId = super::super::IconId {
+            offset: 4324608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const desk: super::super::IconId = super::super::IconId {
+            offset: 4326912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_not_step: super::super::IconId = super::super::IconId {
+            offset: 4329216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const do_not_touch: super::super::IconId = super::super::IconId {
+            offset: 4331520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dry: super::super::IconId = super::super::IconId {
+            offset: 4333824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const elevator: super::super::IconId = super::super::IconId {
+            offset: 4336128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const escalator: super::super::IconId = super::super::IconId {
+            offset: 4338432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const escalator_warning: super::super::IconId = super::super::IconId {
+            offset: 4340736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const family_restroom: super::super::IconId = super::super::IconId {
+            offset: 4343040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fence: super::super::IconId = super::super::IconId {
+            offset: 4345344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fire_extinguisher: super::super::IconId = super::super::IconId {
+            offset: 4347648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fitness_center: super::super::IconId = super::super::IconId {
+            offset: 4349952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const food_bank: super::super::IconId = super::super::IconId {
+            offset: 4352256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const foundation: super::super::IconId = super::super::IconId {
+            offset: 4354560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const free_breakfast: super::super::IconId = super::super::IconId {
+            offset: 4356864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const gite: super::super::IconId = super::super::IconId {
+            offset: 4359168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const golf_course: super::super::IconId = super::super::IconId {
+            offset: 4361472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const grass: super::super::IconId = super::super::IconId {
+            offset: 4363776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const holiday_village: super::super::IconId = super::super::IconId {
+            offset: 4366080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hot_tub: super::super::IconId = super::super::IconId {
+            offset: 4368384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const house: super::super::IconId = super::super::IconId {
+            offset: 4370688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const house_siding: super::super::IconId = super::super::IconId {
+            offset: 4375296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const houseboat: super::super::IconId = super::super::IconId {
+            offset: 4372992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const iron: super::super::IconId = super::super::IconId {
+            offset: 4377600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const kitchen: super::super::IconId = super::super::IconId {
+            offset: 4379904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const meeting_room: super::super::IconId = super::super::IconId {
+            offset: 4382208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const microwave: super::super::IconId = super::super::IconId {
+            offset: 4384512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const night_shelter: super::super::IconId = super::super::IconId {
+            offset: 4386816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_backpack: super::super::IconId = super::super::IconId {
+            offset: 4389120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_cell: super::super::IconId = super::super::IconId {
+            offset: 4391424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_drinks: super::super::IconId = super::super::IconId {
+            offset: 4393728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_flash: super::super::IconId = super::super::IconId {
+            offset: 4396032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_food: super::super::IconId = super::super::IconId {
+            offset: 4398336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_meeting_room: super::super::IconId = super::super::IconId {
+            offset: 4400640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_photography: super::super::IconId = super::super::IconId {
+            offset: 4402944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_stroller: super::super::IconId = super::super::IconId {
+            offset: 4405248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const other_houses: super::super::IconId = super::super::IconId {
+            offset: 4407552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pool: super::super::IconId = super::super::IconId {
+            offset: 4409856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rice_bowl: super::super::IconId = super::super::IconId {
+            offset: 4412160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const roofing: super::super::IconId = super::super::IconId {
+            offset: 4414464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const room_preferences: super::super::IconId = super::super::IconId {
+            offset: 4416768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const room_service: super::super::IconId = super::super::IconId {
+            offset: 4419072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const rv_hookup: super::super::IconId = super::super::IconId {
+            offset: 4421376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const smoke_free: super::super::IconId = super::super::IconId {
+            offset: 4423680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const smoking_rooms: super::super::IconId = super::super::IconId {
+            offset: 4425984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const soap: super::super::IconId = super::super::IconId {
+            offset: 4428288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const spa: super::super::IconId = super::super::IconId {
+            offset: 4430592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sports_bar: super::super::IconId = super::super::IconId {
+            offset: 4432896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stairs: super::super::IconId = super::super::IconId {
+            offset: 4435200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const storefront: super::super::IconId = super::super::IconId {
+            offset: 4437504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const stroller: super::super::IconId = super::super::IconId {
+            offset: 4439808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tapas: super::super::IconId = super::super::IconId {
+            offset: 4442112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const tty: super::super::IconId = super::super::IconId {
+            offset: 4444416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const umbrella: super::super::IconId = super::super::IconId {
+            offset: 4446720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vape_free: super::super::IconId = super::super::IconId {
+            offset: 4449024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const vaping_rooms: super::super::IconId = super::super::IconId {
+            offset: 4451328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const villa: super::super::IconId = super::super::IconId {
+            offset: 4453632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wash: super::super::IconId = super::super::IconId {
+            offset: 4455936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const water_damage: super::super::IconId = super::super::IconId {
+            offset: 4458240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const wheelchair_pickup: super::super::IconId = super::super::IconId {
+            offset: 4460544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod search {
-        pub const bathroom: super::super::IconId = super::super::IconId { offset: 4462848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bed: super::super::IconId = super::super::IconId { offset: 4465152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bedroom_baby: super::super::IconId = super::super::IconId { offset: 4467456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bedroom_child: super::super::IconId = super::super::IconId { offset: 4469760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const bedroom_parent: super::super::IconId = super::super::IconId { offset: 4472064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blender: super::super::IconId = super::super::IconId { offset: 4474368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera_indoor: super::super::IconId = super::super::IconId { offset: 4476672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const camera_outdoor: super::super::IconId = super::super::IconId { offset: 4478976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chair: super::super::IconId = super::super::IconId { offset: 4481280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const chair_alt: super::super::IconId = super::super::IconId { offset: 4483584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const coffee: super::super::IconId = super::super::IconId { offset: 4485888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const coffee_maker: super::super::IconId = super::super::IconId { offset: 4488192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dining: super::super::IconId = super::super::IconId { offset: 4490496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const door_back: super::super::IconId = super::super::IconId { offset: 4495104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const door_front: super::super::IconId = super::super::IconId { offset: 4497408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const door_sliding: super::super::IconId = super::super::IconId { offset: 4499712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const doorbell: super::super::IconId = super::super::IconId { offset: 4492800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const feed: super::super::IconId = super::super::IconId { offset: 4502016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flatware: super::super::IconId = super::super::IconId { offset: 4504320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const garage: super::super::IconId = super::super::IconId { offset: 4506624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const light: super::super::IconId = super::super::IconId { offset: 4508928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const living: super::super::IconId = super::super::IconId { offset: 4511232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const manage_search: super::super::IconId = super::super::IconId { offset: 4513536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const podcasts: super::super::IconId = super::super::IconId { offset: 4515840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const shower: super::super::IconId = super::super::IconId { offset: 4518144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const table_bar: super::super::IconId = super::super::IconId { offset: 4520448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const table_restaurant: super::super::IconId = super::super::IconId { offset: 4522752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const window: super::super::IconId = super::super::IconId { offset: 4525056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const yard: super::super::IconId = super::super::IconId { offset: 4527360u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const bathroom: super::super::IconId = super::super::IconId {
+            offset: 4462848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bed: super::super::IconId = super::super::IconId {
+            offset: 4465152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bedroom_baby: super::super::IconId = super::super::IconId {
+            offset: 4467456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bedroom_child: super::super::IconId = super::super::IconId {
+            offset: 4469760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const bedroom_parent: super::super::IconId = super::super::IconId {
+            offset: 4472064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blender: super::super::IconId = super::super::IconId {
+            offset: 4474368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera_indoor: super::super::IconId = super::super::IconId {
+            offset: 4476672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const camera_outdoor: super::super::IconId = super::super::IconId {
+            offset: 4478976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chair: super::super::IconId = super::super::IconId {
+            offset: 4481280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const chair_alt: super::super::IconId = super::super::IconId {
+            offset: 4483584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const coffee: super::super::IconId = super::super::IconId {
+            offset: 4485888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const coffee_maker: super::super::IconId = super::super::IconId {
+            offset: 4488192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dining: super::super::IconId = super::super::IconId {
+            offset: 4490496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const door_back: super::super::IconId = super::super::IconId {
+            offset: 4495104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const door_front: super::super::IconId = super::super::IconId {
+            offset: 4497408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const door_sliding: super::super::IconId = super::super::IconId {
+            offset: 4499712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const doorbell: super::super::IconId = super::super::IconId {
+            offset: 4492800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const feed: super::super::IconId = super::super::IconId {
+            offset: 4502016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flatware: super::super::IconId = super::super::IconId {
+            offset: 4504320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const garage: super::super::IconId = super::super::IconId {
+            offset: 4506624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const light: super::super::IconId = super::super::IconId {
+            offset: 4508928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const living: super::super::IconId = super::super::IconId {
+            offset: 4511232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const manage_search: super::super::IconId = super::super::IconId {
+            offset: 4513536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const podcasts: super::super::IconId = super::super::IconId {
+            offset: 4515840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const shower: super::super::IconId = super::super::IconId {
+            offset: 4518144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const table_bar: super::super::IconId = super::super::IconId {
+            offset: 4520448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const table_restaurant: super::super::IconId = super::super::IconId {
+            offset: 4522752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const window: super::super::IconId = super::super::IconId {
+            offset: 4525056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const yard: super::super::IconId = super::super::IconId {
+            offset: 4527360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
     pub mod social {
-        pub const _18_up_rating: super::super::IconId = super::super::IconId { offset: 4529664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const _6_ft_apart: super::super::IconId = super::super::IconId { offset: 4531968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_moderator: super::super::IconId = super::super::IconId { offset: 4534272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const add_reaction: super::super::IconId = super::super::IconId { offset: 4536576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const architecture: super::super::IconId = super::super::IconId { offset: 4538880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const assist_walker: super::super::IconId = super::super::IconId { offset: 4541184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const back_hand: super::super::IconId = super::super::IconId { offset: 4543488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const blind: super::super::IconId = super::super::IconId { offset: 4545792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const boy: super::super::IconId = super::super::IconId { offset: 4548096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cake: super::super::IconId = super::super::IconId { offset: 4550400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const catching_pokemon: super::super::IconId = super::super::IconId { offset: 4552704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const clean_hands: super::super::IconId = super::super::IconId { offset: 4555008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const co2: super::super::IconId = super::super::IconId { offset: 4557312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const compost: super::super::IconId = super::super::IconId { offset: 4559616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const connect_without_contact: super::super::IconId = super::super::IconId { offset: 4561920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const construction: super::super::IconId = super::super::IconId { offset: 4564224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cookie: super::super::IconId = super::super::IconId { offset: 4566528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const coronavirus: super::super::IconId = super::super::IconId { offset: 4568832u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cruelty_free: super::super::IconId = super::super::IconId { offset: 4571136u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const cyclone: super::super::IconId = super::super::IconId { offset: 4573440u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const deck: super::super::IconId = super::super::IconId { offset: 4575744u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const dew_point: super::super::IconId = super::super::IconId { offset: 4578048u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const diversity_1: super::super::IconId = super::super::IconId { offset: 4580352u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const diversity_2: super::super::IconId = super::super::IconId { offset: 4582656u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const diversity_3: super::super::IconId = super::super::IconId { offset: 4584960u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const domain: super::super::IconId = super::super::IconId { offset: 4587264u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const domain_add: super::super::IconId = super::super::IconId { offset: 4589568u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const downhill_skiing: super::super::IconId = super::super::IconId { offset: 4591872u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const edit_notifications: super::super::IconId = super::super::IconId { offset: 4594176u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const elderly: super::super::IconId = super::super::IconId { offset: 4596480u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const elderly_woman: super::super::IconId = super::super::IconId { offset: 4598784u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_emotions: super::super::IconId = super::super::IconId { offset: 4601088u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_events: super::super::IconId = super::super::IconId { offset: 4603392u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_flags: super::super::IconId = super::super::IconId { offset: 4605696u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_food_beverage: super::super::IconId = super::super::IconId { offset: 4608000u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_nature: super::super::IconId = super::super::IconId { offset: 4610304u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_objects: super::super::IconId = super::super::IconId { offset: 4612608u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_people: super::super::IconId = super::super::IconId { offset: 4614912u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_symbols: super::super::IconId = super::super::IconId { offset: 4617216u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const emoji_transportation: super::super::IconId = super::super::IconId { offset: 4619520u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const engineering: super::super::IconId = super::super::IconId { offset: 4621824u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face_2: super::super::IconId = super::super::IconId { offset: 4626432u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face_3: super::super::IconId = super::super::IconId { offset: 4628736u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face_4: super::super::IconId = super::super::IconId { offset: 4631040u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face_5: super::super::IconId = super::super::IconId { offset: 4633344u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const face_6: super::super::IconId = super::super::IconId { offset: 4635648u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const facebook: super::super::IconId = super::super::IconId { offset: 4624128u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const female: super::super::IconId = super::super::IconId { offset: 4637952u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fireplace: super::super::IconId = super::super::IconId { offset: 4640256u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const fitbit: super::super::IconId = super::super::IconId { offset: 4642560u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const flood: super::super::IconId = super::super::IconId { offset: 4644864u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const follow_the_signs: super::super::IconId = super::super::IconId { offset: 4647168u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const front_hand: super::super::IconId = super::super::IconId { offset: 4649472u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const girl: super::super::IconId = super::super::IconId { offset: 4651776u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const group: super::super::IconId = super::super::IconId { offset: 4654080u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const group_add: super::super::IconId = super::super::IconId { offset: 4663296u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const group_off: super::super::IconId = super::super::IconId { offset: 4665600u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const group_remove: super::super::IconId = super::super::IconId { offset: 4667904u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const groups: super::super::IconId = super::super::IconId { offset: 4656384u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const groups_2: super::super::IconId = super::super::IconId { offset: 4658688u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const groups_3: super::super::IconId = super::super::IconId { offset: 4660992u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const handshake: super::super::IconId = super::super::IconId { offset: 4670208u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const health_and_safety: super::super::IconId = super::super::IconId { offset: 4672512u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const heart_broken: super::super::IconId = super::super::IconId { offset: 4674816u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hiking: super::super::IconId = super::super::IconId { offset: 4677120u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const history_edu: super::super::IconId = super::super::IconId { offset: 4679424u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const hive: super::super::IconId = super::super::IconId { offset: 4681728u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ice_skating: super::super::IconId = super::super::IconId { offset: 4684032u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const interests: super::super::IconId = super::super::IconId { offset: 4686336u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const ios_share: super::super::IconId = super::super::IconId { offset: 4688640u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const kayaking: super::super::IconId = super::super::IconId { offset: 4690944u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const king_bed: super::super::IconId = super::super::IconId { offset: 4693248u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const kitesurfing: super::super::IconId = super::super::IconId { offset: 4695552u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const landslide: super::super::IconId = super::super::IconId { offset: 4697856u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const location_city: super::super::IconId = super::super::IconId { offset: 4700160u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const luggage: super::super::IconId = super::super::IconId { offset: 4702464u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const male: super::super::IconId = super::super::IconId { offset: 4704768u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const man: super::super::IconId = super::super::IconId { offset: 4707072u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const man_2: super::super::IconId = super::super::IconId { offset: 4709376u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const man_3: super::super::IconId = super::super::IconId { offset: 4711680u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const man_4: super::super::IconId = super::super::IconId { offset: 4713984u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const masks: super::super::IconId = super::super::IconId { offset: 4716288u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const military_tech: super::super::IconId = super::super::IconId { offset: 4718592u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mood: super::super::IconId = super::super::IconId { offset: 4720896u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const mood_bad: super::super::IconId = super::super::IconId { offset: 4723200u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nights_stay: super::super::IconId = super::super::IconId { offset: 4725504u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_adult_content: super::super::IconId = super::super::IconId { offset: 4743936u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const no_luggage: super::super::IconId = super::super::IconId { offset: 4746240u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const nordic_walking: super::super::IconId = super::super::IconId { offset: 4727808u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notification_add: super::super::IconId = super::super::IconId { offset: 4741632u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notifications: super::super::IconId = super::super::IconId { offset: 4730112u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notifications_active: super::super::IconId = super::super::IconId { offset: 4732416u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notifications_none: super::super::IconId = super::super::IconId { offset: 4734720u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notifications_off: super::super::IconId = super::super::IconId { offset: 4737024u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const notifications_paused: super::super::IconId = super::super::IconId { offset: 4739328u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const outdoor_grill: super::super::IconId = super::super::IconId { offset: 4748544u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pages: super::super::IconId = super::super::IconId { offset: 4750848u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const paragliding: super::super::IconId = super::super::IconId { offset: 4753152u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const party_mode: super::super::IconId = super::super::IconId { offset: 4755456u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const people: super::super::IconId = super::super::IconId { offset: 4757760u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const people_alt: super::super::IconId = super::super::IconId { offset: 4760064u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const people_outline: super::super::IconId = super::super::IconId { offset: 4762368u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person: super::super::IconId = super::super::IconId { offset: 4764672u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_2: super::super::IconId = super::super::IconId { offset: 4769280u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_3: super::super::IconId = super::super::IconId { offset: 4771584u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_4: super::super::IconId = super::super::IconId { offset: 4773888u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_add: super::super::IconId = super::super::IconId { offset: 4776192u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_add_alt: super::super::IconId = super::super::IconId { offset: 4778496u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_add_alt_1: super::super::IconId = super::super::IconId { offset: 4780800u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_off: super::super::IconId = super::super::IconId { offset: 4783104u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_outline: super::super::IconId = super::super::IconId { offset: 4785408u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_remove: super::super::IconId = super::super::IconId { offset: 4787712u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const person_remove_alt_1: super::super::IconId = super::super::IconId { offset: 4790016u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const personal_injury: super::super::IconId = super::super::IconId { offset: 4766976u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const piano: super::super::IconId = super::super::IconId { offset: 4792320u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const piano_off: super::super::IconId = super::super::IconId { offset: 4794624u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const pix: super::super::IconId = super::super::IconId { offset: 4796928u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const plus_one: super::super::IconId = super::super::IconId { offset: 4799232u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const poll: super::super::IconId = super::super::IconId { offset: 4801536u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const precision_manufacturing: super::super::IconId = super::super::IconId { offset: 4803840u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const psychology: super::super::IconId = super::super::IconId { offset: 4806144u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const psychology_alt: super::super::IconId = super::super::IconId { offset: 4808448u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const public: super::super::IconId = super::super::IconId { offset: 4810752u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const public_off: super::super::IconId = super::super::IconId { offset: 4813056u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const real_estate_agent: super::super::IconId = super::super::IconId { offset: 4815360u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const recommend: super::super::IconId = super::super::IconId { offset: 4817664u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const recycling: super::super::IconId = super::super::IconId { offset: 4819968u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const reduce_capacity: super::super::IconId = super::super::IconId { offset: 4822272u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const remove_moderator: super::super::IconId = super::super::IconId { offset: 4824576u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const roller_skating: super::super::IconId = super::super::IconId { offset: 4826880u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const safety_divider: super::super::IconId = super::super::IconId { offset: 4829184u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sanitizer: super::super::IconId = super::super::IconId { offset: 4831488u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const scale: super::super::IconId = super::super::IconId { offset: 4833792u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const school: super::super::IconId = super::super::IconId { offset: 4836096u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const science: super::super::IconId = super::super::IconId { offset: 4838400u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const scoreboard: super::super::IconId = super::super::IconId { offset: 4840704u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const scuba_diving: super::super::IconId = super::super::IconId { offset: 4843008u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const self_improvement: super::super::IconId = super::super::IconId { offset: 4845312u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sentiment_dissatisfied: super::super::IconId = super::super::IconId { offset: 4847616u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sentiment_neutral: super::super::IconId = super::super::IconId { offset: 4849920u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sentiment_satisfied: super::super::IconId = super::super::IconId { offset: 4852224u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sentiment_very_dissatisfied: super::super::IconId = super::super::IconId { offset: 4854528u32, len: 2304u32, width: 48u16, height: 48u16 };
-        pub const sentiment_very_satisfied: super::super::IconId = super::super::IconId { offset: 4856832u32, len: 2304u32, width: 48u16, height: 48u16 };
+        pub const _18_up_rating: super::super::IconId = super::super::IconId {
+            offset: 4529664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const _6_ft_apart: super::super::IconId = super::super::IconId {
+            offset: 4531968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_moderator: super::super::IconId = super::super::IconId {
+            offset: 4534272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const add_reaction: super::super::IconId = super::super::IconId {
+            offset: 4536576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const architecture: super::super::IconId = super::super::IconId {
+            offset: 4538880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const assist_walker: super::super::IconId = super::super::IconId {
+            offset: 4541184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const back_hand: super::super::IconId = super::super::IconId {
+            offset: 4543488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const blind: super::super::IconId = super::super::IconId {
+            offset: 4545792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const boy: super::super::IconId = super::super::IconId {
+            offset: 4548096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cake: super::super::IconId = super::super::IconId {
+            offset: 4550400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const catching_pokemon: super::super::IconId = super::super::IconId {
+            offset: 4552704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const clean_hands: super::super::IconId = super::super::IconId {
+            offset: 4555008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const co2: super::super::IconId = super::super::IconId {
+            offset: 4557312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const compost: super::super::IconId = super::super::IconId {
+            offset: 4559616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const connect_without_contact: super::super::IconId = super::super::IconId {
+            offset: 4561920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const construction: super::super::IconId = super::super::IconId {
+            offset: 4564224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cookie: super::super::IconId = super::super::IconId {
+            offset: 4566528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const coronavirus: super::super::IconId = super::super::IconId {
+            offset: 4568832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cruelty_free: super::super::IconId = super::super::IconId {
+            offset: 4571136u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const cyclone: super::super::IconId = super::super::IconId {
+            offset: 4573440u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const deck: super::super::IconId = super::super::IconId {
+            offset: 4575744u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const dew_point: super::super::IconId = super::super::IconId {
+            offset: 4578048u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const diversity_1: super::super::IconId = super::super::IconId {
+            offset: 4580352u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const diversity_2: super::super::IconId = super::super::IconId {
+            offset: 4582656u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const diversity_3: super::super::IconId = super::super::IconId {
+            offset: 4584960u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const domain: super::super::IconId = super::super::IconId {
+            offset: 4587264u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const domain_add: super::super::IconId = super::super::IconId {
+            offset: 4589568u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const downhill_skiing: super::super::IconId = super::super::IconId {
+            offset: 4591872u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const edit_notifications: super::super::IconId = super::super::IconId {
+            offset: 4594176u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const elderly: super::super::IconId = super::super::IconId {
+            offset: 4596480u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const elderly_woman: super::super::IconId = super::super::IconId {
+            offset: 4598784u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_emotions: super::super::IconId = super::super::IconId {
+            offset: 4601088u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_events: super::super::IconId = super::super::IconId {
+            offset: 4603392u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_flags: super::super::IconId = super::super::IconId {
+            offset: 4605696u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_food_beverage: super::super::IconId = super::super::IconId {
+            offset: 4608000u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_nature: super::super::IconId = super::super::IconId {
+            offset: 4610304u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_objects: super::super::IconId = super::super::IconId {
+            offset: 4612608u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_people: super::super::IconId = super::super::IconId {
+            offset: 4614912u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_symbols: super::super::IconId = super::super::IconId {
+            offset: 4617216u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const emoji_transportation: super::super::IconId = super::super::IconId {
+            offset: 4619520u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const engineering: super::super::IconId = super::super::IconId {
+            offset: 4621824u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face_2: super::super::IconId = super::super::IconId {
+            offset: 4626432u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face_3: super::super::IconId = super::super::IconId {
+            offset: 4628736u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face_4: super::super::IconId = super::super::IconId {
+            offset: 4631040u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face_5: super::super::IconId = super::super::IconId {
+            offset: 4633344u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const face_6: super::super::IconId = super::super::IconId {
+            offset: 4635648u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const facebook: super::super::IconId = super::super::IconId {
+            offset: 4624128u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const female: super::super::IconId = super::super::IconId {
+            offset: 4637952u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fireplace: super::super::IconId = super::super::IconId {
+            offset: 4640256u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const fitbit: super::super::IconId = super::super::IconId {
+            offset: 4642560u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const flood: super::super::IconId = super::super::IconId {
+            offset: 4644864u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const follow_the_signs: super::super::IconId = super::super::IconId {
+            offset: 4647168u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const front_hand: super::super::IconId = super::super::IconId {
+            offset: 4649472u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const girl: super::super::IconId = super::super::IconId {
+            offset: 4651776u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const group: super::super::IconId = super::super::IconId {
+            offset: 4654080u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const group_add: super::super::IconId = super::super::IconId {
+            offset: 4663296u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const group_off: super::super::IconId = super::super::IconId {
+            offset: 4665600u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const group_remove: super::super::IconId = super::super::IconId {
+            offset: 4667904u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const groups: super::super::IconId = super::super::IconId {
+            offset: 4656384u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const groups_2: super::super::IconId = super::super::IconId {
+            offset: 4658688u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const groups_3: super::super::IconId = super::super::IconId {
+            offset: 4660992u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const handshake: super::super::IconId = super::super::IconId {
+            offset: 4670208u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const health_and_safety: super::super::IconId = super::super::IconId {
+            offset: 4672512u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const heart_broken: super::super::IconId = super::super::IconId {
+            offset: 4674816u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hiking: super::super::IconId = super::super::IconId {
+            offset: 4677120u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const history_edu: super::super::IconId = super::super::IconId {
+            offset: 4679424u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const hive: super::super::IconId = super::super::IconId {
+            offset: 4681728u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ice_skating: super::super::IconId = super::super::IconId {
+            offset: 4684032u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const interests: super::super::IconId = super::super::IconId {
+            offset: 4686336u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const ios_share: super::super::IconId = super::super::IconId {
+            offset: 4688640u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const kayaking: super::super::IconId = super::super::IconId {
+            offset: 4690944u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const king_bed: super::super::IconId = super::super::IconId {
+            offset: 4693248u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const kitesurfing: super::super::IconId = super::super::IconId {
+            offset: 4695552u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const landslide: super::super::IconId = super::super::IconId {
+            offset: 4697856u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const location_city: super::super::IconId = super::super::IconId {
+            offset: 4700160u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const luggage: super::super::IconId = super::super::IconId {
+            offset: 4702464u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const male: super::super::IconId = super::super::IconId {
+            offset: 4704768u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const man: super::super::IconId = super::super::IconId {
+            offset: 4707072u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const man_2: super::super::IconId = super::super::IconId {
+            offset: 4709376u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const man_3: super::super::IconId = super::super::IconId {
+            offset: 4711680u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const man_4: super::super::IconId = super::super::IconId {
+            offset: 4713984u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const masks: super::super::IconId = super::super::IconId {
+            offset: 4716288u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const military_tech: super::super::IconId = super::super::IconId {
+            offset: 4718592u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mood: super::super::IconId = super::super::IconId {
+            offset: 4720896u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const mood_bad: super::super::IconId = super::super::IconId {
+            offset: 4723200u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nights_stay: super::super::IconId = super::super::IconId {
+            offset: 4725504u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_adult_content: super::super::IconId = super::super::IconId {
+            offset: 4743936u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const no_luggage: super::super::IconId = super::super::IconId {
+            offset: 4746240u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const nordic_walking: super::super::IconId = super::super::IconId {
+            offset: 4727808u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notification_add: super::super::IconId = super::super::IconId {
+            offset: 4741632u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notifications: super::super::IconId = super::super::IconId {
+            offset: 4730112u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notifications_active: super::super::IconId = super::super::IconId {
+            offset: 4732416u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notifications_none: super::super::IconId = super::super::IconId {
+            offset: 4734720u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notifications_off: super::super::IconId = super::super::IconId {
+            offset: 4737024u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const notifications_paused: super::super::IconId = super::super::IconId {
+            offset: 4739328u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const outdoor_grill: super::super::IconId = super::super::IconId {
+            offset: 4748544u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pages: super::super::IconId = super::super::IconId {
+            offset: 4750848u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const paragliding: super::super::IconId = super::super::IconId {
+            offset: 4753152u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const party_mode: super::super::IconId = super::super::IconId {
+            offset: 4755456u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const people: super::super::IconId = super::super::IconId {
+            offset: 4757760u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const people_alt: super::super::IconId = super::super::IconId {
+            offset: 4760064u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const people_outline: super::super::IconId = super::super::IconId {
+            offset: 4762368u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person: super::super::IconId = super::super::IconId {
+            offset: 4764672u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_2: super::super::IconId = super::super::IconId {
+            offset: 4769280u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_3: super::super::IconId = super::super::IconId {
+            offset: 4771584u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_4: super::super::IconId = super::super::IconId {
+            offset: 4773888u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_add: super::super::IconId = super::super::IconId {
+            offset: 4776192u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_add_alt: super::super::IconId = super::super::IconId {
+            offset: 4778496u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_add_alt_1: super::super::IconId = super::super::IconId {
+            offset: 4780800u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_off: super::super::IconId = super::super::IconId {
+            offset: 4783104u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_outline: super::super::IconId = super::super::IconId {
+            offset: 4785408u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_remove: super::super::IconId = super::super::IconId {
+            offset: 4787712u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const person_remove_alt_1: super::super::IconId = super::super::IconId {
+            offset: 4790016u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const personal_injury: super::super::IconId = super::super::IconId {
+            offset: 4766976u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const piano: super::super::IconId = super::super::IconId {
+            offset: 4792320u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const piano_off: super::super::IconId = super::super::IconId {
+            offset: 4794624u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const pix: super::super::IconId = super::super::IconId {
+            offset: 4796928u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const plus_one: super::super::IconId = super::super::IconId {
+            offset: 4799232u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const poll: super::super::IconId = super::super::IconId {
+            offset: 4801536u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const precision_manufacturing: super::super::IconId = super::super::IconId {
+            offset: 4803840u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const psychology: super::super::IconId = super::super::IconId {
+            offset: 4806144u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const psychology_alt: super::super::IconId = super::super::IconId {
+            offset: 4808448u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const public: super::super::IconId = super::super::IconId {
+            offset: 4810752u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const public_off: super::super::IconId = super::super::IconId {
+            offset: 4813056u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const real_estate_agent: super::super::IconId = super::super::IconId {
+            offset: 4815360u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const recommend: super::super::IconId = super::super::IconId {
+            offset: 4817664u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const recycling: super::super::IconId = super::super::IconId {
+            offset: 4819968u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const reduce_capacity: super::super::IconId = super::super::IconId {
+            offset: 4822272u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const remove_moderator: super::super::IconId = super::super::IconId {
+            offset: 4824576u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const roller_skating: super::super::IconId = super::super::IconId {
+            offset: 4826880u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const safety_divider: super::super::IconId = super::super::IconId {
+            offset: 4829184u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sanitizer: super::super::IconId = super::super::IconId {
+            offset: 4831488u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const scale: super::super::IconId = super::super::IconId {
+            offset: 4833792u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const school: super::super::IconId = super::super::IconId {
+            offset: 4836096u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const science: super::super::IconId = super::super::IconId {
+            offset: 4838400u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const scoreboard: super::super::IconId = super::super::IconId {
+            offset: 4840704u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const scuba_diving: super::super::IconId = super::super::IconId {
+            offset: 4843008u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const self_improvement: super::super::IconId = super::super::IconId {
+            offset: 4845312u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sentiment_dissatisfied: super::super::IconId = super::super::IconId {
+            offset: 4847616u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sentiment_neutral: super::super::IconId = super::super::IconId {
+            offset: 4849920u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sentiment_satisfied: super::super::IconId = super::super::IconId {
+            offset: 4852224u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sentiment_very_dissatisfied: super::super::IconId = super::super::IconId {
+            offset: 4854528u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
+        pub const sentiment_very_satisfied: super::super::IconId = super::super::IconId {
+            offset: 4856832u32,
+            len: 2304u32,
+            width: 48u16,
+            height: 48u16,
+        };
     }
 }
 
@@ -2205,21 +12754,45 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/action/123", android::action::_123),
     ("android/action/3d_rotation", android::action::_3d_rotation),
     ("android/action/abc", android::action::abc),
-    ("android/action/accessibility", android::action::accessibility),
-    ("android/action/accessibility_new", android::action::accessibility_new),
+    (
+        "android/action/accessibility",
+        android::action::accessibility,
+    ),
+    (
+        "android/action/accessibility_new",
+        android::action::accessibility_new,
+    ),
     ("android/action/accessible", android::action::accessible),
-    ("android/action/accessible_forward", android::action::accessible_forward),
-    ("android/action/account_balance", android::action::account_balance),
-    ("android/action/account_balance_wallet", android::action::account_balance_wallet),
+    (
+        "android/action/accessible_forward",
+        android::action::accessible_forward,
+    ),
+    (
+        "android/action/account_balance",
+        android::action::account_balance,
+    ),
+    (
+        "android/action/account_balance_wallet",
+        android::action::account_balance_wallet,
+    ),
     ("android/action/account_box", android::action::account_box),
-    ("android/action/account_circle", android::action::account_circle),
+    (
+        "android/action/account_circle",
+        android::action::account_circle,
+    ),
     ("android/action/add_card", android::action::add_card),
     ("android/action/add_home", android::action::add_home),
-    ("android/action/add_shopping_cart", android::action::add_shopping_cart),
+    (
+        "android/action/add_shopping_cart",
+        android::action::add_shopping_cart,
+    ),
     ("android/action/add_task", android::action::add_task),
     ("android/action/add_to_drive", android::action::add_to_drive),
     ("android/action/addchart", android::action::addchart),
-    ("android/action/admin_panel_settings", android::action::admin_panel_settings),
+    (
+        "android/action/admin_panel_settings",
+        android::action::admin_panel_settings,
+    ),
     ("android/action/ads_click", android::action::ads_click),
     ("android/action/alarm", android::action::alarm),
     ("android/action/alarm_add", android::action::alarm_add),
@@ -2234,101 +12807,254 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/action/api", android::action::api),
     ("android/action/app_blocking", android::action::app_blocking),
     ("android/action/app_shortcut", android::action::app_shortcut),
-    ("android/action/arrow_circle_down", android::action::arrow_circle_down),
-    ("android/action/arrow_circle_left", android::action::arrow_circle_left),
-    ("android/action/arrow_circle_right", android::action::arrow_circle_right),
-    ("android/action/arrow_circle_up", android::action::arrow_circle_up),
-    ("android/action/arrow_outward", android::action::arrow_outward),
-    ("android/action/arrow_right_alt", android::action::arrow_right_alt),
+    (
+        "android/action/arrow_circle_down",
+        android::action::arrow_circle_down,
+    ),
+    (
+        "android/action/arrow_circle_left",
+        android::action::arrow_circle_left,
+    ),
+    (
+        "android/action/arrow_circle_right",
+        android::action::arrow_circle_right,
+    ),
+    (
+        "android/action/arrow_circle_up",
+        android::action::arrow_circle_up,
+    ),
+    (
+        "android/action/arrow_outward",
+        android::action::arrow_outward,
+    ),
+    (
+        "android/action/arrow_right_alt",
+        android::action::arrow_right_alt,
+    ),
     ("android/action/article", android::action::article),
     ("android/action/aspect_ratio", android::action::aspect_ratio),
     ("android/action/assessment", android::action::assessment),
     ("android/action/assignment", android::action::assignment),
-    ("android/action/assignment_add", android::action::assignment_add),
-    ("android/action/assignment_ind", android::action::assignment_ind),
-    ("android/action/assignment_late", android::action::assignment_late),
-    ("android/action/assignment_return", android::action::assignment_return),
-    ("android/action/assignment_returned", android::action::assignment_returned),
-    ("android/action/assignment_turned_in", android::action::assignment_turned_in),
-    ("android/action/assured_workload", android::action::assured_workload),
+    (
+        "android/action/assignment_add",
+        android::action::assignment_add,
+    ),
+    (
+        "android/action/assignment_ind",
+        android::action::assignment_ind,
+    ),
+    (
+        "android/action/assignment_late",
+        android::action::assignment_late,
+    ),
+    (
+        "android/action/assignment_return",
+        android::action::assignment_return,
+    ),
+    (
+        "android/action/assignment_returned",
+        android::action::assignment_returned,
+    ),
+    (
+        "android/action/assignment_turned_in",
+        android::action::assignment_turned_in,
+    ),
+    (
+        "android/action/assured_workload",
+        android::action::assured_workload,
+    ),
     ("android/action/autorenew", android::action::autorenew),
     ("android/action/backup", android::action::backup),
     ("android/action/backup_table", android::action::backup_table),
     ("android/action/balance", android::action::balance),
-    ("android/action/barcode_reader", android::action::barcode_reader),
-    ("android/action/batch_prediction", android::action::batch_prediction),
+    (
+        "android/action/barcode_reader",
+        android::action::barcode_reader,
+    ),
+    (
+        "android/action/batch_prediction",
+        android::action::batch_prediction,
+    ),
     ("android/action/book", android::action::book),
     ("android/action/book_online", android::action::book_online),
     ("android/action/bookmark", android::action::bookmark),
     ("android/action/bookmark_add", android::action::bookmark_add),
-    ("android/action/bookmark_added", android::action::bookmark_added),
-    ("android/action/bookmark_border", android::action::bookmark_border),
-    ("android/action/bookmark_remove", android::action::bookmark_remove),
+    (
+        "android/action/bookmark_added",
+        android::action::bookmark_added,
+    ),
+    (
+        "android/action/bookmark_border",
+        android::action::bookmark_border,
+    ),
+    (
+        "android/action/bookmark_remove",
+        android::action::bookmark_remove,
+    ),
     ("android/action/bookmarks", android::action::bookmarks),
-    ("android/action/browse_gallery", android::action::browse_gallery),
+    (
+        "android/action/browse_gallery",
+        android::action::browse_gallery,
+    ),
     ("android/action/bug_report", android::action::bug_report),
     ("android/action/build", android::action::build),
     ("android/action/build_circle", android::action::build_circle),
     ("android/action/cached", android::action::cached),
-    ("android/action/calendar_month", android::action::calendar_month),
-    ("android/action/calendar_today", android::action::calendar_today),
-    ("android/action/calendar_view_day", android::action::calendar_view_day),
-    ("android/action/calendar_view_month", android::action::calendar_view_month),
-    ("android/action/calendar_view_week", android::action::calendar_view_week),
-    ("android/action/camera_enhance", android::action::camera_enhance),
-    ("android/action/cancel_schedule_send", android::action::cancel_schedule_send),
-    ("android/action/card_giftcard", android::action::card_giftcard),
-    ("android/action/card_membership", android::action::card_membership),
+    (
+        "android/action/calendar_month",
+        android::action::calendar_month,
+    ),
+    (
+        "android/action/calendar_today",
+        android::action::calendar_today,
+    ),
+    (
+        "android/action/calendar_view_day",
+        android::action::calendar_view_day,
+    ),
+    (
+        "android/action/calendar_view_month",
+        android::action::calendar_view_month,
+    ),
+    (
+        "android/action/calendar_view_week",
+        android::action::calendar_view_week,
+    ),
+    (
+        "android/action/camera_enhance",
+        android::action::camera_enhance,
+    ),
+    (
+        "android/action/cancel_schedule_send",
+        android::action::cancel_schedule_send,
+    ),
+    (
+        "android/action/card_giftcard",
+        android::action::card_giftcard,
+    ),
+    (
+        "android/action/card_membership",
+        android::action::card_membership,
+    ),
     ("android/action/card_travel", android::action::card_travel),
-    ("android/action/change_history", android::action::change_history),
+    (
+        "android/action/change_history",
+        android::action::change_history,
+    ),
     ("android/action/check_circle", android::action::check_circle),
-    ("android/action/check_circle_outline", android::action::check_circle_outline),
-    ("android/action/chrome_reader_mode", android::action::chrome_reader_mode),
-    ("android/action/circle_notifications", android::action::circle_notifications),
+    (
+        "android/action/check_circle_outline",
+        android::action::check_circle_outline,
+    ),
+    (
+        "android/action/chrome_reader_mode",
+        android::action::chrome_reader_mode,
+    ),
+    (
+        "android/action/circle_notifications",
+        android::action::circle_notifications,
+    ),
     ("android/action/class", android::action::class),
-    ("android/action/close_fullscreen", android::action::close_fullscreen),
+    (
+        "android/action/close_fullscreen",
+        android::action::close_fullscreen,
+    ),
     ("android/action/code", android::action::code),
     ("android/action/code_off", android::action::code_off),
     ("android/action/comment_bank", android::action::comment_bank),
     ("android/action/commit", android::action::commit),
     ("android/action/commute", android::action::commute),
-    ("android/action/compare_arrows", android::action::compare_arrows),
+    (
+        "android/action/compare_arrows",
+        android::action::compare_arrows,
+    ),
     ("android/action/compress", android::action::compress),
     ("android/action/contact_page", android::action::contact_page),
-    ("android/action/contact_support", android::action::contact_support),
+    (
+        "android/action/contact_support",
+        android::action::contact_support,
+    ),
     ("android/action/contactless", android::action::contactless),
     ("android/action/copyright", android::action::copyright),
     ("android/action/credit_card", android::action::credit_card),
-    ("android/action/credit_card_off", android::action::credit_card_off),
+    (
+        "android/action/credit_card_off",
+        android::action::credit_card_off,
+    ),
     ("android/action/css", android::action::css),
-    ("android/action/currency_exchange", android::action::currency_exchange),
+    (
+        "android/action/currency_exchange",
+        android::action::currency_exchange,
+    ),
     ("android/action/dangerous", android::action::dangerous),
     ("android/action/dashboard", android::action::dashboard),
-    ("android/action/dashboard_customize", android::action::dashboard_customize),
-    ("android/action/data_exploration", android::action::data_exploration),
-    ("android/action/data_thresholding", android::action::data_thresholding),
+    (
+        "android/action/dashboard_customize",
+        android::action::dashboard_customize,
+    ),
+    (
+        "android/action/data_exploration",
+        android::action::data_exploration,
+    ),
+    (
+        "android/action/data_thresholding",
+        android::action::data_thresholding,
+    ),
     ("android/action/date_range", android::action::date_range),
     ("android/action/delete", android::action::delete),
-    ("android/action/delete_forever", android::action::delete_forever),
-    ("android/action/delete_outline", android::action::delete_outline),
-    ("android/action/density_large", android::action::density_large),
-    ("android/action/density_medium", android::action::density_medium),
-    ("android/action/density_small", android::action::density_small),
+    (
+        "android/action/delete_forever",
+        android::action::delete_forever,
+    ),
+    (
+        "android/action/delete_outline",
+        android::action::delete_outline,
+    ),
+    (
+        "android/action/density_large",
+        android::action::density_large,
+    ),
+    (
+        "android/action/density_medium",
+        android::action::density_medium,
+    ),
+    (
+        "android/action/density_small",
+        android::action::density_small,
+    ),
     ("android/action/description", android::action::description),
-    ("android/action/disabled_by_default", android::action::disabled_by_default),
-    ("android/action/disabled_visible", android::action::disabled_visible),
-    ("android/action/display_settings", android::action::display_settings),
+    (
+        "android/action/disabled_by_default",
+        android::action::disabled_by_default,
+    ),
+    (
+        "android/action/disabled_visible",
+        android::action::disabled_visible,
+    ),
+    (
+        "android/action/display_settings",
+        android::action::display_settings,
+    ),
     ("android/action/dns", android::action::dns),
     ("android/action/done", android::action::done),
     ("android/action/done_all", android::action::done_all),
     ("android/action/done_outline", android::action::done_outline),
     ("android/action/donut_large", android::action::donut_large),
     ("android/action/donut_small", android::action::donut_small),
-    ("android/action/drag_indicator", android::action::drag_indicator),
+    (
+        "android/action/drag_indicator",
+        android::action::drag_indicator,
+    ),
     ("android/action/dynamic_form", android::action::dynamic_form),
     ("android/action/eco", android::action::eco),
-    ("android/action/edit_calendar", android::action::edit_calendar),
-    ("android/action/edit_document", android::action::edit_document),
+    (
+        "android/action/edit_calendar",
+        android::action::edit_calendar,
+    ),
+    (
+        "android/action/edit_document",
+        android::action::edit_document,
+    ),
     ("android/action/edit_off", android::action::edit_off),
     ("android/action/edit_square", android::action::edit_square),
     ("android/action/eject", android::action::eject),
@@ -2341,31 +13067,55 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/action/explore", android::action::explore),
     ("android/action/explore_off", android::action::explore_off),
     ("android/action/extension", android::action::extension),
-    ("android/action/extension_off", android::action::extension_off),
+    (
+        "android/action/extension_off",
+        android::action::extension_off,
+    ),
     ("android/action/face", android::action::face),
     ("android/action/fact_check", android::action::fact_check),
     ("android/action/favorite", android::action::favorite),
-    ("android/action/favorite_border", android::action::favorite_border),
+    (
+        "android/action/favorite_border",
+        android::action::favorite_border,
+    ),
     ("android/action/fax", android::action::fax),
     ("android/action/feedback", android::action::feedback),
     ("android/action/file_present", android::action::file_present),
     ("android/action/filter_alt", android::action::filter_alt),
-    ("android/action/filter_alt_off", android::action::filter_alt_off),
-    ("android/action/filter_list_alt", android::action::filter_list_alt),
+    (
+        "android/action/filter_alt_off",
+        android::action::filter_alt_off,
+    ),
+    (
+        "android/action/filter_list_alt",
+        android::action::filter_list_alt,
+    ),
     ("android/action/find_in_page", android::action::find_in_page),
     ("android/action/find_replace", android::action::find_replace),
     ("android/action/fingerprint", android::action::fingerprint),
     ("android/action/fit_screen", android::action::fit_screen),
     ("android/action/flaky", android::action::flaky),
     ("android/action/flight_land", android::action::flight_land),
-    ("android/action/flight_takeoff", android::action::flight_takeoff),
+    (
+        "android/action/flight_takeoff",
+        android::action::flight_takeoff,
+    ),
     ("android/action/flip_to_back", android::action::flip_to_back),
-    ("android/action/flip_to_front", android::action::flip_to_front),
+    (
+        "android/action/flip_to_front",
+        android::action::flip_to_front,
+    ),
     ("android/action/flutter_dash", android::action::flutter_dash),
-    ("android/action/free_cancellation", android::action::free_cancellation),
+    (
+        "android/action/free_cancellation",
+        android::action::free_cancellation,
+    ),
     ("android/action/g_translate", android::action::g_translate),
     ("android/action/gavel", android::action::gavel),
-    ("android/action/generating_tokens", android::action::generating_tokens),
+    (
+        "android/action/generating_tokens",
+        android::action::generating_tokens,
+    ),
     ("android/action/get_app", android::action::get_app),
     ("android/action/gif", android::action::gif),
     ("android/action/gif_box", android::action::gif_box),
@@ -2376,46 +13126,97 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/action/help_center", android::action::help_center),
     ("android/action/help_outline", android::action::help_outline),
     ("android/action/hide_source", android::action::hide_source),
-    ("android/action/highlight_alt", android::action::highlight_alt),
-    ("android/action/highlight_off", android::action::highlight_off),
+    (
+        "android/action/highlight_alt",
+        android::action::highlight_alt,
+    ),
+    (
+        "android/action/highlight_off",
+        android::action::highlight_off,
+    ),
     ("android/action/history", android::action::history),
-    ("android/action/history_toggle_off", android::action::history_toggle_off),
+    (
+        "android/action/history_toggle_off",
+        android::action::history_toggle_off,
+    ),
     ("android/action/hls", android::action::hls),
     ("android/action/hls_off", android::action::hls_off),
     ("android/action/home", android::action::home),
     ("android/action/home_filled", android::action::home_filled),
-    ("android/action/horizontal_split", android::action::horizontal_split),
+    (
+        "android/action/horizontal_split",
+        android::action::horizontal_split,
+    ),
     ("android/action/hotel_class", android::action::hotel_class),
-    ("android/action/hourglass_disabled", android::action::hourglass_disabled),
-    ("android/action/hourglass_empty", android::action::hourglass_empty),
-    ("android/action/hourglass_full", android::action::hourglass_full),
+    (
+        "android/action/hourglass_disabled",
+        android::action::hourglass_disabled,
+    ),
+    (
+        "android/action/hourglass_empty",
+        android::action::hourglass_empty,
+    ),
+    (
+        "android/action/hourglass_full",
+        android::action::hourglass_full,
+    ),
     ("android/action/html", android::action::html),
     ("android/action/http", android::action::http),
     ("android/action/https", android::action::https),
-    ("android/action/important_devices", android::action::important_devices),
+    (
+        "android/action/important_devices",
+        android::action::important_devices,
+    ),
     ("android/action/info", android::action::info),
     ("android/action/info_outline", android::action::info_outline),
     ("android/action/input", android::action::input),
-    ("android/action/install_desktop", android::action::install_desktop),
-    ("android/action/install_mobile", android::action::install_mobile),
-    ("android/action/integration_instructions", android::action::integration_instructions),
-    ("android/action/invert_colors", android::action::invert_colors),
+    (
+        "android/action/install_desktop",
+        android::action::install_desktop,
+    ),
+    (
+        "android/action/install_mobile",
+        android::action::install_mobile,
+    ),
+    (
+        "android/action/integration_instructions",
+        android::action::integration_instructions,
+    ),
+    (
+        "android/action/invert_colors",
+        android::action::invert_colors,
+    ),
     ("android/action/javascript", android::action::javascript),
     ("android/action/join_full", android::action::join_full),
     ("android/action/join_inner", android::action::join_inner),
     ("android/action/join_left", android::action::join_left),
     ("android/action/join_right", android::action::join_right),
     ("android/action/label", android::action::label),
-    ("android/action/label_important", android::action::label_important),
-    ("android/action/label_important_outline", android::action::label_important_outline),
+    (
+        "android/action/label_important",
+        android::action::label_important,
+    ),
+    (
+        "android/action/label_important_outline",
+        android::action::label_important_outline,
+    ),
     ("android/action/label_off", android::action::label_off),
-    ("android/action/label_outline", android::action::label_outline),
+    (
+        "android/action/label_outline",
+        android::action::label_outline,
+    ),
     ("android/action/language", android::action::language),
     ("android/action/launch", android::action::launch),
     ("android/action/leaderboard", android::action::leaderboard),
     ("android/action/lightbulb", android::action::lightbulb),
-    ("android/action/lightbulb_circle", android::action::lightbulb_circle),
-    ("android/action/lightbulb_outline", android::action::lightbulb_outline),
+    (
+        "android/action/lightbulb_circle",
+        android::action::lightbulb_circle,
+    ),
+    (
+        "android/action/lightbulb_outline",
+        android::action::lightbulb_outline,
+    ),
     ("android/action/line_style", android::action::line_style),
     ("android/action/line_weight", android::action::line_weight),
     ("android/action/list", android::action::list),
@@ -2428,38 +13229,77 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/action/login", android::action::login),
     ("android/action/logout", android::action::logout),
     ("android/action/loyalty", android::action::loyalty),
-    ("android/action/manage_accounts", android::action::manage_accounts),
-    ("android/action/manage_history", android::action::manage_history),
-    ("android/action/mark_as_unread", android::action::mark_as_unread),
-    ("android/action/markunread_mailbox", android::action::markunread_mailbox),
+    (
+        "android/action/manage_accounts",
+        android::action::manage_accounts,
+    ),
+    (
+        "android/action/manage_history",
+        android::action::manage_history,
+    ),
+    (
+        "android/action/mark_as_unread",
+        android::action::mark_as_unread,
+    ),
+    (
+        "android/action/markunread_mailbox",
+        android::action::markunread_mailbox,
+    ),
     ("android/action/maximize", android::action::maximize),
     ("android/action/mediation", android::action::mediation),
     ("android/action/minimize", android::action::minimize),
-    ("android/action/model_training", android::action::model_training),
+    (
+        "android/action/model_training",
+        android::action::model_training,
+    ),
     ("android/action/network_ping", android::action::network_ping),
     ("android/action/new_label", android::action::new_label),
     ("android/action/next_plan", android::action::next_plan),
-    ("android/action/nightlight_round", android::action::nightlight_round),
+    (
+        "android/action/nightlight_round",
+        android::action::nightlight_round,
+    ),
     ("android/action/no_accounts", android::action::no_accounts),
     ("android/action/noise_aware", android::action::noise_aware),
-    ("android/action/noise_control_off", android::action::noise_control_off),
-    ("android/action/not_accessible", android::action::not_accessible),
+    (
+        "android/action/noise_control_off",
+        android::action::noise_control_off,
+    ),
+    (
+        "android/action/not_accessible",
+        android::action::not_accessible,
+    ),
     ("android/action/not_started", android::action::not_started),
     ("android/action/note_add", android::action::note_add),
     ("android/action/offline_bolt", android::action::offline_bolt),
     ("android/action/offline_pin", android::action::offline_pin),
-    ("android/action/on_device_training", android::action::on_device_training),
-    ("android/action/online_prediction", android::action::online_prediction),
+    (
+        "android/action/on_device_training",
+        android::action::on_device_training,
+    ),
+    (
+        "android/action/online_prediction",
+        android::action::online_prediction,
+    ),
     ("android/action/opacity", android::action::opacity),
-    ("android/action/open_in_browser", android::action::open_in_browser),
+    (
+        "android/action/open_in_browser",
+        android::action::open_in_browser,
+    ),
     ("android/action/open_in_full", android::action::open_in_full),
     ("android/action/open_in_new", android::action::open_in_new),
-    ("android/action/open_in_new_off", android::action::open_in_new_off),
+    (
+        "android/action/open_in_new_off",
+        android::action::open_in_new_off,
+    ),
     ("android/action/open_with", android::action::open_with),
     ("android/action/outbond", android::action::outbond),
     ("android/action/outbound", android::action::outbound),
     ("android/action/outbox", android::action::outbox),
-    ("android/action/outgoing_mail", android::action::outgoing_mail),
+    (
+        "android/action/outgoing_mail",
+        android::action::outgoing_mail,
+    ),
     ("android/action/outlet", android::action::outlet),
     ("android/action/output", android::action::output),
     ("android/action/pageview", android::action::pageview),
@@ -2468,182 +13308,455 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/action/pan_tool_alt", android::action::pan_tool_alt),
     ("android/action/payment", android::action::payment),
     ("android/action/pending", android::action::pending),
-    ("android/action/pending_actions", android::action::pending_actions),
+    (
+        "android/action/pending_actions",
+        android::action::pending_actions,
+    ),
     ("android/action/percent", android::action::percent),
-    ("android/action/perm_camera_mic", android::action::perm_camera_mic),
-    ("android/action/perm_contact_calendar", android::action::perm_contact_calendar),
-    ("android/action/perm_data_setting", android::action::perm_data_setting),
-    ("android/action/perm_device_information", android::action::perm_device_information),
-    ("android/action/perm_identity", android::action::perm_identity),
+    (
+        "android/action/perm_camera_mic",
+        android::action::perm_camera_mic,
+    ),
+    (
+        "android/action/perm_contact_calendar",
+        android::action::perm_contact_calendar,
+    ),
+    (
+        "android/action/perm_data_setting",
+        android::action::perm_data_setting,
+    ),
+    (
+        "android/action/perm_device_information",
+        android::action::perm_device_information,
+    ),
+    (
+        "android/action/perm_identity",
+        android::action::perm_identity,
+    ),
     ("android/action/perm_media", android::action::perm_media),
-    ("android/action/perm_phone_msg", android::action::perm_phone_msg),
-    ("android/action/perm_scan_wifi", android::action::perm_scan_wifi),
+    (
+        "android/action/perm_phone_msg",
+        android::action::perm_phone_msg,
+    ),
+    (
+        "android/action/perm_scan_wifi",
+        android::action::perm_scan_wifi,
+    ),
     ("android/action/pets", android::action::pets),
     ("android/action/php", android::action::php),
-    ("android/action/picture_in_picture", android::action::picture_in_picture),
-    ("android/action/picture_in_picture_alt", android::action::picture_in_picture_alt),
+    (
+        "android/action/picture_in_picture",
+        android::action::picture_in_picture,
+    ),
+    (
+        "android/action/picture_in_picture_alt",
+        android::action::picture_in_picture_alt,
+    ),
     ("android/action/pin_end", android::action::pin_end),
     ("android/action/pin_invoke", android::action::pin_invoke),
     ("android/action/pinch", android::action::pinch),
     ("android/action/plagiarism", android::action::plagiarism),
-    ("android/action/play_for_work", android::action::play_for_work),
+    (
+        "android/action/play_for_work",
+        android::action::play_for_work,
+    ),
     ("android/action/polymer", android::action::polymer),
-    ("android/action/power_settings_new", android::action::power_settings_new),
-    ("android/action/pregnant_woman", android::action::pregnant_woman),
+    (
+        "android/action/power_settings_new",
+        android::action::power_settings_new,
+    ),
+    (
+        "android/action/pregnant_woman",
+        android::action::pregnant_woman,
+    ),
     ("android/action/preview", android::action::preview),
     ("android/action/print", android::action::print),
     ("android/action/privacy_tip", android::action::privacy_tip),
-    ("android/action/private_connectivity", android::action::private_connectivity),
-    ("android/action/production_quantity_limits", android::action::production_quantity_limits),
-    ("android/action/published_with_changes", android::action::published_with_changes),
-    ("android/action/query_builder", android::action::query_builder),
-    ("android/action/question_answer", android::action::question_answer),
-    ("android/action/question_mark", android::action::question_mark),
+    (
+        "android/action/private_connectivity",
+        android::action::private_connectivity,
+    ),
+    (
+        "android/action/production_quantity_limits",
+        android::action::production_quantity_limits,
+    ),
+    (
+        "android/action/published_with_changes",
+        android::action::published_with_changes,
+    ),
+    (
+        "android/action/query_builder",
+        android::action::query_builder,
+    ),
+    (
+        "android/action/question_answer",
+        android::action::question_answer,
+    ),
+    (
+        "android/action/question_mark",
+        android::action::question_mark,
+    ),
     ("android/action/quickreply", android::action::quickreply),
     ("android/action/rebase_edit", android::action::rebase_edit),
     ("android/action/receipt", android::action::receipt),
-    ("android/action/record_voice_over", android::action::record_voice_over),
+    (
+        "android/action/record_voice_over",
+        android::action::record_voice_over,
+    ),
     ("android/action/redeem", android::action::redeem),
     ("android/action/remove_done", android::action::remove_done),
-    ("android/action/remove_shopping_cart", android::action::remove_shopping_cart),
+    (
+        "android/action/remove_shopping_cart",
+        android::action::remove_shopping_cart,
+    ),
     ("android/action/reorder", android::action::reorder),
     ("android/action/repartition", android::action::repartition),
-    ("android/action/report_problem", android::action::report_problem),
+    (
+        "android/action/report_problem",
+        android::action::report_problem,
+    ),
     ("android/action/request_page", android::action::request_page),
     ("android/action/restore", android::action::restore),
-    ("android/action/restore_from_trash", android::action::restore_from_trash),
+    (
+        "android/action/restore_from_trash",
+        android::action::restore_from_trash,
+    ),
     ("android/action/restore_page", android::action::restore_page),
     ("android/action/rocket", android::action::rocket),
-    ("android/action/rocket_launch", android::action::rocket_launch),
+    (
+        "android/action/rocket_launch",
+        android::action::rocket_launch,
+    ),
     ("android/action/room", android::action::room),
-    ("android/action/rounded_corner", android::action::rounded_corner),
+    (
+        "android/action/rounded_corner",
+        android::action::rounded_corner,
+    ),
     ("android/action/rowing", android::action::rowing),
     ("android/action/rule", android::action::rule),
-    ("android/action/satellite_alt", android::action::satellite_alt),
+    (
+        "android/action/satellite_alt",
+        android::action::satellite_alt,
+    ),
     ("android/action/saved_search", android::action::saved_search),
     ("android/action/savings", android::action::savings),
     ("android/action/schedule", android::action::schedule),
-    ("android/action/schedule_send", android::action::schedule_send),
+    (
+        "android/action/schedule_send",
+        android::action::schedule_send,
+    ),
     ("android/action/search", android::action::search),
     ("android/action/search_off", android::action::search_off),
     ("android/action/segment", android::action::segment),
-    ("android/action/send_and_archive", android::action::send_and_archive),
+    (
+        "android/action/send_and_archive",
+        android::action::send_and_archive,
+    ),
     ("android/action/sensors", android::action::sensors),
     ("android/action/sensors_off", android::action::sensors_off),
     ("android/action/settings", android::action::settings),
-    ("android/action/settings_accessibility", android::action::settings_accessibility),
-    ("android/action/settings_applications", android::action::settings_applications),
-    ("android/action/settings_backup_restore", android::action::settings_backup_restore),
-    ("android/action/settings_bluetooth", android::action::settings_bluetooth),
-    ("android/action/settings_brightness", android::action::settings_brightness),
-    ("android/action/settings_cell", android::action::settings_cell),
-    ("android/action/settings_ethernet", android::action::settings_ethernet),
-    ("android/action/settings_input_antenna", android::action::settings_input_antenna),
-    ("android/action/settings_input_component", android::action::settings_input_component),
-    ("android/action/settings_input_composite", android::action::settings_input_composite),
-    ("android/action/settings_input_hdmi", android::action::settings_input_hdmi),
-    ("android/action/settings_input_svideo", android::action::settings_input_svideo),
-    ("android/action/settings_overscan", android::action::settings_overscan),
-    ("android/action/settings_phone", android::action::settings_phone),
-    ("android/action/settings_power", android::action::settings_power),
-    ("android/action/settings_remote", android::action::settings_remote),
-    ("android/action/settings_voice", android::action::settings_voice),
+    (
+        "android/action/settings_accessibility",
+        android::action::settings_accessibility,
+    ),
+    (
+        "android/action/settings_applications",
+        android::action::settings_applications,
+    ),
+    (
+        "android/action/settings_backup_restore",
+        android::action::settings_backup_restore,
+    ),
+    (
+        "android/action/settings_bluetooth",
+        android::action::settings_bluetooth,
+    ),
+    (
+        "android/action/settings_brightness",
+        android::action::settings_brightness,
+    ),
+    (
+        "android/action/settings_cell",
+        android::action::settings_cell,
+    ),
+    (
+        "android/action/settings_ethernet",
+        android::action::settings_ethernet,
+    ),
+    (
+        "android/action/settings_input_antenna",
+        android::action::settings_input_antenna,
+    ),
+    (
+        "android/action/settings_input_component",
+        android::action::settings_input_component,
+    ),
+    (
+        "android/action/settings_input_composite",
+        android::action::settings_input_composite,
+    ),
+    (
+        "android/action/settings_input_hdmi",
+        android::action::settings_input_hdmi,
+    ),
+    (
+        "android/action/settings_input_svideo",
+        android::action::settings_input_svideo,
+    ),
+    (
+        "android/action/settings_overscan",
+        android::action::settings_overscan,
+    ),
+    (
+        "android/action/settings_phone",
+        android::action::settings_phone,
+    ),
+    (
+        "android/action/settings_power",
+        android::action::settings_power,
+    ),
+    (
+        "android/action/settings_remote",
+        android::action::settings_remote,
+    ),
+    (
+        "android/action/settings_voice",
+        android::action::settings_voice,
+    ),
     ("android/action/shop", android::action::shop),
     ("android/action/shop_2", android::action::shop_2),
     ("android/action/shop_two", android::action::shop_two),
     ("android/action/shopping_bag", android::action::shopping_bag),
-    ("android/action/shopping_basket", android::action::shopping_basket),
-    ("android/action/shopping_cart", android::action::shopping_cart),
-    ("android/action/shopping_cart_checkout", android::action::shopping_cart_checkout),
+    (
+        "android/action/shopping_basket",
+        android::action::shopping_basket,
+    ),
+    (
+        "android/action/shopping_cart",
+        android::action::shopping_cart,
+    ),
+    (
+        "android/action/shopping_cart_checkout",
+        android::action::shopping_cart_checkout,
+    ),
     ("android/action/smart_button", android::action::smart_button),
     ("android/action/source", android::action::source),
-    ("android/action/space_dashboard", android::action::space_dashboard),
-    ("android/action/spatial_audio", android::action::spatial_audio),
-    ("android/action/spatial_audio_off", android::action::spatial_audio_off),
-    ("android/action/spatial_tracking", android::action::spatial_tracking),
-    ("android/action/speaker_notes", android::action::speaker_notes),
-    ("android/action/speaker_notes_off", android::action::speaker_notes_off),
+    (
+        "android/action/space_dashboard",
+        android::action::space_dashboard,
+    ),
+    (
+        "android/action/spatial_audio",
+        android::action::spatial_audio,
+    ),
+    (
+        "android/action/spatial_audio_off",
+        android::action::spatial_audio_off,
+    ),
+    (
+        "android/action/spatial_tracking",
+        android::action::spatial_tracking,
+    ),
+    (
+        "android/action/speaker_notes",
+        android::action::speaker_notes,
+    ),
+    (
+        "android/action/speaker_notes_off",
+        android::action::speaker_notes_off,
+    ),
     ("android/action/spellcheck", android::action::spellcheck),
     ("android/action/star_rate", android::action::star_rate),
     ("android/action/stars", android::action::stars),
-    ("android/action/sticky_note_2", android::action::sticky_note_2),
+    (
+        "android/action/sticky_note_2",
+        android::action::sticky_note_2,
+    ),
     ("android/action/store", android::action::store),
     ("android/action/subject", android::action::subject),
-    ("android/action/subtitles_off", android::action::subtitles_off),
-    ("android/action/supervised_user_circle", android::action::supervised_user_circle),
-    ("android/action/supervisor_account", android::action::supervisor_account),
+    (
+        "android/action/subtitles_off",
+        android::action::subtitles_off,
+    ),
+    (
+        "android/action/supervised_user_circle",
+        android::action::supervised_user_circle,
+    ),
+    (
+        "android/action/supervisor_account",
+        android::action::supervisor_account,
+    ),
     ("android/action/support", android::action::support),
     ("android/action/swap_horiz", android::action::swap_horiz),
-    ("android/action/swap_horizontal_circle", android::action::swap_horizontal_circle),
+    (
+        "android/action/swap_horizontal_circle",
+        android::action::swap_horizontal_circle,
+    ),
     ("android/action/swap_vert", android::action::swap_vert),
-    ("android/action/swap_vertical_circle", android::action::swap_vertical_circle),
+    (
+        "android/action/swap_vertical_circle",
+        android::action::swap_vertical_circle,
+    ),
     ("android/action/swipe", android::action::swipe),
     ("android/action/swipe_down", android::action::swipe_down),
-    ("android/action/swipe_down_alt", android::action::swipe_down_alt),
+    (
+        "android/action/swipe_down_alt",
+        android::action::swipe_down_alt,
+    ),
     ("android/action/swipe_left", android::action::swipe_left),
-    ("android/action/swipe_left_alt", android::action::swipe_left_alt),
+    (
+        "android/action/swipe_left_alt",
+        android::action::swipe_left_alt,
+    ),
     ("android/action/swipe_right", android::action::swipe_right),
-    ("android/action/swipe_right_alt", android::action::swipe_right_alt),
+    (
+        "android/action/swipe_right_alt",
+        android::action::swipe_right_alt,
+    ),
     ("android/action/swipe_up", android::action::swipe_up),
     ("android/action/swipe_up_alt", android::action::swipe_up_alt),
-    ("android/action/swipe_vertical", android::action::swipe_vertical),
-    ("android/action/switch_access_shortcut", android::action::switch_access_shortcut),
-    ("android/action/switch_access_shortcut_add", android::action::switch_access_shortcut_add),
+    (
+        "android/action/swipe_vertical",
+        android::action::swipe_vertical,
+    ),
+    (
+        "android/action/switch_access_shortcut",
+        android::action::switch_access_shortcut,
+    ),
+    (
+        "android/action/switch_access_shortcut_add",
+        android::action::switch_access_shortcut_add,
+    ),
     ("android/action/sync_alt", android::action::sync_alt),
-    ("android/action/system_update_alt", android::action::system_update_alt),
+    (
+        "android/action/system_update_alt",
+        android::action::system_update_alt,
+    ),
     ("android/action/tab", android::action::tab),
-    ("android/action/tab_unselected", android::action::tab_unselected),
+    (
+        "android/action/tab_unselected",
+        android::action::tab_unselected,
+    ),
     ("android/action/table_view", android::action::table_view),
     ("android/action/task_alt", android::action::task_alt),
     ("android/action/terminal", android::action::terminal),
-    ("android/action/text_rotate_up", android::action::text_rotate_up),
-    ("android/action/text_rotate_vertical", android::action::text_rotate_vertical),
-    ("android/action/text_rotation_angledown", android::action::text_rotation_angledown),
-    ("android/action/text_rotation_angleup", android::action::text_rotation_angleup),
-    ("android/action/text_rotation_down", android::action::text_rotation_down),
-    ("android/action/text_rotation_none", android::action::text_rotation_none),
+    (
+        "android/action/text_rotate_up",
+        android::action::text_rotate_up,
+    ),
+    (
+        "android/action/text_rotate_vertical",
+        android::action::text_rotate_vertical,
+    ),
+    (
+        "android/action/text_rotation_angledown",
+        android::action::text_rotation_angledown,
+    ),
+    (
+        "android/action/text_rotation_angleup",
+        android::action::text_rotation_angleup,
+    ),
+    (
+        "android/action/text_rotation_down",
+        android::action::text_rotation_down,
+    ),
+    (
+        "android/action/text_rotation_none",
+        android::action::text_rotation_none,
+    ),
     ("android/action/theaters", android::action::theaters),
     ("android/action/thumb_down", android::action::thumb_down),
-    ("android/action/thumb_down_off_alt", android::action::thumb_down_off_alt),
+    (
+        "android/action/thumb_down_off_alt",
+        android::action::thumb_down_off_alt,
+    ),
     ("android/action/thumb_up", android::action::thumb_up),
-    ("android/action/thumb_up_off_alt", android::action::thumb_up_off_alt),
-    ("android/action/thumbs_up_down", android::action::thumbs_up_down),
+    (
+        "android/action/thumb_up_off_alt",
+        android::action::thumb_up_off_alt,
+    ),
+    (
+        "android/action/thumbs_up_down",
+        android::action::thumbs_up_down,
+    ),
     ("android/action/timeline", android::action::timeline),
-    ("android/action/tips_and_updates", android::action::tips_and_updates),
+    (
+        "android/action/tips_and_updates",
+        android::action::tips_and_updates,
+    ),
     ("android/action/toc", android::action::toc),
     ("android/action/today", android::action::today),
     ("android/action/token", android::action::token),
     ("android/action/toll", android::action::toll),
     ("android/action/touch_app", android::action::touch_app),
     ("android/action/tour", android::action::tour),
-    ("android/action/track_changes", android::action::track_changes),
+    (
+        "android/action/track_changes",
+        android::action::track_changes,
+    ),
     ("android/action/transcribe", android::action::transcribe),
     ("android/action/translate", android::action::translate),
-    ("android/action/trending_down", android::action::trending_down),
-    ("android/action/trending_flat", android::action::trending_flat),
+    (
+        "android/action/trending_down",
+        android::action::trending_down,
+    ),
+    (
+        "android/action/trending_flat",
+        android::action::trending_flat,
+    ),
     ("android/action/trending_up", android::action::trending_up),
     ("android/action/troubleshoot", android::action::troubleshoot),
     ("android/action/try", android::action::r#try),
     ("android/action/turned_in", android::action::turned_in),
-    ("android/action/turned_in_not", android::action::turned_in_not),
-    ("android/action/unfold_less_double", android::action::unfold_less_double),
-    ("android/action/unfold_more_double", android::action::unfold_more_double),
+    (
+        "android/action/turned_in_not",
+        android::action::turned_in_not,
+    ),
+    (
+        "android/action/unfold_less_double",
+        android::action::unfold_less_double,
+    ),
+    (
+        "android/action/unfold_more_double",
+        android::action::unfold_more_double,
+    ),
     ("android/action/unpublished", android::action::unpublished),
     ("android/action/update", android::action::update),
-    ("android/action/update_disabled", android::action::update_disabled),
+    (
+        "android/action/update_disabled",
+        android::action::update_disabled,
+    ),
     ("android/action/upgrade", android::action::upgrade),
     ("android/action/verified", android::action::verified),
-    ("android/action/verified_user", android::action::verified_user),
-    ("android/action/vertical_split", android::action::vertical_split),
+    (
+        "android/action/verified_user",
+        android::action::verified_user,
+    ),
+    (
+        "android/action/vertical_split",
+        android::action::vertical_split,
+    ),
     ("android/action/view_agenda", android::action::view_agenda),
     ("android/action/view_array", android::action::view_array),
-    ("android/action/view_carousel", android::action::view_carousel),
+    (
+        "android/action/view_carousel",
+        android::action::view_carousel,
+    ),
     ("android/action/view_column", android::action::view_column),
-    ("android/action/view_comfy_alt", android::action::view_comfy_alt),
-    ("android/action/view_compact_alt", android::action::view_compact_alt),
+    (
+        "android/action/view_comfy_alt",
+        android::action::view_comfy_alt,
+    ),
+    (
+        "android/action/view_compact_alt",
+        android::action::view_compact_alt,
+    ),
     ("android/action/view_cozy", android::action::view_cozy),
     ("android/action/view_day", android::action::view_day),
-    ("android/action/view_headline", android::action::view_headline),
+    (
+        "android/action/view_headline",
+        android::action::view_headline,
+    ),
     ("android/action/view_in_ar", android::action::view_in_ar),
     ("android/action/view_kanban", android::action::view_kanban),
     ("android/action/view_list", android::action::view_list),
@@ -2651,30 +13764,48 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/action/view_quilt", android::action::view_quilt),
     ("android/action/view_sidebar", android::action::view_sidebar),
     ("android/action/view_stream", android::action::view_stream),
-    ("android/action/view_timeline", android::action::view_timeline),
+    (
+        "android/action/view_timeline",
+        android::action::view_timeline,
+    ),
     ("android/action/view_week", android::action::view_week),
     ("android/action/visibility", android::action::visibility),
-    ("android/action/visibility_off", android::action::visibility_off),
-    ("android/action/voice_over_off", android::action::voice_over_off),
+    (
+        "android/action/visibility_off",
+        android::action::visibility_off,
+    ),
+    (
+        "android/action/voice_over_off",
+        android::action::voice_over_off,
+    ),
     ("android/action/watch_later", android::action::watch_later),
     ("android/action/webhook", android::action::webhook),
     ("android/action/width_full", android::action::width_full),
     ("android/action/width_normal", android::action::width_normal),
     ("android/action/width_wide", android::action::width_wide),
-    ("android/action/wifi_protected_setup", android::action::wifi_protected_setup),
+    (
+        "android/action/wifi_protected_setup",
+        android::action::wifi_protected_setup,
+    ),
     ("android/action/work", android::action::work),
     ("android/action/work_history", android::action::work_history),
     ("android/action/work_off", android::action::work_off),
     ("android/action/work_outline", android::action::work_outline),
     ("android/action/wysiwyg", android::action::wysiwyg),
-    ("android/action/youtube_searched_for", android::action::youtube_searched_for),
+    (
+        "android/action/youtube_searched_for",
+        android::action::youtube_searched_for,
+    ),
     ("android/action/zoom_in", android::action::zoom_in),
     ("android/action/zoom_out", android::action::zoom_out),
     ("android/alert/add_alert", android::alert::add_alert),
     ("android/alert/auto_delete", android::alert::auto_delete),
     ("android/alert/error", android::alert::error),
     ("android/alert/error_outline", android::alert::error_outline),
-    ("android/alert/notification_important", android::alert::notification_important),
+    (
+        "android/alert/notification_important",
+        android::alert::notification_important,
+    ),
     ("android/alert/warning", android::alert::warning),
     ("android/alert/warning_amber", android::alert::warning_amber),
     ("android/av/10k", android::av::_10k),
@@ -2703,23 +13834,41 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/av/art_track", android::av::art_track),
     ("android/av/audio_file", android::av::audio_file),
     ("android/av/av_timer", android::av::av_timer),
-    ("android/av/branding_watermark", android::av::branding_watermark),
+    (
+        "android/av/branding_watermark",
+        android::av::branding_watermark,
+    ),
     ("android/av/call_to_action", android::av::call_to_action),
     ("android/av/closed_caption", android::av::closed_caption),
-    ("android/av/closed_caption_disabled", android::av::closed_caption_disabled),
-    ("android/av/closed_caption_off", android::av::closed_caption_off),
+    (
+        "android/av/closed_caption_disabled",
+        android::av::closed_caption_disabled,
+    ),
+    (
+        "android/av/closed_caption_off",
+        android::av::closed_caption_off,
+    ),
     ("android/av/control_camera", android::av::control_camera),
     ("android/av/equalizer", android::av::equalizer),
     ("android/av/explicit", android::av::explicit),
     ("android/av/fast_forward", android::av::fast_forward),
     ("android/av/fast_rewind", android::av::fast_rewind),
-    ("android/av/featured_play_list", android::av::featured_play_list),
+    (
+        "android/av/featured_play_list",
+        android::av::featured_play_list,
+    ),
     ("android/av/featured_video", android::av::featured_video),
     ("android/av/fiber_dvr", android::av::fiber_dvr),
-    ("android/av/fiber_manual_record", android::av::fiber_manual_record),
+    (
+        "android/av/fiber_manual_record",
+        android::av::fiber_manual_record,
+    ),
     ("android/av/fiber_new", android::av::fiber_new),
     ("android/av/fiber_pin", android::av::fiber_pin),
-    ("android/av/fiber_smart_record", android::av::fiber_smart_record),
+    (
+        "android/av/fiber_smart_record",
+        android::av::fiber_smart_record,
+    ),
     ("android/av/forward_10", android::av::forward_10),
     ("android/av/forward_30", android::av::forward_30),
     ("android/av/forward_5", android::av::forward_5),
@@ -2730,7 +13879,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/av/high_quality", android::av::high_quality),
     ("android/av/interpreter_mode", android::av::interpreter_mode),
     ("android/av/library_add", android::av::library_add),
-    ("android/av/library_add_check", android::av::library_add_check),
+    (
+        "android/av/library_add_check",
+        android::av::library_add_check,
+    ),
     ("android/av/library_books", android::av::library_books),
     ("android/av/library_music", android::av::library_music),
     ("android/av/loop", android::av::r#loop),
@@ -2738,7 +13890,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/av/mic", android::av::mic),
     ("android/av/mic_none", android::av::mic_none),
     ("android/av/mic_off", android::av::mic_off),
-    ("android/av/missed_video_call", android::av::missed_video_call),
+    (
+        "android/av/missed_video_call",
+        android::av::missed_video_call,
+    ),
     ("android/av/movie", android::av::movie),
     ("android/av/movie_edit", android::av::movie_edit),
     ("android/av/music_video", android::av::music_video),
@@ -2747,17 +13902,38 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/av/note", android::av::note),
     ("android/av/pause", android::av::pause),
     ("android/av/pause_circle", android::av::pause_circle),
-    ("android/av/pause_circle_filled", android::av::pause_circle_filled),
-    ("android/av/pause_circle_outline", android::av::pause_circle_outline),
+    (
+        "android/av/pause_circle_filled",
+        android::av::pause_circle_filled,
+    ),
+    (
+        "android/av/pause_circle_outline",
+        android::av::pause_circle_outline,
+    ),
     ("android/av/play_arrow", android::av::play_arrow),
     ("android/av/play_circle", android::av::play_circle),
-    ("android/av/play_circle_filled", android::av::play_circle_filled),
-    ("android/av/play_circle_outline", android::av::play_circle_outline),
+    (
+        "android/av/play_circle_filled",
+        android::av::play_circle_filled,
+    ),
+    (
+        "android/av/play_circle_outline",
+        android::av::play_circle_outline,
+    ),
     ("android/av/play_disabled", android::av::play_disabled),
     ("android/av/playlist_add", android::av::playlist_add),
-    ("android/av/playlist_add_check", android::av::playlist_add_check),
-    ("android/av/playlist_add_check_circle", android::av::playlist_add_check_circle),
-    ("android/av/playlist_add_circle", android::av::playlist_add_circle),
+    (
+        "android/av/playlist_add_check",
+        android::av::playlist_add_check,
+    ),
+    (
+        "android/av/playlist_add_check_circle",
+        android::av::playlist_add_check_circle,
+    ),
+    (
+        "android/av/playlist_add_circle",
+        android::av::playlist_add_circle,
+    ),
     ("android/av/playlist_play", android::av::playlist_play),
     ("android/av/playlist_remove", android::av::playlist_remove),
     ("android/av/queue", android::av::queue),
@@ -2765,7 +13941,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/av/queue_play_next", android::av::queue_play_next),
     ("android/av/radio", android::av::radio),
     ("android/av/recent_actors", android::av::recent_actors),
-    ("android/av/remove_from_queue", android::av::remove_from_queue),
+    (
+        "android/av/remove_from_queue",
+        android::av::remove_from_queue,
+    ),
     ("android/av/repeat", android::av::repeat),
     ("android/av/repeat_on", android::av::repeat_on),
     ("android/av/repeat_one", android::av::repeat_one),
@@ -2774,13 +13953,19 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/av/replay_10", android::av::replay_10),
     ("android/av/replay_30", android::av::replay_30),
     ("android/av/replay_5", android::av::replay_5),
-    ("android/av/replay_circle_filled", android::av::replay_circle_filled),
+    (
+        "android/av/replay_circle_filled",
+        android::av::replay_circle_filled,
+    ),
     ("android/av/sd", android::av::sd),
     ("android/av/shuffle", android::av::shuffle),
     ("android/av/shuffle_on", android::av::shuffle_on),
     ("android/av/skip_next", android::av::skip_next),
     ("android/av/skip_previous", android::av::skip_previous),
-    ("android/av/slow_motion_video", android::av::slow_motion_video),
+    (
+        "android/av/slow_motion_video",
+        android::av::slow_motion_video,
+    ),
     ("android/av/snooze", android::av::snooze),
     ("android/av/sort_by_alpha", android::av::sort_by_alpha),
     ("android/av/speed", android::av::speed),
@@ -2805,108 +13990,369 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/av/web_asset", android::av::web_asset),
     ("android/av/web_asset_off", android::av::web_asset_off),
     ("android/communication/3p", android::communication::_3p),
-    ("android/communication/add_ic_call", android::communication::add_ic_call),
-    ("android/communication/alternate_email", android::communication::alternate_email),
-    ("android/communication/app_registration", android::communication::app_registration),
-    ("android/communication/business", android::communication::business),
+    (
+        "android/communication/add_ic_call",
+        android::communication::add_ic_call,
+    ),
+    (
+        "android/communication/alternate_email",
+        android::communication::alternate_email,
+    ),
+    (
+        "android/communication/app_registration",
+        android::communication::app_registration,
+    ),
+    (
+        "android/communication/business",
+        android::communication::business,
+    ),
     ("android/communication/call", android::communication::call),
-    ("android/communication/call_end", android::communication::call_end),
-    ("android/communication/call_made", android::communication::call_made),
-    ("android/communication/call_merge", android::communication::call_merge),
-    ("android/communication/call_missed", android::communication::call_missed),
-    ("android/communication/call_missed_outgoing", android::communication::call_missed_outgoing),
-    ("android/communication/call_received", android::communication::call_received),
-    ("android/communication/call_split", android::communication::call_split),
-    ("android/communication/cancel_presentation", android::communication::cancel_presentation),
-    ("android/communication/cell_tower", android::communication::cell_tower),
-    ("android/communication/cell_wifi", android::communication::cell_wifi),
+    (
+        "android/communication/call_end",
+        android::communication::call_end,
+    ),
+    (
+        "android/communication/call_made",
+        android::communication::call_made,
+    ),
+    (
+        "android/communication/call_merge",
+        android::communication::call_merge,
+    ),
+    (
+        "android/communication/call_missed",
+        android::communication::call_missed,
+    ),
+    (
+        "android/communication/call_missed_outgoing",
+        android::communication::call_missed_outgoing,
+    ),
+    (
+        "android/communication/call_received",
+        android::communication::call_received,
+    ),
+    (
+        "android/communication/call_split",
+        android::communication::call_split,
+    ),
+    (
+        "android/communication/cancel_presentation",
+        android::communication::cancel_presentation,
+    ),
+    (
+        "android/communication/cell_tower",
+        android::communication::cell_tower,
+    ),
+    (
+        "android/communication/cell_wifi",
+        android::communication::cell_wifi,
+    ),
     ("android/communication/chat", android::communication::chat),
-    ("android/communication/chat_bubble", android::communication::chat_bubble),
-    ("android/communication/chat_bubble_outline", android::communication::chat_bubble_outline),
-    ("android/communication/clear_all", android::communication::clear_all),
-    ("android/communication/co_present", android::communication::co_present),
-    ("android/communication/comment", android::communication::comment),
-    ("android/communication/comments_disabled", android::communication::comments_disabled),
-    ("android/communication/contact_emergency", android::communication::contact_emergency),
-    ("android/communication/contact_mail", android::communication::contact_mail),
-    ("android/communication/contact_phone", android::communication::contact_phone),
-    ("android/communication/contacts", android::communication::contacts),
-    ("android/communication/desktop_access_disabled", android::communication::desktop_access_disabled),
-    ("android/communication/dialer_sip", android::communication::dialer_sip),
-    ("android/communication/dialpad", android::communication::dialpad),
-    ("android/communication/document_scanner", android::communication::document_scanner),
-    ("android/communication/domain_disabled", android::communication::domain_disabled),
-    ("android/communication/domain_verification", android::communication::domain_verification),
+    (
+        "android/communication/chat_bubble",
+        android::communication::chat_bubble,
+    ),
+    (
+        "android/communication/chat_bubble_outline",
+        android::communication::chat_bubble_outline,
+    ),
+    (
+        "android/communication/clear_all",
+        android::communication::clear_all,
+    ),
+    (
+        "android/communication/co_present",
+        android::communication::co_present,
+    ),
+    (
+        "android/communication/comment",
+        android::communication::comment,
+    ),
+    (
+        "android/communication/comments_disabled",
+        android::communication::comments_disabled,
+    ),
+    (
+        "android/communication/contact_emergency",
+        android::communication::contact_emergency,
+    ),
+    (
+        "android/communication/contact_mail",
+        android::communication::contact_mail,
+    ),
+    (
+        "android/communication/contact_phone",
+        android::communication::contact_phone,
+    ),
+    (
+        "android/communication/contacts",
+        android::communication::contacts,
+    ),
+    (
+        "android/communication/desktop_access_disabled",
+        android::communication::desktop_access_disabled,
+    ),
+    (
+        "android/communication/dialer_sip",
+        android::communication::dialer_sip,
+    ),
+    (
+        "android/communication/dialpad",
+        android::communication::dialpad,
+    ),
+    (
+        "android/communication/document_scanner",
+        android::communication::document_scanner,
+    ),
+    (
+        "android/communication/domain_disabled",
+        android::communication::domain_disabled,
+    ),
+    (
+        "android/communication/domain_verification",
+        android::communication::domain_verification,
+    ),
     ("android/communication/duo", android::communication::duo),
     ("android/communication/email", android::communication::email),
     ("android/communication/forum", android::communication::forum),
-    ("android/communication/forward_to_inbox", android::communication::forward_to_inbox),
-    ("android/communication/hourglass_bottom", android::communication::hourglass_bottom),
-    ("android/communication/hourglass_top", android::communication::hourglass_top),
+    (
+        "android/communication/forward_to_inbox",
+        android::communication::forward_to_inbox,
+    ),
+    (
+        "android/communication/hourglass_bottom",
+        android::communication::hourglass_bottom,
+    ),
+    (
+        "android/communication/hourglass_top",
+        android::communication::hourglass_top,
+    ),
     ("android/communication/hub", android::communication::hub),
-    ("android/communication/import_contacts", android::communication::import_contacts),
-    ("android/communication/import_export", android::communication::import_export),
-    ("android/communication/invert_colors_off", android::communication::invert_colors_off),
+    (
+        "android/communication/import_contacts",
+        android::communication::import_contacts,
+    ),
+    (
+        "android/communication/import_export",
+        android::communication::import_export,
+    ),
+    (
+        "android/communication/invert_colors_off",
+        android::communication::invert_colors_off,
+    ),
     ("android/communication/key", android::communication::key),
-    ("android/communication/key_off", android::communication::key_off),
-    ("android/communication/list_alt", android::communication::list_alt),
-    ("android/communication/live_help", android::communication::live_help),
-    ("android/communication/location_off", android::communication::location_off),
-    ("android/communication/location_on", android::communication::location_on),
-    ("android/communication/mail_lock", android::communication::mail_lock),
-    ("android/communication/mail_outline", android::communication::mail_outline),
-    ("android/communication/mark_chat_read", android::communication::mark_chat_read),
-    ("android/communication/mark_chat_unread", android::communication::mark_chat_unread),
-    ("android/communication/mark_email_read", android::communication::mark_email_read),
-    ("android/communication/mark_email_unread", android::communication::mark_email_unread),
-    ("android/communication/mark_unread_chat_alt", android::communication::mark_unread_chat_alt),
-    ("android/communication/message", android::communication::message),
-    ("android/communication/mobile_screen_share", android::communication::mobile_screen_share),
-    ("android/communication/more_time", android::communication::more_time),
+    (
+        "android/communication/key_off",
+        android::communication::key_off,
+    ),
+    (
+        "android/communication/list_alt",
+        android::communication::list_alt,
+    ),
+    (
+        "android/communication/live_help",
+        android::communication::live_help,
+    ),
+    (
+        "android/communication/location_off",
+        android::communication::location_off,
+    ),
+    (
+        "android/communication/location_on",
+        android::communication::location_on,
+    ),
+    (
+        "android/communication/mail_lock",
+        android::communication::mail_lock,
+    ),
+    (
+        "android/communication/mail_outline",
+        android::communication::mail_outline,
+    ),
+    (
+        "android/communication/mark_chat_read",
+        android::communication::mark_chat_read,
+    ),
+    (
+        "android/communication/mark_chat_unread",
+        android::communication::mark_chat_unread,
+    ),
+    (
+        "android/communication/mark_email_read",
+        android::communication::mark_email_read,
+    ),
+    (
+        "android/communication/mark_email_unread",
+        android::communication::mark_email_unread,
+    ),
+    (
+        "android/communication/mark_unread_chat_alt",
+        android::communication::mark_unread_chat_alt,
+    ),
+    (
+        "android/communication/message",
+        android::communication::message,
+    ),
+    (
+        "android/communication/mobile_screen_share",
+        android::communication::mobile_screen_share,
+    ),
+    (
+        "android/communication/more_time",
+        android::communication::more_time,
+    ),
     ("android/communication/nat", android::communication::nat),
-    ("android/communication/no_sim", android::communication::no_sim),
-    ("android/communication/pause_presentation", android::communication::pause_presentation),
-    ("android/communication/person_add_disabled", android::communication::person_add_disabled),
-    ("android/communication/person_search", android::communication::person_search),
+    (
+        "android/communication/no_sim",
+        android::communication::no_sim,
+    ),
+    (
+        "android/communication/pause_presentation",
+        android::communication::pause_presentation,
+    ),
+    (
+        "android/communication/person_add_disabled",
+        android::communication::person_add_disabled,
+    ),
+    (
+        "android/communication/person_search",
+        android::communication::person_search,
+    ),
     ("android/communication/phone", android::communication::phone),
-    ("android/communication/phone_disabled", android::communication::phone_disabled),
-    ("android/communication/phone_enabled", android::communication::phone_enabled),
-    ("android/communication/phonelink_erase", android::communication::phonelink_erase),
-    ("android/communication/phonelink_lock", android::communication::phonelink_lock),
-    ("android/communication/phonelink_ring", android::communication::phonelink_ring),
-    ("android/communication/phonelink_setup", android::communication::phonelink_setup),
-    ("android/communication/portable_wifi_off", android::communication::portable_wifi_off),
-    ("android/communication/present_to_all", android::communication::present_to_all),
-    ("android/communication/print_disabled", android::communication::print_disabled),
-    ("android/communication/qr_code", android::communication::qr_code),
-    ("android/communication/qr_code_2", android::communication::qr_code_2),
-    ("android/communication/qr_code_scanner", android::communication::qr_code_scanner),
-    ("android/communication/read_more", android::communication::read_more),
-    ("android/communication/ring_volume", android::communication::ring_volume),
-    ("android/communication/rss_feed", android::communication::rss_feed),
+    (
+        "android/communication/phone_disabled",
+        android::communication::phone_disabled,
+    ),
+    (
+        "android/communication/phone_enabled",
+        android::communication::phone_enabled,
+    ),
+    (
+        "android/communication/phonelink_erase",
+        android::communication::phonelink_erase,
+    ),
+    (
+        "android/communication/phonelink_lock",
+        android::communication::phonelink_lock,
+    ),
+    (
+        "android/communication/phonelink_ring",
+        android::communication::phonelink_ring,
+    ),
+    (
+        "android/communication/phonelink_setup",
+        android::communication::phonelink_setup,
+    ),
+    (
+        "android/communication/portable_wifi_off",
+        android::communication::portable_wifi_off,
+    ),
+    (
+        "android/communication/present_to_all",
+        android::communication::present_to_all,
+    ),
+    (
+        "android/communication/print_disabled",
+        android::communication::print_disabled,
+    ),
+    (
+        "android/communication/qr_code",
+        android::communication::qr_code,
+    ),
+    (
+        "android/communication/qr_code_2",
+        android::communication::qr_code_2,
+    ),
+    (
+        "android/communication/qr_code_scanner",
+        android::communication::qr_code_scanner,
+    ),
+    (
+        "android/communication/read_more",
+        android::communication::read_more,
+    ),
+    (
+        "android/communication/ring_volume",
+        android::communication::ring_volume,
+    ),
+    (
+        "android/communication/rss_feed",
+        android::communication::rss_feed,
+    ),
     ("android/communication/rtt", android::communication::rtt),
-    ("android/communication/screen_share", android::communication::screen_share),
-    ("android/communication/send_time_extension", android::communication::send_time_extension),
-    ("android/communication/sentiment_satisfied_alt", android::communication::sentiment_satisfied_alt),
+    (
+        "android/communication/screen_share",
+        android::communication::screen_share,
+    ),
+    (
+        "android/communication/send_time_extension",
+        android::communication::send_time_extension,
+    ),
+    (
+        "android/communication/sentiment_satisfied_alt",
+        android::communication::sentiment_satisfied_alt,
+    ),
     ("android/communication/sip", android::communication::sip),
-    ("android/communication/speaker_phone", android::communication::speaker_phone),
+    (
+        "android/communication/speaker_phone",
+        android::communication::speaker_phone,
+    ),
     ("android/communication/spoke", android::communication::spoke),
-    ("android/communication/stay_current_landscape", android::communication::stay_current_landscape),
-    ("android/communication/stay_current_portrait", android::communication::stay_current_portrait),
-    ("android/communication/stay_primary_landscape", android::communication::stay_primary_landscape),
-    ("android/communication/stay_primary_portrait", android::communication::stay_primary_portrait),
-    ("android/communication/stop_screen_share", android::communication::stop_screen_share),
-    ("android/communication/swap_calls", android::communication::swap_calls),
-    ("android/communication/textsms", android::communication::textsms),
-    ("android/communication/unsubscribe", android::communication::unsubscribe),
-    ("android/communication/voicemail", android::communication::voicemail),
-    ("android/communication/vpn_key", android::communication::vpn_key),
-    ("android/communication/vpn_key_off", android::communication::vpn_key_off),
-    ("android/communication/wifi_calling", android::communication::wifi_calling),
+    (
+        "android/communication/stay_current_landscape",
+        android::communication::stay_current_landscape,
+    ),
+    (
+        "android/communication/stay_current_portrait",
+        android::communication::stay_current_portrait,
+    ),
+    (
+        "android/communication/stay_primary_landscape",
+        android::communication::stay_primary_landscape,
+    ),
+    (
+        "android/communication/stay_primary_portrait",
+        android::communication::stay_primary_portrait,
+    ),
+    (
+        "android/communication/stop_screen_share",
+        android::communication::stop_screen_share,
+    ),
+    (
+        "android/communication/swap_calls",
+        android::communication::swap_calls,
+    ),
+    (
+        "android/communication/textsms",
+        android::communication::textsms,
+    ),
+    (
+        "android/communication/unsubscribe",
+        android::communication::unsubscribe,
+    ),
+    (
+        "android/communication/voicemail",
+        android::communication::voicemail,
+    ),
+    (
+        "android/communication/vpn_key",
+        android::communication::vpn_key,
+    ),
+    (
+        "android/communication/vpn_key_off",
+        android::communication::vpn_key_off,
+    ),
+    (
+        "android/communication/wifi_calling",
+        android::communication::wifi_calling,
+    ),
     ("android/content/add", android::content::add),
     ("android/content/add_box", android::content::add_box),
     ("android/content/add_circle", android::content::add_circle),
-    ("android/content/add_circle_outline", android::content::add_circle_outline),
+    (
+        "android/content/add_circle_outline",
+        android::content::add_circle_outline,
+    ),
     ("android/content/add_link", android::content::add_link),
     ("android/content/amp_stories", android::content::amp_stories),
     ("android/content/archive", android::content::archive),
@@ -2915,30 +14361,66 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/content/ballot", android::content::ballot),
     ("android/content/biotech", android::content::biotech),
     ("android/content/block", android::content::block),
-    ("android/content/block_flipped", android::content::block_flipped),
+    (
+        "android/content/block_flipped",
+        android::content::block_flipped,
+    ),
     ("android/content/bolt", android::content::bolt),
     ("android/content/calculate", android::content::calculate),
-    ("android/content/change_circle", android::content::change_circle),
+    (
+        "android/content/change_circle",
+        android::content::change_circle,
+    ),
     ("android/content/clear", android::content::clear),
-    ("android/content/content_copy", android::content::content_copy),
+    (
+        "android/content/content_copy",
+        android::content::content_copy,
+    ),
     ("android/content/content_cut", android::content::content_cut),
-    ("android/content/content_paste", android::content::content_paste),
-    ("android/content/content_paste_go", android::content::content_paste_go),
-    ("android/content/content_paste_off", android::content::content_paste_off),
-    ("android/content/content_paste_search", android::content::content_paste_search),
+    (
+        "android/content/content_paste",
+        android::content::content_paste,
+    ),
+    (
+        "android/content/content_paste_go",
+        android::content::content_paste_go,
+    ),
+    (
+        "android/content/content_paste_off",
+        android::content::content_paste_off,
+    ),
+    (
+        "android/content/content_paste_search",
+        android::content::content_paste_search,
+    ),
     ("android/content/copy_all", android::content::copy_all),
     ("android/content/create", android::content::create),
-    ("android/content/delete_sweep", android::content::delete_sweep),
+    (
+        "android/content/delete_sweep",
+        android::content::delete_sweep,
+    ),
     ("android/content/deselect", android::content::deselect),
     ("android/content/drafts", android::content::drafts),
-    ("android/content/dynamic_feed", android::content::dynamic_feed),
+    (
+        "android/content/dynamic_feed",
+        android::content::dynamic_feed,
+    ),
     ("android/content/file_copy", android::content::file_copy),
     ("android/content/filter_list", android::content::filter_list),
-    ("android/content/filter_list_off", android::content::filter_list_off),
+    (
+        "android/content/filter_list_off",
+        android::content::filter_list_off,
+    ),
     ("android/content/flag", android::content::flag),
     ("android/content/flag_circle", android::content::flag_circle),
-    ("android/content/font_download", android::content::font_download),
-    ("android/content/font_download_off", android::content::font_download_off),
+    (
+        "android/content/font_download",
+        android::content::font_download,
+    ),
+    (
+        "android/content/font_download_off",
+        android::content::font_download_off,
+    ),
     ("android/content/forward", android::content::forward),
     ("android/content/gesture", android::content::gesture),
     ("android/content/how_to_reg", android::content::how_to_reg),
@@ -2949,22 +14431,40 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/content/inventory_2", android::content::inventory_2),
     ("android/content/link", android::content::link),
     ("android/content/link_off", android::content::link_off),
-    ("android/content/low_priority", android::content::low_priority),
+    (
+        "android/content/low_priority",
+        android::content::low_priority,
+    ),
     ("android/content/mail", android::content::mail),
     ("android/content/markunread", android::content::markunread),
-    ("android/content/move_to_inbox", android::content::move_to_inbox),
+    (
+        "android/content/move_to_inbox",
+        android::content::move_to_inbox,
+    ),
     ("android/content/next_week", android::content::next_week),
-    ("android/content/outlined_flag", android::content::outlined_flag),
+    (
+        "android/content/outlined_flag",
+        android::content::outlined_flag,
+    ),
     ("android/content/policy", android::content::policy),
     ("android/content/push_pin", android::content::push_pin),
     ("android/content/redo", android::content::redo),
     ("android/content/remove", android::content::remove),
-    ("android/content/remove_circle", android::content::remove_circle),
-    ("android/content/remove_circle_outline", android::content::remove_circle_outline),
+    (
+        "android/content/remove_circle",
+        android::content::remove_circle,
+    ),
+    (
+        "android/content/remove_circle_outline",
+        android::content::remove_circle_outline,
+    ),
     ("android/content/reply", android::content::reply),
     ("android/content/reply_all", android::content::reply_all),
     ("android/content/report", android::content::report),
-    ("android/content/report_gmailerrorred", android::content::report_gmailerrorred),
+    (
+        "android/content/report_gmailerrorred",
+        android::content::report_gmailerrorred,
+    ),
     ("android/content/report_off", android::content::report_off),
     ("android/content/save", android::content::save),
     ("android/content/save_alt", android::content::save_alt),
@@ -2974,7 +14474,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/content/shield", android::content::shield),
     ("android/content/sort", android::content::sort),
     ("android/content/square_foot", android::content::square_foot),
-    ("android/content/stacked_bar_chart", android::content::stacked_bar_chart),
+    (
+        "android/content/stacked_bar_chart",
+        android::content::stacked_bar_chart,
+    ),
     ("android/content/stream", android::content::stream),
     ("android/content/tag", android::content::tag),
     ("android/content/text_format", android::content::text_format),
@@ -2984,69 +14487,189 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/content/waves", android::content::waves),
     ("android/content/web_stories", android::content::web_stories),
     ("android/content/weekend", android::content::weekend),
-    ("android/content/where_to_vote", android::content::where_to_vote),
-    ("android/device/1x_mobiledata", android::device::_1x_mobiledata),
+    (
+        "android/content/where_to_vote",
+        android::content::where_to_vote,
+    ),
+    (
+        "android/device/1x_mobiledata",
+        android::device::_1x_mobiledata,
+    ),
     ("android/device/30fps", android::device::_30fps),
-    ("android/device/3g_mobiledata", android::device::_3g_mobiledata),
-    ("android/device/4g_mobiledata", android::device::_4g_mobiledata),
-    ("android/device/4g_plus_mobiledata", android::device::_4g_plus_mobiledata),
+    (
+        "android/device/3g_mobiledata",
+        android::device::_3g_mobiledata,
+    ),
+    (
+        "android/device/4g_mobiledata",
+        android::device::_4g_mobiledata,
+    ),
+    (
+        "android/device/4g_plus_mobiledata",
+        android::device::_4g_plus_mobiledata,
+    ),
     ("android/device/60fps", android::device::_60fps),
     ("android/device/access_alarm", android::device::access_alarm),
-    ("android/device/access_alarms", android::device::access_alarms),
+    (
+        "android/device/access_alarms",
+        android::device::access_alarms,
+    ),
     ("android/device/access_time", android::device::access_time),
-    ("android/device/access_time_filled", android::device::access_time_filled),
+    (
+        "android/device/access_time_filled",
+        android::device::access_time_filled,
+    ),
     ("android/device/ad_units", android::device::ad_units),
     ("android/device/add_alarm", android::device::add_alarm),
-    ("android/device/add_to_home_screen", android::device::add_to_home_screen),
+    (
+        "android/device/add_to_home_screen",
+        android::device::add_to_home_screen,
+    ),
     ("android/device/air", android::device::air),
-    ("android/device/airplane_ticket", android::device::airplane_ticket),
-    ("android/device/airplanemode_active", android::device::airplanemode_active),
-    ("android/device/airplanemode_inactive", android::device::airplanemode_inactive),
+    (
+        "android/device/airplane_ticket",
+        android::device::airplane_ticket,
+    ),
+    (
+        "android/device/airplanemode_active",
+        android::device::airplanemode_active,
+    ),
+    (
+        "android/device/airplanemode_inactive",
+        android::device::airplanemode_inactive,
+    ),
     ("android/device/aod", android::device::aod),
-    ("android/device/battery_0_bar", android::device::battery_0_bar),
-    ("android/device/battery_1_bar", android::device::battery_1_bar),
-    ("android/device/battery_2_bar", android::device::battery_2_bar),
-    ("android/device/battery_3_bar", android::device::battery_3_bar),
-    ("android/device/battery_4_bar", android::device::battery_4_bar),
-    ("android/device/battery_5_bar", android::device::battery_5_bar),
-    ("android/device/battery_6_bar", android::device::battery_6_bar),
-    ("android/device/battery_alert", android::device::battery_alert),
-    ("android/device/battery_charging_full", android::device::battery_charging_full),
+    (
+        "android/device/battery_0_bar",
+        android::device::battery_0_bar,
+    ),
+    (
+        "android/device/battery_1_bar",
+        android::device::battery_1_bar,
+    ),
+    (
+        "android/device/battery_2_bar",
+        android::device::battery_2_bar,
+    ),
+    (
+        "android/device/battery_3_bar",
+        android::device::battery_3_bar,
+    ),
+    (
+        "android/device/battery_4_bar",
+        android::device::battery_4_bar,
+    ),
+    (
+        "android/device/battery_5_bar",
+        android::device::battery_5_bar,
+    ),
+    (
+        "android/device/battery_6_bar",
+        android::device::battery_6_bar,
+    ),
+    (
+        "android/device/battery_alert",
+        android::device::battery_alert,
+    ),
+    (
+        "android/device/battery_charging_full",
+        android::device::battery_charging_full,
+    ),
     ("android/device/battery_full", android::device::battery_full),
-    ("android/device/battery_saver", android::device::battery_saver),
+    (
+        "android/device/battery_saver",
+        android::device::battery_saver,
+    ),
     ("android/device/battery_std", android::device::battery_std),
-    ("android/device/battery_unknown", android::device::battery_unknown),
+    (
+        "android/device/battery_unknown",
+        android::device::battery_unknown,
+    ),
     ("android/device/bloodtype", android::device::bloodtype),
     ("android/device/bluetooth", android::device::bluetooth),
-    ("android/device/bluetooth_connected", android::device::bluetooth_connected),
-    ("android/device/bluetooth_disabled", android::device::bluetooth_disabled),
-    ("android/device/bluetooth_drive", android::device::bluetooth_drive),
-    ("android/device/bluetooth_searching", android::device::bluetooth_searching),
-    ("android/device/brightness_auto", android::device::brightness_auto),
-    ("android/device/brightness_high", android::device::brightness_high),
-    ("android/device/brightness_low", android::device::brightness_low),
-    ("android/device/brightness_medium", android::device::brightness_medium),
+    (
+        "android/device/bluetooth_connected",
+        android::device::bluetooth_connected,
+    ),
+    (
+        "android/device/bluetooth_disabled",
+        android::device::bluetooth_disabled,
+    ),
+    (
+        "android/device/bluetooth_drive",
+        android::device::bluetooth_drive,
+    ),
+    (
+        "android/device/bluetooth_searching",
+        android::device::bluetooth_searching,
+    ),
+    (
+        "android/device/brightness_auto",
+        android::device::brightness_auto,
+    ),
+    (
+        "android/device/brightness_high",
+        android::device::brightness_high,
+    ),
+    (
+        "android/device/brightness_low",
+        android::device::brightness_low,
+    ),
+    (
+        "android/device/brightness_medium",
+        android::device::brightness_medium,
+    ),
     ("android/device/cable", android::device::cable),
     ("android/device/cameraswitch", android::device::cameraswitch),
     ("android/device/credit_score", android::device::credit_score),
     ("android/device/dark_mode", android::device::dark_mode),
-    ("android/device/data_saver_off", android::device::data_saver_off),
-    ("android/device/data_saver_on", android::device::data_saver_on),
+    (
+        "android/device/data_saver_off",
+        android::device::data_saver_off,
+    ),
+    (
+        "android/device/data_saver_on",
+        android::device::data_saver_on,
+    ),
     ("android/device/data_usage", android::device::data_usage),
     ("android/device/dataset", android::device::dataset),
-    ("android/device/dataset_linked", android::device::dataset_linked),
-    ("android/device/developer_mode", android::device::developer_mode),
-    ("android/device/device_thermostat", android::device::device_thermostat),
+    (
+        "android/device/dataset_linked",
+        android::device::dataset_linked,
+    ),
+    (
+        "android/device/developer_mode",
+        android::device::developer_mode,
+    ),
+    (
+        "android/device/device_thermostat",
+        android::device::device_thermostat,
+    ),
     ("android/device/devices", android::device::devices),
     ("android/device/devices_fold", android::device::devices_fold),
     ("android/device/discount", android::device::discount),
-    ("android/device/do_not_disturb_on_total_silence", android::device::do_not_disturb_on_total_silence),
+    (
+        "android/device/do_not_disturb_on_total_silence",
+        android::device::do_not_disturb_on_total_silence,
+    ),
     ("android/device/dvr", android::device::dvr),
     ("android/device/e_mobiledata", android::device::e_mobiledata),
-    ("android/device/edgesensor_high", android::device::edgesensor_high),
-    ("android/device/edgesensor_low", android::device::edgesensor_low),
-    ("android/device/flashlight_off", android::device::flashlight_off),
-    ("android/device/flashlight_on", android::device::flashlight_on),
+    (
+        "android/device/edgesensor_high",
+        android::device::edgesensor_high,
+    ),
+    (
+        "android/device/edgesensor_low",
+        android::device::edgesensor_low,
+    ),
+    (
+        "android/device/flashlight_off",
+        android::device::flashlight_off,
+    ),
+    (
+        "android/device/flashlight_on",
+        android::device::flashlight_on,
+    ),
     ("android/device/flourescent", android::device::flourescent),
     ("android/device/fluorescent", android::device::fluorescent),
     ("android/device/fmd_bad", android::device::fmd_bad),
@@ -3056,44 +14679,104 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/device/gpp_good", android::device::gpp_good),
     ("android/device/gpp_maybe", android::device::gpp_maybe),
     ("android/device/gps_fixed", android::device::gps_fixed),
-    ("android/device/gps_not_fixed", android::device::gps_not_fixed),
+    (
+        "android/device/gps_not_fixed",
+        android::device::gps_not_fixed,
+    ),
     ("android/device/gps_off", android::device::gps_off),
     ("android/device/graphic_eq", android::device::graphic_eq),
     ("android/device/grid_3x3", android::device::grid_3x3),
     ("android/device/grid_4x4", android::device::grid_4x4),
-    ("android/device/grid_goldenratio", android::device::grid_goldenratio),
+    (
+        "android/device/grid_goldenratio",
+        android::device::grid_goldenratio,
+    ),
     ("android/device/h_mobiledata", android::device::h_mobiledata),
-    ("android/device/h_plus_mobiledata", android::device::h_plus_mobiledata),
+    (
+        "android/device/h_plus_mobiledata",
+        android::device::h_plus_mobiledata,
+    ),
     ("android/device/hdr_auto", android::device::hdr_auto),
-    ("android/device/hdr_auto_select", android::device::hdr_auto_select),
-    ("android/device/hdr_off_select", android::device::hdr_off_select),
-    ("android/device/hdr_on_select", android::device::hdr_on_select),
+    (
+        "android/device/hdr_auto_select",
+        android::device::hdr_auto_select,
+    ),
+    (
+        "android/device/hdr_off_select",
+        android::device::hdr_off_select,
+    ),
+    (
+        "android/device/hdr_on_select",
+        android::device::hdr_on_select,
+    ),
     ("android/device/lan", android::device::lan),
     ("android/device/lens_blur", android::device::lens_blur),
     ("android/device/light_mode", android::device::light_mode),
-    ("android/device/location_disabled", android::device::location_disabled),
-    ("android/device/location_searching", android::device::location_searching),
-    ("android/device/lte_mobiledata", android::device::lte_mobiledata),
-    ("android/device/lte_plus_mobiledata", android::device::lte_plus_mobiledata),
+    (
+        "android/device/location_disabled",
+        android::device::location_disabled,
+    ),
+    (
+        "android/device/location_searching",
+        android::device::location_searching,
+    ),
+    (
+        "android/device/lte_mobiledata",
+        android::device::lte_mobiledata,
+    ),
+    (
+        "android/device/lte_plus_mobiledata",
+        android::device::lte_plus_mobiledata,
+    ),
     ("android/device/macro_off", android::device::macro_off),
-    ("android/device/media_bluetooth_off", android::device::media_bluetooth_off),
-    ("android/device/media_bluetooth_on", android::device::media_bluetooth_on),
+    (
+        "android/device/media_bluetooth_off",
+        android::device::media_bluetooth_off,
+    ),
+    (
+        "android/device/media_bluetooth_on",
+        android::device::media_bluetooth_on,
+    ),
     ("android/device/medication", android::device::medication),
-    ("android/device/medication_liquid", android::device::medication_liquid),
-    ("android/device/mobile_friendly", android::device::mobile_friendly),
+    (
+        "android/device/medication_liquid",
+        android::device::medication_liquid,
+    ),
+    (
+        "android/device/mobile_friendly",
+        android::device::mobile_friendly,
+    ),
     ("android/device/mobile_off", android::device::mobile_off),
-    ("android/device/mobiledata_off", android::device::mobiledata_off),
+    (
+        "android/device/mobiledata_off",
+        android::device::mobiledata_off,
+    ),
     ("android/device/mode_night", android::device::mode_night),
     ("android/device/mode_standby", android::device::mode_standby),
-    ("android/device/monitor_heart", android::device::monitor_heart),
-    ("android/device/monitor_weight", android::device::monitor_weight),
+    (
+        "android/device/monitor_heart",
+        android::device::monitor_heart,
+    ),
+    (
+        "android/device/monitor_weight",
+        android::device::monitor_weight,
+    ),
     ("android/device/nearby_error", android::device::nearby_error),
     ("android/device/nearby_off", android::device::nearby_off),
     ("android/device/network_cell", android::device::network_cell),
     ("android/device/network_wifi", android::device::network_wifi),
-    ("android/device/network_wifi_1_bar", android::device::network_wifi_1_bar),
-    ("android/device/network_wifi_2_bar", android::device::network_wifi_2_bar),
-    ("android/device/network_wifi_3_bar", android::device::network_wifi_3_bar),
+    (
+        "android/device/network_wifi_1_bar",
+        android::device::network_wifi_1_bar,
+    ),
+    (
+        "android/device/network_wifi_2_bar",
+        android::device::network_wifi_2_bar,
+    ),
+    (
+        "android/device/network_wifi_3_bar",
+        android::device::network_wifi_3_bar,
+    ),
     ("android/device/nfc", android::device::nfc),
     ("android/device/nightlight", android::device::nightlight),
     ("android/device/note_alt", android::device::note_alt),
@@ -3113,57 +14796,174 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/device/restart_alt", android::device::restart_alt),
     ("android/device/reviews", android::device::reviews),
     ("android/device/rsvp", android::device::rsvp),
-    ("android/device/screen_lock_landscape", android::device::screen_lock_landscape),
-    ("android/device/screen_lock_portrait", android::device::screen_lock_portrait),
-    ("android/device/screen_lock_rotation", android::device::screen_lock_rotation),
-    ("android/device/screen_rotation", android::device::screen_rotation),
-    ("android/device/screen_search_desktop", android::device::screen_search_desktop),
+    (
+        "android/device/screen_lock_landscape",
+        android::device::screen_lock_landscape,
+    ),
+    (
+        "android/device/screen_lock_portrait",
+        android::device::screen_lock_portrait,
+    ),
+    (
+        "android/device/screen_lock_rotation",
+        android::device::screen_lock_rotation,
+    ),
+    (
+        "android/device/screen_rotation",
+        android::device::screen_rotation,
+    ),
+    (
+        "android/device/screen_search_desktop",
+        android::device::screen_search_desktop,
+    ),
     ("android/device/screenshot", android::device::screenshot),
-    ("android/device/screenshot_monitor", android::device::screenshot_monitor),
+    (
+        "android/device/screenshot_monitor",
+        android::device::screenshot_monitor,
+    ),
     ("android/device/sd_storage", android::device::sd_storage),
-    ("android/device/security_update", android::device::security_update),
-    ("android/device/security_update_good", android::device::security_update_good),
-    ("android/device/security_update_warning", android::device::security_update_warning),
+    (
+        "android/device/security_update",
+        android::device::security_update,
+    ),
+    (
+        "android/device/security_update_good",
+        android::device::security_update_good,
+    ),
+    (
+        "android/device/security_update_warning",
+        android::device::security_update_warning,
+    ),
     ("android/device/sell", android::device::sell),
-    ("android/device/send_to_mobile", android::device::send_to_mobile),
-    ("android/device/settings_suggest", android::device::settings_suggest),
-    ("android/device/settings_system_daydream", android::device::settings_system_daydream),
-    ("android/device/share_location", android::device::share_location),
+    (
+        "android/device/send_to_mobile",
+        android::device::send_to_mobile,
+    ),
+    (
+        "android/device/settings_suggest",
+        android::device::settings_suggest,
+    ),
+    (
+        "android/device/settings_system_daydream",
+        android::device::settings_system_daydream,
+    ),
+    (
+        "android/device/share_location",
+        android::device::share_location,
+    ),
     ("android/device/shortcut", android::device::shortcut),
-    ("android/device/signal_cellular_0_bar", android::device::signal_cellular_0_bar),
-    ("android/device/signal_cellular_4_bar", android::device::signal_cellular_4_bar),
-    ("android/device/signal_cellular_alt", android::device::signal_cellular_alt),
-    ("android/device/signal_cellular_alt_1_bar", android::device::signal_cellular_alt_1_bar),
-    ("android/device/signal_cellular_alt_2_bar", android::device::signal_cellular_alt_2_bar),
-    ("android/device/signal_cellular_connected_no_internet_0_bar", android::device::signal_cellular_connected_no_internet_0_bar),
-    ("android/device/signal_cellular_connected_no_internet_4_bar", android::device::signal_cellular_connected_no_internet_4_bar),
-    ("android/device/signal_cellular_no_sim", android::device::signal_cellular_no_sim),
-    ("android/device/signal_cellular_nodata", android::device::signal_cellular_nodata),
-    ("android/device/signal_cellular_null", android::device::signal_cellular_null),
-    ("android/device/signal_cellular_off", android::device::signal_cellular_off),
-    ("android/device/signal_wifi_0_bar", android::device::signal_wifi_0_bar),
-    ("android/device/signal_wifi_4_bar", android::device::signal_wifi_4_bar),
-    ("android/device/signal_wifi_4_bar_lock", android::device::signal_wifi_4_bar_lock),
-    ("android/device/signal_wifi_bad", android::device::signal_wifi_bad),
-    ("android/device/signal_wifi_connected_no_internet_4", android::device::signal_wifi_connected_no_internet_4),
-    ("android/device/signal_wifi_off", android::device::signal_wifi_off),
-    ("android/device/signal_wifi_statusbar_4_bar", android::device::signal_wifi_statusbar_4_bar),
-    ("android/device/signal_wifi_statusbar_connected_no_internet_4", android::device::signal_wifi_statusbar_connected_no_internet_4),
-    ("android/device/signal_wifi_statusbar_null", android::device::signal_wifi_statusbar_null),
-    ("android/device/sim_card_download", android::device::sim_card_download),
+    (
+        "android/device/signal_cellular_0_bar",
+        android::device::signal_cellular_0_bar,
+    ),
+    (
+        "android/device/signal_cellular_4_bar",
+        android::device::signal_cellular_4_bar,
+    ),
+    (
+        "android/device/signal_cellular_alt",
+        android::device::signal_cellular_alt,
+    ),
+    (
+        "android/device/signal_cellular_alt_1_bar",
+        android::device::signal_cellular_alt_1_bar,
+    ),
+    (
+        "android/device/signal_cellular_alt_2_bar",
+        android::device::signal_cellular_alt_2_bar,
+    ),
+    (
+        "android/device/signal_cellular_connected_no_internet_0_bar",
+        android::device::signal_cellular_connected_no_internet_0_bar,
+    ),
+    (
+        "android/device/signal_cellular_connected_no_internet_4_bar",
+        android::device::signal_cellular_connected_no_internet_4_bar,
+    ),
+    (
+        "android/device/signal_cellular_no_sim",
+        android::device::signal_cellular_no_sim,
+    ),
+    (
+        "android/device/signal_cellular_nodata",
+        android::device::signal_cellular_nodata,
+    ),
+    (
+        "android/device/signal_cellular_null",
+        android::device::signal_cellular_null,
+    ),
+    (
+        "android/device/signal_cellular_off",
+        android::device::signal_cellular_off,
+    ),
+    (
+        "android/device/signal_wifi_0_bar",
+        android::device::signal_wifi_0_bar,
+    ),
+    (
+        "android/device/signal_wifi_4_bar",
+        android::device::signal_wifi_4_bar,
+    ),
+    (
+        "android/device/signal_wifi_4_bar_lock",
+        android::device::signal_wifi_4_bar_lock,
+    ),
+    (
+        "android/device/signal_wifi_bad",
+        android::device::signal_wifi_bad,
+    ),
+    (
+        "android/device/signal_wifi_connected_no_internet_4",
+        android::device::signal_wifi_connected_no_internet_4,
+    ),
+    (
+        "android/device/signal_wifi_off",
+        android::device::signal_wifi_off,
+    ),
+    (
+        "android/device/signal_wifi_statusbar_4_bar",
+        android::device::signal_wifi_statusbar_4_bar,
+    ),
+    (
+        "android/device/signal_wifi_statusbar_connected_no_internet_4",
+        android::device::signal_wifi_statusbar_connected_no_internet_4,
+    ),
+    (
+        "android/device/signal_wifi_statusbar_null",
+        android::device::signal_wifi_statusbar_null,
+    ),
+    (
+        "android/device/sim_card_download",
+        android::device::sim_card_download,
+    ),
     ("android/device/splitscreen", android::device::splitscreen),
     ("android/device/sports_score", android::device::sports_score),
     ("android/device/ssid_chart", android::device::ssid_chart),
     ("android/device/storage", android::device::storage),
     ("android/device/storm", android::device::storm),
     ("android/device/summarize", android::device::summarize),
-    ("android/device/system_security_update", android::device::system_security_update),
-    ("android/device/system_security_update_good", android::device::system_security_update_good),
-    ("android/device/system_security_update_warning", android::device::system_security_update_warning),
+    (
+        "android/device/system_security_update",
+        android::device::system_security_update,
+    ),
+    (
+        "android/device/system_security_update_good",
+        android::device::system_security_update_good,
+    ),
+    (
+        "android/device/system_security_update_warning",
+        android::device::system_security_update_warning,
+    ),
     ("android/device/task", android::device::task),
     ("android/device/thermostat", android::device::thermostat),
-    ("android/device/timer_10_select", android::device::timer_10_select),
-    ("android/device/timer_3_select", android::device::timer_3_select),
+    (
+        "android/device/timer_10_select",
+        android::device::timer_10_select,
+    ),
+    (
+        "android/device/timer_3_select",
+        android::device::timer_3_select,
+    ),
     ("android/device/tungsten", android::device::tungsten),
     ("android/device/usb", android::device::usb),
     ("android/device/usb_off", android::device::usb_off),
@@ -3172,88 +14972,223 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/device/widgets", android::device::widgets),
     ("android/device/wifi_1_bar", android::device::wifi_1_bar),
     ("android/device/wifi_2_bar", android::device::wifi_2_bar),
-    ("android/device/wifi_calling_3", android::device::wifi_calling_3),
+    (
+        "android/device/wifi_calling_3",
+        android::device::wifi_calling_3,
+    ),
     ("android/device/wifi_channel", android::device::wifi_channel),
     ("android/device/wifi_find", android::device::wifi_find),
     ("android/device/wifi_lock", android::device::wifi_lock),
-    ("android/device/wifi_password", android::device::wifi_password),
-    ("android/device/wifi_tethering", android::device::wifi_tethering),
-    ("android/device/wifi_tethering_error", android::device::wifi_tethering_error),
-    ("android/device/wifi_tethering_error_rounded", android::device::wifi_tethering_error_rounded),
-    ("android/device/wifi_tethering_off", android::device::wifi_tethering_off),
+    (
+        "android/device/wifi_password",
+        android::device::wifi_password,
+    ),
+    (
+        "android/device/wifi_tethering",
+        android::device::wifi_tethering,
+    ),
+    (
+        "android/device/wifi_tethering_error",
+        android::device::wifi_tethering_error,
+    ),
+    (
+        "android/device/wifi_tethering_error_rounded",
+        android::device::wifi_tethering_error_rounded,
+    ),
+    (
+        "android/device/wifi_tethering_off",
+        android::device::wifi_tethering_off,
+    ),
     ("android/editor/add_chart", android::editor::add_chart),
     ("android/editor/add_comment", android::editor::add_comment),
-    ("android/editor/align_horizontal_center", android::editor::align_horizontal_center),
-    ("android/editor/align_horizontal_left", android::editor::align_horizontal_left),
-    ("android/editor/align_horizontal_right", android::editor::align_horizontal_right),
-    ("android/editor/align_vertical_bottom", android::editor::align_vertical_bottom),
-    ("android/editor/align_vertical_center", android::editor::align_vertical_center),
-    ("android/editor/align_vertical_top", android::editor::align_vertical_top),
+    (
+        "android/editor/align_horizontal_center",
+        android::editor::align_horizontal_center,
+    ),
+    (
+        "android/editor/align_horizontal_left",
+        android::editor::align_horizontal_left,
+    ),
+    (
+        "android/editor/align_horizontal_right",
+        android::editor::align_horizontal_right,
+    ),
+    (
+        "android/editor/align_vertical_bottom",
+        android::editor::align_vertical_bottom,
+    ),
+    (
+        "android/editor/align_vertical_center",
+        android::editor::align_vertical_center,
+    ),
+    (
+        "android/editor/align_vertical_top",
+        android::editor::align_vertical_top,
+    ),
     ("android/editor/area_chart", android::editor::area_chart),
     ("android/editor/attach_file", android::editor::attach_file),
     ("android/editor/attach_money", android::editor::attach_money),
     ("android/editor/auto_graph", android::editor::auto_graph),
     ("android/editor/bar_chart", android::editor::bar_chart),
     ("android/editor/border_all", android::editor::border_all),
-    ("android/editor/border_bottom", android::editor::border_bottom),
+    (
+        "android/editor/border_bottom",
+        android::editor::border_bottom,
+    ),
     ("android/editor/border_clear", android::editor::border_clear),
     ("android/editor/border_color", android::editor::border_color),
-    ("android/editor/border_horizontal", android::editor::border_horizontal),
+    (
+        "android/editor/border_horizontal",
+        android::editor::border_horizontal,
+    ),
     ("android/editor/border_inner", android::editor::border_inner),
     ("android/editor/border_left", android::editor::border_left),
     ("android/editor/border_outer", android::editor::border_outer),
     ("android/editor/border_right", android::editor::border_right),
     ("android/editor/border_style", android::editor::border_style),
     ("android/editor/border_top", android::editor::border_top),
-    ("android/editor/border_vertical", android::editor::border_vertical),
+    (
+        "android/editor/border_vertical",
+        android::editor::border_vertical,
+    ),
     ("android/editor/bubble_chart", android::editor::bubble_chart),
-    ("android/editor/candlestick_chart", android::editor::candlestick_chart),
+    (
+        "android/editor/candlestick_chart",
+        android::editor::candlestick_chart,
+    ),
     ("android/editor/checklist", android::editor::checklist),
-    ("android/editor/checklist_rtl", android::editor::checklist_rtl),
+    (
+        "android/editor/checklist_rtl",
+        android::editor::checklist_rtl,
+    ),
     ("android/editor/data_array", android::editor::data_array),
     ("android/editor/data_object", android::editor::data_object),
     ("android/editor/drag_handle", android::editor::drag_handle),
     ("android/editor/draw", android::editor::draw),
     ("android/editor/edit_note", android::editor::edit_note),
-    ("android/editor/format_align_center", android::editor::format_align_center),
-    ("android/editor/format_align_justify", android::editor::format_align_justify),
-    ("android/editor/format_align_left", android::editor::format_align_left),
-    ("android/editor/format_align_right", android::editor::format_align_right),
+    (
+        "android/editor/format_align_center",
+        android::editor::format_align_center,
+    ),
+    (
+        "android/editor/format_align_justify",
+        android::editor::format_align_justify,
+    ),
+    (
+        "android/editor/format_align_left",
+        android::editor::format_align_left,
+    ),
+    (
+        "android/editor/format_align_right",
+        android::editor::format_align_right,
+    ),
     ("android/editor/format_bold", android::editor::format_bold),
     ("android/editor/format_clear", android::editor::format_clear),
-    ("android/editor/format_color_fill", android::editor::format_color_fill),
-    ("android/editor/format_color_reset", android::editor::format_color_reset),
-    ("android/editor/format_color_text", android::editor::format_color_text),
-    ("android/editor/format_indent_decrease", android::editor::format_indent_decrease),
-    ("android/editor/format_indent_increase", android::editor::format_indent_increase),
-    ("android/editor/format_italic", android::editor::format_italic),
-    ("android/editor/format_line_spacing", android::editor::format_line_spacing),
-    ("android/editor/format_list_bulleted", android::editor::format_list_bulleted),
-    ("android/editor/format_list_bulleted_add", android::editor::format_list_bulleted_add),
-    ("android/editor/format_list_numbered", android::editor::format_list_numbered),
-    ("android/editor/format_list_numbered_rtl", android::editor::format_list_numbered_rtl),
+    (
+        "android/editor/format_color_fill",
+        android::editor::format_color_fill,
+    ),
+    (
+        "android/editor/format_color_reset",
+        android::editor::format_color_reset,
+    ),
+    (
+        "android/editor/format_color_text",
+        android::editor::format_color_text,
+    ),
+    (
+        "android/editor/format_indent_decrease",
+        android::editor::format_indent_decrease,
+    ),
+    (
+        "android/editor/format_indent_increase",
+        android::editor::format_indent_increase,
+    ),
+    (
+        "android/editor/format_italic",
+        android::editor::format_italic,
+    ),
+    (
+        "android/editor/format_line_spacing",
+        android::editor::format_line_spacing,
+    ),
+    (
+        "android/editor/format_list_bulleted",
+        android::editor::format_list_bulleted,
+    ),
+    (
+        "android/editor/format_list_bulleted_add",
+        android::editor::format_list_bulleted_add,
+    ),
+    (
+        "android/editor/format_list_numbered",
+        android::editor::format_list_numbered,
+    ),
+    (
+        "android/editor/format_list_numbered_rtl",
+        android::editor::format_list_numbered_rtl,
+    ),
     ("android/editor/format_paint", android::editor::format_paint),
     ("android/editor/format_quote", android::editor::format_quote),
-    ("android/editor/format_shapes", android::editor::format_shapes),
+    (
+        "android/editor/format_shapes",
+        android::editor::format_shapes,
+    ),
     ("android/editor/format_size", android::editor::format_size),
-    ("android/editor/format_strikethrough", android::editor::format_strikethrough),
-    ("android/editor/format_textdirection_l_to_r", android::editor::format_textdirection_l_to_r),
-    ("android/editor/format_textdirection_r_to_l", android::editor::format_textdirection_r_to_l),
-    ("android/editor/format_underlined", android::editor::format_underlined),
+    (
+        "android/editor/format_strikethrough",
+        android::editor::format_strikethrough,
+    ),
+    (
+        "android/editor/format_textdirection_l_to_r",
+        android::editor::format_textdirection_l_to_r,
+    ),
+    (
+        "android/editor/format_textdirection_r_to_l",
+        android::editor::format_textdirection_r_to_l,
+    ),
+    (
+        "android/editor/format_underlined",
+        android::editor::format_underlined,
+    ),
     ("android/editor/functions", android::editor::functions),
     ("android/editor/height", android::editor::height),
     ("android/editor/hexagon", android::editor::hexagon),
     ("android/editor/highlight", android::editor::highlight),
-    ("android/editor/horizontal_distribute", android::editor::horizontal_distribute),
-    ("android/editor/horizontal_rule", android::editor::horizontal_rule),
+    (
+        "android/editor/horizontal_distribute",
+        android::editor::horizontal_distribute,
+    ),
+    (
+        "android/editor/horizontal_rule",
+        android::editor::horizontal_rule,
+    ),
     ("android/editor/insert_chart", android::editor::insert_chart),
-    ("android/editor/insert_chart_outlined", android::editor::insert_chart_outlined),
-    ("android/editor/insert_comment", android::editor::insert_comment),
-    ("android/editor/insert_drive_file", android::editor::insert_drive_file),
-    ("android/editor/insert_emoticon", android::editor::insert_emoticon),
-    ("android/editor/insert_invitation", android::editor::insert_invitation),
+    (
+        "android/editor/insert_chart_outlined",
+        android::editor::insert_chart_outlined,
+    ),
+    (
+        "android/editor/insert_comment",
+        android::editor::insert_comment,
+    ),
+    (
+        "android/editor/insert_drive_file",
+        android::editor::insert_drive_file,
+    ),
+    (
+        "android/editor/insert_emoticon",
+        android::editor::insert_emoticon,
+    ),
+    (
+        "android/editor/insert_invitation",
+        android::editor::insert_invitation,
+    ),
     ("android/editor/insert_link", android::editor::insert_link),
-    ("android/editor/insert_page_break", android::editor::insert_page_break),
+    (
+        "android/editor/insert_page_break",
+        android::editor::insert_page_break,
+    ),
     ("android/editor/insert_photo", android::editor::insert_photo),
     ("android/editor/line_axis", android::editor::line_axis),
     ("android/editor/linear_scale", android::editor::linear_scale),
@@ -3262,20 +15197,38 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/editor/mode", android::editor::mode),
     ("android/editor/mode_comment", android::editor::mode_comment),
     ("android/editor/mode_edit", android::editor::mode_edit),
-    ("android/editor/mode_edit_outline", android::editor::mode_edit_outline),
-    ("android/editor/monetization_on", android::editor::monetization_on),
+    (
+        "android/editor/mode_edit_outline",
+        android::editor::mode_edit_outline,
+    ),
+    (
+        "android/editor/monetization_on",
+        android::editor::monetization_on,
+    ),
     ("android/editor/money_off", android::editor::money_off),
-    ("android/editor/money_off_csred", android::editor::money_off_csred),
+    (
+        "android/editor/money_off_csred",
+        android::editor::money_off_csred,
+    ),
     ("android/editor/move_down", android::editor::move_down),
     ("android/editor/move_up", android::editor::move_up),
-    ("android/editor/multiline_chart", android::editor::multiline_chart),
+    (
+        "android/editor/multiline_chart",
+        android::editor::multiline_chart,
+    ),
     ("android/editor/notes", android::editor::notes),
     ("android/editor/numbers", android::editor::numbers),
     ("android/editor/padding", android::editor::padding),
     ("android/editor/pentagon", android::editor::pentagon),
     ("android/editor/pie_chart", android::editor::pie_chart),
-    ("android/editor/pie_chart_outline", android::editor::pie_chart_outline),
-    ("android/editor/pie_chart_outlined", android::editor::pie_chart_outlined),
+    (
+        "android/editor/pie_chart_outline",
+        android::editor::pie_chart_outline,
+    ),
+    (
+        "android/editor/pie_chart_outlined",
+        android::editor::pie_chart_outlined,
+    ),
     ("android/editor/polyline", android::editor::polyline),
     ("android/editor/post_add", android::editor::post_add),
     ("android/editor/publish", android::editor::publish),
@@ -3289,21 +15242,48 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/editor/show_chart", android::editor::show_chart),
     ("android/editor/space_bar", android::editor::space_bar),
     ("android/editor/square", android::editor::square),
-    ("android/editor/stacked_line_chart", android::editor::stacked_line_chart),
-    ("android/editor/strikethrough_s", android::editor::strikethrough_s),
+    (
+        "android/editor/stacked_line_chart",
+        android::editor::stacked_line_chart,
+    ),
+    (
+        "android/editor/strikethrough_s",
+        android::editor::strikethrough_s,
+    ),
     ("android/editor/subscript", android::editor::subscript),
     ("android/editor/superscript", android::editor::superscript),
     ("android/editor/table_chart", android::editor::table_chart),
     ("android/editor/table_rows", android::editor::table_rows),
-    ("android/editor/text_decrease", android::editor::text_decrease),
+    (
+        "android/editor/text_decrease",
+        android::editor::text_decrease,
+    ),
     ("android/editor/text_fields", android::editor::text_fields),
-    ("android/editor/text_increase", android::editor::text_increase),
+    (
+        "android/editor/text_increase",
+        android::editor::text_increase,
+    ),
     ("android/editor/title", android::editor::title),
-    ("android/editor/type_specimen", android::editor::type_specimen),
-    ("android/editor/vertical_align_bottom", android::editor::vertical_align_bottom),
-    ("android/editor/vertical_align_center", android::editor::vertical_align_center),
-    ("android/editor/vertical_align_top", android::editor::vertical_align_top),
-    ("android/editor/vertical_distribute", android::editor::vertical_distribute),
+    (
+        "android/editor/type_specimen",
+        android::editor::type_specimen,
+    ),
+    (
+        "android/editor/vertical_align_bottom",
+        android::editor::vertical_align_bottom,
+    ),
+    (
+        "android/editor/vertical_align_center",
+        android::editor::vertical_align_center,
+    ),
+    (
+        "android/editor/vertical_align_top",
+        android::editor::vertical_align_top,
+    ),
+    (
+        "android/editor/vertical_distribute",
+        android::editor::vertical_distribute,
+    ),
     ("android/editor/wrap_text", android::editor::wrap_text),
     ("android/file/approval", android::file::approval),
     ("android/file/attach_email", android::file::attach_email),
@@ -3316,23 +15296,53 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/file/cloud_queue", android::file::cloud_queue),
     ("android/file/cloud_sync", android::file::cloud_sync),
     ("android/file/cloud_upload", android::file::cloud_upload),
-    ("android/file/create_new_folder", android::file::create_new_folder),
+    (
+        "android/file/create_new_folder",
+        android::file::create_new_folder,
+    ),
     ("android/file/difference", android::file::difference),
     ("android/file/download", android::file::download),
     ("android/file/download_done", android::file::download_done),
-    ("android/file/download_for_offline", android::file::download_for_offline),
+    (
+        "android/file/download_for_offline",
+        android::file::download_for_offline,
+    ),
     ("android/file/downloading", android::file::downloading),
-    ("android/file/drive_file_move", android::file::drive_file_move),
-    ("android/file/drive_file_move_outline", android::file::drive_file_move_outline),
-    ("android/file/drive_file_move_rtl", android::file::drive_file_move_rtl),
-    ("android/file/drive_file_rename_outline", android::file::drive_file_rename_outline),
-    ("android/file/drive_folder_upload", android::file::drive_folder_upload),
+    (
+        "android/file/drive_file_move",
+        android::file::drive_file_move,
+    ),
+    (
+        "android/file/drive_file_move_outline",
+        android::file::drive_file_move_outline,
+    ),
+    (
+        "android/file/drive_file_move_rtl",
+        android::file::drive_file_move_rtl,
+    ),
+    (
+        "android/file/drive_file_rename_outline",
+        android::file::drive_file_rename_outline,
+    ),
+    (
+        "android/file/drive_folder_upload",
+        android::file::drive_folder_upload,
+    ),
     ("android/file/file_download", android::file::file_download),
-    ("android/file/file_download_done", android::file::file_download_done),
-    ("android/file/file_download_off", android::file::file_download_off),
+    (
+        "android/file/file_download_done",
+        android::file::file_download_done,
+    ),
+    (
+        "android/file/file_download_off",
+        android::file::file_download_off,
+    ),
     ("android/file/file_open", android::file::file_open),
     ("android/file/file_upload", android::file::file_upload),
-    ("android/file/file_upload_off", android::file::file_upload_off),
+    (
+        "android/file/file_upload_off",
+        android::file::file_upload_off,
+    ),
     ("android/file/folder", android::file::folder),
     ("android/file/folder_copy", android::file::folder_copy),
     ("android/file/folder_delete", android::file::folder_delete),
@@ -3340,7 +15350,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/file/folder_open", android::file::folder_open),
     ("android/file/folder_shared", android::file::folder_shared),
     ("android/file/folder_zip", android::file::folder_zip),
-    ("android/file/format_overline", android::file::format_overline),
+    (
+        "android/file/format_overline",
+        android::file::format_overline,
+    ),
     ("android/file/grid_view", android::file::grid_view),
     ("android/file/newspaper", android::file::newspaper),
     ("android/file/request_quote", android::file::request_quote),
@@ -3351,114 +15364,288 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/file/upload", android::file::upload),
     ("android/file/upload_file", android::file::upload_file),
     ("android/file/workspaces", android::file::workspaces),
-    ("android/file/workspaces_filled", android::file::workspaces_filled),
-    ("android/file/workspaces_outline", android::file::workspaces_outline),
-    ("android/hardware/adf_scanner", android::hardware::adf_scanner),
-    ("android/hardware/browser_not_supported", android::hardware::browser_not_supported),
-    ("android/hardware/browser_updated", android::hardware::browser_updated),
+    (
+        "android/file/workspaces_filled",
+        android::file::workspaces_filled,
+    ),
+    (
+        "android/file/workspaces_outline",
+        android::file::workspaces_outline,
+    ),
+    (
+        "android/hardware/adf_scanner",
+        android::hardware::adf_scanner,
+    ),
+    (
+        "android/hardware/browser_not_supported",
+        android::hardware::browser_not_supported,
+    ),
+    (
+        "android/hardware/browser_updated",
+        android::hardware::browser_updated,
+    ),
     ("android/hardware/cast", android::hardware::cast),
-    ("android/hardware/cast_connected", android::hardware::cast_connected),
-    ("android/hardware/cast_for_education", android::hardware::cast_for_education),
+    (
+        "android/hardware/cast_connected",
+        android::hardware::cast_connected,
+    ),
+    (
+        "android/hardware/cast_for_education",
+        android::hardware::cast_for_education,
+    ),
     ("android/hardware/computer", android::hardware::computer),
-    ("android/hardware/connected_tv", android::hardware::connected_tv),
-    ("android/hardware/conveyor_belt", android::hardware::conveyor_belt),
-    ("android/hardware/desktop_mac", android::hardware::desktop_mac),
-    ("android/hardware/desktop_windows", android::hardware::desktop_windows),
-    ("android/hardware/developer_board", android::hardware::developer_board),
-    ("android/hardware/developer_board_off", android::hardware::developer_board_off),
+    (
+        "android/hardware/connected_tv",
+        android::hardware::connected_tv,
+    ),
+    (
+        "android/hardware/conveyor_belt",
+        android::hardware::conveyor_belt,
+    ),
+    (
+        "android/hardware/desktop_mac",
+        android::hardware::desktop_mac,
+    ),
+    (
+        "android/hardware/desktop_windows",
+        android::hardware::desktop_windows,
+    ),
+    (
+        "android/hardware/developer_board",
+        android::hardware::developer_board,
+    ),
+    (
+        "android/hardware/developer_board_off",
+        android::hardware::developer_board_off,
+    ),
     ("android/hardware/device_hub", android::hardware::device_hub),
-    ("android/hardware/device_unknown", android::hardware::device_unknown),
-    ("android/hardware/devices_other", android::hardware::devices_other),
+    (
+        "android/hardware/device_unknown",
+        android::hardware::device_unknown,
+    ),
+    (
+        "android/hardware/devices_other",
+        android::hardware::devices_other,
+    ),
     ("android/hardware/dock", android::hardware::dock),
     ("android/hardware/earbuds", android::hardware::earbuds),
-    ("android/hardware/earbuds_battery", android::hardware::earbuds_battery),
+    (
+        "android/hardware/earbuds_battery",
+        android::hardware::earbuds_battery,
+    ),
     ("android/hardware/forklift", android::hardware::forklift),
-    ("android/hardware/front_loader", android::hardware::front_loader),
+    (
+        "android/hardware/front_loader",
+        android::hardware::front_loader,
+    ),
     ("android/hardware/gamepad", android::hardware::gamepad),
     ("android/hardware/headphones", android::hardware::headphones),
-    ("android/hardware/headphones_battery", android::hardware::headphones_battery),
+    (
+        "android/hardware/headphones_battery",
+        android::hardware::headphones_battery,
+    ),
     ("android/hardware/headset", android::hardware::headset),
-    ("android/hardware/headset_mic", android::hardware::headset_mic),
-    ("android/hardware/headset_off", android::hardware::headset_off),
+    (
+        "android/hardware/headset_mic",
+        android::hardware::headset_mic,
+    ),
+    (
+        "android/hardware/headset_off",
+        android::hardware::headset_off,
+    ),
     ("android/hardware/home_max", android::hardware::home_max),
     ("android/hardware/home_mini", android::hardware::home_mini),
     ("android/hardware/keyboard", android::hardware::keyboard),
-    ("android/hardware/keyboard_alt", android::hardware::keyboard_alt),
-    ("android/hardware/keyboard_arrow_down", android::hardware::keyboard_arrow_down),
-    ("android/hardware/keyboard_arrow_left", android::hardware::keyboard_arrow_left),
-    ("android/hardware/keyboard_arrow_right", android::hardware::keyboard_arrow_right),
-    ("android/hardware/keyboard_arrow_up", android::hardware::keyboard_arrow_up),
-    ("android/hardware/keyboard_backspace", android::hardware::keyboard_backspace),
-    ("android/hardware/keyboard_capslock", android::hardware::keyboard_capslock),
-    ("android/hardware/keyboard_command_key", android::hardware::keyboard_command_key),
-    ("android/hardware/keyboard_control_key", android::hardware::keyboard_control_key),
-    ("android/hardware/keyboard_double_arrow_down", android::hardware::keyboard_double_arrow_down),
-    ("android/hardware/keyboard_double_arrow_left", android::hardware::keyboard_double_arrow_left),
-    ("android/hardware/keyboard_double_arrow_right", android::hardware::keyboard_double_arrow_right),
-    ("android/hardware/keyboard_double_arrow_up", android::hardware::keyboard_double_arrow_up),
-    ("android/hardware/keyboard_hide", android::hardware::keyboard_hide),
-    ("android/hardware/keyboard_option_key", android::hardware::keyboard_option_key),
-    ("android/hardware/keyboard_return", android::hardware::keyboard_return),
-    ("android/hardware/keyboard_tab", android::hardware::keyboard_tab),
-    ("android/hardware/keyboard_voice", android::hardware::keyboard_voice),
+    (
+        "android/hardware/keyboard_alt",
+        android::hardware::keyboard_alt,
+    ),
+    (
+        "android/hardware/keyboard_arrow_down",
+        android::hardware::keyboard_arrow_down,
+    ),
+    (
+        "android/hardware/keyboard_arrow_left",
+        android::hardware::keyboard_arrow_left,
+    ),
+    (
+        "android/hardware/keyboard_arrow_right",
+        android::hardware::keyboard_arrow_right,
+    ),
+    (
+        "android/hardware/keyboard_arrow_up",
+        android::hardware::keyboard_arrow_up,
+    ),
+    (
+        "android/hardware/keyboard_backspace",
+        android::hardware::keyboard_backspace,
+    ),
+    (
+        "android/hardware/keyboard_capslock",
+        android::hardware::keyboard_capslock,
+    ),
+    (
+        "android/hardware/keyboard_command_key",
+        android::hardware::keyboard_command_key,
+    ),
+    (
+        "android/hardware/keyboard_control_key",
+        android::hardware::keyboard_control_key,
+    ),
+    (
+        "android/hardware/keyboard_double_arrow_down",
+        android::hardware::keyboard_double_arrow_down,
+    ),
+    (
+        "android/hardware/keyboard_double_arrow_left",
+        android::hardware::keyboard_double_arrow_left,
+    ),
+    (
+        "android/hardware/keyboard_double_arrow_right",
+        android::hardware::keyboard_double_arrow_right,
+    ),
+    (
+        "android/hardware/keyboard_double_arrow_up",
+        android::hardware::keyboard_double_arrow_up,
+    ),
+    (
+        "android/hardware/keyboard_hide",
+        android::hardware::keyboard_hide,
+    ),
+    (
+        "android/hardware/keyboard_option_key",
+        android::hardware::keyboard_option_key,
+    ),
+    (
+        "android/hardware/keyboard_return",
+        android::hardware::keyboard_return,
+    ),
+    (
+        "android/hardware/keyboard_tab",
+        android::hardware::keyboard_tab,
+    ),
+    (
+        "android/hardware/keyboard_voice",
+        android::hardware::keyboard_voice,
+    ),
     ("android/hardware/laptop", android::hardware::laptop),
-    ("android/hardware/laptop_chromebook", android::hardware::laptop_chromebook),
+    (
+        "android/hardware/laptop_chromebook",
+        android::hardware::laptop_chromebook,
+    ),
     ("android/hardware/laptop_mac", android::hardware::laptop_mac),
-    ("android/hardware/laptop_windows", android::hardware::laptop_windows),
+    (
+        "android/hardware/laptop_windows",
+        android::hardware::laptop_windows,
+    ),
     ("android/hardware/memory", android::hardware::memory),
     ("android/hardware/monitor", android::hardware::monitor),
     ("android/hardware/mouse", android::hardware::mouse),
     ("android/hardware/pallet", android::hardware::pallet),
-    ("android/hardware/phone_android", android::hardware::phone_android),
-    ("android/hardware/phone_iphone", android::hardware::phone_iphone),
+    (
+        "android/hardware/phone_android",
+        android::hardware::phone_android,
+    ),
+    (
+        "android/hardware/phone_iphone",
+        android::hardware::phone_iphone,
+    ),
     ("android/hardware/phonelink", android::hardware::phonelink),
-    ("android/hardware/phonelink_off", android::hardware::phonelink_off),
-    ("android/hardware/point_of_sale", android::hardware::point_of_sale),
-    ("android/hardware/power_input", android::hardware::power_input),
+    (
+        "android/hardware/phonelink_off",
+        android::hardware::phonelink_off,
+    ),
+    (
+        "android/hardware/point_of_sale",
+        android::hardware::point_of_sale,
+    ),
+    (
+        "android/hardware/power_input",
+        android::hardware::power_input,
+    ),
     ("android/hardware/router", android::hardware::router),
     ("android/hardware/scanner", android::hardware::scanner),
     ("android/hardware/security", android::hardware::security),
     ("android/hardware/sim_card", android::hardware::sim_card),
-    ("android/hardware/smart_display", android::hardware::smart_display),
-    ("android/hardware/smart_screen", android::hardware::smart_screen),
+    (
+        "android/hardware/smart_display",
+        android::hardware::smart_display,
+    ),
+    (
+        "android/hardware/smart_screen",
+        android::hardware::smart_screen,
+    ),
     ("android/hardware/smart_toy", android::hardware::smart_toy),
     ("android/hardware/smartphone", android::hardware::smartphone),
     ("android/hardware/speaker", android::hardware::speaker),
-    ("android/hardware/speaker_group", android::hardware::speaker_group),
+    (
+        "android/hardware/speaker_group",
+        android::hardware::speaker_group,
+    ),
     ("android/hardware/start", android::hardware::start),
     ("android/hardware/tablet", android::hardware::tablet),
-    ("android/hardware/tablet_android", android::hardware::tablet_android),
+    (
+        "android/hardware/tablet_android",
+        android::hardware::tablet_android,
+    ),
     ("android/hardware/tablet_mac", android::hardware::tablet_mac),
     ("android/hardware/toys", android::hardware::toys),
     ("android/hardware/trolley", android::hardware::trolley),
     ("android/hardware/tv", android::hardware::tv),
-    ("android/hardware/videogame_asset", android::hardware::videogame_asset),
-    ("android/hardware/videogame_asset_off", android::hardware::videogame_asset_off),
+    (
+        "android/hardware/videogame_asset",
+        android::hardware::videogame_asset,
+    ),
+    (
+        "android/hardware/videogame_asset_off",
+        android::hardware::videogame_asset_off,
+    ),
     ("android/hardware/watch", android::hardware::watch),
     ("android/hardware/watch_off", android::hardware::watch_off),
     ("android/home/auto_mode", android::home::auto_mode),
     ("android/home/blinds", android::home::blinds),
     ("android/home/blinds_closed", android::home::blinds_closed),
-    ("android/home/broadcast_on_home", android::home::broadcast_on_home),
-    ("android/home/broadcast_on_personal", android::home::broadcast_on_personal),
+    (
+        "android/home/broadcast_on_home",
+        android::home::broadcast_on_home,
+    ),
+    (
+        "android/home/broadcast_on_personal",
+        android::home::broadcast_on_personal,
+    ),
     ("android/home/cloudy_snowing", android::home::cloudy_snowing),
     ("android/home/curtains", android::home::curtains),
-    ("android/home/curtains_closed", android::home::curtains_closed),
+    (
+        "android/home/curtains_closed",
+        android::home::curtains_closed,
+    ),
     ("android/home/electric_bolt", android::home::electric_bolt),
     ("android/home/electric_meter", android::home::electric_meter),
-    ("android/home/energy_savings_leaf", android::home::energy_savings_leaf),
+    (
+        "android/home/energy_savings_leaf",
+        android::home::energy_savings_leaf,
+    ),
     ("android/home/foggy", android::home::foggy),
     ("android/home/gas_meter", android::home::gas_meter),
     ("android/home/heat_pump", android::home::heat_pump),
     ("android/home/mode_fan_off", android::home::mode_fan_off),
-    ("android/home/nest_cam_wired_stand", android::home::nest_cam_wired_stand),
+    (
+        "android/home/nest_cam_wired_stand",
+        android::home::nest_cam_wired_stand,
+    ),
     ("android/home/oil_barrel", android::home::oil_barrel),
     ("android/home/propane", android::home::propane),
     ("android/home/propane_tank", android::home::propane_tank),
     ("android/home/roller_shades", android::home::roller_shades),
-    ("android/home/roller_shades_closed", android::home::roller_shades_closed),
+    (
+        "android/home/roller_shades_closed",
+        android::home::roller_shades_closed,
+    ),
     ("android/home/sensor_door", android::home::sensor_door),
-    ("android/home/sensor_occupied", android::home::sensor_occupied),
+    (
+        "android/home/sensor_occupied",
+        android::home::sensor_occupied,
+    ),
     ("android/home/sensor_window", android::home::sensor_window),
     ("android/home/shelves", android::home::shelves),
     ("android/home/shield_moon", android::home::shield_moon),
@@ -3466,8 +15653,14 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/home/solar_power", android::home::solar_power),
     ("android/home/sunny", android::home::sunny),
     ("android/home/sunny_snowing", android::home::sunny_snowing),
-    ("android/home/vertical_shades", android::home::vertical_shades),
-    ("android/home/vertical_shades_closed", android::home::vertical_shades_closed),
+    (
+        "android/home/vertical_shades",
+        android::home::vertical_shades,
+    ),
+    (
+        "android/home/vertical_shades_closed",
+        android::home::vertical_shades_closed,
+    ),
     ("android/home/wind_power", android::home::wind_power),
     ("android/image/10mp", android::image::_10mp),
     ("android/image/11mp", android::image::_11mp),
@@ -3495,21 +15688,39 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/8mp", android::image::_8mp),
     ("android/image/9mp", android::image::_9mp),
     ("android/image/add_a_photo", android::image::add_a_photo),
-    ("android/image/add_photo_alternate", android::image::add_photo_alternate),
+    (
+        "android/image/add_photo_alternate",
+        android::image::add_photo_alternate,
+    ),
     ("android/image/add_to_photos", android::image::add_to_photos),
     ("android/image/adjust", android::image::adjust),
     ("android/image/animation", android::image::animation),
     ("android/image/assistant", android::image::assistant),
-    ("android/image/assistant_photo", android::image::assistant_photo),
+    (
+        "android/image/assistant_photo",
+        android::image::assistant_photo,
+    ),
     ("android/image/audiotrack", android::image::audiotrack),
     ("android/image/auto_awesome", android::image::auto_awesome),
-    ("android/image/auto_awesome_mosaic", android::image::auto_awesome_mosaic),
-    ("android/image/auto_awesome_motion", android::image::auto_awesome_motion),
+    (
+        "android/image/auto_awesome_mosaic",
+        android::image::auto_awesome_mosaic,
+    ),
+    (
+        "android/image/auto_awesome_motion",
+        android::image::auto_awesome_motion,
+    ),
     ("android/image/auto_fix_high", android::image::auto_fix_high),
-    ("android/image/auto_fix_normal", android::image::auto_fix_normal),
+    (
+        "android/image/auto_fix_normal",
+        android::image::auto_fix_normal,
+    ),
     ("android/image/auto_fix_off", android::image::auto_fix_off),
     ("android/image/auto_stories", android::image::auto_stories),
-    ("android/image/autofps_select", android::image::autofps_select),
+    (
+        "android/image/autofps_select",
+        android::image::autofps_select,
+    ),
     ("android/image/bedtime", android::image::bedtime),
     ("android/image/bedtime_off", android::image::bedtime_off),
     ("android/image/blur_circular", android::image::blur_circular),
@@ -3532,17 +15743,29 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/camera_rear", android::image::camera_rear),
     ("android/image/camera_roll", android::image::camera_roll),
     ("android/image/cases", android::image::cases),
-    ("android/image/center_focus_strong", android::image::center_focus_strong),
-    ("android/image/center_focus_weak", android::image::center_focus_weak),
+    (
+        "android/image/center_focus_strong",
+        android::image::center_focus_strong,
+    ),
+    (
+        "android/image/center_focus_weak",
+        android::image::center_focus_weak,
+    ),
     ("android/image/circle", android::image::circle),
     ("android/image/collections", android::image::collections),
-    ("android/image/collections_bookmark", android::image::collections_bookmark),
+    (
+        "android/image/collections_bookmark",
+        android::image::collections_bookmark,
+    ),
     ("android/image/color_lens", android::image::color_lens),
     ("android/image/colorize", android::image::colorize),
     ("android/image/compare", android::image::compare),
     ("android/image/contrast", android::image::contrast),
     ("android/image/control_point", android::image::control_point),
-    ("android/image/control_point_duplicate", android::image::control_point_duplicate),
+    (
+        "android/image/control_point_duplicate",
+        android::image::control_point_duplicate,
+    ),
     ("android/image/crop", android::image::crop),
     ("android/image/crop_16_9", android::image::crop_16_9),
     ("android/image/crop_3_2", android::image::crop_3_2),
@@ -3550,17 +15773,35 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/crop_7_5", android::image::crop_7_5),
     ("android/image/crop_din", android::image::crop_din),
     ("android/image/crop_free", android::image::crop_free),
-    ("android/image/crop_landscape", android::image::crop_landscape),
+    (
+        "android/image/crop_landscape",
+        android::image::crop_landscape,
+    ),
     ("android/image/crop_original", android::image::crop_original),
     ("android/image/crop_portrait", android::image::crop_portrait),
     ("android/image/crop_rotate", android::image::crop_rotate),
     ("android/image/crop_square", android::image::crop_square),
-    ("android/image/currency_bitcoin", android::image::currency_bitcoin),
-    ("android/image/currency_franc", android::image::currency_franc),
+    (
+        "android/image/currency_bitcoin",
+        android::image::currency_bitcoin,
+    ),
+    (
+        "android/image/currency_franc",
+        android::image::currency_franc,
+    ),
     ("android/image/currency_lira", android::image::currency_lira),
-    ("android/image/currency_pound", android::image::currency_pound),
-    ("android/image/currency_ruble", android::image::currency_ruble),
-    ("android/image/currency_rupee", android::image::currency_rupee),
+    (
+        "android/image/currency_pound",
+        android::image::currency_pound,
+    ),
+    (
+        "android/image/currency_ruble",
+        android::image::currency_ruble,
+    ),
+    (
+        "android/image/currency_rupee",
+        android::image::currency_rupee,
+    ),
     ("android/image/currency_yen", android::image::currency_yen),
     ("android/image/currency_yuan", android::image::currency_yuan),
     ("android/image/deblur", android::image::deblur),
@@ -3570,13 +15811,31 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/edit", android::image::edit),
     ("android/image/euro", android::image::euro),
     ("android/image/exposure", android::image::exposure),
-    ("android/image/exposure_neg_1", android::image::exposure_neg_1),
-    ("android/image/exposure_neg_2", android::image::exposure_neg_2),
-    ("android/image/exposure_plus_1", android::image::exposure_plus_1),
-    ("android/image/exposure_plus_2", android::image::exposure_plus_2),
+    (
+        "android/image/exposure_neg_1",
+        android::image::exposure_neg_1,
+    ),
+    (
+        "android/image/exposure_neg_2",
+        android::image::exposure_neg_2,
+    ),
+    (
+        "android/image/exposure_plus_1",
+        android::image::exposure_plus_1,
+    ),
+    (
+        "android/image/exposure_plus_2",
+        android::image::exposure_plus_2,
+    ),
     ("android/image/exposure_zero", android::image::exposure_zero),
-    ("android/image/face_retouching_natural", android::image::face_retouching_natural),
-    ("android/image/face_retouching_off", android::image::face_retouching_off),
+    (
+        "android/image/face_retouching_natural",
+        android::image::face_retouching_natural,
+    ),
+    (
+        "android/image/face_retouching_off",
+        android::image::face_retouching_off,
+    ),
     ("android/image/filter", android::image::filter),
     ("android/image/filter_1", android::image::filter_1),
     ("android/image/filter_2", android::image::filter_2),
@@ -3588,26 +15847,47 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/filter_8", android::image::filter_8),
     ("android/image/filter_9", android::image::filter_9),
     ("android/image/filter_9_plus", android::image::filter_9_plus),
-    ("android/image/filter_b_and_w", android::image::filter_b_and_w),
-    ("android/image/filter_center_focus", android::image::filter_center_focus),
+    (
+        "android/image/filter_b_and_w",
+        android::image::filter_b_and_w,
+    ),
+    (
+        "android/image/filter_center_focus",
+        android::image::filter_center_focus,
+    ),
     ("android/image/filter_drama", android::image::filter_drama),
     ("android/image/filter_frames", android::image::filter_frames),
     ("android/image/filter_hdr", android::image::filter_hdr),
     ("android/image/filter_none", android::image::filter_none),
-    ("android/image/filter_tilt_shift", android::image::filter_tilt_shift),
-    ("android/image/filter_vintage", android::image::filter_vintage),
+    (
+        "android/image/filter_tilt_shift",
+        android::image::filter_tilt_shift,
+    ),
+    (
+        "android/image/filter_vintage",
+        android::image::filter_vintage,
+    ),
     ("android/image/flare", android::image::flare),
     ("android/image/flash_auto", android::image::flash_auto),
     ("android/image/flash_off", android::image::flash_off),
     ("android/image/flash_on", android::image::flash_on),
     ("android/image/flip", android::image::flip),
-    ("android/image/flip_camera_android", android::image::flip_camera_android),
-    ("android/image/flip_camera_ios", android::image::flip_camera_ios),
+    (
+        "android/image/flip_camera_android",
+        android::image::flip_camera_android,
+    ),
+    (
+        "android/image/flip_camera_ios",
+        android::image::flip_camera_ios,
+    ),
     ("android/image/gradient", android::image::gradient),
     ("android/image/grain", android::image::grain),
     ("android/image/grid_off", android::image::grid_off),
     ("android/image/grid_on", android::image::grid_on),
-    ("android/image/hdr_enhanced_select", android::image::hdr_enhanced_select),
+    (
+        "android/image/hdr_enhanced_select",
+        android::image::hdr_enhanced_select,
+    ),
     ("android/image/hdr_off", android::image::hdr_off),
     ("android/image/hdr_on", android::image::hdr_on),
     ("android/image/hdr_plus", android::image::hdr_plus),
@@ -3617,10 +15897,19 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/hevc", android::image::hevc),
     ("android/image/hide_image", android::image::hide_image),
     ("android/image/image", android::image::image),
-    ("android/image/image_aspect_ratio", android::image::image_aspect_ratio),
-    ("android/image/image_not_supported", android::image::image_not_supported),
+    (
+        "android/image/image_aspect_ratio",
+        android::image::image_aspect_ratio,
+    ),
+    (
+        "android/image/image_not_supported",
+        android::image::image_not_supported,
+    ),
     ("android/image/image_search", android::image::image_search),
-    ("android/image/incomplete_circle", android::image::incomplete_circle),
+    (
+        "android/image/incomplete_circle",
+        android::image::incomplete_circle,
+    ),
     ("android/image/iso", android::image::iso),
     ("android/image/landscape", android::image::landscape),
     ("android/image/leak_add", android::image::leak_add),
@@ -3636,52 +15925,136 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/looks_one", android::image::looks_one),
     ("android/image/looks_two", android::image::looks_two),
     ("android/image/loupe", android::image::loupe),
-    ("android/image/mic_external_off", android::image::mic_external_off),
-    ("android/image/mic_external_on", android::image::mic_external_on),
-    ("android/image/monochrome_photos", android::image::monochrome_photos),
-    ("android/image/motion_photos_auto", android::image::motion_photos_auto),
-    ("android/image/motion_photos_off", android::image::motion_photos_off),
-    ("android/image/motion_photos_on", android::image::motion_photos_on),
-    ("android/image/motion_photos_pause", android::image::motion_photos_pause),
-    ("android/image/motion_photos_paused", android::image::motion_photos_paused),
-    ("android/image/movie_creation", android::image::movie_creation),
+    (
+        "android/image/mic_external_off",
+        android::image::mic_external_off,
+    ),
+    (
+        "android/image/mic_external_on",
+        android::image::mic_external_on,
+    ),
+    (
+        "android/image/monochrome_photos",
+        android::image::monochrome_photos,
+    ),
+    (
+        "android/image/motion_photos_auto",
+        android::image::motion_photos_auto,
+    ),
+    (
+        "android/image/motion_photos_off",
+        android::image::motion_photos_off,
+    ),
+    (
+        "android/image/motion_photos_on",
+        android::image::motion_photos_on,
+    ),
+    (
+        "android/image/motion_photos_pause",
+        android::image::motion_photos_pause,
+    ),
+    (
+        "android/image/motion_photos_paused",
+        android::image::motion_photos_paused,
+    ),
+    (
+        "android/image/movie_creation",
+        android::image::movie_creation,
+    ),
     ("android/image/movie_filter", android::image::movie_filter),
     ("android/image/mp", android::image::mp),
     ("android/image/music_note", android::image::music_note),
     ("android/image/music_off", android::image::music_off),
     ("android/image/nature", android::image::nature),
     ("android/image/nature_people", android::image::nature_people),
-    ("android/image/navigate_before", android::image::navigate_before),
+    (
+        "android/image/navigate_before",
+        android::image::navigate_before,
+    ),
     ("android/image/navigate_next", android::image::navigate_next),
     ("android/image/palette", android::image::palette),
     ("android/image/panorama", android::image::panorama),
-    ("android/image/panorama_fish_eye", android::image::panorama_fish_eye),
-    ("android/image/panorama_horizontal", android::image::panorama_horizontal),
-    ("android/image/panorama_horizontal_select", android::image::panorama_horizontal_select),
-    ("android/image/panorama_photosphere", android::image::panorama_photosphere),
-    ("android/image/panorama_photosphere_select", android::image::panorama_photosphere_select),
-    ("android/image/panorama_vertical", android::image::panorama_vertical),
-    ("android/image/panorama_vertical_select", android::image::panorama_vertical_select),
-    ("android/image/panorama_wide_angle", android::image::panorama_wide_angle),
-    ("android/image/panorama_wide_angle_select", android::image::panorama_wide_angle_select),
+    (
+        "android/image/panorama_fish_eye",
+        android::image::panorama_fish_eye,
+    ),
+    (
+        "android/image/panorama_horizontal",
+        android::image::panorama_horizontal,
+    ),
+    (
+        "android/image/panorama_horizontal_select",
+        android::image::panorama_horizontal_select,
+    ),
+    (
+        "android/image/panorama_photosphere",
+        android::image::panorama_photosphere,
+    ),
+    (
+        "android/image/panorama_photosphere_select",
+        android::image::panorama_photosphere_select,
+    ),
+    (
+        "android/image/panorama_vertical",
+        android::image::panorama_vertical,
+    ),
+    (
+        "android/image/panorama_vertical_select",
+        android::image::panorama_vertical_select,
+    ),
+    (
+        "android/image/panorama_wide_angle",
+        android::image::panorama_wide_angle,
+    ),
+    (
+        "android/image/panorama_wide_angle_select",
+        android::image::panorama_wide_angle_select,
+    ),
     ("android/image/photo", android::image::photo),
     ("android/image/photo_album", android::image::photo_album),
     ("android/image/photo_camera", android::image::photo_camera),
-    ("android/image/photo_camera_back", android::image::photo_camera_back),
-    ("android/image/photo_camera_front", android::image::photo_camera_front),
+    (
+        "android/image/photo_camera_back",
+        android::image::photo_camera_back,
+    ),
+    (
+        "android/image/photo_camera_front",
+        android::image::photo_camera_front,
+    ),
     ("android/image/photo_filter", android::image::photo_filter),
     ("android/image/photo_library", android::image::photo_library),
-    ("android/image/photo_size_select_actual", android::image::photo_size_select_actual),
-    ("android/image/photo_size_select_large", android::image::photo_size_select_large),
-    ("android/image/photo_size_select_small", android::image::photo_size_select_small),
-    ("android/image/picture_as_pdf", android::image::picture_as_pdf),
+    (
+        "android/image/photo_size_select_actual",
+        android::image::photo_size_select_actual,
+    ),
+    (
+        "android/image/photo_size_select_large",
+        android::image::photo_size_select_large,
+    ),
+    (
+        "android/image/photo_size_select_small",
+        android::image::photo_size_select_small,
+    ),
+    (
+        "android/image/picture_as_pdf",
+        android::image::picture_as_pdf,
+    ),
     ("android/image/portrait", android::image::portrait),
     ("android/image/raw_off", android::image::raw_off),
     ("android/image/raw_on", android::image::raw_on),
     ("android/image/receipt_long", android::image::receipt_long),
-    ("android/image/remove_red_eye", android::image::remove_red_eye),
-    ("android/image/rotate_90_degrees_ccw", android::image::rotate_90_degrees_ccw),
-    ("android/image/rotate_90_degrees_cw", android::image::rotate_90_degrees_cw),
+    (
+        "android/image/remove_red_eye",
+        android::image::remove_red_eye,
+    ),
+    (
+        "android/image/rotate_90_degrees_ccw",
+        android::image::rotate_90_degrees_ccw,
+    ),
+    (
+        "android/image/rotate_90_degrees_cw",
+        android::image::rotate_90_degrees_cw,
+    ),
     ("android/image/rotate_left", android::image::rotate_left),
     ("android/image/rotate_right", android::image::rotate_right),
     ("android/image/shutter_speed", android::image::shutter_speed),
@@ -3692,7 +16065,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/switch_video", android::image::switch_video),
     ("android/image/tag_faces", android::image::tag_faces),
     ("android/image/texture", android::image::texture),
-    ("android/image/thermostat_auto", android::image::thermostat_auto),
+    (
+        "android/image/thermostat_auto",
+        android::image::thermostat_auto,
+    ),
     ("android/image/timelapse", android::image::timelapse),
     ("android/image/timer", android::image::timer),
     ("android/image/timer_10", android::image::timer_10),
@@ -3701,8 +16077,14 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/tonality", android::image::tonality),
     ("android/image/transform", android::image::transform),
     ("android/image/tune", android::image::tune),
-    ("android/image/video_camera_back", android::image::video_camera_back),
-    ("android/image/video_camera_front", android::image::video_camera_front),
+    (
+        "android/image/video_camera_back",
+        android::image::video_camera_back,
+    ),
+    (
+        "android/image/video_camera_front",
+        android::image::video_camera_front,
+    ),
     ("android/image/video_stable", android::image::video_stable),
     ("android/image/view_comfy", android::image::view_comfy),
     ("android/image/view_compact", android::image::view_compact),
@@ -3710,7 +16092,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/image/vrpano", android::image::vrpano),
     ("android/image/wb_auto", android::image::wb_auto),
     ("android/image/wb_cloudy", android::image::wb_cloudy),
-    ("android/image/wb_incandescent", android::image::wb_incandescent),
+    (
+        "android/image/wb_incandescent",
+        android::image::wb_incandescent,
+    ),
     ("android/image/wb_iridescent", android::image::wb_iridescent),
     ("android/image/wb_shade", android::image::wb_shade),
     ("android/image/wb_sunny", android::image::wb_sunny),
@@ -3719,7 +16104,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/360", android::maps::_360),
     ("android/maps/add_business", android::maps::add_business),
     ("android/maps/add_location", android::maps::add_location),
-    ("android/maps/add_location_alt", android::maps::add_location_alt),
+    (
+        "android/maps/add_location_alt",
+        android::maps::add_location_alt,
+    ),
     ("android/maps/add_road", android::maps::add_road),
     ("android/maps/agriculture", android::maps::agriculture),
     ("android/maps/airline_stops", android::maps::airline_stops),
@@ -3731,7 +16119,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/bakery_dining", android::maps::bakery_dining),
     ("android/maps/beenhere", android::maps::beenhere),
     ("android/maps/bike_scooter", android::maps::bike_scooter),
-    ("android/maps/breakfast_dining", android::maps::breakfast_dining),
+    (
+        "android/maps/breakfast_dining",
+        android::maps::breakfast_dining,
+    ),
     ("android/maps/brunch_dining", android::maps::brunch_dining),
     ("android/maps/bus_alert", android::maps::bus_alert),
     ("android/maps/car_crash", android::maps::car_crash),
@@ -3741,52 +16132,130 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/category", android::maps::category),
     ("android/maps/celebration", android::maps::celebration),
     ("android/maps/church", android::maps::church),
-    ("android/maps/cleaning_services", android::maps::cleaning_services),
-    ("android/maps/compass_calibration", android::maps::compass_calibration),
-    ("android/maps/connecting_airports", android::maps::connecting_airports),
+    (
+        "android/maps/cleaning_services",
+        android::maps::cleaning_services,
+    ),
+    (
+        "android/maps/compass_calibration",
+        android::maps::compass_calibration,
+    ),
+    (
+        "android/maps/connecting_airports",
+        android::maps::connecting_airports,
+    ),
     ("android/maps/crisis_alert", android::maps::crisis_alert),
-    ("android/maps/delivery_dining", android::maps::delivery_dining),
-    ("android/maps/departure_board", android::maps::departure_board),
-    ("android/maps/design_services", android::maps::design_services),
+    (
+        "android/maps/delivery_dining",
+        android::maps::delivery_dining,
+    ),
+    (
+        "android/maps/departure_board",
+        android::maps::departure_board,
+    ),
+    (
+        "android/maps/design_services",
+        android::maps::design_services,
+    ),
     ("android/maps/diamond", android::maps::diamond),
     ("android/maps/dinner_dining", android::maps::dinner_dining),
     ("android/maps/directions", android::maps::directions),
-    ("android/maps/directions_bike", android::maps::directions_bike),
-    ("android/maps/directions_boat", android::maps::directions_boat),
-    ("android/maps/directions_boat_filled", android::maps::directions_boat_filled),
+    (
+        "android/maps/directions_bike",
+        android::maps::directions_bike,
+    ),
+    (
+        "android/maps/directions_boat",
+        android::maps::directions_boat,
+    ),
+    (
+        "android/maps/directions_boat_filled",
+        android::maps::directions_boat_filled,
+    ),
     ("android/maps/directions_bus", android::maps::directions_bus),
-    ("android/maps/directions_bus_filled", android::maps::directions_bus_filled),
+    (
+        "android/maps/directions_bus_filled",
+        android::maps::directions_bus_filled,
+    ),
     ("android/maps/directions_car", android::maps::directions_car),
-    ("android/maps/directions_car_filled", android::maps::directions_car_filled),
-    ("android/maps/directions_railway", android::maps::directions_railway),
-    ("android/maps/directions_railway_filled", android::maps::directions_railway_filled),
+    (
+        "android/maps/directions_car_filled",
+        android::maps::directions_car_filled,
+    ),
+    (
+        "android/maps/directions_railway",
+        android::maps::directions_railway,
+    ),
+    (
+        "android/maps/directions_railway_filled",
+        android::maps::directions_railway_filled,
+    ),
     ("android/maps/directions_run", android::maps::directions_run),
-    ("android/maps/directions_subway", android::maps::directions_subway),
-    ("android/maps/directions_subway_filled", android::maps::directions_subway_filled),
-    ("android/maps/directions_transit", android::maps::directions_transit),
-    ("android/maps/directions_transit_filled", android::maps::directions_transit_filled),
-    ("android/maps/directions_walk", android::maps::directions_walk),
+    (
+        "android/maps/directions_subway",
+        android::maps::directions_subway,
+    ),
+    (
+        "android/maps/directions_subway_filled",
+        android::maps::directions_subway_filled,
+    ),
+    (
+        "android/maps/directions_transit",
+        android::maps::directions_transit,
+    ),
+    (
+        "android/maps/directions_transit_filled",
+        android::maps::directions_transit_filled,
+    ),
+    (
+        "android/maps/directions_walk",
+        android::maps::directions_walk,
+    ),
     ("android/maps/dry_cleaning", android::maps::dry_cleaning),
-    ("android/maps/edit_attributes", android::maps::edit_attributes),
+    (
+        "android/maps/edit_attributes",
+        android::maps::edit_attributes,
+    ),
     ("android/maps/edit_location", android::maps::edit_location),
-    ("android/maps/edit_location_alt", android::maps::edit_location_alt),
+    (
+        "android/maps/edit_location_alt",
+        android::maps::edit_location_alt,
+    ),
     ("android/maps/edit_road", android::maps::edit_road),
     ("android/maps/egg", android::maps::egg),
     ("android/maps/egg_alt", android::maps::egg_alt),
     ("android/maps/electric_bike", android::maps::electric_bike),
     ("android/maps/electric_car", android::maps::electric_car),
     ("android/maps/electric_moped", android::maps::electric_moped),
-    ("android/maps/electric_rickshaw", android::maps::electric_rickshaw),
-    ("android/maps/electric_scooter", android::maps::electric_scooter),
-    ("android/maps/electrical_services", android::maps::electrical_services),
+    (
+        "android/maps/electric_rickshaw",
+        android::maps::electric_rickshaw,
+    ),
+    (
+        "android/maps/electric_scooter",
+        android::maps::electric_scooter,
+    ),
+    (
+        "android/maps/electrical_services",
+        android::maps::electrical_services,
+    ),
     ("android/maps/emergency", android::maps::emergency),
-    ("android/maps/emergency_recording", android::maps::emergency_recording),
-    ("android/maps/emergency_share", android::maps::emergency_share),
+    (
+        "android/maps/emergency_recording",
+        android::maps::emergency_recording,
+    ),
+    (
+        "android/maps/emergency_share",
+        android::maps::emergency_share,
+    ),
     ("android/maps/ev_station", android::maps::ev_station),
     ("android/maps/factory", android::maps::factory),
     ("android/maps/fastfood", android::maps::fastfood),
     ("android/maps/festival", android::maps::festival),
-    ("android/maps/fire_hydrant_alt", android::maps::fire_hydrant_alt),
+    (
+        "android/maps/fire_hydrant_alt",
+        android::maps::fire_hydrant_alt,
+    ),
     ("android/maps/fire_truck", android::maps::fire_truck),
     ("android/maps/flight", android::maps::flight),
     ("android/maps/flight_class", android::maps::flight_class),
@@ -3797,7 +16266,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/hail", android::maps::hail),
     ("android/maps/handyman", android::maps::handyman),
     ("android/maps/hardware", android::maps::hardware),
-    ("android/maps/home_repair_service", android::maps::home_repair_service),
+    (
+        "android/maps/home_repair_service",
+        android::maps::home_repair_service,
+    ),
     ("android/maps/hotel", android::maps::hotel),
     ("android/maps/hvac", android::maps::hvac),
     ("android/maps/icecream", android::maps::icecream),
@@ -3811,16 +16283,31 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/local_bar", android::maps::local_bar),
     ("android/maps/local_cafe", android::maps::local_cafe),
     ("android/maps/local_car_wash", android::maps::local_car_wash),
-    ("android/maps/local_convenience_store", android::maps::local_convenience_store),
+    (
+        "android/maps/local_convenience_store",
+        android::maps::local_convenience_store,
+    ),
     ("android/maps/local_dining", android::maps::local_dining),
     ("android/maps/local_drink", android::maps::local_drink),
-    ("android/maps/local_fire_department", android::maps::local_fire_department),
+    (
+        "android/maps/local_fire_department",
+        android::maps::local_fire_department,
+    ),
     ("android/maps/local_florist", android::maps::local_florist),
-    ("android/maps/local_gas_station", android::maps::local_gas_station),
-    ("android/maps/local_grocery_store", android::maps::local_grocery_store),
+    (
+        "android/maps/local_gas_station",
+        android::maps::local_gas_station,
+    ),
+    (
+        "android/maps/local_grocery_store",
+        android::maps::local_grocery_store,
+    ),
     ("android/maps/local_hospital", android::maps::local_hospital),
     ("android/maps/local_hotel", android::maps::local_hotel),
-    ("android/maps/local_laundry_service", android::maps::local_laundry_service),
+    (
+        "android/maps/local_laundry_service",
+        android::maps::local_laundry_service,
+    ),
     ("android/maps/local_library", android::maps::local_library),
     ("android/maps/local_mall", android::maps::local_mall),
     ("android/maps/local_movies", android::maps::local_movies),
@@ -3831,8 +16318,14 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/local_pizza", android::maps::local_pizza),
     ("android/maps/local_play", android::maps::local_play),
     ("android/maps/local_police", android::maps::local_police),
-    ("android/maps/local_post_office", android::maps::local_post_office),
-    ("android/maps/local_printshop", android::maps::local_printshop),
+    (
+        "android/maps/local_post_office",
+        android::maps::local_post_office,
+    ),
+    (
+        "android/maps/local_printshop",
+        android::maps::local_printshop,
+    ),
     ("android/maps/local_see", android::maps::local_see),
     ("android/maps/local_shipping", android::maps::local_shipping),
     ("android/maps/local_taxi", android::maps::local_taxi),
@@ -3840,12 +16333,21 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/lunch_dining", android::maps::lunch_dining),
     ("android/maps/map", android::maps::map),
     ("android/maps/maps_ugc", android::maps::maps_ugc),
-    ("android/maps/medical_information", android::maps::medical_information),
-    ("android/maps/medical_services", android::maps::medical_services),
+    (
+        "android/maps/medical_information",
+        android::maps::medical_information,
+    ),
+    (
+        "android/maps/medical_services",
+        android::maps::medical_services,
+    ),
     ("android/maps/menu_book", android::maps::menu_book),
     ("android/maps/merge", android::maps::merge),
     ("android/maps/minor_crash", android::maps::minor_crash),
-    ("android/maps/miscellaneous_services", android::maps::miscellaneous_services),
+    (
+        "android/maps/miscellaneous_services",
+        android::maps::miscellaneous_services,
+    ),
     ("android/maps/mode_of_travel", android::maps::mode_of_travel),
     ("android/maps/money", android::maps::money),
     ("android/maps/moped", android::maps::moped),
@@ -3856,19 +16358,34 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/my_location", android::maps::my_location),
     ("android/maps/navigation", android::maps::navigation),
     ("android/maps/near_me", android::maps::near_me),
-    ("android/maps/near_me_disabled", android::maps::near_me_disabled),
+    (
+        "android/maps/near_me_disabled",
+        android::maps::near_me_disabled,
+    ),
     ("android/maps/nightlife", android::maps::nightlife),
     ("android/maps/no_crash", android::maps::no_crash),
     ("android/maps/no_meals", android::maps::no_meals),
-    ("android/maps/no_meals_ouline", android::maps::no_meals_ouline),
+    (
+        "android/maps/no_meals_ouline",
+        android::maps::no_meals_ouline,
+    ),
     ("android/maps/no_transfer", android::maps::no_transfer),
-    ("android/maps/not_listed_location", android::maps::not_listed_location),
+    (
+        "android/maps/not_listed_location",
+        android::maps::not_listed_location,
+    ),
     ("android/maps/park", android::maps::park),
     ("android/maps/pedal_bike", android::maps::pedal_bike),
     ("android/maps/person_pin", android::maps::person_pin),
-    ("android/maps/person_pin_circle", android::maps::person_pin_circle),
+    (
+        "android/maps/person_pin_circle",
+        android::maps::person_pin_circle,
+    ),
     ("android/maps/pest_control", android::maps::pest_control),
-    ("android/maps/pest_control_rodent", android::maps::pest_control_rodent),
+    (
+        "android/maps/pest_control_rodent",
+        android::maps::pest_control_rodent,
+    ),
     ("android/maps/pin_drop", android::maps::pin_drop),
     ("android/maps/place", android::maps::place),
     ("android/maps/plumbing", android::maps::plumbing),
@@ -3879,29 +16396,47 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/rate_review", android::maps::rate_review),
     ("android/maps/remove_road", android::maps::remove_road),
     ("android/maps/restaurant", android::maps::restaurant),
-    ("android/maps/restaurant_menu", android::maps::restaurant_menu),
-    ("android/maps/roundabout_left", android::maps::roundabout_left),
-    ("android/maps/roundabout_right", android::maps::roundabout_right),
+    (
+        "android/maps/restaurant_menu",
+        android::maps::restaurant_menu,
+    ),
+    (
+        "android/maps/roundabout_left",
+        android::maps::roundabout_left,
+    ),
+    (
+        "android/maps/roundabout_right",
+        android::maps::roundabout_right,
+    ),
     ("android/maps/route", android::maps::route),
     ("android/maps/run_circle", android::maps::run_circle),
     ("android/maps/safety_check", android::maps::safety_check),
     ("android/maps/sailing", android::maps::sailing),
     ("android/maps/satellite", android::maps::satellite),
-    ("android/maps/screen_rotation_alt", android::maps::screen_rotation_alt),
+    (
+        "android/maps/screen_rotation_alt",
+        android::maps::screen_rotation_alt,
+    ),
     ("android/maps/set_meal", android::maps::set_meal),
     ("android/maps/signpost", android::maps::signpost),
     ("android/maps/snowmobile", android::maps::snowmobile),
     ("android/maps/sos", android::maps::sos),
     ("android/maps/soup_kitchen", android::maps::soup_kitchen),
     ("android/maps/stadium", android::maps::stadium),
-    ("android/maps/store_mall_directory", android::maps::store_mall_directory),
+    (
+        "android/maps/store_mall_directory",
+        android::maps::store_mall_directory,
+    ),
     ("android/maps/straight", android::maps::straight),
     ("android/maps/streetview", android::maps::streetview),
     ("android/maps/subway", android::maps::subway),
     ("android/maps/synagogue", android::maps::synagogue),
     ("android/maps/takeout_dining", android::maps::takeout_dining),
     ("android/maps/taxi_alert", android::maps::taxi_alert),
-    ("android/maps/temple_buddhist", android::maps::temple_buddhist),
+    (
+        "android/maps/temple_buddhist",
+        android::maps::temple_buddhist,
+    ),
     ("android/maps/temple_hindu", android::maps::temple_hindu),
     ("android/maps/terrain", android::maps::terrain),
     ("android/maps/theater_comedy", android::maps::theater_comedy),
@@ -3909,174 +16444,540 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/maps/traffic", android::maps::traffic),
     ("android/maps/train", android::maps::train),
     ("android/maps/tram", android::maps::tram),
-    ("android/maps/transfer_within_a_station", android::maps::transfer_within_a_station),
-    ("android/maps/transit_enterexit", android::maps::transit_enterexit),
+    (
+        "android/maps/transfer_within_a_station",
+        android::maps::transfer_within_a_station,
+    ),
+    (
+        "android/maps/transit_enterexit",
+        android::maps::transit_enterexit,
+    ),
     ("android/maps/trip_origin", android::maps::trip_origin),
     ("android/maps/turn_left", android::maps::turn_left),
     ("android/maps/turn_right", android::maps::turn_right),
-    ("android/maps/turn_sharp_left", android::maps::turn_sharp_left),
-    ("android/maps/turn_sharp_right", android::maps::turn_sharp_right),
-    ("android/maps/turn_slight_left", android::maps::turn_slight_left),
-    ("android/maps/turn_slight_right", android::maps::turn_slight_right),
+    (
+        "android/maps/turn_sharp_left",
+        android::maps::turn_sharp_left,
+    ),
+    (
+        "android/maps/turn_sharp_right",
+        android::maps::turn_sharp_right,
+    ),
+    (
+        "android/maps/turn_slight_left",
+        android::maps::turn_slight_left,
+    ),
+    (
+        "android/maps/turn_slight_right",
+        android::maps::turn_slight_right,
+    ),
     ("android/maps/two_wheeler", android::maps::two_wheeler),
     ("android/maps/u_turn_left", android::maps::u_turn_left),
     ("android/maps/u_turn_right", android::maps::u_turn_right),
-    ("android/maps/volunteer_activism", android::maps::volunteer_activism),
+    (
+        "android/maps/volunteer_activism",
+        android::maps::volunteer_activism,
+    ),
     ("android/maps/warehouse", android::maps::warehouse),
     ("android/maps/wine_bar", android::maps::wine_bar),
     ("android/maps/wrong_location", android::maps::wrong_location),
     ("android/maps/zoom_in_map", android::maps::zoom_in_map),
     ("android/maps/zoom_out_map", android::maps::zoom_out_map),
-    ("android/navigation/add_home_work", android::navigation::add_home_work),
-    ("android/navigation/app_settings_alt", android::navigation::app_settings_alt),
+    (
+        "android/navigation/add_home_work",
+        android::navigation::add_home_work,
+    ),
+    (
+        "android/navigation/app_settings_alt",
+        android::navigation::app_settings_alt,
+    ),
     ("android/navigation/apps", android::navigation::apps),
-    ("android/navigation/apps_outage", android::navigation::apps_outage),
-    ("android/navigation/arrow_back", android::navigation::arrow_back),
-    ("android/navigation/arrow_back_ios", android::navigation::arrow_back_ios),
-    ("android/navigation/arrow_back_ios_new", android::navigation::arrow_back_ios_new),
-    ("android/navigation/arrow_downward", android::navigation::arrow_downward),
-    ("android/navigation/arrow_drop_down", android::navigation::arrow_drop_down),
-    ("android/navigation/arrow_drop_down_circle", android::navigation::arrow_drop_down_circle),
-    ("android/navigation/arrow_drop_up", android::navigation::arrow_drop_up),
-    ("android/navigation/arrow_forward", android::navigation::arrow_forward),
-    ("android/navigation/arrow_forward_ios", android::navigation::arrow_forward_ios),
-    ("android/navigation/arrow_left", android::navigation::arrow_left),
-    ("android/navigation/arrow_right", android::navigation::arrow_right),
-    ("android/navigation/arrow_upward", android::navigation::arrow_upward),
-    ("android/navigation/assistant_direction", android::navigation::assistant_direction),
-    ("android/navigation/assistant_navigation", android::navigation::assistant_navigation),
+    (
+        "android/navigation/apps_outage",
+        android::navigation::apps_outage,
+    ),
+    (
+        "android/navigation/arrow_back",
+        android::navigation::arrow_back,
+    ),
+    (
+        "android/navigation/arrow_back_ios",
+        android::navigation::arrow_back_ios,
+    ),
+    (
+        "android/navigation/arrow_back_ios_new",
+        android::navigation::arrow_back_ios_new,
+    ),
+    (
+        "android/navigation/arrow_downward",
+        android::navigation::arrow_downward,
+    ),
+    (
+        "android/navigation/arrow_drop_down",
+        android::navigation::arrow_drop_down,
+    ),
+    (
+        "android/navigation/arrow_drop_down_circle",
+        android::navigation::arrow_drop_down_circle,
+    ),
+    (
+        "android/navigation/arrow_drop_up",
+        android::navigation::arrow_drop_up,
+    ),
+    (
+        "android/navigation/arrow_forward",
+        android::navigation::arrow_forward,
+    ),
+    (
+        "android/navigation/arrow_forward_ios",
+        android::navigation::arrow_forward_ios,
+    ),
+    (
+        "android/navigation/arrow_left",
+        android::navigation::arrow_left,
+    ),
+    (
+        "android/navigation/arrow_right",
+        android::navigation::arrow_right,
+    ),
+    (
+        "android/navigation/arrow_upward",
+        android::navigation::arrow_upward,
+    ),
+    (
+        "android/navigation/assistant_direction",
+        android::navigation::assistant_direction,
+    ),
+    (
+        "android/navigation/assistant_navigation",
+        android::navigation::assistant_navigation,
+    ),
     ("android/navigation/campaign", android::navigation::campaign),
     ("android/navigation/cancel", android::navigation::cancel),
     ("android/navigation/check", android::navigation::check),
-    ("android/navigation/chevron_left", android::navigation::chevron_left),
-    ("android/navigation/chevron_right", android::navigation::chevron_right),
+    (
+        "android/navigation/chevron_left",
+        android::navigation::chevron_left,
+    ),
+    (
+        "android/navigation/chevron_right",
+        android::navigation::chevron_right,
+    ),
     ("android/navigation/close", android::navigation::close),
-    ("android/navigation/double_arrow", android::navigation::double_arrow),
+    (
+        "android/navigation/double_arrow",
+        android::navigation::double_arrow,
+    ),
     ("android/navigation/east", android::navigation::east),
-    ("android/navigation/expand_circle_down", android::navigation::expand_circle_down),
-    ("android/navigation/expand_less", android::navigation::expand_less),
-    ("android/navigation/expand_more", android::navigation::expand_more),
-    ("android/navigation/first_page", android::navigation::first_page),
-    ("android/navigation/fullscreen", android::navigation::fullscreen),
-    ("android/navigation/fullscreen_exit", android::navigation::fullscreen_exit),
-    ("android/navigation/home_work", android::navigation::home_work),
-    ("android/navigation/last_page", android::navigation::last_page),
-    ("android/navigation/legend_toggle", android::navigation::legend_toggle),
-    ("android/navigation/maps_home_work", android::navigation::maps_home_work),
+    (
+        "android/navigation/expand_circle_down",
+        android::navigation::expand_circle_down,
+    ),
+    (
+        "android/navigation/expand_less",
+        android::navigation::expand_less,
+    ),
+    (
+        "android/navigation/expand_more",
+        android::navigation::expand_more,
+    ),
+    (
+        "android/navigation/first_page",
+        android::navigation::first_page,
+    ),
+    (
+        "android/navigation/fullscreen",
+        android::navigation::fullscreen,
+    ),
+    (
+        "android/navigation/fullscreen_exit",
+        android::navigation::fullscreen_exit,
+    ),
+    (
+        "android/navigation/home_work",
+        android::navigation::home_work,
+    ),
+    (
+        "android/navigation/last_page",
+        android::navigation::last_page,
+    ),
+    (
+        "android/navigation/legend_toggle",
+        android::navigation::legend_toggle,
+    ),
+    (
+        "android/navigation/maps_home_work",
+        android::navigation::maps_home_work,
+    ),
     ("android/navigation/menu", android::navigation::menu),
-    ("android/navigation/menu_open", android::navigation::menu_open),
-    ("android/navigation/more_horiz", android::navigation::more_horiz),
-    ("android/navigation/more_vert", android::navigation::more_vert),
+    (
+        "android/navigation/menu_open",
+        android::navigation::menu_open,
+    ),
+    (
+        "android/navigation/more_horiz",
+        android::navigation::more_horiz,
+    ),
+    (
+        "android/navigation/more_vert",
+        android::navigation::more_vert,
+    ),
     ("android/navigation/north", android::navigation::north),
-    ("android/navigation/north_east", android::navigation::north_east),
-    ("android/navigation/north_west", android::navigation::north_west),
-    ("android/navigation/offline_share", android::navigation::offline_share),
+    (
+        "android/navigation/north_east",
+        android::navigation::north_east,
+    ),
+    (
+        "android/navigation/north_west",
+        android::navigation::north_west,
+    ),
+    (
+        "android/navigation/offline_share",
+        android::navigation::offline_share,
+    ),
     ("android/navigation/payments", android::navigation::payments),
-    ("android/navigation/pivot_table_chart", android::navigation::pivot_table_chart),
+    (
+        "android/navigation/pivot_table_chart",
+        android::navigation::pivot_table_chart,
+    ),
     ("android/navigation/refresh", android::navigation::refresh),
     ("android/navigation/south", android::navigation::south),
-    ("android/navigation/south_east", android::navigation::south_east),
-    ("android/navigation/south_west", android::navigation::south_west),
-    ("android/navigation/subdirectory_arrow_left", android::navigation::subdirectory_arrow_left),
-    ("android/navigation/subdirectory_arrow_right", android::navigation::subdirectory_arrow_right),
-    ("android/navigation/switch_left", android::navigation::switch_left),
-    ("android/navigation/switch_right", android::navigation::switch_right),
-    ("android/navigation/unfold_less", android::navigation::unfold_less),
-    ("android/navigation/unfold_more", android::navigation::unfold_more),
-    ("android/navigation/waterfall_chart", android::navigation::waterfall_chart),
+    (
+        "android/navigation/south_east",
+        android::navigation::south_east,
+    ),
+    (
+        "android/navigation/south_west",
+        android::navigation::south_west,
+    ),
+    (
+        "android/navigation/subdirectory_arrow_left",
+        android::navigation::subdirectory_arrow_left,
+    ),
+    (
+        "android/navigation/subdirectory_arrow_right",
+        android::navigation::subdirectory_arrow_right,
+    ),
+    (
+        "android/navigation/switch_left",
+        android::navigation::switch_left,
+    ),
+    (
+        "android/navigation/switch_right",
+        android::navigation::switch_right,
+    ),
+    (
+        "android/navigation/unfold_less",
+        android::navigation::unfold_less,
+    ),
+    (
+        "android/navigation/unfold_more",
+        android::navigation::unfold_more,
+    ),
+    (
+        "android/navigation/waterfall_chart",
+        android::navigation::waterfall_chart,
+    ),
     ("android/navigation/west", android::navigation::west),
-    ("android/notification/account_tree", android::notification::account_tree),
+    (
+        "android/notification/account_tree",
+        android::notification::account_tree,
+    ),
     ("android/notification/adb", android::notification::adb),
-    ("android/notification/add_call", android::notification::add_call),
-    ("android/notification/airline_seat_flat", android::notification::airline_seat_flat),
-    ("android/notification/airline_seat_flat_angled", android::notification::airline_seat_flat_angled),
-    ("android/notification/airline_seat_individual_suite", android::notification::airline_seat_individual_suite),
-    ("android/notification/airline_seat_legroom_extra", android::notification::airline_seat_legroom_extra),
-    ("android/notification/airline_seat_legroom_normal", android::notification::airline_seat_legroom_normal),
-    ("android/notification/airline_seat_legroom_reduced", android::notification::airline_seat_legroom_reduced),
-    ("android/notification/airline_seat_recline_extra", android::notification::airline_seat_recline_extra),
-    ("android/notification/airline_seat_recline_normal", android::notification::airline_seat_recline_normal),
-    ("android/notification/bluetooth_audio", android::notification::bluetooth_audio),
-    ("android/notification/confirmation_number", android::notification::confirmation_number),
-    ("android/notification/directions_off", android::notification::directions_off),
-    ("android/notification/disc_full", android::notification::disc_full),
-    ("android/notification/do_disturb", android::notification::do_disturb),
-    ("android/notification/do_disturb_alt", android::notification::do_disturb_alt),
-    ("android/notification/do_disturb_off", android::notification::do_disturb_off),
-    ("android/notification/do_disturb_on", android::notification::do_disturb_on),
-    ("android/notification/do_not_disturb", android::notification::do_not_disturb),
-    ("android/notification/do_not_disturb_alt", android::notification::do_not_disturb_alt),
-    ("android/notification/do_not_disturb_off", android::notification::do_not_disturb_off),
-    ("android/notification/do_not_disturb_on", android::notification::do_not_disturb_on),
-    ("android/notification/drive_eta", android::notification::drive_eta),
-    ("android/notification/enhanced_encryption", android::notification::enhanced_encryption),
-    ("android/notification/event_available", android::notification::event_available),
-    ("android/notification/event_busy", android::notification::event_busy),
-    ("android/notification/event_note", android::notification::event_note),
-    ("android/notification/folder_special", android::notification::folder_special),
-    ("android/notification/imagesearch_roller", android::notification::imagesearch_roller),
-    ("android/notification/live_tv", android::notification::live_tv),
+    (
+        "android/notification/add_call",
+        android::notification::add_call,
+    ),
+    (
+        "android/notification/airline_seat_flat",
+        android::notification::airline_seat_flat,
+    ),
+    (
+        "android/notification/airline_seat_flat_angled",
+        android::notification::airline_seat_flat_angled,
+    ),
+    (
+        "android/notification/airline_seat_individual_suite",
+        android::notification::airline_seat_individual_suite,
+    ),
+    (
+        "android/notification/airline_seat_legroom_extra",
+        android::notification::airline_seat_legroom_extra,
+    ),
+    (
+        "android/notification/airline_seat_legroom_normal",
+        android::notification::airline_seat_legroom_normal,
+    ),
+    (
+        "android/notification/airline_seat_legroom_reduced",
+        android::notification::airline_seat_legroom_reduced,
+    ),
+    (
+        "android/notification/airline_seat_recline_extra",
+        android::notification::airline_seat_recline_extra,
+    ),
+    (
+        "android/notification/airline_seat_recline_normal",
+        android::notification::airline_seat_recline_normal,
+    ),
+    (
+        "android/notification/bluetooth_audio",
+        android::notification::bluetooth_audio,
+    ),
+    (
+        "android/notification/confirmation_number",
+        android::notification::confirmation_number,
+    ),
+    (
+        "android/notification/directions_off",
+        android::notification::directions_off,
+    ),
+    (
+        "android/notification/disc_full",
+        android::notification::disc_full,
+    ),
+    (
+        "android/notification/do_disturb",
+        android::notification::do_disturb,
+    ),
+    (
+        "android/notification/do_disturb_alt",
+        android::notification::do_disturb_alt,
+    ),
+    (
+        "android/notification/do_disturb_off",
+        android::notification::do_disturb_off,
+    ),
+    (
+        "android/notification/do_disturb_on",
+        android::notification::do_disturb_on,
+    ),
+    (
+        "android/notification/do_not_disturb",
+        android::notification::do_not_disturb,
+    ),
+    (
+        "android/notification/do_not_disturb_alt",
+        android::notification::do_not_disturb_alt,
+    ),
+    (
+        "android/notification/do_not_disturb_off",
+        android::notification::do_not_disturb_off,
+    ),
+    (
+        "android/notification/do_not_disturb_on",
+        android::notification::do_not_disturb_on,
+    ),
+    (
+        "android/notification/drive_eta",
+        android::notification::drive_eta,
+    ),
+    (
+        "android/notification/enhanced_encryption",
+        android::notification::enhanced_encryption,
+    ),
+    (
+        "android/notification/event_available",
+        android::notification::event_available,
+    ),
+    (
+        "android/notification/event_busy",
+        android::notification::event_busy,
+    ),
+    (
+        "android/notification/event_note",
+        android::notification::event_note,
+    ),
+    (
+        "android/notification/folder_special",
+        android::notification::folder_special,
+    ),
+    (
+        "android/notification/imagesearch_roller",
+        android::notification::imagesearch_roller,
+    ),
+    (
+        "android/notification/live_tv",
+        android::notification::live_tv,
+    ),
     ("android/notification/mms", android::notification::mms),
     ("android/notification/more", android::notification::more),
-    ("android/notification/network_check", android::notification::network_check),
-    ("android/notification/network_locked", android::notification::network_locked),
-    ("android/notification/no_encryption", android::notification::no_encryption),
-    ("android/notification/no_encryption_gmailerrorred", android::notification::no_encryption_gmailerrorred),
-    ("android/notification/ondemand_video", android::notification::ondemand_video),
-    ("android/notification/personal_video", android::notification::personal_video),
-    ("android/notification/phone_bluetooth_speaker", android::notification::phone_bluetooth_speaker),
-    ("android/notification/phone_callback", android::notification::phone_callback),
-    ("android/notification/phone_forwarded", android::notification::phone_forwarded),
-    ("android/notification/phone_in_talk", android::notification::phone_in_talk),
-    ("android/notification/phone_locked", android::notification::phone_locked),
-    ("android/notification/phone_missed", android::notification::phone_missed),
-    ("android/notification/phone_paused", android::notification::phone_paused),
+    (
+        "android/notification/network_check",
+        android::notification::network_check,
+    ),
+    (
+        "android/notification/network_locked",
+        android::notification::network_locked,
+    ),
+    (
+        "android/notification/no_encryption",
+        android::notification::no_encryption,
+    ),
+    (
+        "android/notification/no_encryption_gmailerrorred",
+        android::notification::no_encryption_gmailerrorred,
+    ),
+    (
+        "android/notification/ondemand_video",
+        android::notification::ondemand_video,
+    ),
+    (
+        "android/notification/personal_video",
+        android::notification::personal_video,
+    ),
+    (
+        "android/notification/phone_bluetooth_speaker",
+        android::notification::phone_bluetooth_speaker,
+    ),
+    (
+        "android/notification/phone_callback",
+        android::notification::phone_callback,
+    ),
+    (
+        "android/notification/phone_forwarded",
+        android::notification::phone_forwarded,
+    ),
+    (
+        "android/notification/phone_in_talk",
+        android::notification::phone_in_talk,
+    ),
+    (
+        "android/notification/phone_locked",
+        android::notification::phone_locked,
+    ),
+    (
+        "android/notification/phone_missed",
+        android::notification::phone_missed,
+    ),
+    (
+        "android/notification/phone_paused",
+        android::notification::phone_paused,
+    ),
     ("android/notification/power", android::notification::power),
-    ("android/notification/power_off", android::notification::power_off),
-    ("android/notification/priority_high", android::notification::priority_high),
-    ("android/notification/running_with_errors", android::notification::running_with_errors),
-    ("android/notification/sd_card", android::notification::sd_card),
-    ("android/notification/sd_card_alert", android::notification::sd_card_alert),
-    ("android/notification/sim_card_alert", android::notification::sim_card_alert),
+    (
+        "android/notification/power_off",
+        android::notification::power_off,
+    ),
+    (
+        "android/notification/priority_high",
+        android::notification::priority_high,
+    ),
+    (
+        "android/notification/running_with_errors",
+        android::notification::running_with_errors,
+    ),
+    (
+        "android/notification/sd_card",
+        android::notification::sd_card,
+    ),
+    (
+        "android/notification/sd_card_alert",
+        android::notification::sd_card_alert,
+    ),
+    (
+        "android/notification/sim_card_alert",
+        android::notification::sim_card_alert,
+    ),
     ("android/notification/sms", android::notification::sms),
-    ("android/notification/sms_failed", android::notification::sms_failed),
-    ("android/notification/support_agent", android::notification::support_agent),
+    (
+        "android/notification/sms_failed",
+        android::notification::sms_failed,
+    ),
+    (
+        "android/notification/support_agent",
+        android::notification::support_agent,
+    ),
     ("android/notification/sync", android::notification::sync),
-    ("android/notification/sync_disabled", android::notification::sync_disabled),
-    ("android/notification/sync_lock", android::notification::sync_lock),
-    ("android/notification/sync_problem", android::notification::sync_problem),
-    ("android/notification/system_update", android::notification::system_update),
-    ("android/notification/tap_and_play", android::notification::tap_and_play),
-    ("android/notification/time_to_leave", android::notification::time_to_leave),
+    (
+        "android/notification/sync_disabled",
+        android::notification::sync_disabled,
+    ),
+    (
+        "android/notification/sync_lock",
+        android::notification::sync_lock,
+    ),
+    (
+        "android/notification/sync_problem",
+        android::notification::sync_problem,
+    ),
+    (
+        "android/notification/system_update",
+        android::notification::system_update,
+    ),
+    (
+        "android/notification/tap_and_play",
+        android::notification::tap_and_play,
+    ),
+    (
+        "android/notification/time_to_leave",
+        android::notification::time_to_leave,
+    ),
     ("android/notification/tv_off", android::notification::tv_off),
-    ("android/notification/vibration", android::notification::vibration),
-    ("android/notification/video_chat", android::notification::video_chat),
-    ("android/notification/voice_chat", android::notification::voice_chat),
-    ("android/notification/vpn_lock", android::notification::vpn_lock),
+    (
+        "android/notification/vibration",
+        android::notification::vibration,
+    ),
+    (
+        "android/notification/video_chat",
+        android::notification::video_chat,
+    ),
+    (
+        "android/notification/voice_chat",
+        android::notification::voice_chat,
+    ),
+    (
+        "android/notification/vpn_lock",
+        android::notification::vpn_lock,
+    ),
     ("android/notification/wc", android::notification::wc),
     ("android/notification/wifi", android::notification::wifi),
-    ("android/notification/wifi_off", android::notification::wifi_off),
+    (
+        "android/notification/wifi_off",
+        android::notification::wifi_off,
+    ),
     ("android/places/ac_unit", android::places::ac_unit),
-    ("android/places/airport_shuttle", android::places::airport_shuttle),
-    ("android/places/all_inclusive", android::places::all_inclusive),
+    (
+        "android/places/airport_shuttle",
+        android::places::airport_shuttle,
+    ),
+    (
+        "android/places/all_inclusive",
+        android::places::all_inclusive,
+    ),
     ("android/places/apartment", android::places::apartment),
-    ("android/places/baby_changing_station", android::places::baby_changing_station),
+    (
+        "android/places/baby_changing_station",
+        android::places::baby_changing_station,
+    ),
     ("android/places/backpack", android::places::backpack),
     ("android/places/balcony", android::places::balcony),
     ("android/places/bathtub", android::places::bathtub),
     ("android/places/beach_access", android::places::beach_access),
     ("android/places/bento", android::places::bento),
     ("android/places/bungalow", android::places::bungalow),
-    ("android/places/business_center", android::places::business_center),
+    (
+        "android/places/business_center",
+        android::places::business_center,
+    ),
     ("android/places/cabin", android::places::cabin),
     ("android/places/carpenter", android::places::carpenter),
     ("android/places/casino", android::places::casino),
     ("android/places/chalet", android::places::chalet),
-    ("android/places/charging_station", android::places::charging_station),
+    (
+        "android/places/charging_station",
+        android::places::charging_station,
+    ),
     ("android/places/checkroom", android::places::checkroom),
     ("android/places/child_care", android::places::child_care),
-    ("android/places/child_friendly", android::places::child_friendly),
-    ("android/places/corporate_fare", android::places::corporate_fare),
+    (
+        "android/places/child_friendly",
+        android::places::child_friendly,
+    ),
+    (
+        "android/places/corporate_fare",
+        android::places::corporate_fare,
+    ),
     ("android/places/cottage", android::places::cottage),
     ("android/places/countertops", android::places::countertops),
     ("android/places/crib", android::places::crib),
@@ -4086,18 +16987,36 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/places/dry", android::places::dry),
     ("android/places/elevator", android::places::elevator),
     ("android/places/escalator", android::places::escalator),
-    ("android/places/escalator_warning", android::places::escalator_warning),
-    ("android/places/family_restroom", android::places::family_restroom),
+    (
+        "android/places/escalator_warning",
+        android::places::escalator_warning,
+    ),
+    (
+        "android/places/family_restroom",
+        android::places::family_restroom,
+    ),
     ("android/places/fence", android::places::fence),
-    ("android/places/fire_extinguisher", android::places::fire_extinguisher),
-    ("android/places/fitness_center", android::places::fitness_center),
+    (
+        "android/places/fire_extinguisher",
+        android::places::fire_extinguisher,
+    ),
+    (
+        "android/places/fitness_center",
+        android::places::fitness_center,
+    ),
     ("android/places/food_bank", android::places::food_bank),
     ("android/places/foundation", android::places::foundation),
-    ("android/places/free_breakfast", android::places::free_breakfast),
+    (
+        "android/places/free_breakfast",
+        android::places::free_breakfast,
+    ),
     ("android/places/gite", android::places::gite),
     ("android/places/golf_course", android::places::golf_course),
     ("android/places/grass", android::places::grass),
-    ("android/places/holiday_village", android::places::holiday_village),
+    (
+        "android/places/holiday_village",
+        android::places::holiday_village,
+    ),
     ("android/places/hot_tub", android::places::hot_tub),
     ("android/places/house", android::places::house),
     ("android/places/house_siding", android::places::house_siding),
@@ -4106,24 +17025,39 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/places/kitchen", android::places::kitchen),
     ("android/places/meeting_room", android::places::meeting_room),
     ("android/places/microwave", android::places::microwave),
-    ("android/places/night_shelter", android::places::night_shelter),
+    (
+        "android/places/night_shelter",
+        android::places::night_shelter,
+    ),
     ("android/places/no_backpack", android::places::no_backpack),
     ("android/places/no_cell", android::places::no_cell),
     ("android/places/no_drinks", android::places::no_drinks),
     ("android/places/no_flash", android::places::no_flash),
     ("android/places/no_food", android::places::no_food),
-    ("android/places/no_meeting_room", android::places::no_meeting_room),
-    ("android/places/no_photography", android::places::no_photography),
+    (
+        "android/places/no_meeting_room",
+        android::places::no_meeting_room,
+    ),
+    (
+        "android/places/no_photography",
+        android::places::no_photography,
+    ),
     ("android/places/no_stroller", android::places::no_stroller),
     ("android/places/other_houses", android::places::other_houses),
     ("android/places/pool", android::places::pool),
     ("android/places/rice_bowl", android::places::rice_bowl),
     ("android/places/roofing", android::places::roofing),
-    ("android/places/room_preferences", android::places::room_preferences),
+    (
+        "android/places/room_preferences",
+        android::places::room_preferences,
+    ),
     ("android/places/room_service", android::places::room_service),
     ("android/places/rv_hookup", android::places::rv_hookup),
     ("android/places/smoke_free", android::places::smoke_free),
-    ("android/places/smoking_rooms", android::places::smoking_rooms),
+    (
+        "android/places/smoking_rooms",
+        android::places::smoking_rooms,
+    ),
     ("android/places/soap", android::places::soap),
     ("android/places/spa", android::places::spa),
     ("android/places/sports_bar", android::places::sports_bar),
@@ -4138,15 +17072,30 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/places/villa", android::places::villa),
     ("android/places/wash", android::places::wash),
     ("android/places/water_damage", android::places::water_damage),
-    ("android/places/wheelchair_pickup", android::places::wheelchair_pickup),
+    (
+        "android/places/wheelchair_pickup",
+        android::places::wheelchair_pickup,
+    ),
     ("android/search/bathroom", android::search::bathroom),
     ("android/search/bed", android::search::bed),
     ("android/search/bedroom_baby", android::search::bedroom_baby),
-    ("android/search/bedroom_child", android::search::bedroom_child),
-    ("android/search/bedroom_parent", android::search::bedroom_parent),
+    (
+        "android/search/bedroom_child",
+        android::search::bedroom_child,
+    ),
+    (
+        "android/search/bedroom_parent",
+        android::search::bedroom_parent,
+    ),
     ("android/search/blender", android::search::blender),
-    ("android/search/camera_indoor", android::search::camera_indoor),
-    ("android/search/camera_outdoor", android::search::camera_outdoor),
+    (
+        "android/search/camera_indoor",
+        android::search::camera_indoor,
+    ),
+    (
+        "android/search/camera_outdoor",
+        android::search::camera_outdoor,
+    ),
     ("android/search/chair", android::search::chair),
     ("android/search/chair_alt", android::search::chair_alt),
     ("android/search/coffee", android::search::coffee),
@@ -4161,28 +17110,49 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/search/garage", android::search::garage),
     ("android/search/light", android::search::light),
     ("android/search/living", android::search::living),
-    ("android/search/manage_search", android::search::manage_search),
+    (
+        "android/search/manage_search",
+        android::search::manage_search,
+    ),
     ("android/search/podcasts", android::search::podcasts),
     ("android/search/shower", android::search::shower),
     ("android/search/table_bar", android::search::table_bar),
-    ("android/search/table_restaurant", android::search::table_restaurant),
+    (
+        "android/search/table_restaurant",
+        android::search::table_restaurant,
+    ),
     ("android/search/window", android::search::window),
     ("android/search/yard", android::search::yard),
-    ("android/social/18_up_rating", android::social::_18_up_rating),
+    (
+        "android/social/18_up_rating",
+        android::social::_18_up_rating,
+    ),
     ("android/social/6_ft_apart", android::social::_6_ft_apart),
-    ("android/social/add_moderator", android::social::add_moderator),
+    (
+        "android/social/add_moderator",
+        android::social::add_moderator,
+    ),
     ("android/social/add_reaction", android::social::add_reaction),
     ("android/social/architecture", android::social::architecture),
-    ("android/social/assist_walker", android::social::assist_walker),
+    (
+        "android/social/assist_walker",
+        android::social::assist_walker,
+    ),
     ("android/social/back_hand", android::social::back_hand),
     ("android/social/blind", android::social::blind),
     ("android/social/boy", android::social::boy),
     ("android/social/cake", android::social::cake),
-    ("android/social/catching_pokemon", android::social::catching_pokemon),
+    (
+        "android/social/catching_pokemon",
+        android::social::catching_pokemon,
+    ),
     ("android/social/clean_hands", android::social::clean_hands),
     ("android/social/co2", android::social::co2),
     ("android/social/compost", android::social::compost),
-    ("android/social/connect_without_contact", android::social::connect_without_contact),
+    (
+        "android/social/connect_without_contact",
+        android::social::connect_without_contact,
+    ),
     ("android/social/construction", android::social::construction),
     ("android/social/cookie", android::social::cookie),
     ("android/social/coronavirus", android::social::coronavirus),
@@ -4195,19 +17165,43 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/social/diversity_3", android::social::diversity_3),
     ("android/social/domain", android::social::domain),
     ("android/social/domain_add", android::social::domain_add),
-    ("android/social/downhill_skiing", android::social::downhill_skiing),
-    ("android/social/edit_notifications", android::social::edit_notifications),
+    (
+        "android/social/downhill_skiing",
+        android::social::downhill_skiing,
+    ),
+    (
+        "android/social/edit_notifications",
+        android::social::edit_notifications,
+    ),
     ("android/social/elderly", android::social::elderly),
-    ("android/social/elderly_woman", android::social::elderly_woman),
-    ("android/social/emoji_emotions", android::social::emoji_emotions),
+    (
+        "android/social/elderly_woman",
+        android::social::elderly_woman,
+    ),
+    (
+        "android/social/emoji_emotions",
+        android::social::emoji_emotions,
+    ),
     ("android/social/emoji_events", android::social::emoji_events),
     ("android/social/emoji_flags", android::social::emoji_flags),
-    ("android/social/emoji_food_beverage", android::social::emoji_food_beverage),
+    (
+        "android/social/emoji_food_beverage",
+        android::social::emoji_food_beverage,
+    ),
     ("android/social/emoji_nature", android::social::emoji_nature),
-    ("android/social/emoji_objects", android::social::emoji_objects),
+    (
+        "android/social/emoji_objects",
+        android::social::emoji_objects,
+    ),
     ("android/social/emoji_people", android::social::emoji_people),
-    ("android/social/emoji_symbols", android::social::emoji_symbols),
-    ("android/social/emoji_transportation", android::social::emoji_transportation),
+    (
+        "android/social/emoji_symbols",
+        android::social::emoji_symbols,
+    ),
+    (
+        "android/social/emoji_transportation",
+        android::social::emoji_transportation,
+    ),
     ("android/social/engineering", android::social::engineering),
     ("android/social/face_2", android::social::face_2),
     ("android/social/face_3", android::social::face_3),
@@ -4219,7 +17213,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/social/fireplace", android::social::fireplace),
     ("android/social/fitbit", android::social::fitbit),
     ("android/social/flood", android::social::flood),
-    ("android/social/follow_the_signs", android::social::follow_the_signs),
+    (
+        "android/social/follow_the_signs",
+        android::social::follow_the_signs,
+    ),
     ("android/social/front_hand", android::social::front_hand),
     ("android/social/girl", android::social::girl),
     ("android/social/group", android::social::group),
@@ -4230,7 +17227,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/social/groups_2", android::social::groups_2),
     ("android/social/groups_3", android::social::groups_3),
     ("android/social/handshake", android::social::handshake),
-    ("android/social/health_and_safety", android::social::health_and_safety),
+    (
+        "android/social/health_and_safety",
+        android::social::health_and_safety,
+    ),
     ("android/social/heart_broken", android::social::heart_broken),
     ("android/social/hiking", android::social::hiking),
     ("android/social/history_edu", android::social::history_edu),
@@ -4242,7 +17242,10 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/social/king_bed", android::social::king_bed),
     ("android/social/kitesurfing", android::social::kitesurfing),
     ("android/social/landslide", android::social::landslide),
-    ("android/social/location_city", android::social::location_city),
+    (
+        "android/social/location_city",
+        android::social::location_city,
+    ),
     ("android/social/luggage", android::social::luggage),
     ("android/social/male", android::social::male),
     ("android/social/man", android::social::man),
@@ -4250,67 +17253,157 @@ pub const ALL: &[(&str, IconId)] = &[
     ("android/social/man_3", android::social::man_3),
     ("android/social/man_4", android::social::man_4),
     ("android/social/masks", android::social::masks),
-    ("android/social/military_tech", android::social::military_tech),
+    (
+        "android/social/military_tech",
+        android::social::military_tech,
+    ),
     ("android/social/mood", android::social::mood),
     ("android/social/mood_bad", android::social::mood_bad),
     ("android/social/nights_stay", android::social::nights_stay),
-    ("android/social/no_adult_content", android::social::no_adult_content),
+    (
+        "android/social/no_adult_content",
+        android::social::no_adult_content,
+    ),
     ("android/social/no_luggage", android::social::no_luggage),
-    ("android/social/nordic_walking", android::social::nordic_walking),
-    ("android/social/notification_add", android::social::notification_add),
-    ("android/social/notifications", android::social::notifications),
-    ("android/social/notifications_active", android::social::notifications_active),
-    ("android/social/notifications_none", android::social::notifications_none),
-    ("android/social/notifications_off", android::social::notifications_off),
-    ("android/social/notifications_paused", android::social::notifications_paused),
-    ("android/social/outdoor_grill", android::social::outdoor_grill),
+    (
+        "android/social/nordic_walking",
+        android::social::nordic_walking,
+    ),
+    (
+        "android/social/notification_add",
+        android::social::notification_add,
+    ),
+    (
+        "android/social/notifications",
+        android::social::notifications,
+    ),
+    (
+        "android/social/notifications_active",
+        android::social::notifications_active,
+    ),
+    (
+        "android/social/notifications_none",
+        android::social::notifications_none,
+    ),
+    (
+        "android/social/notifications_off",
+        android::social::notifications_off,
+    ),
+    (
+        "android/social/notifications_paused",
+        android::social::notifications_paused,
+    ),
+    (
+        "android/social/outdoor_grill",
+        android::social::outdoor_grill,
+    ),
     ("android/social/pages", android::social::pages),
     ("android/social/paragliding", android::social::paragliding),
     ("android/social/party_mode", android::social::party_mode),
     ("android/social/people", android::social::people),
     ("android/social/people_alt", android::social::people_alt),
-    ("android/social/people_outline", android::social::people_outline),
+    (
+        "android/social/people_outline",
+        android::social::people_outline,
+    ),
     ("android/social/person", android::social::person),
     ("android/social/person_2", android::social::person_2),
     ("android/social/person_3", android::social::person_3),
     ("android/social/person_4", android::social::person_4),
     ("android/social/person_add", android::social::person_add),
-    ("android/social/person_add_alt", android::social::person_add_alt),
-    ("android/social/person_add_alt_1", android::social::person_add_alt_1),
+    (
+        "android/social/person_add_alt",
+        android::social::person_add_alt,
+    ),
+    (
+        "android/social/person_add_alt_1",
+        android::social::person_add_alt_1,
+    ),
     ("android/social/person_off", android::social::person_off),
-    ("android/social/person_outline", android::social::person_outline),
-    ("android/social/person_remove", android::social::person_remove),
-    ("android/social/person_remove_alt_1", android::social::person_remove_alt_1),
-    ("android/social/personal_injury", android::social::personal_injury),
+    (
+        "android/social/person_outline",
+        android::social::person_outline,
+    ),
+    (
+        "android/social/person_remove",
+        android::social::person_remove,
+    ),
+    (
+        "android/social/person_remove_alt_1",
+        android::social::person_remove_alt_1,
+    ),
+    (
+        "android/social/personal_injury",
+        android::social::personal_injury,
+    ),
     ("android/social/piano", android::social::piano),
     ("android/social/piano_off", android::social::piano_off),
     ("android/social/pix", android::social::pix),
     ("android/social/plus_one", android::social::plus_one),
     ("android/social/poll", android::social::poll),
-    ("android/social/precision_manufacturing", android::social::precision_manufacturing),
+    (
+        "android/social/precision_manufacturing",
+        android::social::precision_manufacturing,
+    ),
     ("android/social/psychology", android::social::psychology),
-    ("android/social/psychology_alt", android::social::psychology_alt),
+    (
+        "android/social/psychology_alt",
+        android::social::psychology_alt,
+    ),
     ("android/social/public", android::social::public),
     ("android/social/public_off", android::social::public_off),
-    ("android/social/real_estate_agent", android::social::real_estate_agent),
+    (
+        "android/social/real_estate_agent",
+        android::social::real_estate_agent,
+    ),
     ("android/social/recommend", android::social::recommend),
     ("android/social/recycling", android::social::recycling),
-    ("android/social/reduce_capacity", android::social::reduce_capacity),
-    ("android/social/remove_moderator", android::social::remove_moderator),
-    ("android/social/roller_skating", android::social::roller_skating),
-    ("android/social/safety_divider", android::social::safety_divider),
+    (
+        "android/social/reduce_capacity",
+        android::social::reduce_capacity,
+    ),
+    (
+        "android/social/remove_moderator",
+        android::social::remove_moderator,
+    ),
+    (
+        "android/social/roller_skating",
+        android::social::roller_skating,
+    ),
+    (
+        "android/social/safety_divider",
+        android::social::safety_divider,
+    ),
     ("android/social/sanitizer", android::social::sanitizer),
     ("android/social/scale", android::social::scale),
     ("android/social/school", android::social::school),
     ("android/social/science", android::social::science),
     ("android/social/scoreboard", android::social::scoreboard),
     ("android/social/scuba_diving", android::social::scuba_diving),
-    ("android/social/self_improvement", android::social::self_improvement),
-    ("android/social/sentiment_dissatisfied", android::social::sentiment_dissatisfied),
-    ("android/social/sentiment_neutral", android::social::sentiment_neutral),
-    ("android/social/sentiment_satisfied", android::social::sentiment_satisfied),
-    ("android/social/sentiment_very_dissatisfied", android::social::sentiment_very_dissatisfied),
-    ("android/social/sentiment_very_satisfied", android::social::sentiment_very_satisfied),
+    (
+        "android/social/self_improvement",
+        android::social::self_improvement,
+    ),
+    (
+        "android/social/sentiment_dissatisfied",
+        android::social::sentiment_dissatisfied,
+    ),
+    (
+        "android/social/sentiment_neutral",
+        android::social::sentiment_neutral,
+    ),
+    (
+        "android/social/sentiment_satisfied",
+        android::social::sentiment_satisfied,
+    ),
+    (
+        "android/social/sentiment_very_dissatisfied",
+        android::social::sentiment_very_dissatisfied,
+    ),
+    (
+        "android/social/sentiment_very_satisfied",
+        android::social::sentiment_very_satisfied,
+    ),
 ];
 
 /// Lookup by full path like "android/action/account_balance" (case-insensitive).
@@ -4513,7 +17606,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/action/input" => Some(android::action::input),
         "android/action/install_desktop" => Some(android::action::install_desktop),
         "android/action/install_mobile" => Some(android::action::install_mobile),
-        "android/action/integration_instructions" => Some(android::action::integration_instructions),
+        "android/action/integration_instructions" => {
+            Some(android::action::integration_instructions)
+        }
         "android/action/invert_colors" => Some(android::action::invert_colors),
         "android/action/javascript" => Some(android::action::javascript),
         "android/action/join_full" => Some(android::action::join_full),
@@ -4609,7 +17704,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/action/print" => Some(android::action::print),
         "android/action/privacy_tip" => Some(android::action::privacy_tip),
         "android/action/private_connectivity" => Some(android::action::private_connectivity),
-        "android/action/production_quantity_limits" => Some(android::action::production_quantity_limits),
+        "android/action/production_quantity_limits" => {
+            Some(android::action::production_quantity_limits)
+        }
         "android/action/published_with_changes" => Some(android::action::published_with_changes),
         "android/action/query_builder" => Some(android::action::query_builder),
         "android/action/question_answer" => Some(android::action::question_answer),
@@ -4654,8 +17751,12 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/action/settings_cell" => Some(android::action::settings_cell),
         "android/action/settings_ethernet" => Some(android::action::settings_ethernet),
         "android/action/settings_input_antenna" => Some(android::action::settings_input_antenna),
-        "android/action/settings_input_component" => Some(android::action::settings_input_component),
-        "android/action/settings_input_composite" => Some(android::action::settings_input_composite),
+        "android/action/settings_input_component" => {
+            Some(android::action::settings_input_component)
+        }
+        "android/action/settings_input_composite" => {
+            Some(android::action::settings_input_composite)
+        }
         "android/action/settings_input_hdmi" => Some(android::action::settings_input_hdmi),
         "android/action/settings_input_svideo" => Some(android::action::settings_input_svideo),
         "android/action/settings_overscan" => Some(android::action::settings_overscan),
@@ -4703,7 +17804,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/action/swipe_up_alt" => Some(android::action::swipe_up_alt),
         "android/action/swipe_vertical" => Some(android::action::swipe_vertical),
         "android/action/switch_access_shortcut" => Some(android::action::switch_access_shortcut),
-        "android/action/switch_access_shortcut_add" => Some(android::action::switch_access_shortcut_add),
+        "android/action/switch_access_shortcut_add" => {
+            Some(android::action::switch_access_shortcut_add)
+        }
         "android/action/sync_alt" => Some(android::action::sync_alt),
         "android/action/system_update_alt" => Some(android::action::system_update_alt),
         "android/action/tab" => Some(android::action::tab),
@@ -4929,29 +18032,43 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/communication/call_made" => Some(android::communication::call_made),
         "android/communication/call_merge" => Some(android::communication::call_merge),
         "android/communication/call_missed" => Some(android::communication::call_missed),
-        "android/communication/call_missed_outgoing" => Some(android::communication::call_missed_outgoing),
+        "android/communication/call_missed_outgoing" => {
+            Some(android::communication::call_missed_outgoing)
+        }
         "android/communication/call_received" => Some(android::communication::call_received),
         "android/communication/call_split" => Some(android::communication::call_split),
-        "android/communication/cancel_presentation" => Some(android::communication::cancel_presentation),
+        "android/communication/cancel_presentation" => {
+            Some(android::communication::cancel_presentation)
+        }
         "android/communication/cell_tower" => Some(android::communication::cell_tower),
         "android/communication/cell_wifi" => Some(android::communication::cell_wifi),
         "android/communication/chat" => Some(android::communication::chat),
         "android/communication/chat_bubble" => Some(android::communication::chat_bubble),
-        "android/communication/chat_bubble_outline" => Some(android::communication::chat_bubble_outline),
+        "android/communication/chat_bubble_outline" => {
+            Some(android::communication::chat_bubble_outline)
+        }
         "android/communication/clear_all" => Some(android::communication::clear_all),
         "android/communication/co_present" => Some(android::communication::co_present),
         "android/communication/comment" => Some(android::communication::comment),
-        "android/communication/comments_disabled" => Some(android::communication::comments_disabled),
-        "android/communication/contact_emergency" => Some(android::communication::contact_emergency),
+        "android/communication/comments_disabled" => {
+            Some(android::communication::comments_disabled)
+        }
+        "android/communication/contact_emergency" => {
+            Some(android::communication::contact_emergency)
+        }
         "android/communication/contact_mail" => Some(android::communication::contact_mail),
         "android/communication/contact_phone" => Some(android::communication::contact_phone),
         "android/communication/contacts" => Some(android::communication::contacts),
-        "android/communication/desktop_access_disabled" => Some(android::communication::desktop_access_disabled),
+        "android/communication/desktop_access_disabled" => {
+            Some(android::communication::desktop_access_disabled)
+        }
         "android/communication/dialer_sip" => Some(android::communication::dialer_sip),
         "android/communication/dialpad" => Some(android::communication::dialpad),
         "android/communication/document_scanner" => Some(android::communication::document_scanner),
         "android/communication/domain_disabled" => Some(android::communication::domain_disabled),
-        "android/communication/domain_verification" => Some(android::communication::domain_verification),
+        "android/communication/domain_verification" => {
+            Some(android::communication::domain_verification)
+        }
         "android/communication/duo" => Some(android::communication::duo),
         "android/communication/email" => Some(android::communication::email),
         "android/communication/forum" => Some(android::communication::forum),
@@ -4961,7 +18078,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/communication/hub" => Some(android::communication::hub),
         "android/communication/import_contacts" => Some(android::communication::import_contacts),
         "android/communication/import_export" => Some(android::communication::import_export),
-        "android/communication/invert_colors_off" => Some(android::communication::invert_colors_off),
+        "android/communication/invert_colors_off" => {
+            Some(android::communication::invert_colors_off)
+        }
         "android/communication/key" => Some(android::communication::key),
         "android/communication/key_off" => Some(android::communication::key_off),
         "android/communication/list_alt" => Some(android::communication::list_alt),
@@ -4973,15 +18092,25 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/communication/mark_chat_read" => Some(android::communication::mark_chat_read),
         "android/communication/mark_chat_unread" => Some(android::communication::mark_chat_unread),
         "android/communication/mark_email_read" => Some(android::communication::mark_email_read),
-        "android/communication/mark_email_unread" => Some(android::communication::mark_email_unread),
-        "android/communication/mark_unread_chat_alt" => Some(android::communication::mark_unread_chat_alt),
+        "android/communication/mark_email_unread" => {
+            Some(android::communication::mark_email_unread)
+        }
+        "android/communication/mark_unread_chat_alt" => {
+            Some(android::communication::mark_unread_chat_alt)
+        }
         "android/communication/message" => Some(android::communication::message),
-        "android/communication/mobile_screen_share" => Some(android::communication::mobile_screen_share),
+        "android/communication/mobile_screen_share" => {
+            Some(android::communication::mobile_screen_share)
+        }
         "android/communication/more_time" => Some(android::communication::more_time),
         "android/communication/nat" => Some(android::communication::nat),
         "android/communication/no_sim" => Some(android::communication::no_sim),
-        "android/communication/pause_presentation" => Some(android::communication::pause_presentation),
-        "android/communication/person_add_disabled" => Some(android::communication::person_add_disabled),
+        "android/communication/pause_presentation" => {
+            Some(android::communication::pause_presentation)
+        }
+        "android/communication/person_add_disabled" => {
+            Some(android::communication::person_add_disabled)
+        }
         "android/communication/person_search" => Some(android::communication::person_search),
         "android/communication/phone" => Some(android::communication::phone),
         "android/communication/phone_disabled" => Some(android::communication::phone_disabled),
@@ -4990,7 +18119,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/communication/phonelink_lock" => Some(android::communication::phonelink_lock),
         "android/communication/phonelink_ring" => Some(android::communication::phonelink_ring),
         "android/communication/phonelink_setup" => Some(android::communication::phonelink_setup),
-        "android/communication/portable_wifi_off" => Some(android::communication::portable_wifi_off),
+        "android/communication/portable_wifi_off" => {
+            Some(android::communication::portable_wifi_off)
+        }
         "android/communication/present_to_all" => Some(android::communication::present_to_all),
         "android/communication/print_disabled" => Some(android::communication::print_disabled),
         "android/communication/qr_code" => Some(android::communication::qr_code),
@@ -5001,16 +18132,30 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/communication/rss_feed" => Some(android::communication::rss_feed),
         "android/communication/rtt" => Some(android::communication::rtt),
         "android/communication/screen_share" => Some(android::communication::screen_share),
-        "android/communication/send_time_extension" => Some(android::communication::send_time_extension),
-        "android/communication/sentiment_satisfied_alt" => Some(android::communication::sentiment_satisfied_alt),
+        "android/communication/send_time_extension" => {
+            Some(android::communication::send_time_extension)
+        }
+        "android/communication/sentiment_satisfied_alt" => {
+            Some(android::communication::sentiment_satisfied_alt)
+        }
         "android/communication/sip" => Some(android::communication::sip),
         "android/communication/speaker_phone" => Some(android::communication::speaker_phone),
         "android/communication/spoke" => Some(android::communication::spoke),
-        "android/communication/stay_current_landscape" => Some(android::communication::stay_current_landscape),
-        "android/communication/stay_current_portrait" => Some(android::communication::stay_current_portrait),
-        "android/communication/stay_primary_landscape" => Some(android::communication::stay_primary_landscape),
-        "android/communication/stay_primary_portrait" => Some(android::communication::stay_primary_portrait),
-        "android/communication/stop_screen_share" => Some(android::communication::stop_screen_share),
+        "android/communication/stay_current_landscape" => {
+            Some(android::communication::stay_current_landscape)
+        }
+        "android/communication/stay_current_portrait" => {
+            Some(android::communication::stay_current_portrait)
+        }
+        "android/communication/stay_primary_landscape" => {
+            Some(android::communication::stay_primary_landscape)
+        }
+        "android/communication/stay_primary_portrait" => {
+            Some(android::communication::stay_primary_portrait)
+        }
+        "android/communication/stop_screen_share" => {
+            Some(android::communication::stop_screen_share)
+        }
         "android/communication/swap_calls" => Some(android::communication::swap_calls),
         "android/communication/textsms" => Some(android::communication::textsms),
         "android/communication/unsubscribe" => Some(android::communication::unsubscribe),
@@ -5155,7 +18300,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/device/devices" => Some(android::device::devices),
         "android/device/devices_fold" => Some(android::device::devices_fold),
         "android/device/discount" => Some(android::device::discount),
-        "android/device/do_not_disturb_on_total_silence" => Some(android::device::do_not_disturb_on_total_silence),
+        "android/device/do_not_disturb_on_total_silence" => {
+            Some(android::device::do_not_disturb_on_total_silence)
+        }
         "android/device/dvr" => Some(android::device::dvr),
         "android/device/e_mobiledata" => Some(android::device::e_mobiledata),
         "android/device/edgesensor_high" => Some(android::device::edgesensor_high),
@@ -5242,16 +18389,26 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/device/sell" => Some(android::device::sell),
         "android/device/send_to_mobile" => Some(android::device::send_to_mobile),
         "android/device/settings_suggest" => Some(android::device::settings_suggest),
-        "android/device/settings_system_daydream" => Some(android::device::settings_system_daydream),
+        "android/device/settings_system_daydream" => {
+            Some(android::device::settings_system_daydream)
+        }
         "android/device/share_location" => Some(android::device::share_location),
         "android/device/shortcut" => Some(android::device::shortcut),
         "android/device/signal_cellular_0_bar" => Some(android::device::signal_cellular_0_bar),
         "android/device/signal_cellular_4_bar" => Some(android::device::signal_cellular_4_bar),
         "android/device/signal_cellular_alt" => Some(android::device::signal_cellular_alt),
-        "android/device/signal_cellular_alt_1_bar" => Some(android::device::signal_cellular_alt_1_bar),
-        "android/device/signal_cellular_alt_2_bar" => Some(android::device::signal_cellular_alt_2_bar),
-        "android/device/signal_cellular_connected_no_internet_0_bar" => Some(android::device::signal_cellular_connected_no_internet_0_bar),
-        "android/device/signal_cellular_connected_no_internet_4_bar" => Some(android::device::signal_cellular_connected_no_internet_4_bar),
+        "android/device/signal_cellular_alt_1_bar" => {
+            Some(android::device::signal_cellular_alt_1_bar)
+        }
+        "android/device/signal_cellular_alt_2_bar" => {
+            Some(android::device::signal_cellular_alt_2_bar)
+        }
+        "android/device/signal_cellular_connected_no_internet_0_bar" => {
+            Some(android::device::signal_cellular_connected_no_internet_0_bar)
+        }
+        "android/device/signal_cellular_connected_no_internet_4_bar" => {
+            Some(android::device::signal_cellular_connected_no_internet_4_bar)
+        }
         "android/device/signal_cellular_no_sim" => Some(android::device::signal_cellular_no_sim),
         "android/device/signal_cellular_nodata" => Some(android::device::signal_cellular_nodata),
         "android/device/signal_cellular_null" => Some(android::device::signal_cellular_null),
@@ -5260,11 +18417,19 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/device/signal_wifi_4_bar" => Some(android::device::signal_wifi_4_bar),
         "android/device/signal_wifi_4_bar_lock" => Some(android::device::signal_wifi_4_bar_lock),
         "android/device/signal_wifi_bad" => Some(android::device::signal_wifi_bad),
-        "android/device/signal_wifi_connected_no_internet_4" => Some(android::device::signal_wifi_connected_no_internet_4),
+        "android/device/signal_wifi_connected_no_internet_4" => {
+            Some(android::device::signal_wifi_connected_no_internet_4)
+        }
         "android/device/signal_wifi_off" => Some(android::device::signal_wifi_off),
-        "android/device/signal_wifi_statusbar_4_bar" => Some(android::device::signal_wifi_statusbar_4_bar),
-        "android/device/signal_wifi_statusbar_connected_no_internet_4" => Some(android::device::signal_wifi_statusbar_connected_no_internet_4),
-        "android/device/signal_wifi_statusbar_null" => Some(android::device::signal_wifi_statusbar_null),
+        "android/device/signal_wifi_statusbar_4_bar" => {
+            Some(android::device::signal_wifi_statusbar_4_bar)
+        }
+        "android/device/signal_wifi_statusbar_connected_no_internet_4" => {
+            Some(android::device::signal_wifi_statusbar_connected_no_internet_4)
+        }
+        "android/device/signal_wifi_statusbar_null" => {
+            Some(android::device::signal_wifi_statusbar_null)
+        }
         "android/device/sim_card_download" => Some(android::device::sim_card_download),
         "android/device/splitscreen" => Some(android::device::splitscreen),
         "android/device/sports_score" => Some(android::device::sports_score),
@@ -5273,8 +18438,12 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/device/storm" => Some(android::device::storm),
         "android/device/summarize" => Some(android::device::summarize),
         "android/device/system_security_update" => Some(android::device::system_security_update),
-        "android/device/system_security_update_good" => Some(android::device::system_security_update_good),
-        "android/device/system_security_update_warning" => Some(android::device::system_security_update_warning),
+        "android/device/system_security_update_good" => {
+            Some(android::device::system_security_update_good)
+        }
+        "android/device/system_security_update_warning" => {
+            Some(android::device::system_security_update_warning)
+        }
         "android/device/task" => Some(android::device::task),
         "android/device/thermostat" => Some(android::device::thermostat),
         "android/device/timer_10_select" => Some(android::device::timer_10_select),
@@ -5294,7 +18463,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/device/wifi_password" => Some(android::device::wifi_password),
         "android/device/wifi_tethering" => Some(android::device::wifi_tethering),
         "android/device/wifi_tethering_error" => Some(android::device::wifi_tethering_error),
-        "android/device/wifi_tethering_error_rounded" => Some(android::device::wifi_tethering_error_rounded),
+        "android/device/wifi_tethering_error_rounded" => {
+            Some(android::device::wifi_tethering_error_rounded)
+        }
         "android/device/wifi_tethering_off" => Some(android::device::wifi_tethering_off),
         "android/editor/add_chart" => Some(android::editor::add_chart),
         "android/editor/add_comment" => Some(android::editor::add_comment),
@@ -5344,16 +18515,24 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/editor/format_italic" => Some(android::editor::format_italic),
         "android/editor/format_line_spacing" => Some(android::editor::format_line_spacing),
         "android/editor/format_list_bulleted" => Some(android::editor::format_list_bulleted),
-        "android/editor/format_list_bulleted_add" => Some(android::editor::format_list_bulleted_add),
+        "android/editor/format_list_bulleted_add" => {
+            Some(android::editor::format_list_bulleted_add)
+        }
         "android/editor/format_list_numbered" => Some(android::editor::format_list_numbered),
-        "android/editor/format_list_numbered_rtl" => Some(android::editor::format_list_numbered_rtl),
+        "android/editor/format_list_numbered_rtl" => {
+            Some(android::editor::format_list_numbered_rtl)
+        }
         "android/editor/format_paint" => Some(android::editor::format_paint),
         "android/editor/format_quote" => Some(android::editor::format_quote),
         "android/editor/format_shapes" => Some(android::editor::format_shapes),
         "android/editor/format_size" => Some(android::editor::format_size),
         "android/editor/format_strikethrough" => Some(android::editor::format_strikethrough),
-        "android/editor/format_textdirection_l_to_r" => Some(android::editor::format_textdirection_l_to_r),
-        "android/editor/format_textdirection_r_to_l" => Some(android::editor::format_textdirection_r_to_l),
+        "android/editor/format_textdirection_l_to_r" => {
+            Some(android::editor::format_textdirection_l_to_r)
+        }
+        "android/editor/format_textdirection_r_to_l" => {
+            Some(android::editor::format_textdirection_r_to_l)
+        }
         "android/editor/format_underlined" => Some(android::editor::format_underlined),
         "android/editor/functions" => Some(android::editor::functions),
         "android/editor/height" => Some(android::editor::height),
@@ -5507,10 +18686,18 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/hardware/keyboard_capslock" => Some(android::hardware::keyboard_capslock),
         "android/hardware/keyboard_command_key" => Some(android::hardware::keyboard_command_key),
         "android/hardware/keyboard_control_key" => Some(android::hardware::keyboard_control_key),
-        "android/hardware/keyboard_double_arrow_down" => Some(android::hardware::keyboard_double_arrow_down),
-        "android/hardware/keyboard_double_arrow_left" => Some(android::hardware::keyboard_double_arrow_left),
-        "android/hardware/keyboard_double_arrow_right" => Some(android::hardware::keyboard_double_arrow_right),
-        "android/hardware/keyboard_double_arrow_up" => Some(android::hardware::keyboard_double_arrow_up),
+        "android/hardware/keyboard_double_arrow_down" => {
+            Some(android::hardware::keyboard_double_arrow_down)
+        }
+        "android/hardware/keyboard_double_arrow_left" => {
+            Some(android::hardware::keyboard_double_arrow_left)
+        }
+        "android/hardware/keyboard_double_arrow_right" => {
+            Some(android::hardware::keyboard_double_arrow_right)
+        }
+        "android/hardware/keyboard_double_arrow_up" => {
+            Some(android::hardware::keyboard_double_arrow_up)
+        }
         "android/hardware/keyboard_hide" => Some(android::hardware::keyboard_hide),
         "android/hardware/keyboard_option_key" => Some(android::hardware::keyboard_option_key),
         "android/hardware/keyboard_return" => Some(android::hardware::keyboard_return),
@@ -5772,13 +18959,19 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/image/panorama" => Some(android::image::panorama),
         "android/image/panorama_fish_eye" => Some(android::image::panorama_fish_eye),
         "android/image/panorama_horizontal" => Some(android::image::panorama_horizontal),
-        "android/image/panorama_horizontal_select" => Some(android::image::panorama_horizontal_select),
+        "android/image/panorama_horizontal_select" => {
+            Some(android::image::panorama_horizontal_select)
+        }
         "android/image/panorama_photosphere" => Some(android::image::panorama_photosphere),
-        "android/image/panorama_photosphere_select" => Some(android::image::panorama_photosphere_select),
+        "android/image/panorama_photosphere_select" => {
+            Some(android::image::panorama_photosphere_select)
+        }
         "android/image/panorama_vertical" => Some(android::image::panorama_vertical),
         "android/image/panorama_vertical_select" => Some(android::image::panorama_vertical_select),
         "android/image/panorama_wide_angle" => Some(android::image::panorama_wide_angle),
-        "android/image/panorama_wide_angle_select" => Some(android::image::panorama_wide_angle_select),
+        "android/image/panorama_wide_angle_select" => {
+            Some(android::image::panorama_wide_angle_select)
+        }
         "android/image/photo" => Some(android::image::photo),
         "android/image/photo_album" => Some(android::image::photo_album),
         "android/image/photo_camera" => Some(android::image::photo_camera),
@@ -6051,7 +19244,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/navigation/arrow_back_ios_new" => Some(android::navigation::arrow_back_ios_new),
         "android/navigation/arrow_downward" => Some(android::navigation::arrow_downward),
         "android/navigation/arrow_drop_down" => Some(android::navigation::arrow_drop_down),
-        "android/navigation/arrow_drop_down_circle" => Some(android::navigation::arrow_drop_down_circle),
+        "android/navigation/arrow_drop_down_circle" => {
+            Some(android::navigation::arrow_drop_down_circle)
+        }
         "android/navigation/arrow_drop_up" => Some(android::navigation::arrow_drop_up),
         "android/navigation/arrow_forward" => Some(android::navigation::arrow_forward),
         "android/navigation/arrow_forward_ios" => Some(android::navigation::arrow_forward_ios),
@@ -6059,7 +19254,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/navigation/arrow_right" => Some(android::navigation::arrow_right),
         "android/navigation/arrow_upward" => Some(android::navigation::arrow_upward),
         "android/navigation/assistant_direction" => Some(android::navigation::assistant_direction),
-        "android/navigation/assistant_navigation" => Some(android::navigation::assistant_navigation),
+        "android/navigation/assistant_navigation" => {
+            Some(android::navigation::assistant_navigation)
+        }
         "android/navigation/campaign" => Some(android::navigation::campaign),
         "android/navigation/cancel" => Some(android::navigation::cancel),
         "android/navigation/check" => Some(android::navigation::check),
@@ -6092,8 +19289,12 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/navigation/south" => Some(android::navigation::south),
         "android/navigation/south_east" => Some(android::navigation::south_east),
         "android/navigation/south_west" => Some(android::navigation::south_west),
-        "android/navigation/subdirectory_arrow_left" => Some(android::navigation::subdirectory_arrow_left),
-        "android/navigation/subdirectory_arrow_right" => Some(android::navigation::subdirectory_arrow_right),
+        "android/navigation/subdirectory_arrow_left" => {
+            Some(android::navigation::subdirectory_arrow_left)
+        }
+        "android/navigation/subdirectory_arrow_right" => {
+            Some(android::navigation::subdirectory_arrow_right)
+        }
         "android/navigation/switch_left" => Some(android::navigation::switch_left),
         "android/navigation/switch_right" => Some(android::navigation::switch_right),
         "android/navigation/unfold_less" => Some(android::navigation::unfold_less),
@@ -6104,15 +19305,31 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/notification/adb" => Some(android::notification::adb),
         "android/notification/add_call" => Some(android::notification::add_call),
         "android/notification/airline_seat_flat" => Some(android::notification::airline_seat_flat),
-        "android/notification/airline_seat_flat_angled" => Some(android::notification::airline_seat_flat_angled),
-        "android/notification/airline_seat_individual_suite" => Some(android::notification::airline_seat_individual_suite),
-        "android/notification/airline_seat_legroom_extra" => Some(android::notification::airline_seat_legroom_extra),
-        "android/notification/airline_seat_legroom_normal" => Some(android::notification::airline_seat_legroom_normal),
-        "android/notification/airline_seat_legroom_reduced" => Some(android::notification::airline_seat_legroom_reduced),
-        "android/notification/airline_seat_recline_extra" => Some(android::notification::airline_seat_recline_extra),
-        "android/notification/airline_seat_recline_normal" => Some(android::notification::airline_seat_recline_normal),
+        "android/notification/airline_seat_flat_angled" => {
+            Some(android::notification::airline_seat_flat_angled)
+        }
+        "android/notification/airline_seat_individual_suite" => {
+            Some(android::notification::airline_seat_individual_suite)
+        }
+        "android/notification/airline_seat_legroom_extra" => {
+            Some(android::notification::airline_seat_legroom_extra)
+        }
+        "android/notification/airline_seat_legroom_normal" => {
+            Some(android::notification::airline_seat_legroom_normal)
+        }
+        "android/notification/airline_seat_legroom_reduced" => {
+            Some(android::notification::airline_seat_legroom_reduced)
+        }
+        "android/notification/airline_seat_recline_extra" => {
+            Some(android::notification::airline_seat_recline_extra)
+        }
+        "android/notification/airline_seat_recline_normal" => {
+            Some(android::notification::airline_seat_recline_normal)
+        }
         "android/notification/bluetooth_audio" => Some(android::notification::bluetooth_audio),
-        "android/notification/confirmation_number" => Some(android::notification::confirmation_number),
+        "android/notification/confirmation_number" => {
+            Some(android::notification::confirmation_number)
+        }
         "android/notification/directions_off" => Some(android::notification::directions_off),
         "android/notification/disc_full" => Some(android::notification::disc_full),
         "android/notification/do_disturb" => Some(android::notification::do_disturb),
@@ -6120,26 +19337,38 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/notification/do_disturb_off" => Some(android::notification::do_disturb_off),
         "android/notification/do_disturb_on" => Some(android::notification::do_disturb_on),
         "android/notification/do_not_disturb" => Some(android::notification::do_not_disturb),
-        "android/notification/do_not_disturb_alt" => Some(android::notification::do_not_disturb_alt),
-        "android/notification/do_not_disturb_off" => Some(android::notification::do_not_disturb_off),
+        "android/notification/do_not_disturb_alt" => {
+            Some(android::notification::do_not_disturb_alt)
+        }
+        "android/notification/do_not_disturb_off" => {
+            Some(android::notification::do_not_disturb_off)
+        }
         "android/notification/do_not_disturb_on" => Some(android::notification::do_not_disturb_on),
         "android/notification/drive_eta" => Some(android::notification::drive_eta),
-        "android/notification/enhanced_encryption" => Some(android::notification::enhanced_encryption),
+        "android/notification/enhanced_encryption" => {
+            Some(android::notification::enhanced_encryption)
+        }
         "android/notification/event_available" => Some(android::notification::event_available),
         "android/notification/event_busy" => Some(android::notification::event_busy),
         "android/notification/event_note" => Some(android::notification::event_note),
         "android/notification/folder_special" => Some(android::notification::folder_special),
-        "android/notification/imagesearch_roller" => Some(android::notification::imagesearch_roller),
+        "android/notification/imagesearch_roller" => {
+            Some(android::notification::imagesearch_roller)
+        }
         "android/notification/live_tv" => Some(android::notification::live_tv),
         "android/notification/mms" => Some(android::notification::mms),
         "android/notification/more" => Some(android::notification::more),
         "android/notification/network_check" => Some(android::notification::network_check),
         "android/notification/network_locked" => Some(android::notification::network_locked),
         "android/notification/no_encryption" => Some(android::notification::no_encryption),
-        "android/notification/no_encryption_gmailerrorred" => Some(android::notification::no_encryption_gmailerrorred),
+        "android/notification/no_encryption_gmailerrorred" => {
+            Some(android::notification::no_encryption_gmailerrorred)
+        }
         "android/notification/ondemand_video" => Some(android::notification::ondemand_video),
         "android/notification/personal_video" => Some(android::notification::personal_video),
-        "android/notification/phone_bluetooth_speaker" => Some(android::notification::phone_bluetooth_speaker),
+        "android/notification/phone_bluetooth_speaker" => {
+            Some(android::notification::phone_bluetooth_speaker)
+        }
         "android/notification/phone_callback" => Some(android::notification::phone_callback),
         "android/notification/phone_forwarded" => Some(android::notification::phone_forwarded),
         "android/notification/phone_in_talk" => Some(android::notification::phone_in_talk),
@@ -6149,7 +19378,9 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/notification/power" => Some(android::notification::power),
         "android/notification/power_off" => Some(android::notification::power_off),
         "android/notification/priority_high" => Some(android::notification::priority_high),
-        "android/notification/running_with_errors" => Some(android::notification::running_with_errors),
+        "android/notification/running_with_errors" => {
+            Some(android::notification::running_with_errors)
+        }
         "android/notification/sd_card" => Some(android::notification::sd_card),
         "android/notification/sd_card_alert" => Some(android::notification::sd_card_alert),
         "android/notification/sim_card_alert" => Some(android::notification::sim_card_alert),
@@ -6424,8 +19655,12 @@ pub fn by_path(path: &str) -> Option<IconId> {
         "android/social/sentiment_dissatisfied" => Some(android::social::sentiment_dissatisfied),
         "android/social/sentiment_neutral" => Some(android::social::sentiment_neutral),
         "android/social/sentiment_satisfied" => Some(android::social::sentiment_satisfied),
-        "android/social/sentiment_very_dissatisfied" => Some(android::social::sentiment_very_dissatisfied),
-        "android/social/sentiment_very_satisfied" => Some(android::social::sentiment_very_satisfied),
+        "android/social/sentiment_very_dissatisfied" => {
+            Some(android::social::sentiment_very_dissatisfied)
+        }
+        "android/social/sentiment_very_satisfied" => {
+            Some(android::social::sentiment_very_satisfied)
+        }
         _ => None,
     }
 }
@@ -6546,7 +19781,9 @@ pub fn by_name(name: &str) -> Option<IconId> {
         "air" => Some(android::device::air),
         "airline_seat_flat" => Some(android::notification::airline_seat_flat),
         "airline_seat_flat_angled" => Some(android::notification::airline_seat_flat_angled),
-        "airline_seat_individual_suite" => Some(android::notification::airline_seat_individual_suite),
+        "airline_seat_individual_suite" => {
+            Some(android::notification::airline_seat_individual_suite)
+        }
         "airline_seat_legroom_extra" => Some(android::notification::airline_seat_legroom_extra),
         "airline_seat_legroom_normal" => Some(android::notification::airline_seat_legroom_normal),
         "airline_seat_legroom_reduced" => Some(android::notification::airline_seat_legroom_reduced),
@@ -8156,8 +21393,12 @@ pub fn by_name(name: &str) -> Option<IconId> {
         "signal_cellular_alt" => Some(android::device::signal_cellular_alt),
         "signal_cellular_alt_1_bar" => Some(android::device::signal_cellular_alt_1_bar),
         "signal_cellular_alt_2_bar" => Some(android::device::signal_cellular_alt_2_bar),
-        "signal_cellular_connected_no_internet_0_bar" => Some(android::device::signal_cellular_connected_no_internet_0_bar),
-        "signal_cellular_connected_no_internet_4_bar" => Some(android::device::signal_cellular_connected_no_internet_4_bar),
+        "signal_cellular_connected_no_internet_0_bar" => {
+            Some(android::device::signal_cellular_connected_no_internet_0_bar)
+        }
+        "signal_cellular_connected_no_internet_4_bar" => {
+            Some(android::device::signal_cellular_connected_no_internet_4_bar)
+        }
         "signal_cellular_no_sim" => Some(android::device::signal_cellular_no_sim),
         "signal_cellular_nodata" => Some(android::device::signal_cellular_nodata),
         "signal_cellular_null" => Some(android::device::signal_cellular_null),
@@ -8166,10 +21407,14 @@ pub fn by_name(name: &str) -> Option<IconId> {
         "signal_wifi_4_bar" => Some(android::device::signal_wifi_4_bar),
         "signal_wifi_4_bar_lock" => Some(android::device::signal_wifi_4_bar_lock),
         "signal_wifi_bad" => Some(android::device::signal_wifi_bad),
-        "signal_wifi_connected_no_internet_4" => Some(android::device::signal_wifi_connected_no_internet_4),
+        "signal_wifi_connected_no_internet_4" => {
+            Some(android::device::signal_wifi_connected_no_internet_4)
+        }
         "signal_wifi_off" => Some(android::device::signal_wifi_off),
         "signal_wifi_statusbar_4_bar" => Some(android::device::signal_wifi_statusbar_4_bar),
-        "signal_wifi_statusbar_connected_no_internet_4" => Some(android::device::signal_wifi_statusbar_connected_no_internet_4),
+        "signal_wifi_statusbar_connected_no_internet_4" => {
+            Some(android::device::signal_wifi_statusbar_connected_no_internet_4)
+        }
         "signal_wifi_statusbar_null" => Some(android::device::signal_wifi_statusbar_null),
         "signpost" => Some(android::maps::signpost),
         "sim_card" => Some(android::hardware::sim_card),
